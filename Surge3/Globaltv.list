@@ -1,3 +1,4 @@
+// https://github.com/lhie1/Rules/blob/master/Surge3/globaltv.list
 // ABC
 DOMAIN-SUFFIX,edgedatg.com
 DOMAIN-SUFFIX,go.com
@@ -124,12 +125,6 @@ USER-AGENT,*Spotify*
 DOMAIN-KEYWORD,spotify
 DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,spoti.fi
-
-//Vimeo
-USER-AGENT,vimeo
-DOMAIN-KEYWORD,vimeo
-DOMAIN-SUFFIX,vimeo.com
-DOMAIN-SUFFIX,vimeocdn.com
 
 // viuTV
 DOMAIN-SUFFIX,viu.tv
