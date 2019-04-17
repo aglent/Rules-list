@@ -1,0 +1,9 @@
+// https://github.com/lhie1/Rules/blob/master/Surge3/Media/hbo%26hbogo.list
+
+// HBO && HBO Go
+USER-AGENT,HBO%20NOW*
+DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com
+DOMAIN-SUFFIX,hbo.com
+DOMAIN-SUFFIX,hboasia.com
+DOMAIN-SUFFIX,hbogo.com
+DOMAIN-SUFFIX,hbogoasia.hk

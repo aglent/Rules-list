@@ -1,0 +1,8 @@
+// https://github.com/lhie1/Rules/blob/master/Surge3/Media/hulu.list
+
+// Hulu
+USER-AGENT,Hulu*
+DOMAIN-SUFFIX,happyon.jp
+DOMAIN-SUFFIX,hulu.com
+DOMAIN-SUFFIX,huluim.com
+DOMAIN-SUFFIX,hulustream.com
