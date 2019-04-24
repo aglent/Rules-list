@@ -1,4 +1,4 @@
-﻿# HTTP 代理端口
+# HTTP 代理端口
 port: 7890
 
 # SOCKS5 代理端口
