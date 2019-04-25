@@ -14,5 +14,5 @@
 <p>使用方法：
 <p>1、配置文件中的 DlerCloudToken 替换成自己在Dler Cloud上的托管token。
 <p>2、在gist.github.com上新建一个私密gist，填好配置内容，获取gist的Raw链接。
-<p>3、在Surge3导入私密gist的Raw链接。
+<p>3、Surge3导入私密gist的Raw链接。
 <p>4、需要MiMT的开启后配置CA、信任证书。
