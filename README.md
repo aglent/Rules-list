@@ -10,4 +10,6 @@
 <p>其中snippet地址是本人Clash目录下的snippet.yml的Raw地址，可以选择不加。
   
 # Surge
-<p>自用的Surge3托管list
+<p>DlerCloudSurge3.conf 是自用的Surge3托管配置文件，仅适用于Dler Cloud Gold及更高级别用户，供大家参考，可按照自己的需求自行修改。
+<p>使用方法：
+ 
