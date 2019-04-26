@@ -1,5 +1,5 @@
 // https://github.com/lhie1/Rules/blob/master/Surge3/proxy.list
-// 因为Surge3已经自定义Telegram策略 此list移除Telegram规则
+// 因为Surge3已经自定义Telegram策略 此list移除Telegram的IP-CIDR规则
 
 // Client
 PROCESS-NAME,Backup and Sync
