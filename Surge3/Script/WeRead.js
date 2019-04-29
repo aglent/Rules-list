@@ -1,0 +1,12 @@
+// https://github.com/ConnersHua/Profiles/blob/master/Surge/Scripting/WeRead.js
+
+var result = body
+
+let path = '/pay/memberCardSummary';
+
+if (url.indexOf(path) != -1) {
+    var jsbody = JSON.parse(body);
+    jsbody.remainTime = 86313600;
+    result = JSON.stringify(jsbody);
+}
+result;
