@@ -27,12 +27,6 @@ dns:
   enable: true
   ipv6: false
   listen: 0.0.0.0:53
-# enhanced-mode:
-# 在redir-host模式下，Clash先将域名进行解析，再将具体的IP地址响应给客户端，并且记录其对应关系。
-# 而在fake-ip模式下则不进行DNS解析，而是直接生成一个“假IP”并响应给客户端，再记录对应关系。
-# 这可以有如下两个好处：
-# 如果最后判定为代理，则可以节省一次本地的DNS请求
-# 不需要担心DNS污染（因为配置文件中的DNS仅用作规则判定）
   enhanced-mode: fake-ip
   nameserver:
      - 223.5.5.5
@@ -47,3 +41,10 @@ dns:
 # (1) 当访问一个域名时，nameserver 与 fallback 列表内的所有服务器并发请求，得到域名对应的 IP 地址。
 # (2) clash 将选取 nameserver 列表内，解析最快的结果。
 # (3) 若解析结果中，IP 地址属于国外，那么 clash 将选择 fallback 列表内，解析最快的结果。
+
+# enhanced-mode:
+# 在redir-host模式下，Clash先将域名进行解析，再将具体的IP地址响应给客户端，并且记录其对应关系。
+# 而在fake-ip模式下则不进行DNS解析，而是直接生成一个“假IP”并响应给客户端，再记录对应关系。
+# 这可以有如下两个好处：
+# 如果最后判定为代理，则可以节省一次本地的DNS请求
+# 不需要担心DNS污染（因为配置文件中的DNS仅用作规则判定）
