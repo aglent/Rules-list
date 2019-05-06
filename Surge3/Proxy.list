@@ -273,8 +273,8 @@ DOMAIN-SUFFIX,insder.co
 DOMAIN-SUFFIX,instapaper.com
 DOMAIN-SUFFIX,instructables.com
 DOMAIN-SUFFIX,io.io
-#DOMAIN-SUFFIX,ip.sb
-#DOMAIN-SUFFIX,ipaddress.com
+//DOMAIN-SUFFIX,ip.sb
+//DOMAIN-SUFFIX,ipaddress.com
 DOMAIN-SUFFIX,ipn.li
 DOMAIN-SUFFIX,is.gd
 DOMAIN-SUFFIX,ishowsapp.com
@@ -373,7 +373,7 @@ DOMAIN-SUFFIX,piaotian.net
 DOMAIN-SUFFIX,picacomic.com
 DOMAIN-SUFFIX,picasaweb.com
 DOMAIN-SUFFIX,pinboard.in
-#DOMAIN-SUFFIX,ping.pe
+//DOMAIN-SUFFIX,ping.pe
 DOMAIN-SUFFIX,pinterest.com
 DOMAIN-SUFFIX,pixelmator.com
 DOMAIN-SUFFIX,pixiv.net
