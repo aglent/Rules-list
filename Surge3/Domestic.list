@@ -1,9 +1,9 @@
 // https://github.com/lhie1/Rules/blob/master/Surge3/domestic.list
 
-// Client
+# > Client
 PROCESS-NAME,ss-local
 
-// UA
+# > UA
 USER-AGENT,hide*
 USER-AGENT,MicroMessenger*
 USER-AGENT,PayPal*
@@ -13,24 +13,24 @@ USER-AGENT,ting_en
 USER-AGENT,WebTorrent*
 USER-AGENT,WeChat*
 
-// Beplay
+# > Beplay
 DOMAIN-KEYWORD,beplay
 
-// Blizzard
+# > Blizzard
 DOMAIN-SUFFIX,battle.net
 DOMAIN-SUFFIX,battlenet.com
 DOMAIN-SUFFIX,blizzard.com
 
-// Prior
+# > Prior
 DOMAIN,client.amplifi.com
 DOMAIN,ip.bjango.com
 DOMAIN-SUFFIX,alphassl.com
 DOMAIN-SUFFIX,edu.cn
 
-// Steam
+# > Steam
 DOMAIN-SUFFIX,steamcontent.com
 
-// TeamViewer
+# > TeamViewer
 IP-CIDR,185.188.32.0/24,no-resolve
 IP-CIDR,185.188.33.0/24,no-resolve
 IP-CIDR,185.188.34.0/24,no-resolve
@@ -79,6 +79,7 @@ DOMAIN-SUFFIX,bdimg.com
 DOMAIN-SUFFIX,bdstatic.com
 DOMAIN-SUFFIX,beatsbydre.com
 DOMAIN-SUFFIX,bet365.com
+DOMAIN-SUFFIX,broadcasthe.net
 DOMAIN-SUFFIX,caiyunapp.com
 DOMAIN-SUFFIX,ccgslb.com
 DOMAIN-SUFFIX,ccgslb.net
@@ -127,7 +128,7 @@ DOMAIN-SUFFIX,haibian.com
 DOMAIN-SUFFIX,hao123.com
 DOMAIN-SUFFIX,haosou.com
 DOMAIN-SUFFIX,hdchina.org
-​DOMAIN-SUFFIX,hdcmct.org
+DOMAIN-SUFFIX,hdcmct.org
 DOMAIN-SUFFIX,hollisterco.com
 DOMAIN-SUFFIX,hongxiu.com
 DOMAIN-SUFFIX,hxcdn.net
