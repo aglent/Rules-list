@@ -501,3 +501,6 @@ DOMAIN-SUFFIX,wn.com
 DOMAIN-SUFFIX,wolframalpha.com
 DOMAIN-SUFFIX,x-art.com
 DOMAIN-SUFFIX,yimg.com
+
+DOMAIN-KEYWORD,dlercloud
+DOMAIN-SUFFIX,dler.cloud
