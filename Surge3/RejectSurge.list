@@ -26,6 +26,10 @@ DOMAIN-SUFFIX,ctrmi.com
 DOMAIN-SUFFIX,go2cloud.org
 DOMAIN-SUFFIX,growingio.com
 DOMAIN-SUFFIX,haloapps.com
+DOMAIN-SUFFIX,inmobi.cn
+DOMAIN-SUFFIX,inmobi.com
+DOMAIN-SUFFIX,inmobi.net
+DOMAIN-SUFFIX,inmobicdn.cn
 DOMAIN-SUFFIX,irs01.com
 DOMAIN-SUFFIX,iskyworker.com
 DOMAIN-SUFFIX,kochava.com
@@ -36,6 +40,7 @@ DOMAIN-SUFFIX,measurementapi.com
 DOMAIN-SUFFIX,miaozhen.com
 DOMAIN-SUFFIX,mopub.com
 DOMAIN-SUFFIX,onelink.me
+DOMAIN-SUFFIX,qchannel01.cn
 DOMAIN-SUFFIX,rayjump.com
 DOMAIN-SUFFIX,scorecardresearch.com
 DOMAIN-SUFFIX,sdkclick.com
@@ -114,6 +119,7 @@ DOMAIN,applogapi.autohome.com.cn
 # > Baidu
 DOMAIN-SUFFIX,baidustatic.com
 DOMAIN,afd.baidu.com
+DOMAIN,als.baidu.com
 DOMAIN,duclick.baidu.com
 DOMAIN,hm.baidu.com
 DOMAIN,hmma.baidu.com
@@ -141,6 +147,9 @@ DOMAIN,vdapprecv.app.cntvwb.cn
 # > ChinaNet
 DOMAIN,admarket.21cn.com
 DOMAIN,adshows.21cn.com
+# > 车来了
+DOMAIN,atrace.chelaile.net.cn
+DOMAIN,logs.chelaile.net.cn
 # (G)
 # > Google
 DOMAIN-SUFFIX,doubleclick.net
@@ -351,6 +360,7 @@ URL-REGEX,^https?:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/guanggao\/
 # >> 百度贴吧
 URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule
 URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo
+URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/newlog
 # >> 百度地图 (153.3.236.81|180.101.212.22)
 URL-REGEX,^https?:\/\/.+\/client\/phpui2\/
 # > ByteDance
@@ -373,7 +383,7 @@ URL-REGEX,^https?:\/\/app\.api\.ke\.com\/config\/config\/bootpage
 
 # C
 # > China CITIC Bank
-URL-REGEX,^https?:\/\/creditcard\.ecitic\.com\/citiccard\/wtk\/piwik\/piwik\.php
+URL-REGEX,^https?:\/\/m\.creditcard\.ecitic\.com\/citiccard\/mbk\/.+\/appStartAdv
 # > China IC Bank
 URL-REGEX,^https?:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/
 # > China Merchants Bank
@@ -394,9 +404,10 @@ URL-REGEX,^https?:\/\/asp\.cntv\.myalicdn\.com\/.+\?maxbr=850
 URL-REGEX,^https?:\/\/www\.cntv\.cn\/nettv\/adp\/
 URL-REGEX,^https?:\/\/v\.cctv\.com\/.+850
 # > 车来了
-URL-REGEX,^https?:\/\/(api|atrace)\.chelaile\.net\.cn\/adpub\/
+URL-REGEX,^https?:\/\/api\.chelaile\.net\.cn\/adpub\/
+# URL-REGEX,^https?:\/\/(api|atrace)\.chelaile\.net\.cn\/adpub\/
 URL-REGEX,^https?:\/\/api\.chelaile\.net\.cn\/goocity\/advert\/
-URL-REGEX,^https?:\/\/atrace\.chelaile\.net\.cn\/exhibit\?&adv_image
+# URL-REGEX,^https?:\/\/atrace\.chelaile\.net\.cn\/exhibit\?&adv_image
 URL-REGEX,^https?:\/\/pic1\.chelaile\.net\.cn\/adv\/
 # > 曹操出行
 URL-REGEX,^https?:\/\/cap\.caocaokeji\.cn\/advert-bss\/
@@ -513,13 +524,7 @@ URL-REGEX,^https?:\/\/api\.m\.mi\.com\/v1\/app\/start
 URL-REGEX,^https?:\/\/api\.jr\.mi\.com\/v1\/adv\/
 URL-REGEX,^https?:\/\/api\.jr\.mi\.com\/jr\/api\/playScreen
 # > MI_Fit
-URL-REGEX,^https?:\/\/api-mifit\.huami\.com\/discovery\/mi\/discovery\/homepage_ad\?
-URL-REGEX,^https?:\/\/api-mifit\.huami\.com\/discovery\/mi\/discovery\/sleep_ad\?
-URL-REGEX,^https?:\/\/api-mifit\.huami\.com\/discovery\/mi\/discovery\/sport_ad\?
-URL-REGEX,^https?:\/\/api-mifit\.huami\.com\/discovery\/mi\/discovery\/sport_summary_ad\?
-URL-REGEX,^https?:\/\/api-mifit\.huami\.com\/discovery\/mi\/discovery\/sport_training_ad\?
-URL-REGEX,^https?:\/\/api-mifit\.huami\.com\/discovery\/mi\/discovery\/step_detail_ad\?
-URL-REGEX,^https?:\/\/api-mifit\.huami\.com\/discovery\/mi\/discovery\/training_video_ad\?
+URL-REGEX,^https?:\/\/api-mifit.+\.huami\.com\/discovery\/mi\/discovery\/.+_ad\?
 # > MogoRenter
 URL-REGEX,^https?:\/\/api\.mgzf\.com\/renter-operation\/home\/startHomePage
 # > MojiWeather
@@ -727,4 +732,3 @@ URL-REGEX,^https?:\/\/api\.zhuishushenqi\.com\/splashes\/ios
 URL-REGEX,^https?:\/\/api\.zhuishushenqi\.com\/notification\/shelfMessage
 URL-REGEX,^https?:\/\/api\.zhuishushenqi\.com\/user\/bookshelf-updated
 URL-REGEX,^https?:\/\/itunes\.apple\.com\/lookup\?id=575826903
-URL-REGEX,URL-REGEX,^https?:\/\/itunes\.apple\.com\/lookup\?id=575826903
