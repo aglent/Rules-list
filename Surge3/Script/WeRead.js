@@ -1,12 +1,11 @@
-// https://github.com/ConnersHua/Profiles/blob/master/Surge/Scripting/WeRead.js
-
-var result = body
-
-let path = '/pay/memberCardSummary';
-
+var body = $response.body;
+var url = $request.url;
+const path = "/pay/memberCardSummary";
+let obj = JSON.parse(body);
 if (url.indexOf(path) != -1) {
-    var jsbody = JSON.parse(body);
-    jsbody.remainTime = 86313600;
-    result = JSON.stringify(jsbody);
-}
-result;
+        obj["expired"] = 0;
+	obj["expiredTime"] = 1591804799;
+	obj["remainTime"] = 86313600;
+	body = JSON.stringify(obj);
+ }
+$done({body});
