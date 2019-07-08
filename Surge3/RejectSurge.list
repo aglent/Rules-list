@@ -389,10 +389,11 @@ URL-REGEX,^https?:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement
 # > China Merchants Bank
 URL-REGEX,^https?:\/\/mlife\.cmbchina\.com/ClientFaceService\/preCacheAdvertise\.json
 URL-REGEX,^https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/getAdvertisement\.json
+URL-REGEX,^https?:\/\/pic1cdn\.cmbchina\.com\/appinitads\/
 # > China Minsheng Bank
 URL-REGEX,^https?:\/\/www\.cmbc\.com\.cn\/m\/image\/loadingpage\/
 # > China Guangfa Bank
-URL-REGEX,^https?:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/\d{25}\.(png|jpg)
+URL-REGEX,^https?:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/\d\.(png|jpg)
 # > China Mobile
 # URL-REGEX,^https?:\/\/app\.10086\.cn\/biz-orange\/DN\/(findSale|homeSale)\/getsaleAdver
 # > China Unicom
@@ -417,7 +418,7 @@ URL-REGEX,^https?:\/\/api\.intsig\.net\/user\/cs\/operating\/app\/get_startpic\/
 # D
 # > 豆瓣
 # (154.8.131.* 疑似自签证书不可验证)
-# URL-REGEX,^https?:\/\/.+\/v2\/app_ads\/
+URL-REGEX,^https?:\/\/.+\/v2\/app_ads\/
 # URL-REGEX,^https?:\/\/.+\/api\/v2\/movie\/.+/ad\?
 # URL-REGEX,^https?:\/\/erebor\.douban\.com\/count\/\?ad=
 URL-REGEX,^https?:\/\/img\d{1}\.doubanio\.com\/view\/dale-online\/dale_ad/
@@ -466,7 +467,6 @@ URL-REGEX,^https?:\/\/m\.ibuscloud.com\/v2\/app\/getStartPage
 # > 杭州市·市民卡
 URL-REGEX,^https?:\/\/smkmp\.96225.com\/smkcenter\/ad/
 # > 虎扑
-URL-REGEX,^https?:\/\/games\.mobileapi\.hupu\.com\/.+\/status\/init
 URL-REGEX,^https?:\/\/games\.mobileapi\.hupu\.com\/.+\/(interfaceAdMonitor|interfaceAd)\/
 # > 韩剧社
 URL-REGEX,^https?:\/\/47\.97\.20\.12\/ad\/
@@ -716,7 +716,9 @@ URL-REGEX,^https?:\/\/i\.ys7\.com\/api\/ads
 # > 运动世界
 URL-REGEX,^https?:\/\/.+\.iydsj\.com\/api\/.+\/ad
 # > 一点万象
-URL-REGEX,^https?:\/\/app\.mixcapp\.com\/mixc\/api\/v2\/ad
+URL-REGEX,^https?:\/\/app\.mixcapp\.com\/mixc\/api\/v\d\/ad
+# > 印象笔记
+URL-REGEX,^https?:\/\/app\.yinxiang\.com\/ads\/
 
 # Z
 # > 直播吧
@@ -725,7 +727,7 @@ URL-REGEX,^https?:\/\/.+\/allOne\.php\?ad_name
 # > 知乎
 URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4\/community-ad\/
 URL-REGEX,^https?:\/\/api\.zhihu\.com\/(launch|real_time)
-URL-REGEX,^https?:\/\/.+\/commercial_api\/(launch|real_time)
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/commercial_api\/(launch|real_time)
 # > 追书神器
 URL-REGEX,^https?:\/\/(api|b)\.zhuishushenqi\.com\/advert
 URL-REGEX,^https?:\/\/api\.zhuishushenqi\.com\/splashes\/ios
