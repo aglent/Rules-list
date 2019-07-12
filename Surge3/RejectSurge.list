@@ -107,7 +107,6 @@ DOMAIN,adashbc.ut.taobao.com
 DOMAIN,adash-c.ut.taobao.com
 DOMAIN,adashxgc.ut.taobao.com
 DOMAIN,adashx4yt.m.taobao.com
-DOMAIN,apoll.m.taobao.com
 DOMAIN,nbsdk-baichuan.alicdn.com
 DOMAIN,tunion-api.m.taobao.com
 # > AutoHome
@@ -361,7 +360,7 @@ URL-REGEX,^https?:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/guanggao\/
 URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule
 URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo
 URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/newlog
-# >> 百度地图 (153.3.236.81|180.101.212.22)
+# >> 百度地图 (153.3.236.81,180.101.212.22)
 URL-REGEX,^https?:\/\/.+\/client\/phpui2\/
 # > ByteDance
 URL-REGEX,^https?:\/\/.+\.pstatp\.com\/img\/ad
@@ -380,17 +379,19 @@ URL-REGEX,^https?:\/\/channel\.beitaichufang\.com\/channel\/api\/v1\/promote\/io
 URL-REGEX,^https?:\/\/iapi\.bishijie\.com\/actopen\/advertising\/
 # > 贝壳找房
 URL-REGEX,^https?:\/\/app\.api\.ke\.com\/config\/config\/bootpage
+# > Bank of China
+URL-REGEX,^https?:\/\/mlife\.jf365\.boc\.cn\/AppPrj\/FirstPic\.do\?
 
 # C
 # > China CITIC Bank
 URL-REGEX,^https?:\/\/m\.creditcard\.ecitic\.com\/citiccard\/mbk\/.+\/appStartAdv
-# > China IC Bank
+# > Industrial and Commercial Bank of China
 URL-REGEX,^https?:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/
 # > China Merchants Bank
 URL-REGEX,^https?:\/\/mlife\.cmbchina\.com/ClientFaceService\/preCacheAdvertise\.json
 URL-REGEX,^https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/getAdvertisement\.json
 URL-REGEX,^https?:\/\/pic1cdn\.cmbchina\.com\/appinitads\/
-# > China Minsheng Bank
+# > China Merchants Bank
 URL-REGEX,^https?:\/\/www\.cmbc\.com\.cn\/m\/image\/loadingpage\/
 # > China Guangfa Bank
 URL-REGEX,^https?:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/\d\.(png|jpg)
@@ -493,7 +494,7 @@ URL-REGEX,^https?:\/\/richmanapi\.jxedt\.com\/api\/ad\/
 
 # K
 # > Keep
-URL-REGEX,^https?:\/\/api\.gotokeep\.com\/ads\/
+URL-REGEX,^https?:\/\/api\.gotokeep\.com\/ads\/.+preload
 # > Kingsoft WPS
 URL-REGEX,^https?:\/\/counter\.ksosoft.com\/ad\.php
 URL-REGEX,^https?:\/\/ios\.wps\.cn\/ad-statistics-service
