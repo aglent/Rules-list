@@ -113,7 +113,6 @@ DOMAIN-SUFFIX,daum.net
 DOMAIN-SUFFIX,daumcdn.net
 DOMAIN-SUFFIX,dcard.tw
 DOMAIN-SUFFIX,deepdiscount.com
-DOMAIN-SUFFIX,deezer.com
 DOMAIN-SUFFIX,depositphotos.com
 DOMAIN-SUFFIX,deviantart.com
 DOMAIN-SUFFIX,disconnect.me
@@ -451,10 +450,11 @@ DOMAIN-SUFFIX,ytimg.com
 # > Microsoft
 DOMAIN-SUFFIX,1drv.com
 DOMAIN-SUFFIX,1drv.ms
-DOMAIN-SUFFIX,livefilestore.com
-DOMAIN-SUFFIX,storage.msn.com
-DOMAIN-SUFFIX,live.net
 DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,live.net
+DOMAIN-SUFFIX,livefilestore.com
+DOMAIN-SUFFIX,pipe.aria.microsoft.com
+DOMAIN-SUFFIX,storage.msn.com
 # > Other
 DOMAIN-SUFFIX,0rz.tw
 DOMAIN-SUFFIX,4bluestones.biz
