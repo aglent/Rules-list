@@ -16,6 +16,7 @@ DOMAIN-SUFFIX,adtarget.tech
 DOMAIN-SUFFIX,adthor.com
 DOMAIN-SUFFIX,amazon-adsystem.com
 DOMAIN-SUFFIX,app-adforce.jp
+DOMAIN-SUFFIX,appadhoc.com
 DOMAIN-SUFFIX,appier.net
 DOMAIN-SUFFIX,appsflyer.com
 DOMAIN-SUFFIX,apsalar.com
@@ -49,11 +50,11 @@ DOMAIN-SUFFIX,smartnews-ads.com
 DOMAIN-SUFFIX,tanv.com
 DOMAIN-SUFFIX,tanx.com
 DOMAIN-SUFFIX,uri6.com
+DOMAIN-SUFFIX,vungle.com
 DOMAIN-SUFFIX,xdrig.com
 
 DOMAIN-SUFFIX,ad.daum.net
 DOMAIN-SUFFIX,track.xiachufang.com
-DOMAIN-SUFFIX,deliver.ifeng.com
 DOMAIN,abema-adx.ameba.jp
 DOMAIN,ad.12306.cn
 DOMAIN,ad.caiyunapp.com
@@ -66,7 +67,9 @@ DOMAIN,ad-cn.jovcloud.com
 DOMAIN,ads.daydaycook.com.cn
 DOMAIN,adsapi.manhuaren.com
 DOMAIN,adsdk.dmzj.com
+DOMAIN,adserver.pandora.com
 DOMAIN,adui.tg.meitu.com
+DOMAIN,adv.bandi.so
 DOMAIN,adx.hupu.com
 DOMAIN,adx-api.hupu.com
 DOMAIN,adxserver.ad.cmvideo.cn
@@ -175,6 +178,10 @@ IP-CIDR,101.227.97.240/32,no-resolve
 IP-CIDR,101.227.200.11/32,no-resolve
 IP-CIDR,101.227.200.28/32,no-resolve
 IP-CIDR,124.192.153.42/32,no-resolve
+# > Ifeng
+DOMAIN-SUFFIX,deliver.ifeng.com
+DOMAIN,api.newad.ifeng.com
+DOMAIN,ifengad.3g.ifeng.com
 # (K)
 # > KuGou and Kuwo
 DOMAIN,adserviceretry.kugou.com
@@ -256,7 +263,6 @@ DOMAIN,track.sohu.com
 DOMAIN,hui.sohu.com
 # (T)
 # > Tencent
-DOMAIN-SUFFIX,bugly.qq.com
 DOMAIN-SUFFIX,e.qq.com
 DOMAIN-SUFFIX,gdt.qq.com
 DOMAIN-SUFFIX,l.qq.com
@@ -343,7 +349,7 @@ URL-REGEX,^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.gateway\.get\/
 URL-REGEX,^https?:\/\/huichuan\.sm\.cn\/jsad
 URL-REGEX,^https?:\/\/iflow\.uczzd\.cn\/log\/
 # >> AMap
-URL-REGEX,^https?:\/\/m\d{1}\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/
+URL-REGEX,^https?:\/\/m\d\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/
 # > AcFun
 URL-REGEX,^https?:\/\/aes\.acfun\.cn\/s\?adzones
 # > 爱回收
@@ -364,7 +370,7 @@ URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/newlog
 URL-REGEX,^https?:\/\/.+\/client\/phpui2\/
 # > ByteDance
 URL-REGEX,^https?:\/\/.+\.pstatp\.com\/img\/ad
-URL-REGEX,^https?:\/\/.+\.(musical|snssdk)\.(com|ly)\/(api|motor)\/ad\/
+URL-REGEX,^https?:\/\/.+\.(musical|snssdk|tiktokv)\.(com|ly)\/(api|motor)\/ad\/
 URL-REGEX,^https?:\/\/dsp\.toutiao\.com\/api\/xunfei\/ads\/
 URL-REGEX,^https?:\/\/.+\.snssdk\.com\/motor\/operation\/activity\/display\/config\/V2\/
 # > bilibili
@@ -428,11 +434,14 @@ URL-REGEX,^https?:\/\/img\d{1}\.doubanio\.com\/view\/dale-online\/dale_ad/
 URL-REGEX,^https?:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo
 # > 当当
 URL-REGEX,^https?:\/\/mapi\.dangdang\.com\/index\.php\?action=init
+URL-REGEX,^https?:\/\/e\.dangdang\.com\/.+getDeviceStartPage
 # > DayDayCook
 URL-REGEX,^https?:\/\/api\.daydaycook\.com\.cn\/daydaycook\/server\/ad\/
 URL-REGEX,^https?:\/\/cms\.daydaycook\.com\.cn\/api\/cms\/advertisement\/
 # > 蛋蛋赞
 URL-REGEX,^https?:\/\/www\.dandanzan\.com\/res\/gdsefse\.js
+# > 叨鱼
+URL-REGEX,^https?:\/\/daoyu\.sdo\.com\/api\/userCommon\/getAppStartAd
 
 # E
 # > eLong(123.59.31.1,119.18.193.135)
@@ -446,6 +455,9 @@ URL-REGEX,^https?:\/\/foodie-api\.yiruikecorp\.com\/v1\/(banner|notice)\/overvie
 URL-REGEX,^https?:\/\/cdn\.api\.fotoable\.com\/Advertise\/
 # > 飞客茶馆
 URL-REGEX,^https?:\/\/www\.flyertea\.com\/source\/plugin\/mobile\/mobile\.php\?module=advis
+# > 飞常准
+URL-REGEX,^https?:\/\/app\.variflight\.com\/ad\/
+URL-REGEX,^https?:\/\/app\.variflight\.com\/v\v\/advert\/
 
 # G
 # > Google
@@ -471,6 +483,10 @@ URL-REGEX,^https?:\/\/smkmp\.96225.com\/smkcenter\/ad/
 URL-REGEX,^https?:\/\/games\.mobileapi\.hupu\.com\/.+\/(interfaceAdMonitor|interfaceAd)\/
 # > 韩剧社
 URL-REGEX,^https?:\/\/47\.97\.20\.12\/ad\/
+# > 火猫
+URL-REGEX,^https?:\/\/api\.huomao\.com\/channels\/loginAd
+# > HiveBox
+URL-REGEX,^https?:\/\/consumer\.fcbox\.com\/v\d\/ad\/
 
 # I
 # > iFlytek
@@ -480,21 +496,27 @@ URL-REGEX,^https?:\/\/iface\.iqiyi\.com\/api\/getNewAdInfo
 URL-REGEX,^https?:\/\/.+\/(mixer|track2)\?
 URL-REGEX,^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/show.do
 URL-REGEX,^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v2\/show
+# > iReader
+URL-REGEX,^https?:\/\/ih2\.ireader\.com\/zyapi\/bookstore\/ad\/
+URL-REGEX,^https?:\/\/ih2\.ireader\.com\/zyapi\/self\/screen\/ad
+URL-REGEX,^https?:\/\/ih2\.ireader\.com\/zycl\/api\/ad\/
 
 # J
 # > JD
 URL-REGEX,^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=start
 URL-REGEX,^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/
 URL-REGEX,^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/na\/m\/adInfo
-# > JiemianNews
+# > 界面新闻
 URL-REGEX,^https?:\/\/img\.jiemian\.com\/ads\/
 # > 驾校一点通
 URL-REGEX,^https?:\/\/api\.jxedt\.com\/ad\/
 URL-REGEX,^https?:\/\/richmanapi\.jxedt\.com\/api\/ad\/
+# > 驾考宝典
+URL-REGEX,^https?:\/\/.+\.kakamobi\.cn\/api\/open\/v\d\/advert-sdk\/
 
 # K
 # > Keep
-URL-REGEX,^https?:\/\/api\.gotokeep\.com\/ads\/.+preload
+URL-REGEX,^https?:\/\/api\.gotokeep\.com\/ads
 # > Kingsoft WPS
 URL-REGEX,^https?:\/\/counter\.ksosoft.com\/ad\.php
 URL-REGEX,^https?:\/\/ios\.wps\.cn\/ad-statistics-service
@@ -518,6 +540,8 @@ URL-REGEX,^https?:\/\/.+\/letv-gug\/
 # > luckin coffee(59.151.53.6,218.11.3.70)
 URL-REGEX,^https?:\/\/.+\/resource\/m\/sys\/app\/adpos
 URL-REGEX,^https?:\/\/.+\/resource\/m\/promo\/adsense
+# > 来疯直播
+URL-REGEX,^https?:\/\/api\.laifeng\.com\/v\d\/start\/ads
 
 # M
 # > MI
@@ -533,13 +557,13 @@ URL-REGEX,^https?:\/\/cdn\.moji\.com\/(adoss|adlink)\/
 # > 埋堆堆
 URL-REGEX,^https?:\/\/mob\.mddcloud\.com\.cn\/api\/(ad|advert)\/
 # > 漫画人
-URL-REGEX,^https?:\/\/mangaapi\.manhuaren\.com\/v1\/public\/getStartPageAds
+URL-REGEX,^https?:\/\/mangaapi\.manhuaren\.com\/v\d\/public\/getStartPageAds
 # > 美团
 URL-REGEX,^https?:\/\/img\.meituan\.net\/midas\/
-URL-REGEX,^https?:\/\/p\d{1}\.meituan\.net\/(adunion|display|linglong|mmc|wmbanner)\/
+URL-REGEX,^https?:\/\/p\d\.meituan\.net\/(adunion|display|linglong|mmc|wmbanner)\/
 URL-REGEX,^https?:\/\/s3plus\.meituan\.net\/.+\/linglong\/
 # > 美味不用等
-URL-REGEX,^https?:\/\/capi.mwee.cn/app-api/V12/app/getstartad
+URL-REGEX,^https?:\/\/capi.mwee.cn/app-api/V\d/app/getstartad
 # > 咪咕
 URL-REGEX,^https?:\/\/.+\/v1\/iflyad\/
 URL-REGEX,^https?:\/\/.+\/cdn-adn\/
@@ -547,7 +571,7 @@ URL-REGEX,^https?:\/\/ggic\.cmvideo\.cn\/ad\/
 URL-REGEX,^https?:\/\/ggic2\.cmvideo\.cn\/ad\/
 URL-REGEX,^https?:\/\/.+/img\/ad\.union\.api\/
 # > 秒拍
-URL-REGEX,^https?:\/\/b-api\.ins\.miaopai\.com\/1\/ad/
+URL-REGEX,^https?:\/\/b-api\.ins\.miaopai\.com\/\d\/ad/
 # > 马蜂窝
 URL-REGEX,^https?:\/\/mapi\.mafengwo\.cn\/ad\/
 URL-REGEX,^https?:\/\/mapi\.mafengwo\.cn\/travelguide\/ad\/
@@ -580,6 +604,8 @@ URL-REGEX,^https?:\/\/supportda\.ofo\.com\/adaction\?
 URL-REGEX,^https?:\/\/ma\.ofo\.com\/ads\/
 URL-REGEX,^https?:\/\/activity2\.api\.ofo\.com\/ofo\/Api\/v2\/ads
 URL-REGEX,^https?:\/\/ma\.ofo\.com\/adImage\/
+# > Oray
+URL-REGEX,^https?:\/\/slapi.oray.net/client/ad
 
 # P
 # > PeanutWiFiMpass
@@ -635,6 +661,8 @@ URL-REGEX,^https?:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/car-rest\/web
 URL-REGEX,^https?:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/zhuanche-passenger-token\/leachtoken\/webservice\/homepage\/queryADs
 # > Suning
 URL-REGEX,^https?:\/\/image\.suning\.cn\/uimg\/ma\/ad\/
+# > 神舟专车
+URL-REGEX,^https?:\/\/img01\.10101111cdn\.com\/adpos\/
 
 # T
 # > Tencent
@@ -656,7 +684,7 @@ URL-REGEX,^https?:\/\/mp\.weixin\.qq\.com\/mp\/(ad_|advertisement|getappmsgad)
 # > Thunder
 URL-REGEX,^https?:\/\/images\.client\.vip\.xunlei\.com\/.+\/advert\/
 # > TV_Home
-URL-REGEX,^https?:\/\/api\.gaoqingdianshi\.com\/api\/v2\/ad\/
+URL-REGEX,^https?:\/\/api\.gaoqingdianshi\.com\/api\/v\d\/ad\/
 # > The_Paper
 URL-REGEX,^https?:\/\/adpai\.thepaper\.cn\/.+&ad=
 # > 太平洋
@@ -735,3 +763,5 @@ URL-REGEX,^https?:\/\/api\.zhuishushenqi\.com\/splashes\/ios
 URL-REGEX,^https?:\/\/api\.zhuishushenqi\.com\/notification\/shelfMessage
 URL-REGEX,^https?:\/\/api\.zhuishushenqi\.com\/user\/bookshelf-updated
 URL-REGEX,^https?:\/\/itunes\.apple\.com\/lookup\?id=575826903
+# > 作业帮
+URL-REGEX,^https?:\/\/www\.zybang\.com\/adx\/
