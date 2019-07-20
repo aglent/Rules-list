@@ -365,7 +365,7 @@ URL-REGEX,^https?:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/guanggao\/
 # >> 百度贴吧
 URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule
 URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo
-URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/newlog
+URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|newlog|mlog)
 # >> 百度地图 (153.3.236.81,180.101.212.22)
 URL-REGEX,^https?:\/\/.+\/client\/phpui2\/
 # > ByteDance
