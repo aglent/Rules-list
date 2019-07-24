@@ -1,6 +1,6 @@
 // https://github.com/ConnersHua/Profiles/blob/master/Surge/Ruleset/Hijacking.list
 
-# Internet Service Provider Hijacking Protection 运营商劫持保护
+# Internet Service Provider Hijacking 运营商劫持
 DOMAIN-SUFFIX,17gouwuba.com
 DOMAIN-SUFFIX,186078.com
 DOMAIN-SUFFIX,189zj.cn
@@ -52,7 +52,6 @@ DOMAIN-SUFFIX,jwg365.cn
 DOMAIN-SUFFIX,kawo77.com
 DOMAIN-SUFFIX,kualianyingxiao.cn
 DOMAIN-SUFFIX,kumihua.com
-DOMAIN-SUFFIX,linktech.cn
 DOMAIN-SUFFIX,ltheanine.cn
 DOMAIN-SUFFIX,maipinshangmao.com
 DOMAIN-SUFFIX,minisplat.cn
@@ -142,7 +141,7 @@ IP-CIDR,211.161.101.106/32,no-resolve
 IP-CIDR,220.115.251.25/32,no-resolve
 IP-CIDR,222.73.156.235/32,no-resolve
 
-# Blocklist 黑名单
+# Infamous 声名狼藉
 DOMAIN-SUFFIX,kuaizip.com
 DOMAIN-SUFFIX,mackeeper.com
 # > Adobe
