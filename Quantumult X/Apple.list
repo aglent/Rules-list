@@ -1,0 +1,28 @@
+// https://github.com/ConnersHua/Profiles/blob/master/Quantumult/X/Filter/Apple.list
+
+# > Apple
+DOMAIN-SUFFIX,aaplimg.com,Apple
+DOMAIN-SUFFIX,cdn-apple.com,Apple
+DOMAIN-SUFFIX,icloud.com,Apple
+DOMAIN-SUFFIX,icloud-content.com,Apple
+DOMAIN-SUFFIX,mzstatic.com,Apple
+# > Siri
+DOMAIN,guzzoni.apple.com,Apple
+# > geod
+DOMAIN-SUFFIX,ls.apple.com,Apple
+# > TestFlight
+DOMAIN,testflight.apple.com,Apple
+# > iTunes Store and App Store
+DOMAIN-SUFFIX,itunes.apple.com,Apple
+# > Apple Music
+USER-AGENT,Music*,Apple
+DOMAIN,aod.itunes.apple.com,Apple
+DOMAIN,audio.itunes.apple.com,Apple
+DOMAIN,audio-ssl.itunes.apple.com,Apple
+DOMAIN,streamingaudio.itunes.apple.com,Apple
+# > Apple Podcasts
+USER-AGENT,Podcasts*,Apple
+# > Apple TV
+USER-AGENT,AppleTV*,Apple
+USER-AGENT,com.apple.tv*,Apple
+DOMAIN,ocvideo.apple.com,Apple

@@ -1,0 +1,8 @@
+// https://github.com/ConnersHua/Profiles/blob/master/Quantumult/X/Filter/Media/Youtube.list
+
+# > Youtube
+USER-AGENT,com.google.ios.youtube*,Youtube
+USER-AGENT,YouTube*,Youtube
+DOMAIN-SUFFIX,googlevideo.com,Youtube
+DOMAIN-SUFFIX,youtube.com,Youtube
+DOMAIN,youtubei.googleapis.com,Youtube
