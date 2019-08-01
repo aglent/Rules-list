@@ -1,4 +1,5 @@
 // https://github.com/ConnersHua/Profiles/blob/master/Quantumult/X/Filter/China.list
+// 删除最后的GEOIP,CN,DIRECT
 
 # China Area Network
 # > 360
@@ -210,6 +211,3 @@ DOMAIN-SUFFIX,zhangzishi.cc,DIRECT
 DOMAIN-SUFFIX,zhihu.com,DIRECT
 DOMAIN-SUFFIX,zhimg.com,DIRECT
 DOMAIN-SUFFIX,zhuihd.com,DIRECT
-
-# GeoIP China
-GEOIP,CN,DIRECT
