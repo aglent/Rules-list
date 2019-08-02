@@ -1,4 +1,5 @@
 // https://github.com/ConnersHua/Profiles/blob/master/Quantumult/X/Filter/Advertising.list
+// 增加 DOMAIN-SUFFIX,amdc.m.taobao.com,REJECT
 
 # Advertising
 # > General
@@ -134,6 +135,7 @@ DOMAIN,adashxgc.ut.taobao.com,REJECT
 DOMAIN,adashx4yt.m.taobao.com,REJECT
 DOMAIN,nbsdk-baichuan.alicdn.com,REJECT
 DOMAIN,tunion-api.m.taobao.com,REJECT
+DOMAIN-SUFFIX,amdc.m.taobao.com,REJECT
 # > AutoHome
 DOMAIN,adproxy.autohome.com.cn,REJECT
 DOMAIN,rd.autohome.com.cn,REJECT
