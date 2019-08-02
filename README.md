@@ -19,3 +19,7 @@
 
 # Shadowrocket
 <P>在神机和lhie1规则的基础上，添加了MiTM内容。
+
+# Quantumult X
+<P>QuantumultX.conf为Quantumult X的配置文件，适用于Dler Cloud Gold及更高级别用户。
+<P>使用方法和上面类似，配置文件自行修改后放在私密gist里，导入到Quantumult X。
