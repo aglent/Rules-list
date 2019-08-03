@@ -1,8 +1,20 @@
+/*
+ * @repo: https://github.com/yichahucha/surge
+ * @script: https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js
+ */
+/*
+[Script]
+http-response ^https?:\/\/(sdk|wb)app\.uve\.weibo\.com(\/interface\/sdk\/sdkad.php|\/wbapplua\/wbpullad.lua) script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js,requires-body=true
+[MITM]
+hostname = api.weibo.cn, *.uve.weibo.com
+*/
+
 const path1 = "/interface/sdk/sdkad.php";
 const path2 = "/wbapplua/wbpullad.lua";
 
 const url = $request.url;
 var body = $response.body;
+
 if (url.indexOf(path1) != -1) {
     let re = /\{.*\}/;
     body = body.match(re);
@@ -18,4 +30,5 @@ if (url.indexOf(path2) != -1) {
     if (obj.cached_ad && obj.cached_ad.ads) obj.cached_ad.ads = [];
     body = JSON.stringify(obj);
 }
+
 $done({body});
