@@ -1,3 +1,15 @@
+/*
+ * @repo: https://github.com/yichahucha/surge
+ * @script: https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js
+ * @doc: https://raw.githubusercontent.com/yichahucha/surge/master/README.md
+ */
+/*
+[Script]
+http-response ^https?:\/\/(api|mapi)\.weibo\.(cn|com)\/2(\/groups\/timeline|\/statuses\/unread|\/statuses\/extend|\/comments\/build_comments|\/photo\/recommend_list|\/stories\/video_stream|\/statuses\/positives\/get|\/stories\/home_list|\/profile\/statuses|\/statuses\/friends\/timeline|\/service\/picfeed) script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js,requires-body=true
+[MITM]
+hostname = api.weibo.cn, *.uve.weibo.com
+*/
+
 const path1 = "/groups/timeline";
 const path2 = "/statuses/unread";
 const path3 = "/statuses/extend";
@@ -9,53 +21,25 @@ const path8 = "/stories/home_list";
 const path9 = "/profile/statuses";
 const path10 = "/statuses/friends/timeline";
 const path11 = "/service/picfeed";
+const path12 = "/fangle/timeline";
+const path13 = "/searchall";
+const path14 = "/cardlist";
 
 const url = $request.url;
 var body = $response.body;
-function filter_timeline() {
+
+if (
+    url.indexOf(path1) != -1 ||
+    url.indexOf(path2) != -1 ||
+    url.indexOf(path10) != -1
+) {
     let obj = JSON.parse(body);
-    let statuses = obj.statuses;
-    if (statuses && statuses.length > 0) {
-        let i = statuses.length;
-        while (i--) {
-            let element = statuses[i];
-            if (is_timeline_likerecommend(element.title)) statuses.splice(i, 1);
-            if(is_timeline_ad(element.promotion)) statuses.splice(i, 1);
-        }
-        if (obj.advertises) obj.advertises = [];
-        if (obj.ad) obj.ad = [];
-        if (obj.num) obj.num = obj.original_num;
-    }
+    if (obj.statuses) obj.statuses = filter_timeline_statuses(obj.statuses);
+    if (obj.advertises) obj.advertises = [];
+    if (obj.ad) obj.ad = [];
+    if (obj.num) obj.num = obj.original_num;
     if (obj.trends) obj.trends = [];
     body = JSON.stringify(obj);
-}
-
-function is_timeline_ad(promotion) {
-    return (promotion && promotion.type && promotion.type == "ad") ? true : false;
-}
-
-function is_timeline_likerecommend(title) {
-    return (title && title.type && title.type == "likerecommend") ? true : false;
-}
-
-function filter_comments(datas) {
-    if (datas && datas.length > 0) {
-        let i = datas.length;
-        while (i--) {
-            const element = datas[i];
-            let type = element.type;
-            if (type == 5 || type == 1 || type == 6) datas.splice(i, 1);
-        }
-    }
-    return datas;
-}
-
-if (url.indexOf(path1) != -1) {
-    filter_timeline();
-}
-
-if (url.indexOf(path2) != -1) {
-    filter_timeline();
 }
 
 if (url.indexOf(path3) != -1) {
@@ -93,7 +77,7 @@ if (url.indexOf(path6) != -1) {
         while (i--) {
             const element = segments[i];
             let is_ad = element.is_ad;
-            if (typeof is_ad != "undefined" && is_ad == true) segments.splice(i, 1);
+            if (is_ad && is_ad == true) segments.splice(i, 1);
         }
     }
     body = JSON.stringify(obj);
@@ -125,13 +109,94 @@ if (url.indexOf(path9) != -1) {
     body = JSON.stringify(obj);
 }
 
-if (url.indexOf(path10) != -1) {
-    filter_timeline();
-}
-
 if (url.indexOf(path11) != -1) {
     let obj = JSON.parse(body);
     obj.data = [];
     body = JSON.stringify(obj);
 }
-$done({body});
+
+if (
+    url.indexOf(path12) != -1 ||
+    url.indexOf(path13) != -1 ||
+    url.indexOf(path14) != -1
+) {
+    let obj = JSON.parse(body);
+    if (obj.cards) obj.cards = filter_timeline_cards(obj.cards);
+    body = JSON.stringify(obj);
+}
+
+$done({ body });
+
+function filter_timeline_statuses(statuses) {
+    if (statuses && statuses.length > 0) {
+        let i = statuses.length;
+        while (i--) {
+            let element = statuses[i];
+            if (is_timeline_likerecommend(element.title)) statuses.splice(i, 1);
+            if (is_timeline_ad(element.promotion)) statuses.splice(i, 1);
+        }
+    }
+    return statuses;
+}
+
+function filter_comments(datas) {
+    if (datas && datas.length > 0) {
+        let i = datas.length;
+        while (i--) {
+            const element = datas[i];
+            let type = element.type;
+            if (type == 5 || type == 1 || type == 6) datas.splice(i, 1);
+        }
+    }
+    return datas;
+}
+
+function filter_timeline_cards(cards) {
+    if (cards && cards.length > 0) {
+        let j = cards.length;
+        while (j--) {
+            let item = cards[j];
+            let card_group = item.card_group;
+            if (card_group && card_group.length > 0) {
+                let i = card_group.length;
+                let tem_card_type = 0;
+                while (i--) {
+                    let element = card_group[i];
+                    let card_type = element.card_type;
+                    if (card_type && (tem_card_type == 19 && card_type == 22)) {
+                        cards.splice(j, 1);
+                        break;
+                    } else if (card_type && card_type == 118) {
+                        card_group.splice(i, 1);
+                    } else {
+                        if (element.mblog) {
+                            if (is_timeline_ad(element.mblog.promotion)) {
+                                card_group.splice(i, 1);
+                            }
+                        }
+                    }
+                    tem_card_type = card_type;
+                }
+            } else {
+                if (item.mblog) {
+                    if (is_timeline_ad(item.mblog.promotion)) {
+                        cards.splice(j, 1);
+                    } else {
+                        if (item.mblog.label && item.mblog.label == "\u5e7f\u544a") {
+                            cards.splice(j, 1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    return cards;
+}
+
+function is_timeline_ad(promotion) {
+    return promotion && promotion.type && promotion.type == "ad" ? true : false;
+}
+
+function is_timeline_likerecommend(title) {
+    return title && title.type && title.type == "likerecommend" ? true : false;
+}
