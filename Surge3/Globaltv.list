@@ -31,6 +31,8 @@ DOMAIN-SUFFIX,bbc.co.uk
 DOMAIN-SUFFIX,bbci.co.uk
 DOMAIN-KEYWORD,bbcfmt
 DOMAIN-KEYWORD,uk-live
+# > DAZN
+DOMAIN-SUFFIX,dazn.com
 # > encoreTVB
 USER-AGENT,encoreTVB*
 DOMAIN-SUFFIX,encoretvb.com
@@ -93,6 +95,15 @@ DOMAIN-SUFFIX,nflximg.com
 DOMAIN-SUFFIX,nflximg.net
 DOMAIN-SUFFIX,nflxso.net
 DOMAIN-SUFFIX,nflxvideo.net
+IP-CIDR,23.246.0.0/18,no-resolve
+IP-CIDR,37.77.184.0/21,no-resolve
+IP-CIDR,45.57.0.0/17,no-resolve
+IP-CIDR,64.120.128.0/17,no-resolve
+IP-CIDR,66.197.128.0/17,no-resolve
+IP-CIDR,108.175.32.0/20,no-resolve
+IP-CIDR,192.173.64.0/18,no-resolve
+IP-CIDR,198.38.96.0/19,no-resolve
+IP-CIDR,198.45.48.0/20,no-resolve
 # > PBS
 USER-AGENT,PBS*
 DOMAIN-SUFFIX,pbs.org
@@ -103,10 +114,15 @@ DOMAIN-SUFFIX,pornhub.com
 DOMAIN-SUFFIX,twitch.tv
 DOMAIN-SUFFIX,twitchcdn.net
 DOMAIN-SUFFIX,ttvnw.net
-# > ViuTV
+# > Viu(TV)
+USER-AGENT,Viu*
 USER-AGENT,ViuTV*
+DOMAIN-SUFFIX,viu.com
 DOMAIN-SUFFIX,viu.tv
 DOMAIN,api.viu.now.com
+DOMAIN,d1k2us671qcoau.cloudfront.net
+DOMAIN,d2anahhhmp1ffz.cloudfront.net
+DOMAIN,dfp6rglgjqszk.cloudfront.net
 # > Youtube
 USER-AGENT,com.google.ios.youtube*
 USER-AGENT,YouTube*
@@ -136,6 +152,7 @@ DOMAIN-SUFFIX,pscdn.co
 DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,spotify.com
 DOMAIN-SUFFIX,spoti.fi
+IP-CIDR,35.186.224.47/32,no-resolve
 # > TIDAL
 USER-AGENT,TIDAL*
 DOMAIN-SUFFIX,tidal.com
