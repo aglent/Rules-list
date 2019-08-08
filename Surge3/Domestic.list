@@ -26,6 +26,17 @@ DOMAIN-SUFFIX,ykimg.com
 DOMAIN-SUFFIX,youku.com
 DOMAIN-SUFFIX,xiami.com
 DOMAIN-SUFFIX,xiami.net
+# > Apple
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,apple.co
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,appstore.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,crashlytics.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,mzstatic.com
 # > Baidu
 DOMAIN-SUFFIX,baidu.com
 DOMAIN-SUFFIX,baidubcr.com
@@ -33,6 +44,7 @@ DOMAIN-SUFFIX,bdstatic.com
 # > bilibili
 DOMAIN-SUFFIX,acgvideo.com
 DOMAIN-SUFFIX,biliapi.com
+DOMAIN-SUFFIX,biliapi.net
 DOMAIN-SUFFIX,bilibili.com
 DOMAIN-SUFFIX,hdslb.com
 # > Blizzard
@@ -46,6 +58,7 @@ DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,iesdouyin.com
 DOMAIN-SUFFIX,toutiao.com
 # > 蛋蛋赞
+DOMAIN-SUFFIX,343480.com
 DOMAIN-SUFFIX,baduziyuan.com
 DOMAIN-SUFFIX,com-hs-hkdy.com
 DOMAIN-SUFFIX,czybjz.com
@@ -82,7 +95,9 @@ DOMAIN-SUFFIX,xiaomi.com
 DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,windows.com
 DOMAIN-SUFFIX,windowsupdate.com
-DOMAIN-KEYWORD,officecdn
+DOMAIN-SUFFIX,visualstudio.com
+DOMAIN-SUFFIX,msecnd.net
+DOMAIN,officecdn-microsoft-com.akamaized.net
 # > NetEase
 USER-AGENT,NeteaseMusic*
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
@@ -111,6 +126,7 @@ DOMAIN-SUFFIX,steamgames.com
 DOMAIN-SUFFIX,steamusercontent.com
 DOMAIN-SUFFIX,steamcontent.com
 DOMAIN-SUFFIX,steamstatic.com
+DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
 # > Tencent
 USER-AGENT,MicroMessenger%20Client
 USER-AGENT,WeChat*
@@ -143,6 +159,7 @@ DOMAIN-SUFFIX,netspeedtestmaster.com
 DOMAIN,speedtest.macpaw.com
 # > Other
 DOMAIN-SUFFIX,cn
+DOMAIN-SUFFIX,8686c.com
 DOMAIN-SUFFIX,aixifan.com
 DOMAIN-SUFFIX,beitaichufang.com
 DOMAIN-SUFFIX,booking.com
@@ -150,7 +167,6 @@ DOMAIN-SUFFIX,bstatic.com
 DOMAIN-SUFFIX,cailianpress.com
 DOMAIN-SUFFIX,chunyu.mobi
 DOMAIN-SUFFIX,chushou.tv
-DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,cmbchina.com
 DOMAIN-SUFFIX,cmbimg.com
 DOMAIN-SUFFIX,ctrip.com
@@ -163,6 +179,7 @@ DOMAIN-SUFFIX,eastmoney.com
 DOMAIN-SUFFIX,futunn.com
 DOMAIN-SUFFIX,geilicdn.com
 DOMAIN-SUFFIX,hicloud.com
+DOMAIN-SUFFIX,hostbuf.com
 DOMAIN-SUFFIX,huya.com
 DOMAIN-SUFFIX,infinitynewtab.com
 DOMAIN-SUFFIX,ithome.com
@@ -188,7 +205,6 @@ DOMAIN-SUFFIX,teamviewer.com
 DOMAIN-SUFFIX,tianyancha.com
 DOMAIN-SUFFIX,udacity.com
 DOMAIN-SUFFIX,uning.com
-DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,weather.com
 DOMAIN-SUFFIX,weidian.com
 DOMAIN-SUFFIX,xmcdn.com
@@ -197,3 +213,4 @@ DOMAIN-SUFFIX,zhangzishi.cc
 DOMAIN-SUFFIX,zhihu.com
 DOMAIN-SUFFIX,zhimg.com
 DOMAIN-SUFFIX,zhuihd.com
+DOMAIN,download.jetbrains.com
