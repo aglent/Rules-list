@@ -9,16 +9,19 @@ DOMAIN-KEYWORD,analysis
 
 DOMAIN-SUFFIX,42trck.com
 DOMAIN-SUFFIX,51.la
+DOMAIN-SUFFIX,adcolony.com
 DOMAIN-SUFFIX,adinfuse.com
 DOMAIN-SUFFIX,adjust.com
 DOMAIN-SUFFIX,adjust.io
 DOMAIN-SUFFIX,admaster.com.cn
 DOMAIN-SUFFIX,admob.com
+DOMAIN-SUFFIX,adnyg.com
 DOMAIN-SUFFIX,adsensor.org
 DOMAIN-SUFFIX,adtarget.tech
 DOMAIN-SUFFIX,adthor.com
 DOMAIN-SUFFIX,adwhirl.com
 DOMAIN-SUFFIX,amazon-adsystem.com
+DOMAIN-SUFFIX,amobee.com
 DOMAIN-SUFFIX,analysys.cn
 DOMAIN-SUFFIX,app-adforce.jp
 DOMAIN-SUFFIX,appadhoc.com
@@ -32,6 +35,7 @@ DOMAIN-SUFFIX,axonix.com
 DOMAIN-SUFFIX,cloudmobi.net
 DOMAIN-SUFFIX,cnzz.com
 DOMAIN-SUFFIX,ctrmi.com
+DOMAIN-SUFFIX,flurry.com
 DOMAIN-SUFFIX,go2cloud.org
 DOMAIN-SUFFIX,growingio.com
 DOMAIN-SUFFIX,haloapps.com
@@ -63,11 +67,15 @@ DOMAIN-SUFFIX,shuzilm.cn
 DOMAIN-SUFFIX,smaato.net
 DOMAIN-SUFFIX,smartadserver.com
 DOMAIN-SUFFIX,smartnews-ads.com
+DOMAIN-SUFFIX,tagtic.cn
 DOMAIN-SUFFIX,tanv.com
 DOMAIN-SUFFIX,tanx.com
+DOMAIN-SUFFIX,trafficjunky.net
+DOMAIN-SUFFIX,turn.com
 DOMAIN-SUFFIX,uri6.com
 DOMAIN-SUFFIX,voicefive.com
 DOMAIN-SUFFIX,vungle.com
+DOMAIN-SUFFIX,wedolook.com
 DOMAIN-SUFFIX,xdrig.com
 
 DOMAIN-SUFFIX,ad.daum.net
@@ -98,7 +106,6 @@ DOMAIN,app-ad.variflight.com
 DOMAIN,applog.mobike.com
 DOMAIN,appnext.hs.llnwd.net
 DOMAIN,appnext-a.akamaihd.net
-DOMAIN,data.flurry.com
 DOMAIN,ggs.myzaker.com
 DOMAIN,itad.linetv.tw
 DOMAIN,ja.chushou.tv
@@ -130,10 +137,12 @@ DOMAIN,acs4baichuan.m.taobao.com
 DOMAIN,adash.m.taobao.com
 DOMAIN,adash.man.aliyuncs.com
 DOMAIN,adashbc.ut.taobao.com
+DOMAIN,adashx.m.taobao.com
 DOMAIN,adash-c.ut.taobao.com
 DOMAIN,adashxgc.ut.taobao.com
 DOMAIN,adashx4yt.m.taobao.com
 DOMAIN,amdc.m.taobao.com
+DOMAIN,h-adashx.ut.taobao.com
 DOMAIN,nbsdk-baichuan.alicdn.com
 DOMAIN,tunion-api.m.taobao.com
 # > AutoHome
@@ -155,6 +164,7 @@ DOMAIN,mobads.baidu.com
 DOMAIN,mobads-logs.baidu.com
 DOMAIN,nsclick.baidu.com
 # > ByteDance
+DOMAIN,ad.toutiao.com
 DOMAIN,applog.musical.ly
 DOMAIN,track.toutiao.com
 DOMAIN,xlog.snssdk.com
@@ -280,12 +290,14 @@ DOMAIN,adnew.wifi8.com
 DOMAIN,adfile.wifi8.com
 # (S)
 # > Sina
+DOMAIN-SUFFIX,beacon.sina.com.cn
 DOMAIN,adimg.vue.weibo.com
 DOMAIN,u1.img.mobile.sina.cn
 DOMAIN,sax.sina.com.cn
 DOMAIN,saxs.sina.com.cn
 DOMAIN,saxn.sina.com.cn
 # > Sohu
+DOMAIN-SUFFIX,ad.sohu.com
 DOMAIN-SUFFIX,ads.sohu.com
 DOMAIN-SUFFIX,aty.sohu.com
 DOMAIN,imp.optaim.com
@@ -333,7 +345,9 @@ DOMAIN,applogios.uc.cn
 DOMAIN,track.uc.cn
 # > Umeng
 DOMAIN,alog.umeng.com
+DOMAIN,alogs.umeng.com
 DOMAIN,alog.umengcloud.com
+DOMAIN,alogs.umengcloud.com
 DOMAIN,ar.umeng.com
 DOMAIN,plbslog.umeng.com
 DOMAIN,ulogs.umeng.com
@@ -445,7 +459,7 @@ URL-REGEX,^https?:\/\/www\.cmbc\.com\.cn\/m\/image\/loadingpage\/
 # > China Guangfa Bank
 URL-REGEX,^https?:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/\d\.(png|jpg)
 # > China Mobile
-# URL-REGEX,^https?:\/\/app\.10086\.cn\/biz-orange\/DN\/(findSale|homeSale)\/getsaleAdver
+URL-REGEX,^https?:\/\/clientaccess\.10086\.cn\/biz-orange\/DN\/init\/startInit
 # > China Unicom
 URL-REGEX,^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/accountListData\.htm
 URL-REGEX,^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/getWelcomeAd
@@ -502,7 +516,7 @@ URL-REGEX,^https?:\/\/cdn\.api\.fotoable\.com\/Advertise\/
 URL-REGEX,^https?:\/\/www\.flyertea\.com\/source\/plugin\/mobile\/mobile\.php\?module=advis
 # > 飞常准
 URL-REGEX,^https?:\/\/app\.variflight\.com\/ad\/
-URL-REGEX,^https?:\/\/app\.variflight\.com\/v\v\/advert\/
+URL-REGEX,^https?:\/\/app\.variflight\.com\/v\d\/advert\/
 
 # G
 # > Google
@@ -606,8 +620,10 @@ URL-REGEX,^https?:\/\/mob\.mddcloud\.com\.cn\/api\/(ad|advert)\/
 # > 漫画人
 URL-REGEX,^https?:\/\/mangaapi\.manhuaren\.com\/v\d\/public\/getStartPageAds
 # > 美团
-URL-REGEX,^https?:\/\/img\.meituan\.net\/midas\/
-URL-REGEX,^https?:\/\/s3plus\.meituan\.net\/.+\/linglong\/
+URL-REGEX,^https?:\/\/img\.meituan\.net\/(display|midas)\/.+\.(gif|jpg)
+URL-REGEX,^https?:\/\/p\d\.meituan\.net\/wmbanner\/[A-Za-z0-9]+\.jpg
+URL-REGEX,^https?:\/\/p\d\.meituan\.net\/movie\/[A-Za-z0-9]+\.jpg\?may_covertWebp
+URL-REGEX,^https?:\/\/s3plus\.meituan\.net\/.+\/linglong\/.+\.jpg
 # > 美味不用等
 URL-REGEX,^https?:\/\/capi.mwee.cn/app-api/V\d/app/getstartad
 # > 咪咕
@@ -637,6 +653,8 @@ URL-REGEX,^https?:\/\/.+\/eapi\/(ad|log)\/
 URL-REGEX,^https?:\/\/sp\.kaola\.com\/api\/openad
 # > NetEase Yanxuan
 URL-REGEX,^https?:\/\/support\.you\.163\.com\/xhr\/boot\/getBootMedia\.json
+# > NetEase SnailReader
+URL-REGEX,^https?:\/\/easyreadfs\.nosdn\.127\.net\/ad-material\/
 # > 爱南宁
 URL-REGEX,^https?:\/\/nnapp\.cloudbae\.cn\/mc\/api\/advert/
 # > NationalGeographic
