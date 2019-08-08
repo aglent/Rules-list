@@ -9,16 +9,19 @@ DOMAIN-KEYWORD,analysis,REJECT
 
 DOMAIN-SUFFIX,42trck.com,REJECT
 DOMAIN-SUFFIX,51.la,REJECT
+DOMAIN-SUFFIX,adcolony.com,REJECT
 DOMAIN-SUFFIX,adinfuse.com,REJECT
 DOMAIN-SUFFIX,adjust.com,REJECT
 DOMAIN-SUFFIX,adjust.io,REJECT
 DOMAIN-SUFFIX,admaster.com.cn,REJECT
 DOMAIN-SUFFIX,admob.com,REJECT
+DOMAIN-SUFFIX,adnyg.com,REJECT
 DOMAIN-SUFFIX,adsensor.org,REJECT
 DOMAIN-SUFFIX,adtarget.tech,REJECT
 DOMAIN-SUFFIX,adthor.com,REJECT
 DOMAIN-SUFFIX,adwhirl.com,REJECT
 DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
+DOMAIN-SUFFIX,amobee.com,REJECT
 DOMAIN-SUFFIX,analysys.cn,REJECT
 DOMAIN-SUFFIX,app-adforce.jp,REJECT
 DOMAIN-SUFFIX,appadhoc.com,REJECT
@@ -32,6 +35,7 @@ DOMAIN-SUFFIX,axonix.com,REJECT
 DOMAIN-SUFFIX,cloudmobi.net,REJECT
 DOMAIN-SUFFIX,cnzz.com,REJECT
 DOMAIN-SUFFIX,ctrmi.com,REJECT
+DOMAIN-SUFFIX,flurry.com,REJECT
 DOMAIN-SUFFIX,go2cloud.org,REJECT
 DOMAIN-SUFFIX,growingio.com,REJECT
 DOMAIN-SUFFIX,haloapps.com,REJECT
@@ -63,11 +67,15 @@ DOMAIN-SUFFIX,shuzilm.cn,REJECT
 DOMAIN-SUFFIX,smaato.net,REJECT
 DOMAIN-SUFFIX,smartadserver.com,REJECT
 DOMAIN-SUFFIX,smartnews-ads.com,REJECT
+DOMAIN-SUFFIX,tagtic.cn,REJECT
 DOMAIN-SUFFIX,tanv.com,REJECT
 DOMAIN-SUFFIX,tanx.com,REJECT
+DOMAIN-SUFFIX,trafficjunky.net,REJECT
+DOMAIN-SUFFIX,turn.com,REJECT
 DOMAIN-SUFFIX,uri6.com,REJECT
 DOMAIN-SUFFIX,voicefive.com,REJECT
 DOMAIN-SUFFIX,vungle.com,REJECT
+DOMAIN-SUFFIX,wedolook.com,REJECT
 DOMAIN-SUFFIX,xdrig.com,REJECT
 
 DOMAIN-SUFFIX,ad.daum.net,REJECT
@@ -98,7 +106,6 @@ DOMAIN,app-ad.variflight.com,REJECT
 DOMAIN,applog.mobike.com,REJECT
 DOMAIN,appnext.hs.llnwd.net,REJECT
 DOMAIN,appnext-a.akamaihd.net,REJECT
-DOMAIN,data.flurry.com,REJECT
 DOMAIN,ggs.myzaker.com,REJECT
 DOMAIN,itad.linetv.tw,REJECT
 DOMAIN,ja.chushou.tv,REJECT
@@ -130,10 +137,12 @@ DOMAIN,acs4baichuan.m.taobao.com,REJECT
 DOMAIN,adash.m.taobao.com,REJECT
 DOMAIN,adash.man.aliyuncs.com,REJECT
 DOMAIN,adashbc.ut.taobao.com,REJECT
+DOMAIN,adashx.m.taobao.com,REJECT
 DOMAIN,adash-c.ut.taobao.com,REJECT
 DOMAIN,adashxgc.ut.taobao.com,REJECT
 DOMAIN,adashx4yt.m.taobao.com,REJECT
 DOMAIN,amdc.m.taobao.com,REJECT
+DOMAIN,h-adashx.ut.taobao.com,REJECT
 DOMAIN,nbsdk-baichuan.alicdn.com,REJECT
 DOMAIN,tunion-api.m.taobao.com,REJECT
 # > AutoHome
@@ -155,6 +164,7 @@ DOMAIN,mobads.baidu.com,REJECT
 DOMAIN,mobads-logs.baidu.com,REJECT
 DOMAIN,nsclick.baidu.com,REJECT
 # > ByteDance
+DOMAIN,ad.toutiao.com,REJECT
 DOMAIN,applog.musical.ly,REJECT
 DOMAIN,track.toutiao.com,REJECT
 DOMAIN,xlog.snssdk.com,REJECT
@@ -280,12 +290,14 @@ DOMAIN,adnew.wifi8.com,REJECT
 DOMAIN,adfile.wifi8.com,REJECT
 # (S)
 # > Sina
+DOMAIN-SUFFIX,beacon.sina.com.cn,REJECT
 DOMAIN,adimg.vue.weibo.com,REJECT
 DOMAIN,u1.img.mobile.sina.cn,REJECT
 DOMAIN,sax.sina.com.cn,REJECT
 DOMAIN,saxs.sina.com.cn,REJECT
 DOMAIN,saxn.sina.com.cn,REJECT
 # > Sohu
+DOMAIN-SUFFIX,ad.sohu.com,REJECT
 DOMAIN-SUFFIX,ads.sohu.com,REJECT
 DOMAIN-SUFFIX,aty.sohu.com,REJECT
 DOMAIN,imp.optaim.com,REJECT
@@ -333,7 +345,9 @@ DOMAIN,applogios.uc.cn,REJECT
 DOMAIN,track.uc.cn,REJECT
 # > Umeng
 DOMAIN,alog.umeng.com,REJECT
+DOMAIN,alogs.umeng.com,REJECT
 DOMAIN,alog.umengcloud.com,REJECT
+DOMAIN,alogs.umengcloud.com,REJECT
 DOMAIN,ar.umeng.com,REJECT
 DOMAIN,plbslog.umeng.com,REJECT
 DOMAIN,ulogs.umeng.com,REJECT
