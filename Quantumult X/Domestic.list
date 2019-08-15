@@ -159,6 +159,28 @@ DOMAIN,ip.bjango.com,DIRECT
 # DOMAIN-SUFFIX,speedtest.net,DIRECT
 DOMAIN-SUFFIX,netspeedtestmaster.com,DIRECT
 DOMAIN,speedtest.macpaw.com,DIRECT
+# > Private Tracker
+DOMAIN-SUFFIX,awesome-hd.me,DIRECT
+DOMAIN-SUFFIX,broadcasthe.net,DIRECT
+DOMAIN-SUFFIX,chdbits.co,DIRECT
+DOMAIN-SUFFIX,classix-unlimited.co.uk,DIRECT
+DOMAIN-SUFFIX,empornium.me,DIRECT
+DOMAIN-SUFFIX,gazellegames.net,DIRECT
+DOMAIN-SUFFIX,hdchina.org,DIRECT
+DOMAIN-SUFFIX,hdsky.me,DIRECT
+DOMAIN-SUFFIX,jpopsuki.eu,DIRECT
+DOMAIN-SUFFIX,keepfrds.com,DIRECT
+DOMAIN-SUFFIX,m-team.cc,DIRECT
+DOMAIN-SUFFIX,nanyangpt.com,DIRECT
+DOMAIN-SUFFIX,ncore.cc,DIRECT
+DOMAIN-SUFFIX,open.cd,DIRECT
+DOMAIN-SUFFIX,ourbits.club,DIRECT
+DOMAIN-SUFFIX,passthepopcorn.me,DIRECT
+DOMAIN-SUFFIX,privatehd.to,DIRECT
+DOMAIN-SUFFIX,redacted.ch,DIRECT
+DOMAIN-SUFFIX,springsunday.net,DIRECT
+DOMAIN-SUFFIX,tjupt.org,DIRECT
+DOMAIN-SUFFIX,totheglory.im,DIRECT
 # > Other
 DOMAIN-SUFFIX,cn,DIRECT
 DOMAIN-SUFFIX,8686c.com,DIRECT
