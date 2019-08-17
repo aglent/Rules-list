@@ -1,4 +1,6 @@
 // https://github.com/ConnersHua/Profiles/blob/master/Surge/Ruleset/Google.list
+// 删除DOMAIN-SUFFIX,youtu.be
+// 将Google.list放在Youtube.list之后 确保看Youtube视频时不会触发Googlevideo.com的Google关键字规则
 
 # > Google
 DOMAIN-SUFFIX,abc.xyz
@@ -43,7 +45,6 @@ DOMAIN-SUFFIX,webrtc.org
 DOMAIN-SUFFIX,whatbrowser.org
 DOMAIN-SUFFIX,widevine.com
 DOMAIN-SUFFIX,x.company
-DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
 # (DNS Cache Pollution Protection)
