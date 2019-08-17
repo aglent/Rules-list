@@ -1,4 +1,5 @@
 // https://github.com/lhie1/Rules/blob/master/Surge3/reject.list
+// 删除DOMAIN-KEYWORD,logger
 
 # Ads in Video apps
 
