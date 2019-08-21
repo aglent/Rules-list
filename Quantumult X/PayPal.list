@@ -1,0 +1,6 @@
+// https://github.com/ConnersHua/Profiles/blob/master/Quantumult/X/Filter/PayPal.list
+
+# > PayPal
+USER-AGENT,PayPal*,PayPal
+DOMAIN-KEYWORD,paypal,PayPal
+DOMAIN-SUFFIX,paypal.com,PayPal
