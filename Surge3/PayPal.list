@@ -1,0 +1,6 @@
+// https://github.com/ConnersHua/Profiles/blob/master/Surge/Ruleset/PayPal.list
+
+# > PayPal
+USER-AGENT,PayPal*
+DOMAIN-KEYWORD,paypal
+DOMAIN-SUFFIX,paypal.com
