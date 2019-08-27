@@ -15,6 +15,7 @@ DOMAIN-SUFFIX,adjust.com
 DOMAIN-SUFFIX,adjust.io
 DOMAIN-SUFFIX,admaster.com.cn
 DOMAIN-SUFFIX,admob.com
+DOMAIN-SUFFIX,adnxs.com
 DOMAIN-SUFFIX,adnyg.com
 DOMAIN-SUFFIX,adsensor.org
 DOMAIN-SUFFIX,adtarget.tech
@@ -43,6 +44,7 @@ DOMAIN-SUFFIX,inmobi.cn
 DOMAIN-SUFFIX,inmobi.com
 DOMAIN-SUFFIX,inmobi.net
 DOMAIN-SUFFIX,inmobicdn.cn
+DOMAIN-SUFFIX,inner-active.mobi
 DOMAIN-SUFFIX,irs01.com
 DOMAIN-SUFFIX,iskyworker.com
 DOMAIN-SUFFIX,kochava.com
@@ -58,6 +60,7 @@ DOMAIN-SUFFIX,miaozhen.com
 DOMAIN-SUFFIX,mobclix.com
 DOMAIN-SUFFIX,mopub.com
 DOMAIN-SUFFIX,onelink.me
+DOMAIN-SUFFIX,openx.net
 DOMAIN-SUFFIX,qchannel01.cn
 DOMAIN-SUFFIX,rayjump.com
 DOMAIN-SUFFIX,rubiconproject.com
@@ -73,6 +76,7 @@ DOMAIN-SUFFIX,tanx.com
 DOMAIN-SUFFIX,trafficjunky.net
 DOMAIN-SUFFIX,turn.com
 DOMAIN-SUFFIX,uri6.com
+DOMAIN-SUFFIX,vidoomy.com
 DOMAIN-SUFFIX,voicefive.com
 DOMAIN-SUFFIX,vungle.com
 DOMAIN-SUFFIX,wedolook.com
@@ -622,10 +626,10 @@ URL-REGEX,^https?:\/\/mob\.mddcloud\.com\.cn\/api\/(ad|advert)\/
 # > 漫画人
 URL-REGEX,^https?:\/\/mangaapi\.manhuaren\.com\/v\d\/public\/getStartPageAds
 # > 美团
-URL-REGEX,^https?:\/\/img\.meituan\.net\/(display|midas)\/.+\.(gif|jpg)
+URL-REGEX,^https?:\/\/img\.meituan\.net\/(adunion|display|midas)\/.+\.(gif|jpg|jpg\.webp)$
 URL-REGEX,^https?:\/\/p\d\.meituan\.net\/wmbanner\/[A-Za-z0-9]+\.jpg
 URL-REGEX,^https?:\/\/p\d\.meituan\.net\/movie\/[A-Za-z0-9]+\.jpg\?may_covertWebp
-URL-REGEX,^https?:\/\/s3plus\.meituan\.net\/.+\/linglong\/.+\.jpg
+URL-REGEX,^https?:\/\/s3plus\.meituan\.net\/.+\/linglong\/.+\.(gif|jpg|mp4)
 # > 美味不用等
 URL-REGEX,^https?:\/\/capi.mwee.cn/app-api/V\d{2}/app/getstartad
 # > 咪咕
