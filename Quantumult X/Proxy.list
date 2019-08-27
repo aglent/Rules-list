@@ -13,8 +13,17 @@ DOMAIN-SUFFIX,xn--ngstr-lra8j.com,PROXY
 DOMAIN-KEYWORD,google,PROXY
 DOMAIN-KEYWORD,blogspot,PROXY
 # > Microsoft
-DOMAIN-SUFFIX,onedrive.live.com,PROXY
 DOMAIN-SUFFIX,xboxlive.com,PROXY
+# >> Microsoft OneDrive
+DOMAIN-SUFFIX,onedrive.live.com,PROXY
+DOMAIN-SUFFIX,1drv.com,PROXY
+DOMAIN-SUFFIX,1drv.ms,PROXY
+DOMAIN-SUFFIX,blob.core.windows.net,PROXY
+DOMAIN-SUFFIX,livefilestore.com,PROXY
+DOMAIN-SUFFIX,onedrive.com,PROXY
+DOMAIN-SUFFIX,storage.live.com,PROXY
+DOMAIN-SUFFIX,storage.msn.com,PROXY
+DOMAIN,oneclient.sfx.ms,PROXY
 # > Facebook
 DOMAIN-SUFFIX,cdninstagram.com,PROXY
 DOMAIN-SUFFIX,fb.com,PROXY
@@ -465,13 +474,6 @@ DOMAIN-SUFFIX,x.company,PROXY
 DOMAIN-SUFFIX,youtu.be,PROXY
 DOMAIN-SUFFIX,yt.be,PROXY
 DOMAIN-SUFFIX,ytimg.com,PROXY
-# > Microsoft
-DOMAIN-SUFFIX,1drv.com,PROXY
-DOMAIN-SUFFIX,1drv.ms,PROXY
-DOMAIN-SUFFIX,live.com,PROXY
-DOMAIN-SUFFIX,live.net,PROXY
-DOMAIN-SUFFIX,livefilestore.com,PROXY
-DOMAIN-SUFFIX,storage.msn.com,PROXY
 # > Other
 DOMAIN-SUFFIX,0rz.tw,PROXY
 DOMAIN-SUFFIX,4bluestones.biz,PROXY
@@ -504,6 +506,7 @@ DOMAIN-SUFFIX,gigacircle.com,PROXY
 DOMAIN-SUFFIX,hk-pub.com,PROXY
 DOMAIN-SUFFIX,hosting.co.uk,PROXY
 DOMAIN-SUFFIX,hwcdn.net,PROXY
+DOMAIN-SUFFIX,ifixit.com,PROXY
 DOMAIN-SUFFIX,iphone4hongkong.com,PROXY
 DOMAIN-SUFFIX,iphonetaiwan.org,PROXY
 DOMAIN-SUFFIX,iptvbin.com,PROXY
@@ -530,6 +533,8 @@ DOMAIN-SUFFIX,wn.com,PROXY
 DOMAIN-SUFFIX,wolframalpha.com,PROXY
 DOMAIN-SUFFIX,x-art.com,PROXY
 DOMAIN-SUFFIX,yimg.com,PROXY
+DOMAIN,api.steampowered.com,PROXY
+DOMAIN,store.steampowered.com,PROXY
 
 DOMAIN-KEYWORD,dlercloud,PROXY
 DOMAIN-SUFFIX,dler.cloud,PROXY
