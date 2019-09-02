@@ -31,6 +31,8 @@ DOMAIN-SUFFIX,bbc.co.uk,ForeignMedia
 DOMAIN-SUFFIX,bbci.co.uk,ForeignMedia
 DOMAIN-KEYWORD,bbcfmt,ForeignMedia
 DOMAIN-KEYWORD,uk-live,ForeignMedia
+# > DAZN
+DOMAIN-SUFFIX,dazn.com,ForeignMedia
 # > encoreTVB
 USER-AGENT,encoreTVB*,ForeignMedia
 DOMAIN-SUFFIX,encoretvb.com,ForeignMedia
@@ -93,20 +95,35 @@ DOMAIN-SUFFIX,nflximg.com,ForeignMedia
 DOMAIN-SUFFIX,nflximg.net,ForeignMedia
 DOMAIN-SUFFIX,nflxso.net,ForeignMedia
 DOMAIN-SUFFIX,nflxvideo.net,ForeignMedia
+IP-CIDR,23.246.0.0/18,ForeignMedia
+IP-CIDR,37.77.184.0/21,ForeignMedia
+IP-CIDR,45.57.0.0/17,ForeignMedia
+IP-CIDR,64.120.128.0/17,ForeignMedia
+IP-CIDR,66.197.128.0/17,ForeignMedia
+IP-CIDR,108.175.32.0/20,ForeignMedia
+IP-CIDR,192.173.64.0/18,ForeignMedia
+IP-CIDR,198.38.96.0/19,ForeignMedia
+IP-CIDR,198.45.48.0/20,ForeignMedia
 # > PBS
 USER-AGENT,PBS*,ForeignMedia
 DOMAIN-SUFFIX,pbs.org,ForeignMedia
 # > Pornhub
 DOMAIN-SUFFIX,phncdn.com,ForeignMedia
 DOMAIN-SUFFIX,pornhub.com,ForeignMedia
+DOMAIN-SUFFIX,pornhubpremium.com,ForeignMedia
 # > Twitch
 DOMAIN-SUFFIX,twitch.tv,ForeignMedia
 DOMAIN-SUFFIX,twitchcdn.net,ForeignMedia
 DOMAIN-SUFFIX,ttvnw.net,ForeignMedia
-# > ViuTV
+# > Viu(TV)
+USER-AGENT,Viu*,ForeignMedia
 USER-AGENT,ViuTV*,ForeignMedia
+DOMAIN-SUFFIX,viu.com,ForeignMedia
 DOMAIN-SUFFIX,viu.tv,ForeignMedia
 DOMAIN,api.viu.now.com,ForeignMedia
+DOMAIN,d1k2us671qcoau.cloudfront.net,ForeignMedia
+DOMAIN,d2anahhhmp1ffz.cloudfront.net,ForeignMedia
+DOMAIN,dfp6rglgjqszk.cloudfront.net,ForeignMedia
 # > Youtube
 USER-AGENT,com.google.ios.youtube*,ForeignMedia
 USER-AGENT,YouTube*,ForeignMedia
