@@ -141,8 +141,9 @@ DOMAIN-SUFFIX,steamstat.us
 # > Tencent
 USER-AGENT,MicroMessenger%20Client
 USER-AGENT,WeChat*
-DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,gtimg.com
 DOMAIN-SUFFIX,myqcloud.com
+DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,tencent.com
 # > YYeTs
 USER-AGENT,YYeTs*
@@ -224,6 +225,7 @@ DOMAIN-SUFFIX,frdic.com
 DOMAIN-SUFFIX,futu5.com
 DOMAIN-SUFFIX,futunn.com
 DOMAIN-SUFFIX,geilicdn.com
+DOMAIN-SUFFIX,gifshow.com
 DOMAIN-SUFFIX,godic.net
 DOMAIN-SUFFIX,hicloud.com
 DOMAIN-SUFFIX,hongxiu.com
