@@ -32,6 +32,7 @@ DOMAIN-SUFFIX,bbci.co.uk,ForeignMedia
 DOMAIN-KEYWORD,bbcfmt,ForeignMedia
 DOMAIN-KEYWORD,uk-live,ForeignMedia
 # > DAZN
+USER-AGENT,DAZN*,ForeignMedia
 DOMAIN-SUFFIX,dazn.com,ForeignMedia
 # > encoreTVB
 USER-AGENT,encoreTVB*,ForeignMedia
