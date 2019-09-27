@@ -27,6 +27,7 @@ DOMAIN-SUFFIX,analysys.cn
 DOMAIN-SUFFIX,app-adforce.jp
 DOMAIN-SUFFIX,appadhoc.com
 DOMAIN-SUFFIX,appads.com
+DOMAIN-SUFFIX,appcpi.net
 DOMAIN-SUFFIX,appier.net
 DOMAIN-SUFFIX,applift.com
 DOMAIN-SUFFIX,applovin.com
@@ -35,6 +36,10 @@ DOMAIN-SUFFIX,appsflyer.com
 DOMAIN-SUFFIX,apsalar.com
 DOMAIN-SUFFIX,apxadtracking.net
 DOMAIN-SUFFIX,axonix.com
+DOMAIN-SUFFIX,bayimob.com
+DOMAIN-SUFFIX,bulldogcpi.com
+DOMAIN-SUFFIX,clotfun.mobi
+DOMAIN-SUFFIX,clotfun.online
 DOMAIN-SUFFIX,cloudmobi.net
 DOMAIN-SUFFIX,cnzz.com
 DOMAIN-SUFFIX,ctrmi.com
@@ -42,11 +47,13 @@ DOMAIN-SUFFIX,flurry.com
 DOMAIN-SUFFIX,go2cloud.org
 DOMAIN-SUFFIX,growingio.com
 DOMAIN-SUFFIX,haloapps.com
+DOMAIN-SUFFIX,idealads.net
 DOMAIN-SUFFIX,inmobi.cn
 DOMAIN-SUFFIX,inmobi.com
 DOMAIN-SUFFIX,inmobi.net
 DOMAIN-SUFFIX,inmobicdn.cn
 DOMAIN-SUFFIX,inner-active.mobi
+DOMAIN-SUFFIX,ironsrc.com
 DOMAIN-SUFFIX,irs01.com
 DOMAIN-SUFFIX,iskyworker.com
 DOMAIN-SUFFIX,kochava.com
@@ -60,10 +67,10 @@ DOMAIN-SUFFIX,mdfull.com
 DOMAIN-SUFFIX,measurementapi.com
 DOMAIN-SUFFIX,medialytics.com
 DOMAIN-SUFFIX,miaozhen.com
+DOMAIN-SUFFIX,mmstat.com
 DOMAIN-SUFFIX,moatads.com
 DOMAIN-SUFFIX,mobclix.com
 DOMAIN-SUFFIX,mopub.com
-DOMAIN-SUFFIX,onelink.me
 DOMAIN-SUFFIX,openx.net
 DOMAIN-SUFFIX,qchannel01.cn
 DOMAIN-SUFFIX,rayjump.com
@@ -77,6 +84,7 @@ DOMAIN-SUFFIX,smartnews-ads.com
 DOMAIN-SUFFIX,tagtic.cn
 DOMAIN-SUFFIX,tanv.com
 DOMAIN-SUFFIX,tanx.com
+DOMAIN-SUFFIX,tapjoy.com
 DOMAIN-SUFFIX,trafficjunky.net
 DOMAIN-SUFFIX,turn.com
 DOMAIN-SUFFIX,uri6.com
@@ -86,8 +94,11 @@ DOMAIN-SUFFIX,vungle.com
 DOMAIN-SUFFIX,wedolook.com
 DOMAIN-SUFFIX,xdrig.com
 
+DOMAIN-SUFFIX,ad.daum.net
+DOMAIN-SUFFIX,track.xiachufang.com
 DOMAIN,abema-adx.ameba.jp
 DOMAIN,ad.12306.cn
+DOMAIN,ad.360in.com
 DOMAIN,ad.51wnl-cq.com
 DOMAIN,ad.caiyunapp.com
 DOMAIN,ad.huajiao.com
@@ -128,8 +139,6 @@ DOMAIN,track.tiara.kakao.com
 DOMAIN,trackapp.guahao.cn
 DOMAIN,traffic.mogujie.com
 DOMAIN,wmlog.meituan.com
-DOMAIN-SUFFIX,ad.daum.net
-DOMAIN-SUFFIX,track.xiachufang.com
 
 # (0~9)
 # > 58 同城
@@ -253,6 +262,10 @@ DOMAIN,ark.letv.com
 DOMAIN,emma-414870e223.huodonghezi.com
 DOMAIN,g3.letv.com
 DOMAIN,n.mark.letv.com
+# > 乐播投屏
+DOMAIN,ad.hpplay.cn
+DOMAIN,adeng.hpplay.cn
+DOMAIN,rp.hpplay.cn
 # (M)
 # > MI
 DOMAIN-SUFFIX,ad.intl.xiaomi.com
@@ -371,6 +384,7 @@ DOMAIN,c1wx.lianwangtech.com
 # (X)
 # > 喜马拉雅
 DOMAIN,ad.ximalaya.com
+DOMAIN,adbs.ximalaya.com
 DOMAIN,adse.ximalaya.com
 DOMAIN,adse.wsa.ximalaya.com
 DOMAIN,adbehavior.wsa.ximalaya.com
@@ -401,7 +415,7 @@ URL-REGEX,^https?:\/\/.+\.58cdn\.com\.cn\/brandads\/
 
 # A
 # > Alibaba
-URL-REGEX,^https?:\/\/gw\.alicdn\.com\/tfs\/.+-\d{4}\.jpg
+URL-REGEX,^https?:\/\/gw\.alicdn\.com\/.*\.jpg_(9\d{2}|\d{4})
 # >> 闲鱼
 URL-REGEX,^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome\/
 # >> 飞猪
@@ -470,7 +484,7 @@ URL-REGEX,^https?:\/\/pic1cdn\.cmbchina\.com\/appinitads\/
 # > China Merchants Bank
 URL-REGEX,^https?:\/\/www\.cmbc\.com\.cn\/m\/image\/loadingpage\/
 # > China Guangfa Bank
-URL-REGEX,^https?:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/\d\.(png|jpg)
+URL-REGEX,^https?:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/.{25}\.jpg
 # > China Mobile
 URL-REGEX,^https?:\/\/clientaccess\.10086\.cn\/biz-orange\/DN\/init\/startInit
 # > China Unicom
@@ -521,6 +535,8 @@ URL-REGEX,^https?:\/\/dxy\.com\/app\/i\/ask\/biz\/feed\/launch
 # > eLong
 URL-REGEX,^https?:\/\/123\.59\.31\.1\/(adgateway|adv)\/
 URL-REGEX,^https?:\/\/119\.18\.193\.135\/(adgateway|adv)\/
+# > e代驾
+URL-REGEX,^https?:\/\/pic\.edaijia\.cn\/adsplash\/
 
 # F
 # > Foodie
@@ -532,6 +548,8 @@ URL-REGEX,^https?:\/\/www\.flyertea\.com\/source\/plugin\/mobile\/mobile\.php\?m
 # > 飞常准
 URL-REGEX,^https?:\/\/app\.variflight\.com\/ad\/
 URL-REGEX,^https?:\/\/app\.variflight\.com\/v\d\/advert\/
+# > FENG
+URL-REGEX,^https?:\/\/(api|gapi)\.feng\.com\/v\d\/advertisement\/
 
 # G
 # > Google
@@ -547,6 +565,8 @@ URL-REGEX,^https?:\/\/.+\.youtube\.com\/pagead\/
 URL-REGEX,^https?:\/\/.+\.youtube\.com\/ptracking
 # > Gofun
 URL-REGEX,^https?:\/\/gateway\.shouqiev\.com\/fsda\/app\/bootImage\.json
+# > GoodBodivis
+URL-REGEX,^https?:\/\/www\.bodivis\.com\.cn\/app\/splashAdvertise
 
 # H
 # > 杭州公交
@@ -582,6 +602,7 @@ URL-REGEX,^https?:\/\/ih2\.ireader\.com\/zycl\/api\/ad\/
 URL-REGEX,^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=(start|queryMaterialAdverts)
 URL-REGEX,^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/
 URL-REGEX,^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/na\/m\/adInfo
+URL-REGEX,^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/na\/m\/getLoadingPicture
 # > 界面新闻
 URL-REGEX,^https?:\/\/img\.jiemian\.com\/ads\/
 # > 驾校一点通
@@ -739,6 +760,8 @@ URL-REGEX,^https?:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/zhuanche-pass
 URL-REGEX,^https?:\/\/image\.suning\.cn\/uimg\/ma\/ad\/
 # > 神舟专车
 URL-REGEX,^https?:\/\/img01\.10101111cdn\.com\/adpos\/
+# > SuperFriday
+URL-REGEX,^https?:\/\/.+/V\d\/splash\/getSplashV\d\.action
 
 # T
 # > Tencent
@@ -750,6 +773,7 @@ URL-REGEX,^https?:\/\/qt\.qq\.com\/lua\/mengyou\/get_splash_screen_info
 # >> Tencent Maps
 URL-REGEX,^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/app\/activity\/
 URL-REGEX,^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/splash\/
+URL-REGEX,^https?:\/\/4gimg\.map\.qq\.com\/mwaSplash\/
 # >> Tencent QQLive
 URL-REGEX,^https?:\/\/btrace.qq.com
 URL-REGEX,^https?:\/\/vv\.video\.qq\.com\/getvmind\?
@@ -827,6 +851,8 @@ URL-REGEX,^https?:\/\/.+\.iydsj\.com\/api\/.+\/ad
 URL-REGEX,^https?:\/\/app\.mixcapp\.com\/mixc\/api\/v\d\/ad
 # > 印象笔记
 URL-REGEX,^https?:\/\/app\.yinxiang\.com\/ads\/
+# > 云麦好轻
+URL-REGEX,^https?:\/\/restapi\.iyunmai\.com\/api\/ios\/ad\/
 
 # Z
 # > 直播吧
