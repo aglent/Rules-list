@@ -27,6 +27,7 @@ DOMAIN-SUFFIX,analysys.cn,REJECT
 DOMAIN-SUFFIX,app-adforce.jp,REJECT
 DOMAIN-SUFFIX,appadhoc.com,REJECT
 DOMAIN-SUFFIX,appads.com,REJECT
+DOMAIN-SUFFIX,appcpi.net,REJECT
 DOMAIN-SUFFIX,appier.net,REJECT
 DOMAIN-SUFFIX,applift.com,REJECT
 DOMAIN-SUFFIX,applovin.com,REJECT
@@ -35,6 +36,10 @@ DOMAIN-SUFFIX,appsflyer.com,REJECT
 DOMAIN-SUFFIX,apsalar.com,REJECT
 DOMAIN-SUFFIX,apxadtracking.net,REJECT
 DOMAIN-SUFFIX,axonix.com,REJECT
+DOMAIN-SUFFIX,bayimob.com,REJECT
+DOMAIN-SUFFIX,bulldogcpi.com,REJECT
+DOMAIN-SUFFIX,clotfun.mobi,REJECT
+DOMAIN-SUFFIX,clotfun.online,REJECT
 DOMAIN-SUFFIX,cloudmobi.net,REJECT
 DOMAIN-SUFFIX,cnzz.com,REJECT
 DOMAIN-SUFFIX,ctrmi.com,REJECT
@@ -42,11 +47,13 @@ DOMAIN-SUFFIX,flurry.com,REJECT
 DOMAIN-SUFFIX,go2cloud.org,REJECT
 DOMAIN-SUFFIX,growingio.com,REJECT
 DOMAIN-SUFFIX,haloapps.com,REJECT
+DOMAIN-SUFFIX,idealads.net,REJECT
 DOMAIN-SUFFIX,inmobi.cn,REJECT
 DOMAIN-SUFFIX,inmobi.com,REJECT
 DOMAIN-SUFFIX,inmobi.net,REJECT
 DOMAIN-SUFFIX,inmobicdn.cn,REJECT
 DOMAIN-SUFFIX,inner-active.mobi,REJECT
+DOMAIN-SUFFIX,ironsrc.com,REJECT
 DOMAIN-SUFFIX,irs01.com,REJECT
 DOMAIN-SUFFIX,iskyworker.com,REJECT
 DOMAIN-SUFFIX,kochava.com,REJECT
@@ -60,10 +67,10 @@ DOMAIN-SUFFIX,mdfull.com,REJECT
 DOMAIN-SUFFIX,measurementapi.com,REJECT
 DOMAIN-SUFFIX,medialytics.com,REJECT
 DOMAIN-SUFFIX,miaozhen.com,REJECT
+DOMAIN-SUFFIX,mmstat.com,REJECT
 DOMAIN-SUFFIX,moatads.com,REJECT
 DOMAIN-SUFFIX,mobclix.com,REJECT
 DOMAIN-SUFFIX,mopub.com,REJECT
-DOMAIN-SUFFIX,onelink.me,REJECT
 DOMAIN-SUFFIX,openx.net,REJECT
 DOMAIN-SUFFIX,qchannel01.cn,REJECT
 DOMAIN-SUFFIX,rayjump.com,REJECT
@@ -77,6 +84,7 @@ DOMAIN-SUFFIX,smartnews-ads.com,REJECT
 DOMAIN-SUFFIX,tagtic.cn,REJECT
 DOMAIN-SUFFIX,tanv.com,REJECT
 DOMAIN-SUFFIX,tanx.com,REJECT
+DOMAIN-SUFFIX,tapjoy.com,REJECT
 DOMAIN-SUFFIX,trafficjunky.net,REJECT
 DOMAIN-SUFFIX,turn.com,REJECT
 DOMAIN-SUFFIX,uri6.com,REJECT
@@ -90,6 +98,7 @@ DOMAIN-SUFFIX,ad.daum.net,REJECT
 DOMAIN-SUFFIX,track.xiachufang.com,REJECT
 DOMAIN,abema-adx.ameba.jp,REJECT
 DOMAIN,ad.12306.cn,REJECT
+DOMAIN,ad.360in.com,REJECT
 DOMAIN,ad.51wnl-cq.com,REJECT
 DOMAIN,ad.caiyunapp.com,REJECT
 DOMAIN,ad.huajiao.com,REJECT
@@ -130,8 +139,6 @@ DOMAIN,track.tiara.kakao.com,REJECT
 DOMAIN,trackapp.guahao.cn,REJECT
 DOMAIN,traffic.mogujie.com,REJECT
 DOMAIN,wmlog.meituan.com,REJECT
-DOMAIN-SUFFIX,ad.daum.net,REJECT
-DOMAIN-SUFFIX,track.xiachufang.com,REJECT
 
 # (0~9)
 # > 58 同城
@@ -153,6 +160,7 @@ DOMAIN,adashx.m.taobao.com,REJECT
 DOMAIN,adash-c.ut.taobao.com,REJECT
 DOMAIN,adashxgc.ut.taobao.com,REJECT
 DOMAIN,adashx4yt.m.taobao.com,REJECT
+DOMAIN,amdc.m.taobao.com,REJECT
 DOMAIN,h-adashx.ut.taobao.com,REJECT
 DOMAIN,nbsdk-baichuan.alicdn.com,REJECT
 DOMAIN,tunion-api.m.taobao.com,REJECT
@@ -254,6 +262,10 @@ DOMAIN,ark.letv.com,REJECT
 DOMAIN,emma-414870e223.huodonghezi.com,REJECT
 DOMAIN,g3.letv.com,REJECT
 DOMAIN,n.mark.letv.com,REJECT
+# > 乐播投屏
+DOMAIN,ad.hpplay.cn,REJECT
+DOMAIN,adeng.hpplay.cn,REJECT
+DOMAIN,rp.hpplay.cn,REJECT
 # (M)
 # > MI
 DOMAIN-SUFFIX,ad.intl.xiaomi.com,REJECT
@@ -372,6 +384,7 @@ DOMAIN,c1wx.lianwangtech.com,REJECT
 # (X)
 # > 喜马拉雅
 DOMAIN,ad.ximalaya.com,REJECT
+DOMAIN,adbs.ximalaya.com,REJECT
 DOMAIN,adse.ximalaya.com,REJECT
 DOMAIN,adse.wsa.ximalaya.com,REJECT
 DOMAIN,adbehavior.wsa.ximalaya.com,REJECT
