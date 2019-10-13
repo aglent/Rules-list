@@ -1,6 +1,6 @@
 /*
  * @repo: https://github.com/yichahucha/surge
- * @script: https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js
+ * @script: https://github.com/yichahucha/surge/blob/master/wb_ad.js
  * @doc: https://raw.githubusercontent.com/yichahucha/surge/master/README.md
  */
 /*
@@ -24,6 +24,9 @@ const path11 = "/service/picfeed";
 const path12 = "/fangle/timeline";
 const path13 = "/searchall";
 const path14 = "/cardlist";
+const path15 = "/statuses/video_timeline";
+const path16 = "/page";
+const path17 = "/statuses/friends_timeline";
 
 const url = $request.url;
 var body = $response.body;
@@ -31,7 +34,9 @@ var body = $response.body;
 if (
     url.indexOf(path1) != -1 ||
     url.indexOf(path2) != -1 ||
-    url.indexOf(path10) != -1
+    url.indexOf(path10) != -1 ||
+    url.indexOf(path15) != -1 ||
+    url.indexOf(path17) != -1
 ) {
     let obj = JSON.parse(body);
     if (obj.statuses) obj.statuses = filter_timeline_statuses(obj.statuses);
@@ -95,20 +100,6 @@ if (url.indexOf(path8) != -1) {
     body = JSON.stringify(obj);
 }
 
-if (url.indexOf(path9) != -1) {
-    let obj = JSON.parse(body);
-    let cards = obj.cards;
-    if (cards && cards.length > 0) {
-        let i = cards.length;
-        while (i--) {
-            let element = cards[i];
-            let card_group = element.card_group;
-            if (card_group && card_group.length > 0) cards.splice(i, 1);
-        }
-    }
-    body = JSON.stringify(obj);
-}
-
 if (url.indexOf(path11) != -1) {
     let obj = JSON.parse(body);
     obj.data = [];
@@ -116,9 +107,11 @@ if (url.indexOf(path11) != -1) {
 }
 
 if (
+    url.indexOf(path9) != -1 ||
     url.indexOf(path12) != -1 ||
     url.indexOf(path13) != -1 ||
-    url.indexOf(path14) != -1
+    url.indexOf(path14) != -1 ||
+    url.indexOf(path16) != -1
 ) {
     let obj = JSON.parse(body);
     if (obj.cards) obj.cards = filter_timeline_cards(obj.cards);
@@ -133,7 +126,7 @@ function filter_timeline_statuses(statuses) {
         while (i--) {
             let element = statuses[i];
             if (is_timeline_likerecommend(element.title)) statuses.splice(i, 1);
-            if (is_timeline_ad(element.promotion)) statuses.splice(i, 1);
+            if (is_timeline_ad(element)) statuses.splice(i, 1);
         }
     }
     return statuses;
@@ -159,33 +152,35 @@ function filter_timeline_cards(cards) {
             let card_group = item.card_group;
             if (card_group && card_group.length > 0) {
                 let i = card_group.length;
-                let tem_card_type = 0;
                 while (i--) {
-                    let element = card_group[i];
-                    let card_type = element.card_type;
-                    if (card_type && (tem_card_type == 19 && card_type == 22)) {
-                        cards.splice(j, 1);
-                        break;
+                    let card_group_item = card_group[i];
+                    let card_type = card_group_item.card_type;
+                    if (card_type && card_type == 9) {
+                        if (is_timeline_ad(card_group_item.mblog)) card_group.splice(i, 1);
                     } else if (card_type && card_type == 118) {
                         card_group.splice(i, 1);
-                    } else {
-                        if (element.mblog) {
-                            if (is_timeline_ad(element.mblog.promotion)) {
-                                card_group.splice(i, 1);
+                    } else if (card_type && card_type == 4) {
+                        if (card_group_item.promotion) card_group.splice(i, 1);
+                    } else if (card_type && card_type == 42) {
+                        if (card_group_item.desc == '\u53ef\u80fd\u611f\u5174\u8da3\u7684\u4eba') {
+                            cards.splice(j, 1);
+                            break;
+                        }
+                    } else if (card_type && card_type == 17) {
+                        let group = card_group_item.group;
+                        if (group && group.length > 0) {
+                            let k = group.length;
+                            while (k--) {
+                                let group_item = group[k];
+                                if (group_item.promotion) group.splice(k, 1);
                             }
                         }
                     }
-                    tem_card_type = card_type;
                 }
             } else {
-                if (item.mblog) {
-                    if (is_timeline_ad(item.mblog.promotion)) {
-                        cards.splice(j, 1);
-                    } else {
-                        if (item.mblog.label && item.mblog.label == "\u5e7f\u544a") {
-                            cards.splice(j, 1);
-                        }
-                    }
+                let card_type = item.card_type;
+                if (card_type && card_type == 9) {
+                    if (is_timeline_ad(item.mblog)) cards.splice(j, 1);
                 }
             }
         }
@@ -193,8 +188,11 @@ function filter_timeline_cards(cards) {
     return cards;
 }
 
-function is_timeline_ad(promotion) {
-    return promotion && promotion.type && promotion.type == "ad" ? true : false;
+function is_timeline_ad(mblog) {
+    if (!mblog) return false;
+    let promotiontype = mblog.promotion && mblog.promotion.type && mblog.promotion.type == "ad";
+    let mblogtype = mblog.mblogtype && mblog.mblogtype == 1;
+    return (promotiontype || mblogtype) ? true : false;
 }
 
 function is_timeline_likerecommend(title) {
