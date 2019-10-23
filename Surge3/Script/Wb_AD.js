@@ -4,10 +4,16 @@
  * @doc: https://raw.githubusercontent.com/yichahucha/surge/master/README.md
  */
 /*
+Surge
 [Script]
-http-response ^https?:\/\/(api|mapi)\.weibo\.(cn|com)\/2(\/groups\/timeline|\/statuses\/unread|\/statuses\/extend|\/comments\/build_comments|\/photo\/recommend_list|\/stories\/video_stream|\/statuses\/positives\/get|\/stories\/home_list|\/profile\/statuses|\/statuses\/friends\/timeline|\/service\/picfeed) script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js,requires-body=true
+http-response ^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page) requires-body=1,script-path=https://raw.githubusercontent.com/aglent/Rules-list/master/Surge3/Script/Wb_AD.js
+
+Quan-X
+[rewrite_local]
+^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page) url script-response-body https://raw.githubusercontent.com/aglent/Rules-list/master/Surge3/Script/Wb_AD.js
+
 [MITM]
-hostname = api.weibo.cn, *.uve.weibo.com
+hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com
 */
 
 const path1 = "/groups/timeline";
