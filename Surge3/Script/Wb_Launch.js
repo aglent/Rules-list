@@ -3,10 +3,16 @@
  * @script: https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js
  */
 /*
+Surge
 [Script]
-http-response ^https?:\/\/(sdk|wb)app\.uve\.weibo\.com(\/interface\/sdk\/sdkad.php|\/wbapplua\/wbpullad.lua) script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js,requires-body=true
+http-response ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) requires-body=1,script-path=https://raw.githubusercontent.com/aglent/Rules-list/master/Surge3/Script/Wb_Launch.js
+
+Quan-X
+[rewrite_local]
+^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) url script-response-body https://raw.githubusercontent.com/aglent/Rules-list/master/Surge3/Script/Wb_Launch.js
+
 [MITM]
-hostname = api.weibo.cn, *.uve.weibo.com
+hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com
 */
 
 const path1 = "/interface/sdk/sdkad.php";
