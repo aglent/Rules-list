@@ -22,7 +22,6 @@ DOMAIN-SUFFIX,aiclk.com
 DOMAIN-SUFFIX,akuai.top
 DOMAIN-SUFFIX,atplay.cn
 DOMAIN-SUFFIX,baiwanchuangyi.com
-DOMAIN-SUFFIX,bayimob.com
 DOMAIN-SUFFIX,beerto.cn
 DOMAIN-SUFFIX,beilamusi.com
 DOMAIN-SUFFIX,benshiw.net
@@ -49,6 +48,7 @@ DOMAIN-SUFFIX,goupaoerdai.com
 DOMAIN-SUFFIX,gouwubang.com
 DOMAIN-SUFFIX,gzxnlk.com
 DOMAIN-SUFFIX,haoshengtoys.com
+DOMAIN-SUFFIX,hyunke.com
 DOMAIN-SUFFIX,ichaosheng.com
 DOMAIN-SUFFIX,ishop789.com
 DOMAIN-SUFFIX,jdkic.com
@@ -153,10 +153,10 @@ IP-CIDR,222.73.156.235/32,no-resolve
 # Infamous 声名狼藉
 DOMAIN-SUFFIX,kuaizip.com
 DOMAIN-SUFFIX,mackeeper.com
-# > Adobe
+# > Adobe 奥多比
 DOMAIN-SUFFIX,flash.cn
 DOMAIN,geo2.adobe.com
-# > CJ Marketing
+# > CJ Marketing 思杰马克丁软件
 DOMAIN-SUFFIX,4009997658.com
 DOMAIN-SUFFIX,abbyychina.com
 DOMAIN-SUFFIX,bartender.cc
@@ -169,6 +169,8 @@ DOMAIN-SUFFIX,cjmkt.com
 DOMAIN-SUFFIX,codesoftchina.com
 DOMAIN-SUFFIX,coreldrawchina.com
 DOMAIN-SUFFIX,crossoverchina.com
+DOMAIN-SUFFIX,dongmansoft.com
+DOMAIN-SUFFIX,earmasterchina.cn
 DOMAIN-SUFFIX,easyrecoverychina.com
 DOMAIN-SUFFIX,ediuschina.com
 DOMAIN-SUFFIX,flstudiochina.com
@@ -182,6 +184,7 @@ DOMAIN-SUFFIX,jihehuaban.com.cn
 DOMAIN-SUFFIX,keyshot.cc
 DOMAIN-SUFFIX,kingdeecn.cn
 DOMAIN-SUFFIX,logoshejishi.com
+DOMAIN-SUFFIX,luping.net.cn
 DOMAIN-SUFFIX,mairuan.cn
 DOMAIN-SUFFIX,mairuan.com
 DOMAIN-SUFFIX,mairuan.com.cn
@@ -190,6 +193,7 @@ DOMAIN-SUFFIX,mairuanwang.com
 DOMAIN-SUFFIX,makeding.com
 DOMAIN-SUFFIX,mathtype.cn
 DOMAIN-SUFFIX,mindmanager.cc
+DOMAIN-SUFFIX,mindmanager.cn
 DOMAIN-SUFFIX,mindmapper.cc
 DOMAIN-SUFFIX,mycleanmymac.com
 DOMAIN-SUFFIX,nicelabel.cc
@@ -198,6 +202,7 @@ DOMAIN-SUFFIX,ntfsformac.cn
 DOMAIN-SUFFIX,overturechina.com
 DOMAIN-SUFFIX,passwordrecovery.cn
 DOMAIN-SUFFIX,pdfexpert.cc
+DOMAIN-SUFFIX,photozoomchina.com
 DOMAIN-SUFFIX,shankejingling.com
 DOMAIN-SUFFIX,ultraiso.net
 DOMAIN-SUFFIX,vegaschina.cn
@@ -207,54 +212,3 @@ DOMAIN-SUFFIX,yihuifu.cn
 DOMAIN-SUFFIX,yuanchengxiezuo.com
 DOMAIN-SUFFIX,zbrushcn.com
 DOMAIN-SUFFIX,zhzzx.com
-
-# Feeb
-DOMAIN-KEYWORD,epochtimes
-DOMAIN-SUFFIX,881903.com
-DOMAIN-SUFFIX,aboluowang.com
-DOMAIN-SUFFIX,bannedbook.org
-DOMAIN-SUFFIX,bldaily.com
-DOMAIN-SUFFIX,china21.org
-DOMAIN-SUFFIX,chinaaffairs.org
-DOMAIN-SUFFIX,dajiyuan.com
-DOMAIN-SUFFIX,dalianmeng.org
-DOMAIN-SUFFIX,dkn.tv
-DOMAIN-SUFFIX,dongtaiwang.com
-DOMAIN-SUFFIX,edoors.com
-DOMAIN-SUFFIX,epochweekly.com
-DOMAIN-SUFFIX,falundafa.org
-DOMAIN-SUFFIX,fgmtv.org
-DOMAIN-SUFFIX,gardennetworks.com
-DOMAIN-SUFFIX,gongyiluntan.org
-DOMAIN-SUFFIX,gpass1.com
-DOMAIN-SUFFIX,hrichina.org
-DOMAIN-SUFFIX,huanghuagang.org
-DOMAIN-SUFFIX,internetfreedom.org
-DOMAIN-SUFFIX,kanzhongguo.com
-DOMAIN-SUFFIX,lagranepoca.com
-DOMAIN-SUFFIX,mh4u.org
-DOMAIN-SUFFIX,mhradio.org
-DOMAIN-SUFFIX,minghui.org
-DOMAIN-SUFFIX,newrealmstudios.ca
-DOMAIN-SUFFIX,ntdtv.com
-DOMAIN-SUFFIX,ogate.org
-DOMAIN-SUFFIX,open.com.hk
-DOMAIN-SUFFIX,organcare.org.tw
-DOMAIN-SUFFIX,qxbbs.org
-DOMAIN-SUFFIX,renminbao.com
-DOMAIN-SUFFIX,secretchina.com
-DOMAIN-SUFFIX,shenyun.com
-DOMAIN-SUFFIX,shenyunperformingarts.org
-DOMAIN-SUFFIX,shenzhoufilm.com
-DOMAIN-SUFFIX,soundofhope.org
-DOMAIN-SUFFIX,theepochtimes.com
-DOMAIN-SUFFIX,tiandixing.org
-DOMAIN-SUFFIX,tuidang.org
-DOMAIN-SUFFIX,velkaepocha.sk
-DOMAIN-SUFFIX,watchinese.com
-DOMAIN-SUFFIX,wixsite.com
-DOMAIN-SUFFIX,wujie.net
-DOMAIN-SUFFIX,wujieliulan.com
-DOMAIN-SUFFIX,xinsheng.net
-DOMAIN-SUFFIX,zhengjian.org
-DOMAIN-SUFFIX,zhuichaguoji.org
