@@ -33,8 +33,11 @@ DOMAIN-SUFFIX,whatsapp.com
 DOMAIN-SUFFIX,whatsapp.net
 DOMAIN-KEYWORD,facebook
 IP-CIDR,3.123.36.126/32,no-resolve
+IP-CIDR,35.157.215.84/32,no-resolve
+IP-CIDR,35.157.217.255/32,no-resolve
 IP-CIDR,52.58.209.134/32,no-resolve
 IP-CIDR,54.93.124.31/32,no-resolve
+IP-CIDR,54.162.243.80/32,no-resolve
 IP-CIDR,54.173.34.141/32,no-resolve
 IP-CIDR,54.235.23.242/32,no-resolve
 IP-CIDR,169.45.248.118/32,no-resolve
@@ -119,6 +122,7 @@ DOMAIN-SUFFIX,castbox.fm
 DOMAIN-SUFFIX,cbc.ca
 DOMAIN-SUFFIX,cdw.com
 DOMAIN-SUFFIX,change.org
+DOMAIN-SUFFIX,channelnewsasia.com
 DOMAIN-SUFFIX,ck101.com
 DOMAIN-SUFFIX,clarionproject.org
 DOMAIN-SUFFIX,clyp.it
@@ -158,7 +162,9 @@ DOMAIN-SUFFIX,elpais.com
 DOMAIN-SUFFIX,enanyang.my
 DOMAIN-SUFFIX,encyclopedia.com
 DOMAIN-SUFFIX,esoir.be
+DOMAIN-SUFFIX,etherscan.io
 DOMAIN-SUFFIX,euronews.com
+DOMAIN-SUFFIX,evozi.com
 DOMAIN-SUFFIX,feedly.com
 DOMAIN-SUFFIX,firech.at
 DOMAIN-SUFFIX,flickr.com
@@ -260,6 +266,7 @@ DOMAIN-SUFFIX,orientaldaily.com.my
 DOMAIN-SUFFIX,overcast.fm
 DOMAIN-SUFFIX,paltalk.com
 DOMAIN-SUFFIX,pao-pao.net
+DOMAIN-SUFFIX,parsevideo.com
 DOMAIN-SUFFIX,pbxes.com
 DOMAIN-SUFFIX,pcdvd.com.tw
 DOMAIN-SUFFIX,pchome.com.tw
@@ -270,9 +277,11 @@ DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,player.fm
 DOMAIN-SUFFIX,plurk.com
 DOMAIN-SUFFIX,po18.tw
+DOMAIN-SUFFIX,potato.im
 DOMAIN-SUFFIX,potatso.com
 DOMAIN-SUFFIX,prism-break.org
 DOMAIN-SUFFIX,proxifier.com
+DOMAIN-SUFFIX,pt.im
 DOMAIN-SUFFIX,pts.org.tw
 DOMAIN-SUFFIX,pubu.com.tw
 DOMAIN-SUFFIX,pubu.tw
@@ -287,6 +296,7 @@ DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,redditmedia.com
 DOMAIN-SUFFIX,resilio.com
 DOMAIN-SUFFIX,reuters.com
+DOMAIN-SUFFIX,reutersmedia.net
 DOMAIN-SUFFIX,rfi.fr
 DOMAIN-SUFFIX,rixcloud.com
 DOMAIN-SUFFIX,roadshow.hk
@@ -311,6 +321,7 @@ DOMAIN-SUFFIX,teddysun.com
 DOMAIN-SUFFIX,textnow.me
 DOMAIN-SUFFIX,theguardian.com
 DOMAIN-SUFFIX,theinitium.com
+DOMAIN-SUFFIX,thetvdb.com
 DOMAIN-SUFFIX,tineye.com
 DOMAIN-SUFFIX,torproject.org
 DOMAIN-SUFFIX,tumblr.com
@@ -410,6 +421,7 @@ DOMAIN-SUFFIX,superpages.com
 DOMAIN-SUFFIX,target.com
 DOMAIN-SUFFIX,thinkgeek.com
 DOMAIN-SUFFIX,tracfone.com
+DOMAIN-SUFFIX,unity3d.com
 DOMAIN-SUFFIX,uploader.jp
 DOMAIN-SUFFIX,vevo.com
 DOMAIN-SUFFIX,viu.tv
@@ -508,7 +520,6 @@ DOMAIN-SUFFIX,0rz.tw
 DOMAIN-SUFFIX,4bluestones.biz
 DOMAIN-SUFFIX,9bis.net
 DOMAIN-SUFFIX,allconnected.co
-DOMAIN-SUFFIX,s3.amazonaws.com
 DOMAIN-SUFFIX,aol.com
 DOMAIN-SUFFIX,bcc.com.tw
 DOMAIN-SUFFIX,bit.ly
@@ -524,6 +535,7 @@ DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,ctitv.com.tw
 DOMAIN-SUFFIX,cuhk.edu.hk
 DOMAIN-SUFFIX,cusu.hk
+DOMAIN-SUFFIX,discord.gg
 DOMAIN-SUFFIX,discuss.com.hk
 DOMAIN-SUFFIX,dropboxapi.com
 DOMAIN-SUFFIX,duolingo.cn
@@ -547,6 +559,7 @@ DOMAIN-SUFFIX,newsblur.com
 DOMAIN-SUFFIX,now.im
 DOMAIN-SUFFIX,nowe.com
 DOMAIN-SUFFIX,redditlist.com
+DOMAIN-SUFFIX,s3.amazonaws.com
 DOMAIN-SUFFIX,signal.org
 DOMAIN-SUFFIX,smartmailcloud.com
 DOMAIN-SUFFIX,sparknotes.com
