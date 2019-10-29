@@ -1,6 +1,39 @@
 // https://github.com/ConnersHua/Profiles/blob/master/Surge/Ruleset/ForeignMedia.list
 
 # (ForeignMedia)
+# (Music)
+# > Deezer
+USER-AGENT,Deezer*
+DOMAIN-SUFFIX,deezer.com
+DOMAIN-SUFFIX,dzcdn.net
+# > KKBOX
+DOMAIN-SUFFIX,kkbox.com
+DOMAIN-SUFFIX,kkbox.com.tw
+DOMAIN-SUFFIX,kfs.io
+# > JOOX
+USER-AGENT,WeMusic*
+USER-AGENT,JOOX*
+DOMAIN-SUFFIX,joox.com
+# > Pandora
+USER-AGENT,Pandora*
+DOMAIN-SUFFIX,pandora.com
+# > SoundCloud
+USER-AGENT,SoundCloud*
+DOMAIN-SUFFIX,p-cdn.us
+DOMAIN-SUFFIX,sndcdn.com
+DOMAIN-SUFFIX,soundcloud.com
+# > Spotify
+USER-AGENT,Spotify*
+DOMAIN-SUFFIX,pscdn.co
+DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,spotify.com
+DOMAIN-SUFFIX,spoti.fi
+# > TIDAL
+USER-AGENT,TIDAL*
+DOMAIN-SUFFIX,tidal.com
+# > YoutubeMusic
+USER-AGENT,com.google.ios.youtubemusic*
+USER-AGENT,YouTubeMusic*
 # (Video)
 # > All4
 USER-AGENT,All4*
@@ -9,6 +42,7 @@ DOMAIN-SUFFIX,channel4.com
 # > AbemaTV
 USER-AGENT,AbemaTV*
 DOMAIN-SUFFIX,abema.io
+DOMAIN-SUFFIX,abema.tv
 DOMAIN-SUFFIX,ameba.jp
 DOMAIN-SUFFIX,hayabusa.io
 DOMAIN,abematv.akamaized.net
@@ -37,8 +71,8 @@ DOMAIN-SUFFIX,dazn.com
 # > encoreTVB
 USER-AGENT,encoreTVB*
 DOMAIN-SUFFIX,encoretvb.com
-DOMAIN,content.jwplatform.com
-DOMAIN,videos-f.jwpsrv.com
+DOMAIN,edge.api.brightcove.com
+DOMAIN,bcbolt446c5271-a.akamaihd.net
 # > Fox+ & Fox Now
 USER-AGENT,FOX%20NOW*
 USER-AGENT,FOXPlus*
@@ -63,10 +97,22 @@ DOMAIN,bcbolthboa-a.akamaihd.net
 DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net
 DOMAIN,manifest.prod.boltdns.net
 DOMAIN,s3-ap-southeast-1.amazonaws.com
+# > 华文电视
+USER-AGENT,HWTVMobile*
+DOMAIN-SUFFIX,5itv.tv
+DOMAIN-SUFFIX,ocnttv.com
 # > Hulu
 DOMAIN-SUFFIX,hulu.com
 DOMAIN-SUFFIX,huluim.com
 DOMAIN-SUFFIX,hulustream.com
+# > Hulu(フールー)
+DOMAIN-SUFFIX,happyon.jp
+DOMAIN-SUFFIX,hulu.jp
+# > ITV
+USER-AGENT,ITV_Player*
+DOMAIN-SUFFIX,itv.com
+DOMAIN-SUFFIX,itvstatic.com
+DOMAIN,itvpnpmobile-a.akamaihd.net
 # > KKTV
 USER-AGENT,KKTV*
 USER-AGENT,com.kktv.ios.kktv*
@@ -77,12 +123,14 @@ DOMAIN,kktv-theater.kk.stream
 USER-AGENT,LINE%20TV*
 DOMAIN-SUFFIX,linetv.tw
 DOMAIN,d3c7rimkq79yfu.cloudfront.net
-# > Hulu(フールー)
-DOMAIN-SUFFIX,happyon.jp
-DOMAIN-SUFFIX,hulu.jp
 # > LiTV
 DOMAIN-SUFFIX,litv.tv
 DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
+# > My5
+USER-AGENT,My5*
+DOMAIN-SUFFIX,channel5.com
+DOMAIN-SUFFIX,my5.tv
+DOMAIN,d349g9zuie06uo.cloudfront.net
 # > myTV_SUPER
 USER-AGENT,mytv*
 DOMAIN-SUFFIX,mytvsuper.com
@@ -105,6 +153,12 @@ IP-CIDR,108.175.32.0/20,no-resolve
 IP-CIDR,192.173.64.0/18,no-resolve
 IP-CIDR,198.38.96.0/19,no-resolve
 IP-CIDR,198.45.48.0/20,no-resolve
+# > niconico
+USER-AGENT,Niconico
+DOMAIN-SUFFIX,dmc.nico,force-remote-dns
+DOMAIN-SUFFIX,nicovideo.jp,force-remote-dns
+DOMAIN-SUFFIX,nimg.jp
+DOMAIN-SUFFIX,socdm.com
 # > PBS
 USER-AGENT,PBS*
 DOMAIN-SUFFIX,pbs.org
@@ -112,11 +166,15 @@ DOMAIN-SUFFIX,pbs.org
 DOMAIN-SUFFIX,phncdn.com
 DOMAIN-SUFFIX,pornhub.com
 DOMAIN-SUFFIX,pornhubpremium.com
+# > 台湾好
+USER-AGENT,TaiwanGood*
+DOMAIN-SUFFIX,skyking.com.tw
+DOMAIN,hamifans.emome.net
 # > Twitch
 DOMAIN-SUFFIX,twitch.tv
 DOMAIN-SUFFIX,twitchcdn.net
 DOMAIN-SUFFIX,ttvnw.net
-# > Viu(TV)
+# > ViuTV
 USER-AGENT,Viu*
 USER-AGENT,ViuTV*
 DOMAIN-SUFFIX,viu.com
@@ -131,30 +189,3 @@ USER-AGENT,YouTube*
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,youtube.com
 DOMAIN,youtubei.googleapis.com
-
-# (Music)
-# > Deezer
-USER-AGENT,Deezer*
-DOMAIN-SUFFIX,deezer.com
-DOMAIN-SUFFIX,dzcdn.net
-# > KKBOX
-DOMAIN-SUFFIX,kkbox.com
-DOMAIN-SUFFIX,kkbox.com.tw
-DOMAIN-SUFFIX,kfs.io
-# > JOOX
-USER-AGENT,WeMusic*
-USER-AGENT,JOOX*
-DOMAIN-SUFFIX,joox.com
-# > Pandora
-USER-AGENT,Pandora*
-DOMAIN-SUFFIX,pandora.com
-# > Spotify
-USER-AGENT,Spotify*
-DOMAIN-SUFFIX,pscdn.co
-DOMAIN-SUFFIX,scdn.co
-DOMAIN-SUFFIX,spotify.com
-DOMAIN-SUFFIX,spoti.fi
-IP-CIDR,35.186.224.47/32,no-resolve
-# > TIDAL
-USER-AGENT,TIDAL*
-DOMAIN-SUFFIX,tidal.com
