@@ -232,9 +232,9 @@ DOMAIN-SUFFIX,log.hunantv.com
 DOMAIN,log.v2.hunantv.com
 DOMAIN,v2.log.hunantv.com
 # > Hupu
-DOMAIN,ad-goblin.hupu.com
 DOMAIN,adx.hupu.com
 DOMAIN,adx-api.hupu.com
+DOMAIN,goblin.hupu.com
 # (I)
 # > iQiyi
 DOMAIN,ifacelog.iqiyi.com
@@ -545,7 +545,8 @@ URL-REGEX,^https?:\/\/daoyu\.sdo\.com\/api\/userCommon\/getAppStartAd
 # > 丁香医生
 URL-REGEX,^https?:\/\/dxy\.com\/app\/i\/ask\/biz\/feed\/launch
 # > 嘀嗒出行
-URL-REGEX,^https?:\/\/capis-slb\.didapinche\.com\/ad\/
+URL-REGEX,^https?:\/\/capis(-slb)?\.didapinche\.com\/ad\/
+URL-REGEX,^https?:\/\/www\.didapinche\.com\/app\/adstat\/
 
 # E
 # > eLong
@@ -644,6 +645,8 @@ URL-REGEX,^https?:\/\/api\.kkmh\.com\/.+(ad|advertisement)\/
 # > Kuwo
 URL-REGEX,^https?:\/\/122\.14\.246\.33\/MobileAdServer\/
 URL-REGEX,^https?:\/\/(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})(\.(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})){3}\/EcomResourceServer/AdPlayPage/adinfo
+# > 看理想
+URL-REGEX,^https?:\/\/api\.vistopia\.com\.cn\/api\/v\d\/home\/advertisement
 
 # L
 # > Le
@@ -674,7 +677,7 @@ URL-REGEX,^https?:\/\/p\d\.meituan\.net\/wmbanner\/[A-Za-z0-9]+\.jpg
 URL-REGEX,^https?:\/\/p\d\.meituan\.net\/movie\/[A-Za-z0-9]+\.jpg\?may_covertWebp
 URL-REGEX,^https?:\/\/s3plus\.meituan\.net\/.+\/linglong\/.+\.(gif|jpg|mp4)
 # > 美味不用等
-URL-REGEX,^https?:\/\/capi.mwee.cn/app-api/V\d{2}/app/getstartad
+URL-REGEX,^https?:\/\/capi.mwee.cn/app-api/V\d{2}/app/(ad|getstartad)
 # > 咪咕
 URL-REGEX,^https?:\/\/.+\/v\d\/iflyad\/
 URL-REGEX,^https?:\/\/.+\/cdn-adn\/
@@ -737,7 +740,7 @@ URL-REGEX,^https?:\/\/media\.qyer\.com\/ad\/
 # > 亲宝宝
 URL-REGEX,^https?:\/\/api\.qbb6\.com\/ad\/
 
-# > R
+# R
 # > 人人视频
 URL-REGEX,^https?:\/\/msspjh\.emarbox\.com\/getAdConfig
 URL-REGEX,^https?:\/\/api\.videozhishi\.com\/api\/getAdvertising
