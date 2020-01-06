@@ -3,6 +3,7 @@
 // 将Google.list放在Youtube.list之后 确保看Youtube视频时不会触发Googlevideo.com的Google关键字规则
 
 # > Google
+DOMAIN-SUFFIX,ampproject.org,PROXY
 DOMAIN-SUFFIX,abc.xyz,Google
 DOMAIN-SUFFIX,android.com,Google
 DOMAIN-SUFFIX,androidify.com,Google
