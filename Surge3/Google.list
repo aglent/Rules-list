@@ -48,6 +48,7 @@ DOMAIN-SUFFIX,x.company
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
 # (DNS Cache Pollution Protection)
+DOMAIN-SUFFIX,ampproject.org
 DOMAIN-SUFFIX,appspot.com
 DOMAIN-SUFFIX,blogger.com
 DOMAIN-SUFFIX,getoutline.org
