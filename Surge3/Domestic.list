@@ -1,8 +1,5 @@
 // https://github.com/ConnersHua/Profiles/blob/master/Surge/Ruleset/China.list
-// 增加 DOMAIN-SUFFIX,anydesk.com
 
-# Anydesk
-DOMAIN-SUFFIX,anydesk.com
 # China Area Network
 # > 360
 DOMAIN-SUFFIX,qhres.com
