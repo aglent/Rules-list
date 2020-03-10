@@ -8,7 +8,7 @@ DOMAIN-SUFFIX,ooklaserver.net
 // https://github.com/LM-Firefly/Rules/blob/master/SpeedTest.list
 
 DOMAIN-KEYWORD,ookla
-DOMAIN-KEYWORD,speedtest
+# DOMAIN-KEYWORD,speedtest
 DOMAIN-SUFFIX,lg-hkg.fdcservers.net
 DOMAIN,4glte.ktrn.rw
 DOMAIN,88-f.net
