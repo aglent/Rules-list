@@ -7,9 +7,13 @@ DOMAIN-SUFFIX,ooklaserver.net
 
 // https://github.com/LM-Firefly/Rules/blob/master/SpeedTest.list
 
+## 🚀 Ookla测速
+## > Speedtest by Ookla
+USER-AGENT,SpeedTest*
 DOMAIN-KEYWORD,ookla
 # DOMAIN-KEYWORD,speedtest
 DOMAIN-SUFFIX,lg-hkg.fdcservers.net
+DOMAIN-SUFFIX,ooklaserver.net
 DOMAIN,4glte.ktrn.rw
 DOMAIN,88-f.net
 DOMAIN,Cambodia-isp01.maxbit.com.kh
