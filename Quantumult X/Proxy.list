@@ -1,6 +1,9 @@
 // https://github.com/ConnersHua/Profiles/blob/master/Quantumult/X/Filter/Global.list
 // 添加DOMAIN-KEYWORD,dlercloud,PROXY和DOMAIN-SUFFIX,dler.cloud,PROXY
 
+DOMAIN-KEYWORD,dlercloud,PROXY
+DOMAIN-SUFFIX,dler.cloud,PROXY
+
 # (DNS Cache Pollution Protection)
 # > Google
 DOMAIN-SUFFIX,ampproject.org,PROXY
@@ -57,6 +60,7 @@ DOMAIN-SUFFIX,tdesktop.com,PROXY
 DOMAIN-SUFFIX,telegra.ph,PROXY
 DOMAIN-SUFFIX,telegram.me,PROXY
 DOMAIN-SUFFIX,telegram.org,PROXY
+DOMAIN-SUFFIX,telesco.pe,PROXY
 IP-CIDR,91.108.4.0/22,PROXY
 IP-CIDR,91.108.8.0/22,PROXY
 IP-CIDR,91.108.12.0/22,PROXY
@@ -347,6 +351,7 @@ DOMAIN-SUFFIX,washingtonpost.com,PROXY
 DOMAIN-SUFFIX,wattpad.com,PROXY
 DOMAIN-SUFFIX,whoer.net,PROXY
 DOMAIN-SUFFIX,wikimapia.org,PROXY
+DOMAIN-SUFFIX,wikimedia.org,PROXY
 DOMAIN-SUFFIX,wikipedia.org,PROXY
 DOMAIN-SUFFIX,wikiquote.org,PROXY
 DOMAIN-SUFFIX,wikiwand.com,PROXY
@@ -561,6 +566,3 @@ DOMAIN-SUFFIX,x-art.com,PROXY
 DOMAIN-SUFFIX,yimg.com,PROXY
 DOMAIN,api.steampowered.com,PROXY
 DOMAIN,store.steampowered.com,PROXY
-
-DOMAIN-KEYWORD,dlercloud,PROXY
-DOMAIN-SUFFIX,dler.cloud,PROXY
