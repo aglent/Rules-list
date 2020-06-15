@@ -1,6 +1,7 @@
 # https://github.com/eHpo1/Rules/blob/master/Surge4/Ruleset/Liby.list
 # https://github.com/eHpo1/Rules/blob/master/Surge4/Ruleset/Tide.list
 # weixin部分增加 URL-REGEX,^https?:\/\/mp\.weixin\.qq\.com\/mp\/(ad_|advertisement|getappmsgad) 和 URL-REGEX,^https?:\/\/mp\.weixin\.qq\.com\/(s|mp)\/(ad_|advertisement|getappmsgad|report|appmsgreport|appmsgpicreport)
+# Youtube去广告增加 URL-REGEX,^https?:\/\/.+\.youtube\.com\/get_midroll_ 和 URL-REGEX,^https?:\/\/premiumyva\.appspot\.com\/vmclickstoadvertisersite
 
 # https://github.com/eHpo1/Rules/blob/master/Surge4/Ruleset/Liby.list
 # Advertising 广告
@@ -561,6 +562,8 @@ URL-REGEX,^https?+:\/\/.+?\.googlevideo\.com\/.+?(?>&oad|ctier)
 URL-REGEX,^https?+:\/\/\w+?\.youtube\.com\/api\/.+?ad
 URL-REGEX,^https?+:\/\/\w+?\.youtube\.com\/p(?>agead|tracking)
 URL-REGEX,^https?+:\/\/youtubei\.googleapis\.com\/youtubei\/.+?(?>ad|log)_
+URL-REGEX,^https?:\/\/.+\.youtube\.com\/get_midroll_
+URL-REGEX,^https?:\/\/premiumyva\.appspot\.com\/vmclickstoadvertisersite
 # > Gofun
 URL-REGEX,^https?+:\/\/gateway\.shouqiev\.com\/fsda\/app\/bootImage\.json
 # > 国泰君安
