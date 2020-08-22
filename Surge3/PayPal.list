@@ -1,4 +1,4 @@
-// https://github.com/ConnersHua/Profiles/blob/master/Surge/Ruleset/PayPal.list
+# https://github.com/ConnersHua/Profiles/blob/master/Surge/Ruleset/PayPal.list
 
 # > PayPal
 USER-AGENT,PayPal*
