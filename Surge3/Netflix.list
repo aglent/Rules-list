@@ -1,5 +1,5 @@
-// https://github.com/lhie1/Rules/blob/master/Surge/Surge%203/Provider/Media/Netflix.list
-// https://github.com/ConnersHua/Profiles/blob/master/Surge/Ruleset/Media/Netflix.list
+# https://github.com/lhie1/Rules/blob/master/Surge/Surge%203/Provider/Media/Netflix.list
+# https://github.com/ConnersHua/Profiles/blob/master/Surge/Ruleset/Media/Netflix.list
 
 # > Netflix
 USER-AGENT,Argo*
