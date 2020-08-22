@@ -1,4 +1,4 @@
-// https://github.com/lhie1/Rules/blob/master/Surge/Surge%203/Provider/Proxy.list
+# https://github.com/lhie1/Rules/blob/master/Surge/Surge%203/Provider/Proxy.list
 
 # Custom
 DOMAIN-KEYWORD,dlercloud
