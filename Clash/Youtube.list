@@ -1,0 +1,9 @@
+# https://github.com/DivineEngine/Profiles/blob/master/Clash/RuleSet/StreamingMedia/Video/YouTube.yaml
+
+payload:
+  # > YouTube
+  - DOMAIN-SUFFIX,googlevideo.com
+  - DOMAIN-SUFFIX,youtube.com
+  - DOMAIN,youtubei.googleapis.com
+  - DOMAIN-SUFFIX,gvt2.com
+  - DOMAIN-SUFFIX,youtu.be

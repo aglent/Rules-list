@@ -1,0 +1,7 @@
+# https://github.com/DivineEngine/Profiles/blob/master/Clash/RuleSet/Extra/PayPal.yaml
+
+payload:
+  # > PayPal
+  - DOMAIN-SUFFIX,paypal.com
+  - DOMAIN-SUFFIX,paypal.me
+  - DOMAIN-SUFFIX,paypalobjects.com

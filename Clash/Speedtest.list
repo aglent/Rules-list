@@ -1,0 +1,4 @@
+payload:
+  - DOMAIN-SUFFIX,speedtest.net
+  - DOMAIN-SUFFIX,ooklaserver.net
+  - DOMAIN-SUFFIX,fast.com
