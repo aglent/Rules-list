@@ -1,9 +1,19 @@
-# https://github.com/DivineEngine/Profiles/blob/master/Clash/RuleSet/StreamingMedia/Video/YouTube.yaml
+# https://github.com/LM-Firefly/Rules/blob/master/Clash-RuleSet-Classical/Global-Services/YouTube.yaml
 
 payload:
-  # > YouTube
+  ## > YouTube
+  - DOMAIN-SUFFIX,ggpht.cn
+  - DOMAIN-SUFFIX,ggpht.com
   - DOMAIN-SUFFIX,googlevideo.com
-  - DOMAIN-SUFFIX,youtube.com
-  - DOMAIN,youtubei.googleapis.com
-  - DOMAIN-SUFFIX,gvt2.com
+  - DOMAIN-SUFFIX,withyoutube.com
   - DOMAIN-SUFFIX,youtu.be
+  - DOMAIN-SUFFIX,youtube-nocookie.com
+  - DOMAIN-SUFFIX,youtube.com
+  - DOMAIN-SUFFIX,youtubeeducation.com
+  - DOMAIN-SUFFIX,youtubegaming.com
+  - DOMAIN-SUFFIX,youtubei.googleapis.com
+  - DOMAIN-SUFFIX,youtubekids.com
+  - DOMAIN-SUFFIX,youtubemobilesupport.com
+  - DOMAIN-SUFFIX,yt.be
+  - DOMAIN-SUFFIX,ytimg.com
+  - DOMAIN-SUFFIX,gvt2.com
