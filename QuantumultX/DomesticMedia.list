@@ -1,8 +1,78 @@
-// https://github.com/ConnersHua/Profiles/blob/master/Quantumult/X/Filter/DomesticMedia.list
+# https://github.com/ConnersHua/Profiles/blob/master/Quantumult/X/Filter/DomesticMedia.list
+# https://github.com/DivineEngine/Profiles/blob/master/Surge/Ruleset/StreamingMedia/StreamingCN.list
 
+# https://github.com/ConnersHua/Profiles/blob/master/Quantumult/X/Filter/DomesticMedia.list
 # (DomesticMedia)
 # > 愛奇藝台灣站
 DOMAIN-SUFFIX,iqiyi.com,DomesticMedia
 # > bilibili
 DOMAIN-SUFFIX,bilibili.com,DomesticMedia
 DOMAIN,upos-hz-mirrorakam.akamaized.net,DomesticMedia
+
+
+# https://github.com/DivineEngine/Profiles/blob/master/Surge/Ruleset/StreamingMedia/StreamingCN.list
+# (Video)
+# > Acfun
+DOMAIN-SUFFIX,acfun.cn,DomesticMedia
+DOMAIN-SUFFIX,aixifan.com,DomesticMedia
+# > bilibili
+DOMAIN-SUFFIX,biliapi.net,DomesticMedia
+DOMAIN-SUFFIX,bilibili.com,DomesticMedia
+DOMAIN-SUFFIX,bilivideo.com,DomesticMedia
+DOMAIN-SUFFIX,hdslb.com,DomesticMedia
+# > Tencent Video
+DOMAIN-SUFFIX,video.qq.com,DomesticMedia
+DOMAIN-SUFFIX,i.qq.com,DomesticMedia
+DOMAIN-SUFFIX,v.qq.com,DomesticMedia
+# > iQiyi
+DOMAIN-SUFFIX,iqiyi.com,DomesticMedia
+DOMAIN-SUFFIX,71edge.com,DomesticMedia
+# > Youku
+DOMAIN-SUFFIX,soku.com,DomesticMedia
+DOMAIN-SUFFIX,youku.com,DomesticMedia
+DOMAIN-SUFFIX,ykimg.com,DomesticMedia
+# > XiGua
+DOMAIN-SUFFIX,ixigua.com,DomesticMedia
+DOMAIN-SUFFIX,snssdk.com,DomesticMedia
+# > HunanTV
+DOMAIN-SUFFIX,hitv.com,DomesticMedia
+DOMAIN-SUFFIX,hunantv.com,DomesticMedia
+DOMAIN-SUFFIX,mgtv.com,DomesticMedia
+# > Le
+DOMAIN-SUFFIX,le.com,DomesticMedia
+# > PPLive
+DOMAIN-SUFFIX,pplive.cn,DomesticMedia
+DOMAIN-SUFFIX,pptv.com,DomesticMedia
+# > Sohu Video
+DOMAIN-SUFFIX,itc.cn,DomesticMedia
+DOMAIN-SUFFIX,sohu.com,DomesticMedia
+# > Migu Video
+DOMAIN-SUFFIX,cmvideo.cn,DomesticMedia
+DOMAIN-SUFFIX,miguvideo.com,DomesticMedia
+
+# (Music)
+# > QQ Music
+DOMAIN-SUFFIX,music.qq.com,DomesticMedia
+DOMAIN-SUFFIX,music.tc.qq.com,DomesticMedia
+DOMAIN-SUFFIX,qqmusic.qq.com,DomesticMedia
+DOMAIN-SUFFIX,tencentmusic.com,DomesticMedia
+DOMAIN-SUFFIX,y.qq.com,DomesticMedia
+DOMAIN,aqqmusic.tc.qq.com,DomesticMedia
+DOMAIN,moo.qq.com,DomesticMedia
+# > China Music Corp
+DOMAIN-SUFFIX,kuwo.cn,DomesticMedia
+DOMAIN-SUFFIX,kugou.com,DomesticMedia
+# > Netease Cloud Music
+DOMAIN-SUFFIX,music.163.com,DomesticMedia
+DOMAIN-SUFFIX,music.126.net,DomesticMedia
+DOMAIN,mam.netease.com,DomesticMedia
+DOMAIN,api.iplay.163.com,DomesticMedia
+# > Qianqian Music
+DOMAIN-SUFFIX,qianqian.com,DomesticMedia
+DOMAIN-SUFFIX,taihe.com,DomesticMedia
+# > Migu Music
+DOMAIN-SUFFIX,migu.cn,DomesticMedia
+# > Xiaomi
+DOMAIN-SUFFIX,ai.xiaomi.com,DomesticMedia
+DOMAIN-SUFFIX,music.xiaomi.com,DomesticMedia
+DOMAIN-SUFFIX,dmhmusic.com,DomesticMedia

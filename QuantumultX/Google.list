@@ -1,6 +1,6 @@
-// https://github.com/ConnersHua/Profiles/blob/master/Quantumult/X/Filter/Google.list
-// 删除DOMAIN-SUFFIX,youtu.be
-// 将Google.list放在Youtube.list之后 确保看Youtube视频时不会触发Googlevideo.com的Google关键字规则
+# https://github.com/ConnersHua/Profiles/blob/master/Quantumult/X/Filter/Google.list
+# 删除DOMAIN-SUFFIX,youtu.be
+# 将Google.list放在Youtube.list之后 确保看Youtube视频时不会触发Googlevideo.com的Google关键字规则
 
 # > Google
 DOMAIN-SUFFIX,ampproject.org,PROXY
@@ -36,6 +36,7 @@ DOMAIN-SUFFIX,admin.recaptcha.net,Google
 DOMAIN-SUFFIX,recaptcha.net,Google
 DOMAIN-SUFFIX,shattered.io,Google
 DOMAIN-SUFFIX,synergyse.com,Google
+DOMAIN-SUFFIX,telephony.goog,Google
 DOMAIN-SUFFIX,tensorflow.org,Google
 DOMAIN-SUFFIX,tfhub.dev,Google
 DOMAIN-SUFFIX,tiltbrush.com,Google
@@ -46,6 +47,7 @@ DOMAIN-SUFFIX,webrtc.org,Google
 DOMAIN-SUFFIX,whatbrowser.org,Google
 DOMAIN-SUFFIX,widevine.com,Google
 DOMAIN-SUFFIX,x.company,Google
+# DOMAIN-SUFFIX,youtu.be,Google
 DOMAIN-SUFFIX,yt.be,Google
 DOMAIN-SUFFIX,ytimg.com,Google
 # (DNS Cache Pollution Protection)

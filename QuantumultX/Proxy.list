@@ -1,5 +1,5 @@
-// https://github.com/ConnersHua/Profiles/blob/master/Quantumult/X/Filter/Global.list
-// 添加DOMAIN-KEYWORD,dlercloud,PROXY和DOMAIN-SUFFIX,dler.cloud,PROXY
+# https://github.com/ConnersHua/Profiles/blob/master/Quantumult/X/Filter/Global.list
+# 添加DOMAIN-KEYWORD,dlercloud,PROXY和DOMAIN-SUFFIX,dler.cloud,PROXY
 
 DOMAIN-KEYWORD,dlercloud,PROXY
 DOMAIN-SUFFIX,dler.cloud,PROXY
@@ -209,6 +209,7 @@ DOMAIN-SUFFIX,icij.org,PROXY
 DOMAIN-SUFFIX,icoco.com,PROXY
 DOMAIN-SUFFIX,imgur.com,PROXY
 DOMAIN-SUFFIX,initiummall.com,PROXY
+DOMAIN-SUFFIX,inoreader.com,PROXY
 DOMAIN-SUFFIX,insecam.org,PROXY
 DOMAIN-SUFFIX,ipfs.io,PROXY
 DOMAIN-SUFFIX,issuu.com,PROXY
@@ -298,6 +299,7 @@ DOMAIN-SUFFIX,readmoo.com,PROXY
 DOMAIN-SUFFIX,redbubble.com,PROXY
 DOMAIN-SUFFIX,reddit.com,PROXY
 DOMAIN-SUFFIX,redditmedia.com,PROXY
+DOMAIN-SUFFIX,redditstatic.com,PROXY
 DOMAIN-SUFFIX,resilio.com,PROXY
 DOMAIN-SUFFIX,reuters.com,PROXY
 DOMAIN-SUFFIX,reutersmedia.net,PROXY
@@ -482,6 +484,7 @@ DOMAIN-SUFFIX,admin.recaptcha.net,PROXY
 DOMAIN-SUFFIX,recaptcha.net,PROXY
 DOMAIN-SUFFIX,shattered.io,PROXY
 DOMAIN-SUFFIX,synergyse.com,PROXY
+DOMAIN-SUFFIX,telephony.goog,PROXY
 DOMAIN-SUFFIX,tensorflow.org,PROXY
 DOMAIN-SUFFIX,tfhub.dev,PROXY
 DOMAIN-SUFFIX,tiltbrush.com,PROXY

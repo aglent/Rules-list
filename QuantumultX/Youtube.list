@@ -1,4 +1,4 @@
-// https://github.com/ConnersHua/Profiles/blob/master/Quantumult/X/Filter/Media/YouTube.list
+# https://github.com/ConnersHua/Profiles/blob/master/Quantumult/X/Filter/Media/YouTube.list
 
 # > Youtube
 USER-AGENT,com.google.ios.youtube*,Youtube

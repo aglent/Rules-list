@@ -1,4 +1,4 @@
-// Speedtest
+# Speedtest
 
 USER-AGENT,speedtest*,Speedtest
 DOMAIN-SUFFIX,speedtest.net,Speedtest

@@ -1,4 +1,4 @@
-// https://github.com/ConnersHua/Profiles/blob/master/Quantumult/X/Filter/Hijacking.list
+# https://github.com/ConnersHua/Profiles/blob/master/Quantumult/X/Filter/Hijacking.list
 
 # Internet Service Providers Hijacking 运营商劫持
 DOMAIN-SUFFIX,17gouwuba.com,REJECT
@@ -18,7 +18,6 @@ DOMAIN-SUFFIX,7gg.cc,REJECT
 DOMAIN-SUFFIX,91veg.com,REJECT
 DOMAIN-SUFFIX,9s6q.cn,REJECT
 DOMAIN-SUFFIX,adsame.com,REJECT
-DOMAIN-SUFFIX,aiclk.com,REJECT
 DOMAIN-SUFFIX,akuai.top,REJECT
 DOMAIN-SUFFIX,atplay.cn,REJECT
 DOMAIN-SUFFIX,baiwanchuangyi.com,REJECT

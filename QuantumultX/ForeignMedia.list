@@ -1,5 +1,5 @@
-// https://github.com/ConnersHua/Profiles/blob/master/Quantumult/X/Filter/ForeignMedia.list
-//Add: Vimeo
+# https://github.com/ConnersHua/Profiles/blob/master/Quantumult/X/Filter/ForeignMedia.list
+# Add: Vimeo
 
 # (ForeignMedia)
 # (Music)
@@ -224,6 +224,7 @@ USER-AGENT,YouTube*,ForeignMedia
 DOMAIN-SUFFIX,googlevideo.com,ForeignMedia
 DOMAIN-SUFFIX,youtube.com,ForeignMedia
 DOMAIN,youtubei.googleapis.com,ForeignMedia
+
 # > Vimeo
 USER-AGENT,vimeo*,ForeignMedia
 DOMAIN-KEYWORD,vimeo,ForeignMedia

@@ -1,5 +1,5 @@
-// https://github.com/ConnersHua/Profiles/blob/master/Quantumult/X/Filter/China.list
-// 删除最后的GEOIP,CN,DIRECT
+# https://github.com/ConnersHua/Profiles/blob/master/Quantumult/X/Filter/China.list
+# 删除最后的GEOIP,CN,DIRECT
 
 # China Area Network
 # > 360
@@ -396,3 +396,6 @@ DOMAIN,cdn.angruo.com,DIRECT
 
 # DNSPod Public DNS+
 IP-CIDR,119.28.28.28/32,DIRECT
+IP-CIDR,182.254.116.0/24,DIRECT
+# GeoIP China
+# GEOIP,CN,DIRECT
