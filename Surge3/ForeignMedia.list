@@ -224,6 +224,7 @@ USER-AGENT,YouTube*
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,youtube.com
 DOMAIN,youtubei.googleapis.com
+
 # > Vimeo
 USER-AGENT,vimeo*
 DOMAIN-KEYWORD,vimeo

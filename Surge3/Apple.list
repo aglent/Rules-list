@@ -1,6 +1,7 @@
-// https://github.com/lhie1/Rules/blob/master/Surge3/Apple.list
-// https://github.com/ConnersHua/Profiles/blob/master/Surge/Ruleset/Apple.list
+# https://github.com/lhie1/Rules/blob/master/Surge3/Apple.list
+# https://github.com/ConnersHua/Profiles/blob/master/Surge/Ruleset/Apple.list
 
+# https://github.com/lhie1/Rules/blob/master/Surge3/Apple.list
 PROCESS-NAME,trustd
 USER-AGENT,*com.apple.mobileme.fmip1
 USER-AGENT,*WeatherFoundation*
@@ -22,14 +23,17 @@ USER-AGENT,TestFlight*
 DOMAIN-SUFFIX,itunes.com
 DOMAIN,api.smoot.apple.cn
 
+# https://github.com/ConnersHua/Profiles/blob/master/Surge/Ruleset/Apple.list
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,apple.co
 DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,apple.com.cn
 DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,appstore.com
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud.com.cn
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mzstatic.com

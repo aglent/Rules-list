@@ -1,7 +1,18 @@
-# https://github.com/lhie1/Rules/blob/master/Surge3/Media/youtube.list
+# https://github.com/lhie1/Rules/blob/master/Surge/Surge%203/Provider/Media/YouTube.list
 # https://github.com/ConnersHua/Profiles/blob/master/Surge/Ruleset/Media/Youtube.list
 
-# Youtube
+# https://github.com/lhie1/Rules/blob/master/Surge/Surge%203/Provider/Media/YouTube.list
+USER-AGENT,*youtube*
+USER-AGENT,YouTube*
+DOMAIN-KEYWORD,youtube
+DOMAIN,yt3.ggpht.com
+DOMAIN-SUFFIX,app-measurement.com
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,ytimg.com
+
+# https://github.com/ConnersHua/Profiles/blob/master/Surge/Ruleset/Media/Youtube.list
 USER-AGENT,com.google.ios.youtube*
 USER-AGENT,YouTubeMusic*
 USER-AGENT,*youtube*
