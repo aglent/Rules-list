@@ -1,6 +1,8 @@
 # https://github.com/nzw9314/Surge/blob/master/Ruleset/SpeedTest.list
 
 # > Speedtest by Ookla
+USER-AGENT,speedtest*
 DOMAIN-KEYWORD,speedtest
+DOMAIN-SUFFIX,speedtest.net
 DOMAIN-SUFFIX,ooklaserver.net
-DOMAIN-SUFFIX,fast.com
+# DOMAIN-SUFFIX,fast.com
