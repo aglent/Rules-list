@@ -1,3 +1,5 @@
+# https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Filter/Global.list
+
 # (DNS Cache Pollution)
 # > Apple
 DOMAIN,testflight.apple.com,PROXY
