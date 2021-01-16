@@ -230,3 +230,10 @@ USER-AGENT,vimeo*,ForeignMedia
 DOMAIN-KEYWORD,vimeo,ForeignMedia
 DOMAIN-SUFFIX,vimeo.com,ForeignMedia
 DOMAIN-SUFFIX,vimeocdn.com,ForeignMedia
+DOMAIN-SUFFIX,vhx.tv,ForeignMedia
+DOMAIN-SUFFIX,vhxqa1.com,ForeignMedia
+DOMAIN-SUFFIX,vhxqa2.com,,ForeignMedia
+DOMAIN-SUFFIX,vhxqa3.com,ForeignMedia
+DOMAIN-SUFFIX,vhxqa4.com,ForeignMedia
+DOMAIN-SUFFIX,vhxqa6.com,ForeignMedia
+DOMAIN-SUFFIX,livestream.com,ForeignMedia
