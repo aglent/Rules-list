@@ -50,10 +50,11 @@ payload:
   - DOMAIN-SUFFIX,primevideo.info
   - DOMAIN-SUFFIX,primevideo.org
   - DOMAIN-SUFFIX,primevideo.tv
-  - DOMAIN,d25xi40x97liuc.cloudfront.net
-  - DOMAIN,dmqdd6hw24ucf.cloudfront.net
-  - DOMAIN,d22qjgkvxw22r6.cloudfront.net
   - DOMAIN,d1v5ir2lpwr8os.cloudfront.net
+  - DOMAIN,d22qjgkvxw22r6.cloudfront.net
+  - DOMAIN,d25xi40x97liuc.cloudfront.net
+  - DOMAIN,d27xxe7juh1us6.cloudfront.net
+  - DOMAIN,dmqdd6hw24ucf.cloudfront.net
   - DOMAIN-KEYWORD,avoddashs
   ## > Americasvoice
   - DOMAIN-SUFFIX,americasvoice.news
@@ -106,6 +107,36 @@ payload:
   ## > CableTV
   - DOMAIN-SUFFIX,cabletv.com.hk
   - DOMAIN-SUFFIX,i-cable.com
+  ## > CBS
+  - DOMAIN-SUFFIX,cbs
+  - DOMAIN-SUFFIX,cbs.com
+  - DOMAIN-SUFFIX,cbsaavideo.com
+  - DOMAIN-SUFFIX,cbscorporation.com
+  - DOMAIN-SUFFIX,cbsi.com
+  - DOMAIN-SUFFIX,cbsi.video
+  - DOMAIN-SUFFIX,cbsiam.com
+  - DOMAIN-SUFFIX,cbsig.net
+  - DOMAIN-SUFFIX,cbsimg.net
+  - DOMAIN-SUFFIX,cbsinteractive.com
+  - DOMAIN-SUFFIX,cbsistatic.com
+  - DOMAIN-SUFFIX,cbsivideo.com
+  - DOMAIN-SUFFIX,cbsnews.com
+  - DOMAIN-SUFFIX,cbspressexpress.com
+  - DOMAIN-SUFFIX,cbssports.com
+  - DOMAIN-SUFFIX,cbsstatic.com
+  - DOMAIN-SUFFIX,cbsstore.com
+  - DOMAIN-SUFFIX,cbssvideo.com
+  - DOMAIN-SUFFIX,cbstelevisioncity.com
+  - DOMAIN-SUFFIX,viacbs.com
+  - DOMAIN-SUFFIX,viacom.com
+  - DOMAIN-SUFFIX,viacomcbs.com
+  - DOMAIN-SUFFIX,viacomcbspressexpress.com
+  ## >> CBS Radio
+  - DOMAIN-SUFFIX,cbsradio.com
+  ## >> Paramount
+  - DOMAIN-SUFFIX,paramount.com
+  ## >> ShowTime
+  - DOMAIN-SUFFIX,showtime.com
   ## > CNBC
   - DOMAIN-SUFFIX,cnbc.com
   - DOMAIN-SUFFIX,cnbcfm.com
@@ -113,18 +144,36 @@ payload:
   - DOMAIN-SUFFIX,nbcudigitaladops.com
   ## > CNN
   - DOMAIN-SUFFIX,cnn.com
+  - DOMAIN-SUFFIX,cnn.io
+  - DOMAIN-SUFFIX,cnn.it
+  - DOMAIN-SUFFIX,cnnarabic.com
+  - DOMAIN-SUFFIX,cnnlabs.com
+  - DOMAIN-SUFFIX,cnnmoney.ch
   ## > Dailymotion
   - DOMAIN-SUFFIX,dailymotion.com
   - DOMAIN-SUFFIX,dmcdn.net
   - DOMAIN-SUFFIX,dm-event.net
   - DOMAIN-SUFFIX,dmxleo.com
   ## > DAZN
+  - DOMAIN-SUFFIX,control.kochava.com
+  - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net
+  - DOMAIN-SUFFIX,d1sgwhnao7452x.cloudfront.net
   - DOMAIN-SUFFIX,dazn-api.com
   - DOMAIN-SUFFIX,dazn.com
   - DOMAIN-SUFFIX,dazndn.com
+  - DOMAIN-SUFFIX,dc2-vodhls-perform.secure.footprint.net
+  - DOMAIN-SUFFIX,dca-ll-livedazn-dznlivejp.s.llnwi.net
+  - DOMAIN-SUFFIX,dca-ll-voddazn-dznvodjp.s.llnwi.net
+  - DOMAIN-SUFFIX,dcalivedazn.akamaized.net
+  - DOMAIN-SUFFIX,dcblivedazn.akamaized.net
   - DOMAIN-SUFFIX,indazn.com
   - DOMAIN-SUFFIX,indaznlab.com
   - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,logx.optimizely.com
+  - DOMAIN-SUFFIX,onboarding.indazn.com
+  - DOMAIN-SUFFIX,pubby.indazn.com
+  - DOMAIN-SUFFIX,rail.discovery.indazn.com
+  - DOMAIN-SUFFIX,s.yimg.jp
   - DOMAIN-SUFFIX,sentry.io
   - DOMAIN,d151l6v8er5bdm.cloudfront.net
   - DOMAIN,d1sgwhnao7452x.cloudfront.net
@@ -132,14 +181,23 @@ payload:
   ## > Deezer
   - DOMAIN-SUFFIX,deezer.com
   - DOMAIN-SUFFIX,dzcdn.net
+  ## > Discovery Plus
+  - DOMAIN-SUFFIX,content-ause1-ur-discovery1.uplynk.com
+  - DOMAIN-SUFFIX,disco-api.com
+  - DOMAIN-SUFFIX,discoveryplus.com
+  - DOMAIN-SUFFIX,fwmrm.net
+  - DOMAIN-SUFFIX,getblueshift.com
+  - DOMAIN-SUFFIX,litix.io
+  - DOMAIN-SUFFIX,mobile-collector.newrelic.com
   ## > Disney
   - DOMAIN-SUFFIX,adobedtm.com
   - DOMAIN-SUFFIX,adventuresbydisney.com
   - DOMAIN-SUFFIX,babble.com
   - DOMAIN-SUFFIX,babyzone.com
-  - DOMAIN-SUFFIX,bam.nr-date.net
+  - DOMAIN-SUFFIX,bam.nr-data.net
   - DOMAIN-SUFFIX,bamgrid.com
   - DOMAIN-SUFFIX,braze.com
+  - DOMAIN-SUFFIX,cdn.optimizely.com
   - DOMAIN-SUFFIX,cdn.registerdisney.go.com
   - DOMAIN-SUFFIX,cdn.unid.go.com
   - DOMAIN-SUFFIX,conviva.com
@@ -220,6 +278,7 @@ payload:
   - DOMAIN-SUFFIX,disneyredirects.com
   - DOMAIN-SUFFIX,disneysrivieraresort.com
   - DOMAIN-SUFFIX,disneystore.com
+  - DOMAIN-SUFFIX,disneystreaming.com
   - DOMAIN-SUFFIX,disneysubscription.com
   - DOMAIN-SUFFIX,disneyturkiye.com.tr
   - DOMAIN-SUFFIX,disneytvajobs.com
@@ -533,16 +592,26 @@ payload:
   - DOMAIN-SUFFIX,kicu.tv
   - DOMAIN-SUFFIX,ktvu.com
   - DOMAIN-SUFFIX,myfoxsanfran.com
+  ## > friDay
+  - DOMAIN-SUFFIX,fetnet.net
+  - DOMAIN-SUFFIX,friday.tw
   ## > HBO NOW & HBO GO HKG
   - DOMAIN-SUFFIX,cinemax.com
   - DOMAIN-SUFFIX,forthethrone.com
   - DOMAIN-SUFFIX,hbo.com
   - DOMAIN-SUFFIX,hboasia.com
+  - DOMAIN-SUFFIX,hboasia1-i.akamaihd.net
+  - DOMAIN-SUFFIX,hboasia2-i.akamaihd.net
+  - DOMAIN-SUFFIX,hboasia3-i.akamaihd.net
+  - DOMAIN-SUFFIX,hboasia4-i.akamaihd.net
+  - DOMAIN-SUFFIX,hboasia5-i.akamaihd.net
+  - DOMAIN-SUFFIX,hbogeo.cust.footprint.net
   - DOMAIN-SUFFIX,hbogo.com
   - DOMAIN-SUFFIX,hbogoasia.com
   - DOMAIN-SUFFIX,hbogoasia.hk
   - DOMAIN-SUFFIX,hbomax.com
   - DOMAIN-SUFFIX,hbonow.com
+  - DOMAIN-SUFFIX,manifest.prod.boltdns.net
   - DOMAIN-SUFFIX,maxgo.com
   - DOMAIN-SUFFIX,now-ashare.com
   - DOMAIN-SUFFIX,now-tv.com
@@ -551,17 +620,10 @@ payload:
   - DOMAIN-SUFFIX,players.brightcove.net
   - DOMAIN-SUFFIX,youboranqs01.com
   - DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net
-  - DOMAIN-SUFFIX,hboasia1-i.akamaihd.net
-  - DOMAIN-SUFFIX,hboasia2-i.akamaihd.net
-  - DOMAIN-SUFFIX,hboasia3-i.akamaihd.net
-  - DOMAIN-SUFFIX,hboasia4-i.akamaihd.net
-  - DOMAIN-SUFFIX,hboasia5-i.akamaihd.net
-  - DOMAIN-SUFFIX,hbogeo.cust.footprint.net
   - DOMAIN-SUFFIX,dai3fd1oh325y.cloudfront.net
-  - DOMAIN-SUFFIX,manifest.prod.boltdns.net
+  - DOMAIN-SUFFIX,s3-ap-southeast-1.amazonaws.com
   - DOMAIN-SUFFIX,cf-images.ap-southeast-1.prod.boltdns.net
   - DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com
-  - DOMAIN-SUFFIX,s3-ap-southeast-1.amazonaws.com
   ## > Huffpost
   - DOMAIN-SUFFIX,huffingtonpost.ca
   - DOMAIN-SUFFIX,huffingtonpost.co.uk
@@ -596,7 +658,9 @@ payload:
   - DOMAIN-SUFFIX,huloo.cc
   - DOMAIN-SUFFIX,huloo.tv
   - DOMAIN-SUFFIX,hulu.com
+  - DOMAIN-SUFFIX,hulu.hb.omtrdc.net
   - DOMAIN-SUFFIX,hulu.jp
+  - DOMAIN-SUFFIX,hulu.sc.omtrdc.net
   - DOMAIN-SUFFIX,hulu.tv
   - DOMAIN-SUFFIX,hulu.us
   - DOMAIN-SUFFIX,huluaction.com
@@ -629,9 +693,12 @@ payload:
   - DOMAIN-SUFFIX,myhulu.com
   - DOMAIN-SUFFIX,originalhulu.com
   - DOMAIN-SUFFIX,payhulu.com
+  - DOMAIN-SUFFIX,prod.hjholdings.tv
   - DOMAIN-SUFFIX,registerhulu.com
+  - DOMAIN-SUFFIX,streaks.jp
   - DOMAIN-SUFFIX,thehulubraintrust.com
   - DOMAIN-SUFFIX,wwwhuluplus.com
+  - DOMAIN-SUFFIX,yb.uncn.jp
   ## > 华文电视
   - DOMAIN-SUFFIX,5itv.tv
   - DOMAIN-SUFFIX,ocnttv.com
@@ -675,16 +742,24 @@ payload:
   ## > Kantv
   - DOMAIN-SUFFIX,imkan.tv
   ## > KKBOX
+  - DOMAIN-SUFFIX,kfs.io
+  - DOMAIN-SUFFIX,kk.stream
   - DOMAIN-SUFFIX,kkbox.com
   - DOMAIN-SUFFIX,kkbox.com.tw
-  - DOMAIN-SUFFIX,kfs.io
-  ## > KKTV
+  - DOMAIN-SUFFIX,kktix.com
   - DOMAIN-SUFFIX,kktv.com.tw
   - DOMAIN-SUFFIX,kktv.me
-  - DOMAIN,kktv-theater.kk.stream
   ## > Litv
   - DOMAIN-SUFFIX,litv.tv
   - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
+  ## > LineTV
+  - PROCESS-NAME,com.linecorp.linetv
+  - DOMAIN-SUFFIX,chocotv.com.tw
+  - DOMAIN-SUFFIX,line-cdn.net
+  - DOMAIN-SUFFIX,line-scdn.net
+  - DOMAIN-SUFFIX,linetv.tw
+  - DOMAIN,d3c7rimkq79yfu.cloudfront.net
+  - DOMAIN,d17lx9ucc6k9fc.cloudfront.net
   ## > LondonReal
   - DOMAIN-SUFFIX,freedomplatform.tv
   - DOMAIN-SUFFIX,londonreal.tv
@@ -697,9 +772,6 @@ payload:
   - DOMAIN-SUFFIX,channel5.com
   - DOMAIN-SUFFIX,my5.tv
   - DOMAIN,d349g9zuie06uo.cloudfront.net
-  ## > MyTV SUPER
-  - DOMAIN-SUFFIX,mytvsuper.com
-  - DOMAIN-SUFFIX,tvb.com
   ## > Niconico
   - DOMAIN-SUFFIX,dmc.nico
   - DOMAIN-SUFFIX,nicodic.jp
@@ -719,26 +791,22 @@ payload:
   - DOMAIN-SUFFIX,nypost.help
   - DOMAIN-SUFFIX,nypostreprints.com
   ## > NY Times
-  - DOMAIN,d1f1eryiqyjs0r.cloudfront.net
-  - DOMAIN,d3lar09xbwlsge.cloudfront.net
-  - DOMAIN,d3q1qj9jzsu8nw.cloudfront.net
+  - DOMAIN-SUFFIX,d1f1eryiqyjs0r.cloudfront.net
+  - DOMAIN-SUFFIX,d3lar09xbwlsge.cloudfront.net
+  - DOMAIN-SUFFIX,d3q1qj9jzsu8nw.cloudfront.net
   - DOMAIN-SUFFIX,dc8xl0ndzn2cb.cloudfront.net
-  - DOMAIN-SUFFIX,a1.nyt.com
-  - DOMAIN-SUFFIX,int.nyt.com
-  - DOMAIN-SUFFIX,s1.nyt.com
-  - DOMAIN-SUFFIX,static01.nyt.com
-  - DOMAIN-SUFFIX,typeface.nyt.com
-  - DOMAIN-SUFFIX,nytchina.com
-  - DOMAIN-SUFFIX,nytco.com
-  - DOMAIN-SUFFIX,nytimg.com
-  - DOMAIN-SUFFIX,userapi.nytlog.com
-  - DOMAIN-SUFFIX,cn.nytstyle.com
-  - DOMAIN-SUFFIX,nytlog.com
-  - DOMAIN-SUFFIX,nytimes.com
-  - DOMAIN-SUFFIX,nytcn.me
-  - DOMAIN-SUFFIX,tynt.com
-  - DOMAIN-SUFFIX,nytstyle.com
   - DOMAIN-SUFFIX,nyt.com
+  - DOMAIN-SUFFIX,nyt.net
+  - DOMAIN-SUFFIX,nytchina.com
+  - DOMAIN-SUFFIX,nytcn.me
+  - DOMAIN-SUFFIX,nytco.com
+  - DOMAIN-SUFFIX,nyti.ms
+  - DOMAIN-SUFFIX,nytimes.com
+  - DOMAIN-SUFFIX,nytimg.com
+  - DOMAIN-SUFFIX,nytlog.com
+  - DOMAIN-SUFFIX,nytstyle.com
+  - DOMAIN-SUFFIX,timestalks.com
+  - DOMAIN-SUFFIX,tynt.com
   ## > Pandora
   - DOMAIN-SUFFIX,pandora.com
   - DOMAIN-SUFFIX,p-cdn.us
@@ -839,6 +907,22 @@ payload:
   - DOMAIN-SUFFIX,tiktok.com
   - DOMAIN-SUFFIX,tiktokcdn.com
   - DOMAIN-SUFFIX,tiktokv.com
+  ## > TVB
+  - DOMAIN-SUFFIX,bigbigchannel.com.hk
+  - DOMAIN-SUFFIX,bigbigshop.com
+  - DOMAIN-SUFFIX,tvb.com
+  - DOMAIN-SUFFIX,tvb.com.au
+  - DOMAIN-SUFFIX,tvbanywhere.com
+  - DOMAIN-SUFFIX,tvbanywhere.com.sg
+  - DOMAIN-SUFFIX,tvbc.com.cn
+  - DOMAIN-SUFFIX,tvbeventpower.com.hk
+  - DOMAIN-SUFFIX,tvbusa.com
+  - DOMAIN-SUFFIX,tvbweekly.com
+  - DOMAIN-SUFFIX,tvmedia.net.au
+  ## >> MyTV SUPER
+  - DOMAIN-SUFFIX,mytvsuper.com
+  - DOMAIN-SUFFIX,mytvsuperlimited.hb.omtrdc.net
+  - DOMAIN-SUFFIX,mytvsuperlimited.sc.omtrdc.net
   ## > Vidol TV
   - DOMAIN-SUFFIX,vidol.tv
   ## > Viki
@@ -877,48 +961,57 @@ payload:
   - DOMAIN,d2anahhhmp1ffz.cloudfront.net
   - DOMAIN,dfp6rglgjqszk.cloudfront.net
   ## > VOA
-  - DOMAIN-SUFFIX,voanews.com
-  - DOMAIN-SUFFIX,zeriamerikes.com
-  - DOMAIN-SUFFIX,glasamerike.net
-  - DOMAIN-SUFFIX,amerikayidzayn.com
+  - DOMAIN-SUFFIX,amerikaninsesi.com
   - DOMAIN-SUFFIX,amerikaninsesi.org
+  - DOMAIN-SUFFIX,amerikaovozi.com
+  - DOMAIN-SUFFIX,amerikayidzayn.com
   - DOMAIN-SUFFIX,amerikiskhma.com
+  - DOMAIN-SUFFIX,bbg.gov
+  - DOMAIN-SUFFIX,dandalinvoa.com
+  - DOMAIN-SUFFIX,darivoa.com
+  - DOMAIN-SUFFIX,dengeamerika.com
+  - DOMAIN-SUFFIX,dengiamerika.com
+  - DOMAIN-SUFFIX,glasamerike.net
   - DOMAIN-SUFFIX,golos-ameriki.ru
+  - DOMAIN-SUFFIX,golosameriki.com
+  - DOMAIN-SUFFIX,insidevoa.com
+  - DOMAIN-SUFFIX,pashtovoa.com
+  - DOMAIN-SUFFIX,persagg.com
+  - DOMAIN-SUFFIX,radiyoyacuvoa.com
+  - DOMAIN-SUFFIX,urduvoa.com
+  - DOMAIN-SUFFIX,voa-11.akacast.akamaistream.net
+  - DOMAIN-SUFFIX,voa.gov
+  - DOMAIN-SUFFIX,voa.mobi
+  - DOMAIN-SUFFIX,voaafaanoromoo.com
+  - DOMAIN-SUFFIX,voaafrique.com
+  - DOMAIN-SUFFIX,voabambara.com
+  - DOMAIN-SUFFIX,voabangla.com
+  - DOMAIN-SUFFIX,voacambodia.com
   - DOMAIN-SUFFIX,voacantonese.com
   - DOMAIN-SUFFIX,voachinese.com
-  - DOMAIN-SUFFIX,voaindonesia.com
-  - DOMAIN-SUFFIX,voacambodia.com
-  - DOMAIN-SUFFIX,voakorea.com
-  - DOMAIN-SUFFIX,voathai.com
-  - DOMAIN-SUFFIX,voatibetan.com
-  - DOMAIN-SUFFIX,voatibetanenglish.com
-  - DOMAIN-SUFFIX,voatiengviet.com
-  - DOMAIN-SUFFIX,amerikaovozi.com
-  - DOMAIN-SUFFIX,voabangla.com
-  - DOMAIN-SUFFIX,darivoa.com
-  - DOMAIN-SUFFIX,pashtovoa.com
+  - DOMAIN-SUFFIX,voachineseblog.com
   - DOMAIN-SUFFIX,voadeewanews.com
-  - DOMAIN-SUFFIX,urduvoa.com
-  - DOMAIN-SUFFIX,voaafaanoromoo.com
-  - DOMAIN-SUFFIX,voabambara.com
-  - DOMAIN-SUFFIX,voaafrique.com
+  - DOMAIN-SUFFIX,voadeewaradio.com
   - DOMAIN-SUFFIX,voahausa.com
-  - DOMAIN-SUFFIX,radiyoyacuvoa.com
+  - DOMAIN-SUFFIX,voaindonesia.com
+  - DOMAIN-SUFFIX,voakorea.com
   - DOMAIN-SUFFIX,voalingala.com
   - DOMAIN-SUFFIX,voandebele.com
+  - DOMAIN-SUFFIX,voanews.com
+  - DOMAIN-SUFFIX,voanews.eu
+  - DOMAIN-SUFFIX,voanoticias.com
+  - DOMAIN-SUFFIX,voanouvel.com
   - DOMAIN-SUFFIX,voaportugues.com
   - DOMAIN-SUFFIX,voashona.com
   - DOMAIN-SUFFIX,voasomali.com
   - DOMAIN-SUFFIX,voaswahili.com
+  - DOMAIN-SUFFIX,voathai.com
+  - DOMAIN-SUFFIX,voatibetan.com
+  - DOMAIN-SUFFIX,voatibetanenglish.com
+  - DOMAIN-SUFFIX,voatiengviet.com
+  - DOMAIN-SUFFIX,voatour.com
   - DOMAIN-SUFFIX,voazimbabwe.com
-  - DOMAIN-SUFFIX,dengiamerika.com
-  - DOMAIN-SUFFIX,dengeamerika.com
-  - DOMAIN-SUFFIX,amerikaninsesi.com
-  - DOMAIN-SUFFIX,voanouvel.com
-  - DOMAIN-SUFFIX,voanoticias.com
-  - DOMAIN-SUFFIX,voa.mobi
-  - DOMAIN-SUFFIX,voachineseblog.com
-  - DOMAIN-SUFFIX,voa-11.akacast.akamaistream.net
+  - DOMAIN-SUFFIX,zeriamerikes.com
   ## > WeTV
   - DOMAIN-SUFFIX,wetv.vip
   - DOMAIN-SUFFIX,wetvinfo.com
@@ -944,6 +1037,183 @@ payload:
   - DOMAIN-SUFFIX,voxfieldguide.com
   - DOMAIN-SUFFIX,voxmedia.com
   - DOMAIN-SUFFIX,voxops.net
+  ## > YouTube
+  - DOMAIN-SUFFIX,.youtube
+  - DOMAIN-SUFFIX,ggpht.cn
+  - DOMAIN-SUFFIX,ggpht.com
+  - DOMAIN-SUFFIX,googlevideo.com
+  - DOMAIN-SUFFIX,gvt2.com
+  - DOMAIN-SUFFIX,withyoutube.com
+  - DOMAIN-SUFFIX,youtu.be
+  - DOMAIN-SUFFIX,youtube-nocookie.com
+  - DOMAIN-SUFFIX,youtube.ae
+  - DOMAIN-SUFFIX,youtube.al
+  - DOMAIN-SUFFIX,youtube.am
+  - DOMAIN-SUFFIX,youtube.at
+  - DOMAIN-SUFFIX,youtube.az
+  - DOMAIN-SUFFIX,youtube.ba
+  - DOMAIN-SUFFIX,youtube.be
+  - DOMAIN-SUFFIX,youtube.bg
+  - DOMAIN-SUFFIX,youtube.bh
+  - DOMAIN-SUFFIX,youtube.bo
+  - DOMAIN-SUFFIX,youtube.by
+  - DOMAIN-SUFFIX,youtube.ca
+  - DOMAIN-SUFFIX,youtube.cat
+  - DOMAIN-SUFFIX,youtube.ch
+  - DOMAIN-SUFFIX,youtube.cl
+  - DOMAIN-SUFFIX,youtube.co
+  - DOMAIN-SUFFIX,youtube.co.ae
+  - DOMAIN-SUFFIX,youtube.co.at
+  - DOMAIN-SUFFIX,youtube.co.cr
+  - DOMAIN-SUFFIX,youtube.co.hu
+  - DOMAIN-SUFFIX,youtube.co.id
+  - DOMAIN-SUFFIX,youtube.co.il
+  - DOMAIN-SUFFIX,youtube.co.in
+  - DOMAIN-SUFFIX,youtube.co.jp
+  - DOMAIN-SUFFIX,youtube.co.ke
+  - DOMAIN-SUFFIX,youtube.co.kr
+  - DOMAIN-SUFFIX,youtube.co.ma
+  - DOMAIN-SUFFIX,youtube.co.nz
+  - DOMAIN-SUFFIX,youtube.co.th
+  - DOMAIN-SUFFIX,youtube.co.tz
+  - DOMAIN-SUFFIX,youtube.co.ug
+  - DOMAIN-SUFFIX,youtube.co.uk
+  - DOMAIN-SUFFIX,youtube.co.ve
+  - DOMAIN-SUFFIX,youtube.co.za
+  - DOMAIN-SUFFIX,youtube.co.zw
+  - DOMAIN-SUFFIX,youtube.com
+  - DOMAIN-SUFFIX,youtube.com.ar
+  - DOMAIN-SUFFIX,youtube.com.au
+  - DOMAIN-SUFFIX,youtube.com.az
+  - DOMAIN-SUFFIX,youtube.com.bd
+  - DOMAIN-SUFFIX,youtube.com.bh
+  - DOMAIN-SUFFIX,youtube.com.bo
+  - DOMAIN-SUFFIX,youtube.com.br
+  - DOMAIN-SUFFIX,youtube.com.by
+  - DOMAIN-SUFFIX,youtube.com.co
+  - DOMAIN-SUFFIX,youtube.com.do
+  - DOMAIN-SUFFIX,youtube.com.ec
+  - DOMAIN-SUFFIX,youtube.com.ee
+  - DOMAIN-SUFFIX,youtube.com.eg
+  - DOMAIN-SUFFIX,youtube.com.es
+  - DOMAIN-SUFFIX,youtube.com.gh
+  - DOMAIN-SUFFIX,youtube.com.gr
+  - DOMAIN-SUFFIX,youtube.com.gt
+  - DOMAIN-SUFFIX,youtube.com.hk
+  - DOMAIN-SUFFIX,youtube.com.hn
+  - DOMAIN-SUFFIX,youtube.com.hr
+  - DOMAIN-SUFFIX,youtube.com.jm
+  - DOMAIN-SUFFIX,youtube.com.jo
+  - DOMAIN-SUFFIX,youtube.com.kw
+  - DOMAIN-SUFFIX,youtube.com.lb
+  - DOMAIN-SUFFIX,youtube.com.lv
+  - DOMAIN-SUFFIX,youtube.com.ly
+  - DOMAIN-SUFFIX,youtube.com.mk
+  - DOMAIN-SUFFIX,youtube.com.mt
+  - DOMAIN-SUFFIX,youtube.com.mx
+  - DOMAIN-SUFFIX,youtube.com.my
+  - DOMAIN-SUFFIX,youtube.com.ng
+  - DOMAIN-SUFFIX,youtube.com.ni
+  - DOMAIN-SUFFIX,youtube.com.om
+  - DOMAIN-SUFFIX,youtube.com.pa
+  - DOMAIN-SUFFIX,youtube.com.pe
+  - DOMAIN-SUFFIX,youtube.com.ph
+  - DOMAIN-SUFFIX,youtube.com.pk
+  - DOMAIN-SUFFIX,youtube.com.pt
+  - DOMAIN-SUFFIX,youtube.com.py
+  - DOMAIN-SUFFIX,youtube.com.qa
+  - DOMAIN-SUFFIX,youtube.com.ro
+  - DOMAIN-SUFFIX,youtube.com.sa
+  - DOMAIN-SUFFIX,youtube.com.sg
+  - DOMAIN-SUFFIX,youtube.com.sv
+  - DOMAIN-SUFFIX,youtube.com.tn
+  - DOMAIN-SUFFIX,youtube.com.tr
+  - DOMAIN-SUFFIX,youtube.com.tw
+  - DOMAIN-SUFFIX,youtube.com.ua
+  - DOMAIN-SUFFIX,youtube.com.uy
+  - DOMAIN-SUFFIX,youtube.com.ve
+  - DOMAIN-SUFFIX,youtube.cr
+  - DOMAIN-SUFFIX,youtube.cz
+  - DOMAIN-SUFFIX,youtube.de
+  - DOMAIN-SUFFIX,youtube.dk
+  - DOMAIN-SUFFIX,youtube.ee
+  - DOMAIN-SUFFIX,youtube.es
+  - DOMAIN-SUFFIX,youtube.fi
+  - DOMAIN-SUFFIX,youtube.fr
+  - DOMAIN-SUFFIX,youtube.ge
+  - DOMAIN-SUFFIX,youtube.gr
+  - DOMAIN-SUFFIX,youtube.gt
+  - DOMAIN-SUFFIX,youtube.hk
+  - DOMAIN-SUFFIX,youtube.hr
+  - DOMAIN-SUFFIX,youtube.hu
+  - DOMAIN-SUFFIX,youtube.ie
+  - DOMAIN-SUFFIX,youtube.in
+  - DOMAIN-SUFFIX,youtube.iq
+  - DOMAIN-SUFFIX,youtube.is
+  - DOMAIN-SUFFIX,youtube.it
+  - DOMAIN-SUFFIX,youtube.jo
+  - DOMAIN-SUFFIX,youtube.jp
+  - DOMAIN-SUFFIX,youtube.kr
+  - DOMAIN-SUFFIX,youtube.kz
+  - DOMAIN-SUFFIX,youtube.la
+  - DOMAIN-SUFFIX,youtube.lk
+  - DOMAIN-SUFFIX,youtube.lt
+  - DOMAIN-SUFFIX,youtube.lu
+  - DOMAIN-SUFFIX,youtube.lv
+  - DOMAIN-SUFFIX,youtube.ly
+  - DOMAIN-SUFFIX,youtube.ma
+  - DOMAIN-SUFFIX,youtube.md
+  - DOMAIN-SUFFIX,youtube.me
+  - DOMAIN-SUFFIX,youtube.mk
+  - DOMAIN-SUFFIX,youtube.mn
+  - DOMAIN-SUFFIX,youtube.mx
+  - DOMAIN-SUFFIX,youtube.my
+  - DOMAIN-SUFFIX,youtube.ng
+  - DOMAIN-SUFFIX,youtube.ni
+  - DOMAIN-SUFFIX,youtube.nl
+  - DOMAIN-SUFFIX,youtube.no
+  - DOMAIN-SUFFIX,youtube.pa
+  - DOMAIN-SUFFIX,youtube.pe
+  - DOMAIN-SUFFIX,youtube.ph
+  - DOMAIN-SUFFIX,youtube.pk
+  - DOMAIN-SUFFIX,youtube.pl
+  - DOMAIN-SUFFIX,youtube.pr
+  - DOMAIN-SUFFIX,youtube.pt
+  - DOMAIN-SUFFIX,youtube.qa
+  - DOMAIN-SUFFIX,youtube.ro
+  - DOMAIN-SUFFIX,youtube.rs
+  - DOMAIN-SUFFIX,youtube.ru
+  - DOMAIN-SUFFIX,youtube.sa
+  - DOMAIN-SUFFIX,youtube.se
+  - DOMAIN-SUFFIX,youtube.sg
+  - DOMAIN-SUFFIX,youtube.si
+  - DOMAIN-SUFFIX,youtube.sk
+  - DOMAIN-SUFFIX,youtube.sn
+  - DOMAIN-SUFFIX,youtube.soy
+  - DOMAIN-SUFFIX,youtube.sv
+  - DOMAIN-SUFFIX,youtube.tn
+  - DOMAIN-SUFFIX,youtube.tv
+  - DOMAIN-SUFFIX,youtube.ua
+  - DOMAIN-SUFFIX,youtube.ug
+  - DOMAIN-SUFFIX,youtube.uy
+  - DOMAIN-SUFFIX,youtube.vn
+  - DOMAIN-SUFFIX,youtubeeducation.com
+  - DOMAIN-SUFFIX,youtubefanfest.com
+  - DOMAIN-SUFFIX,youtubegaming.com
+  - DOMAIN-SUFFIX,youtubego.co.id
+  - DOMAIN-SUFFIX,youtubego.co.in
+  - DOMAIN-SUFFIX,youtubego.com
+  - DOMAIN-SUFFIX,youtubego.com.br
+  - DOMAIN-SUFFIX,youtubego.id
+  - DOMAIN-SUFFIX,youtubego.in
+  - DOMAIN-SUFFIX,youtubei.googleapis.com
+  - DOMAIN-SUFFIX,youtubekids.com
+  - DOMAIN-SUFFIX,youtubemobilesupport.com
+  - DOMAIN-SUFFIX,yt.be
+  - DOMAIN-SUFFIX,ytimg.com
+  - IP-CIDR,172.110.32.0/21,no-resolve
+  - IP-CIDR,216.73.80.0/20,no-resolve
+  - IP-CIDR6,2620:120:e000::/40,no-resolve
   ## > ZeeTV
   - DOMAIN-SUFFIX,z5.app
   - DOMAIN-SUFFIX,z5.com

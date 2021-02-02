@@ -216,21 +216,6 @@ payload:
   - DOMAIN-SUFFIX,springsunday.net
   - DOMAIN-SUFFIX,tjupt.org
   - DOMAIN-SUFFIX,totheglory.im
-  # > 
-  - DOMAIN-SUFFIX,343480.com
-  - DOMAIN-SUFFIX,agefans.tv
-  - DOMAIN-SUFFIX,baduziyuan.com
-  - DOMAIN-SUFFIX,cdn9-okzy.com
-  - DOMAIN-SUFFIX,com-hs-hkdy.com
-  - DOMAIN-SUFFIX,czybjz.com
-  - DOMAIN-SUFFIX,dandanzan.com
-  - DOMAIN-SUFFIX,fjhps.com
-  - DOMAIN-SUFFIX,kuyunbo.club
-  - DOMAIN-SUFFIX,nfmovies.com
-  - DOMAIN-SUFFIX,okokbo.com
-  - DOMAIN-SUFFIX,sd-dykj.com
-  - DOMAIN-SUFFIX,yhdm.tv
-  - DOMAIN-SUFFIX,youkutv.cc
   # > Other
   - DOMAIN-SUFFIX,cn
   - DOMAIN-SUFFIX,115.com
@@ -248,7 +233,6 @@ payload:
   - DOMAIN-SUFFIX,b612.net
   - DOMAIN-SUFFIX,bdatu.com
   - DOMAIN-SUFFIX,beitaichufang.com
-  - DOMAIN-SUFFIX,bjango.com
   - DOMAIN-SUFFIX,booking.com
   - DOMAIN-SUFFIX,bstatic.com
   - DOMAIN-SUFFIX,cailianpress.com
@@ -260,6 +244,7 @@ payload:
   - DOMAIN-SUFFIX,chunyu.mobi
   - DOMAIN-SUFFIX,cmbchina.com
   - DOMAIN-SUFFIX,cmbimg.com
+  - DOMAIN-SUFFIX,coolapk.com
   - DOMAIN-SUFFIX,ctrip.com
   - DOMAIN-SUFFIX,dfcfw.com
   - DOMAIN-SUFFIX,dji.net
@@ -313,6 +298,7 @@ payload:
   - DOMAIN-SUFFIX,nim-lang-cn.org
   - DOMAIN-SUFFIX,nvidia.com
   - DOMAIN-SUFFIX,oracle.com
+  - DOMAIN-SUFFIX,pcbeta.com
   - DOMAIN-SUFFIX,plex.tv
   - DOMAIN-SUFFIX,qdaily.com
   - DOMAIN-SUFFIX,qidian.com
