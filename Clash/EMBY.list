@@ -1,0 +1,12 @@
+# EMBY
+
+payload:
+  # > EMBY
+  - DOMAIN-SUFFIX,emby.nexitally.com
+  - DOMAIN-SUFFIX,emby.immtel.com
+  - DOMAIN-SUFFIX,emby.plusmedia.site  
+  - DOMAIN-SUFFIX,emby-cf.plusmedia.site
+  - DOMAIN-SUFFIX,emby.xeton.dev
+  - DOMAIN-SUFFIX,jellyfin.xeton.dev
+  - DOMAIN-SUFFIX,movie.xeton.dev
+  - DOMAIN-SUFFIX,servers.xeton.dev
