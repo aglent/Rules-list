@@ -1,25 +1,46 @@
-# https://github.com/ConnersHua/Profiles/blob/master/Surge/Ruleset/Unbreak.list
+# https://github.com/DivineEngine/Profiles/blob/master/Surge/Ruleset/Unbreak.list
 # 增加 DOMAIN-SUFFIX,anydesk.com
 
 # Unbreak
 # > General
-USER-AGENT,coffeecorp*,DIRECT
-USER-AGENT,restaurant-mobile*,DIRECT
-DOMAIN,app.adjust.com,DIRECT
-# > Google
-DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
-DOMAIN,analyticsinsights-pa.googleapis.com,PROXY
-DOMAIN,analyticsreporting.googleapis.com,PROXY
-DOMAIN,dl.google.com,DIRECT
-DOMAIN,mtalk.google.com,DIRECT
-# > Tencent
-DOMAIN,livew.l.qq.com,DIRECT
-DOMAIN,vd.l.qq.com,DIRECT
-# > Strava
-DOMAIN,analytics.strava.com,DIRECT
-# > Umeng
-DOMAIN,msg.umeng.com,DIRECT
-DOMAIN,msg.umengcloud.com,DIRECT
-
+USER-AGENT,archero*
+USER-AGENT,coffeecorp*
+USER-AGENT,Coffee%20Corp*
+USER-AGENT,restaurant-mobile*
+DOMAIN,app.adjust.com
+DOMAIN,bdtj.tagtic.cn
+# > Alibaba
+DOMAIN,log.mmstat.com
+DOMAIN,sycm.mmstat.com
 # > Anydesk
 DOMAIN-SUFFIX,anydesk.com
+# > Google
+DOMAIN-SUFFIX,blog.google // Google Blog
+DOMAIN-SUFFIX,googletraveladservices.com // Google Flights
+DOMAIN,clientservices.googleapis.com
+DOMAIN,dl.google.com
+DOMAIN,dl.l.google.com
+DOMAIN,update.googleapis.com
+DOMAIN,translate.googleapis.com
+# >> Google Fonts API
+DOMAIN,fonts.googleapis.com
+DOMAIN,fonts.gstatic.com
+# >> Firebase Cloud Messaging
+DOMAIN,mtalk.google.com
+DOMAIN,alt1-mtalk.google.com
+DOMAIN,alt2-mtalk.google.com
+DOMAIN,alt3-mtalk.google.com
+DOMAIN,alt4-mtalk.google.com
+DOMAIN,alt5-mtalk.google.com
+DOMAIN,alt6-mtalk.google.com
+DOMAIN,alt7-mtalk.google.com
+DOMAIN,alt8-mtalk.google.com
+# > Tencent
+DOMAIN,fairplay.l.qq.com
+DOMAIN,livew.l.qq.com
+DOMAIN,vd.l.qq.com
+# > Strava
+DOMAIN,analytics.strava.com
+# > Umeng
+DOMAIN,msg.umeng.com
+DOMAIN,msg.umengcloud.com
