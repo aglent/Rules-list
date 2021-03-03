@@ -558,12 +558,16 @@ URL-REGEX,^https?+:\/\/dsa-mfp\.fengshows\.cn\/mfp\/mfpMultipleDelivery\.do\?.+?
 # G
 # > Google
 # >> Youtube
-URL-REGEX,^https?+:\/\/.+?\.googlevideo\.com\/.+?(?>&oad|ctier)
-URL-REGEX,^https?+:\/\/\w+?\.youtube\.com\/api\/.+?ad
-URL-REGEX,^https?+:\/\/\w+?\.youtube\.com\/p(?>agead|tracking)
-URL-REGEX,^https?+:\/\/youtubei\.googleapis\.com\/youtubei\/.+?(?>ad|log)_
+URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+&oad url reject-img
+URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+ctier url reject-img
+URL-REGEX,^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_
+URL-REGEX,^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+log_
 URL-REGEX,^https?:\/\/.+\.youtube\.com\/get_midroll_
 URL-REGEX,^https?:\/\/premiumyva\.appspot\.com\/vmclickstoadvertisersite
+URL-REGEX,^https?:\/\/.+\.youtube\.com\/api\/stats\/ads
+URL-REGEX,^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat
+URL-REGEX,^https?:\/\/.+\.youtube\.com\/pagead\/
+URL-REGEX,^https?:\/\/.+\.youtube\.com\/ptracking
 # > Gofun
 URL-REGEX,^https?+:\/\/gateway\.shouqiev\.com\/fsda\/app\/bootImage\.json
 # > 国泰君安
