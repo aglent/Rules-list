@@ -1,18 +1,5 @@
 # https://github.com/DivineEngine/Profiles/blob/master/Surge/Ruleset/Guard/Advertising.list
 
-# Custom
-# >> 微信
-# URL-REGEX,^https?+:\/\/mp\.weixin\.qq\.com\/mp\/(?>ad_|advertisement|getappmsgad)
-# URL-REGEX,^https?:\/\/mp\.weixin\.qq\.com\/mp\/(ad_|advertisement|getappmsgad)
-URL-REGEX,^https?:\/\/mp\.weixin\.qq\.com\/(s|mp)\/(ad_|advertisement|getappmsgad|report|appmsgreport|appmsgpicreport)
-# >> Youtube
-URL-REGEX,^https?+:\/\/.+?\.googlevideo\.com\/.+?(?>&oad|ctier)
-URL-REGEX,^https?+:\/\/\w+?\.youtube\.com\/api\/.+?ad
-URL-REGEX,^https?+:\/\/\w+?\.youtube\.com\/p(?>agead|tracking)
-URL-REGEX,^https?+:\/\/youtubei\.googleapis\.com\/youtubei\/.+?(?>ad|log)_
-URL-REGEX,^https?:\/\/.+\.youtube\.com\/get_midroll_
-URL-REGEX,^https?:\/\/premiumyva\.appspot\.com\/vmclickstoadvertisersite
-
 # Advertising
 # > General
 DOMAIN-KEYWORD,adservice
