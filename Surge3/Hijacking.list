@@ -1,6 +1,6 @@
-# https://github.com/ConnersHua/Profiles/blob/master/Surge/Ruleset/Hijacking.list
+# https://github.com/DivineEngine/Profiles/blob/master/Surge/Ruleset/Guard/Hijacking.list
 
-# Internet Service Providers Hijacking 运营商劫持
+# Internet Service Providers Hijacking
 DOMAIN-SUFFIX,17gouwuba.com
 DOMAIN-SUFFIX,186078.com
 DOMAIN-SUFFIX,189zj.cn
@@ -25,6 +25,7 @@ DOMAIN-SUFFIX,beerto.cn
 DOMAIN-SUFFIX,beilamusi.com
 DOMAIN-SUFFIX,benshiw.net
 DOMAIN-SUFFIX,bianxianmao.com
+DOMAIN-SUFFIX,bkyhq.cn
 DOMAIN-SUFFIX,bryonypie.com
 DOMAIN-SUFFIX,cishantao.com
 DOMAIN-SUFFIX,cszlks.com
@@ -45,8 +46,10 @@ DOMAIN-SUFFIX,gclick.cn
 DOMAIN-SUFFIX,goufanli100.com
 DOMAIN-SUFFIX,goupaoerdai.com
 DOMAIN-SUFFIX,gouwubang.com
+DOMAIN-SUFFIX,gscxs.cn
 DOMAIN-SUFFIX,gzxnlk.com
 DOMAIN-SUFFIX,haoshengtoys.com
+DOMAIN-SUFFIX,hbssjd.cn
 DOMAIN-SUFFIX,hyunke.com
 DOMAIN-SUFFIX,ichaosheng.com
 DOMAIN-SUFFIX,ishop789.com
@@ -59,6 +62,7 @@ DOMAIN-SUFFIX,kawo77.com
 DOMAIN-SUFFIX,kualianyingxiao.cn
 DOMAIN-SUFFIX,kumihua.com
 DOMAIN-SUFFIX,ltheanine.cn
+DOMAIN-SUFFIX,lvehaisen.com
 DOMAIN-SUFFIX,maipinshangmao.com
 DOMAIN-SUFFIX,minisplat.cn
 DOMAIN-SUFFIX,mkitgfs.com
@@ -94,6 +98,8 @@ DOMAIN-SUFFIX,tt3sm4.cn
 DOMAIN-SUFFIX,tuia.cn
 DOMAIN-SUFFIX,tuipenguin.com
 DOMAIN-SUFFIX,tuitiger.com
+DOMAIN-SUFFIX,urlaw.cn
+DOMAIN-SUFFIX,urlet.cn
 DOMAIN-SUFFIX,websd8.com
 DOMAIN-SUFFIX,wsgblw.com
 DOMAIN-SUFFIX,wx16999.com
@@ -107,6 +113,7 @@ DOMAIN-SUFFIX,yukhj.com
 DOMAIN-SUFFIX,zhaozecheng.cn
 DOMAIN-SUFFIX,zhenxinet.com
 DOMAIN-SUFFIX,zlne800.com
+DOMAIN-SUFFIX,zmlled.cn
 DOMAIN-SUFFIX,zunmi.cn
 DOMAIN-SUFFIX,zzd6.com
 IP-CIDR,39.107.15.115/32,no-resolve
@@ -139,6 +146,7 @@ IP-CIDR,220.196.52.141/32,no-resolve
 IP-CIDR,221.6.4.148/32,no-resolve
 # > ChinaMobile
 IP-CIDR,114.247.28.96/32,no-resolve
+IP-CIDR,120.240.95.37/32,no-resolve
 IP-CIDR,221.179.131.72/32,no-resolve
 IP-CIDR,221.179.140.145/32,no-resolve
 # > Dr.Peng
@@ -152,11 +160,14 @@ IP-CIDR,124.14.21.147/32,no-resolve
 IP-CIDR,124.14.21.151/32,no-resolve
 IP-CIDR,180.166.52.24/32,no-resolve
 IP-CIDR,211.161.101.106/32,no-resolve
+IP-CIDR,211.161.101.110/32,no-resolve
 IP-CIDR,220.115.251.25/32,no-resolve
 IP-CIDR,222.73.156.235/32,no-resolve
 
-# Malware 恶意网站
-# > 快压
+# Malware
+# > Huawei AspiegelBot
+IP-CIDR,114.119.160.0/21,no-resolve
+# > KuaiZip
 # https://zhuanlan.zhihu.com/p/39534279
 DOMAIN-SUFFIX,kuaizip.com
 # > MacKeeper
@@ -167,7 +178,7 @@ DOMAIN-SUFFIX,zryydi.com
 # https://www.zhihu.com/question/281163698/answer/441388130
 DOMAIN-SUFFIX,flash.cn
 DOMAIN,geo2.adobe.com
-# > C&J Marketing 思杰马克丁软件
+# > C&J Marketing
 # https://www.zhihu.com/question/46746200
 DOMAIN-SUFFIX,4009997658.com
 DOMAIN-SUFFIX,abbyychina.com
@@ -219,6 +230,7 @@ DOMAIN-SUFFIX,photozoomchina.com
 DOMAIN-SUFFIX,shankejingling.com
 DOMAIN-SUFFIX,ultraiso.net
 DOMAIN-SUFFIX,vegaschina.cn
+DOMAIN-SUFFIX,xitongqingli.com
 DOMAIN-SUFFIX,xmindchina.net
 DOMAIN-SUFFIX,xshellcn.com
 DOMAIN-SUFFIX,yihuifu.cn
