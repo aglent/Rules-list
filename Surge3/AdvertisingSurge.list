@@ -558,8 +558,8 @@ URL-REGEX,^https?+:\/\/dsa-mfp\.fengshows\.cn\/mfp\/mfpMultipleDelivery\.do\?.+?
 # G
 # > Google
 # >> Youtube
-URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+&oad url reject-img
-URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+ctier url reject-img
+URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+&oad
+URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+ctier
 URL-REGEX,^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_
 URL-REGEX,^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+log_
 URL-REGEX,^https?:\/\/.+\.youtube\.com\/get_midroll_
