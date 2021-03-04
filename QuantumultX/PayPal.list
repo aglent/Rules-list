@@ -1,7 +1,7 @@
-# https://github.com/ConnersHua/Profiles/blob/master/Quantumult/X/Filter/PayPal.list
+# https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Filter/Extra/PayPal.list
 
 # > PayPal
 USER-AGENT,PayPal*,PayPal
-DOMAIN-KEYWORD,paypal,PayPal
 DOMAIN-SUFFIX,paypal.com,PayPal
+DOMAIN-SUFFIX,paypal.me,PayPal
 DOMAIN-SUFFIX,paypalobjects.com,PayPal
