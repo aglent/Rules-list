@@ -1,14 +1,8 @@
 # https://github.com/DivineEngine/Profiles/blob/master/Surge/Ruleset/Guard/Advertising.list
-# 增加weixing去广告 URL-REGEX,^https?:\/\/mp\.weixin\.qq\.com\/mp\/(ad_|advertisement|getappmsgad) 和 URL-REGEX,^https?:\/\/mp\.weixin\.qq\.com\/(s|mp)\/(ad_|advertisement|getappmsgad|report|appmsgreport|appmsgpicreport)
 
 # Advertising
 # > General
 DOMAIN-KEYWORD,adservice
-
-# >> 微信
-# URL-REGEX,^https?+:\/\/mp\.weixin\.qq\.com\/mp\/(?>ad_|advertisement|getappmsgad)
-# URL-REGEX,^https?:\/\/mp\.weixin\.qq\.com\/mp\/(ad_|advertisement|getappmsgad)
-URL-REGEX,^https?:\/\/mp\.weixin\.qq\.com\/(s|mp)\/(ad_|advertisement|getappmsgad|report|appmsgreport|appmsgpicreport)
 
 DOMAIN-SUFFIX,1phads.com
 DOMAIN-SUFFIX,1rtb.com
