@@ -1,8 +1,11 @@
 # https://github.com/ConnersHua/Profiles/blob/master/Quantumult/X/Filter/Media/YouTube.list
+# https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Filter/StreamingMedia/Video/YouTube.list
 
-# > Youtube
-USER-AGENT,com.google.ios.youtube*,Youtube
-USER-AGENT,YouTube*,Youtube
-DOMAIN-SUFFIX,googlevideo.com,Youtube
-DOMAIN-SUFFIX,youtube.com,Youtube
-DOMAIN,youtubei.googleapis.com,Youtube
+# > YouTube
+USER-AGENT,com.google.ios.youtube*,YouTube
+USER-AGENT,YouTube*,YouTube
+DOMAIN-SUFFIX,googlevideo.com,YouTube
+DOMAIN-SUFFIX,youtube.com,YouTube
+DOMAIN-SUFFIX,ytimg.com,YouTube
+DOMAIN,youtubei.googleapis.com,YouTube
+DOMAIN,yt3.ggpht.com,YouTube
