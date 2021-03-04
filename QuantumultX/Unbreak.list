@@ -3,7 +3,7 @@
 
 # Unbreak
 # > Anydesk
-DOMAIN-SUFFIX,anydesk.com
+DOMAIN-SUFFIX,anydesk.com,DIRECT
 # > General
 USER-AGENT,archero*,DIRECT
 USER-AGENT,coffeecorp*,DIRECT
