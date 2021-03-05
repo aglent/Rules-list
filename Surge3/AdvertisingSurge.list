@@ -1,6 +1,5 @@
 # https://github.com/DivineEngine/Profiles/blob/master/Surge/Ruleset/Guard/Advertising.list
 # https://github.com/787a68/Rules/blob/master/Surge4/Ruleset/Tide.list
-# Youtube部分line 728~731暂时注释掉 Surge目前看youtube无广告 继续观察
 # 微信部分增加 URL-REGEX,^https?+:\/\/mp\.weixin\.qq\.com\/(s|mp)\/(ad_|advertisement|getappmsgad|report|appmsgreport|appmsgpicreport)
 
 # https://github.com/DivineEngine/Profiles/blob/master/Surge/Ruleset/Guard/Advertising.list
@@ -725,10 +724,10 @@ URL-REGEX,^https?+:\/\/dsa-mfp\.fengshows\.cn\/mfp\/mfpMultipleDelivery\.do\?.+?
 # G
 # > Google
 # >> Youtube
-# URL-REGEX,^https?+:\/\/.+?\.googlevideo\.com\/.+?(?>&oad|ctier)
-# URL-REGEX,^https?+:\/\/\w+?\.youtube\.com\/api\/.+?ad
-# URL-REGEX,^https?+:\/\/\w+?\.youtube\.com\/p(?>agead|tracking)
-# URL-REGEX,^https?+:\/\/youtubei\.googleapis\.com\/youtubei\/.+?(?>ad|log)_
+URL-REGEX,^https?+:\/\/.+?\.googlevideo\.com\/.+?(?>&oad|ctier)
+URL-REGEX,^https?+:\/\/\w+?\.youtube\.com\/api\/.+?ad
+URL-REGEX,^https?+:\/\/\w+?\.youtube\.com\/p(?>agead|tracking)
+URL-REGEX,^https?+:\/\/youtubei\.googleapis\.com\/youtubei\/.+?(?>ad|log)_
 # > Gofun
 URL-REGEX,^https?+:\/\/gateway\.shouqiev\.com\/fsda\/app\/bootImage\.json
 # > 国泰君安
