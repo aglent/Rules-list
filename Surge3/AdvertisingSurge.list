@@ -1,5 +1,5 @@
 # https://github.com/DivineEngine/Profiles/blob/master/Surge/Ruleset/Guard/Advertising.list
-# https://github.com/787a68/Rules/blob/master/Surge4/Ruleset/Tide.list
+# https://github.com/787a68/Rules/blob/master/Surge4/Ruleset/Tide.list 注释掉line 728~731的Youtube去广告规则
 # 微信部分增加 URL-REGEX,^https?+:\/\/mp\.weixin\.qq\.com\/(s|mp)\/(ad_|advertisement|getappmsgad|report|appmsgreport|appmsgpicreport)
 
 # https://github.com/DivineEngine/Profiles/blob/master/Surge/Ruleset/Guard/Advertising.list
