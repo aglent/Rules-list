@@ -1,0 +1,12 @@
+# https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Filter/Extra/Twitter.list
+
+# > Twitter
+DOMAIN-SUFFIX,pscp.tv,Twitter
+DOMAIN-SUFFIX,periscope.tv,Twitter
+DOMAIN-SUFFIX,t.co,Twitter
+DOMAIN-SUFFIX,twimg.co,Twitter
+DOMAIN-SUFFIX,twimg.com,Twitter
+DOMAIN-SUFFIX,twitpic.com,Twitter
+DOMAIN-SUFFIX,twitter.com,Twitter
+DOMAIN-SUFFIX,twitter.jp,Twitter
+DOMAIN-SUFFIX,vine.co,Twitter
