@@ -85,20 +85,25 @@ payload:
   - DOMAIN,gamer-cds.cdn.hinet.net
   - DOMAIN,gamer2-cds.cdn.hinet.net
   ## > BBC
-  - DOMAIN-SUFFIX,bbc.co.uk
-  - DOMAIN-SUFFIX,bbci.co.uk
   - DOMAIN-SUFFIX,bbc.co
+  - DOMAIN-SUFFIX,bbc.co.uk
   - DOMAIN-SUFFIX,bbc.com
   - DOMAIN-SUFFIX,bbc.in
-  - DOMAIN-SUFFIX,bbci.co
   - DOMAIN-SUFFIX,bbcchinese.com
   - DOMAIN-SUFFIX,bbcfmt.hs.llnwd.net
-  - DOMAIN,vod-dash-uk-live.akamaized.net
-  - DOMAIN,vod-thumb-uk-live.akamaized.net
-  - DOMAIN,vod-dash-uk-live.bbcfmt.hs.llnwd.net
-  - DOMAIN,vod-thumb-uk-live.bbcfmt.hs.llnwd.net
+  - DOMAIN-SUFFIX,bbci.co
+  - DOMAIN-SUFFIX,bbci.co.uk
+  - DOMAIN-SUFFIX,bbcverticals.com
   - DOMAIN,aod-dash-uk-live.akamaized.net
   - DOMAIN,aod-hls-uk-live.akamaized.net
+  - DOMAIN,vod-dash-uk-live.akamaized.net
+  - DOMAIN,vod-dash-uk-live.bbcfmt.hs.llnwd.net
+  - DOMAIN,vod-dash-ww-live.akamaized.net
+  - DOMAIN,vod-dash-ww-live.bbcfmt.s.llnwi.net
+  - DOMAIN,vod-thumb-uk-live.akamaized.net
+  - DOMAIN,vod-thumb-uk-live.bbcfmt.hs.llnwd.net
+  - DOMAIN,vod-thumb-ww-live.akamaized.net
+  - DOMAIN,vod-thumb-ww-live.bbcfmt.s.llnwi.net
   - DOMAIN-KEYWORD,bbcfmt
   - DOMAIN-KEYWORD,uk-live
   ## > BoXun
@@ -110,16 +115,13 @@ payload:
   ## > CBS
   - DOMAIN-SUFFIX,cbs
   - DOMAIN-SUFFIX,cbs.com
-  - DOMAIN-SUFFIX,cbsaavideo.com
   - DOMAIN-SUFFIX,cbscorporation.com
-  - DOMAIN-SUFFIX,cbsi.com
   - DOMAIN-SUFFIX,cbsi.video
   - DOMAIN-SUFFIX,cbsiam.com
   - DOMAIN-SUFFIX,cbsig.net
   - DOMAIN-SUFFIX,cbsimg.net
   - DOMAIN-SUFFIX,cbsinteractive.com
   - DOMAIN-SUFFIX,cbsistatic.com
-  - DOMAIN-SUFFIX,cbsivideo.com
   - DOMAIN-SUFFIX,cbsnews.com
   - DOMAIN-SUFFIX,cbspressexpress.com
   - DOMAIN-SUFFIX,cbssports.com
@@ -135,6 +137,12 @@ payload:
   - DOMAIN-SUFFIX,cbsradio.com
   ## >> Paramount
   - DOMAIN-SUFFIX,paramount.com
+  - DOMAIN-SUFFIX,cbsi.com
+  - DOMAIN-SUFFIX,cbsaavideo.com
+  - DOMAIN-SUFFIX,cbsivideo.com
+  - DOMAIN-SUFFIX,paramountplus.com
+  - DOMAIN-SUFFIX,pplusstatic.com
+  - DOMAIN-SUFFIX,cbsi.live.ott.irdeto.com
   ## >> ShowTime
   - DOMAIN-SUFFIX,showtime.com
   ## > CNBC
@@ -327,12 +335,6 @@ payload:
   - DOMAIN-SUFFIX,nationalgeographic.com
   - DOMAIN-SUFFIX,nationalgeographicpartners.com
   - DOMAIN-SUFFIX,ngeo.com
-  ## > EncoreTVB
-  - DOMAIN-SUFFIX,encoretvb.com
-  - DOMAIN-SUFFIX,content.jwplatform.com
-  - DOMAIN-SUFFIX,videos-f.jwpsrv.com
-  - DOMAIN,edge.api.brightcove.com
-  - DOMAIN,bcbolt446c5271-a.akamaihd.net
   ## > Fox
   - DOMAIN-SUFFIX,.fox
   - DOMAIN-SUFFIX,cdn-fox-networks-group-green.akamaized.net
@@ -651,6 +653,7 @@ payload:
   - DOMAIN-SUFFIX,findyourlimits.com
   - DOMAIN-SUFFIX,freehulu.com
   - DOMAIN-SUFFIX,happyon.jp
+  - DOMAIN-SUFFIX,hjholdings.jp
   - DOMAIN-SUFFIX,hooloo.tv
   - DOMAIN-SUFFIX,hoolu.com
   - DOMAIN-SUFFIX,hoolu.tv
@@ -868,7 +871,9 @@ payload:
   - DOMAIN-SUFFIX,sndcdn.com
   - DOMAIN-SUFFIX,soundcloud.com
   ## > Spotify
+  - DOMAIN-SUFFIX,audio-ak-spotify-com.akamaized.net
   - DOMAIN-SUFFIX,byspotify.com
+  - DOMAIN-SUFFIX,heads4-ak-spotify-com.akamaized.net
   - DOMAIN-SUFFIX,pscdn.co
   - DOMAIN-SUFFIX,scdn.co
   - DOMAIN-SUFFIX,spoti.fi
@@ -919,6 +924,12 @@ payload:
   - DOMAIN-SUFFIX,tvbusa.com
   - DOMAIN-SUFFIX,tvbweekly.com
   - DOMAIN-SUFFIX,tvmedia.net.au
+  ## >> EncoreTVB
+  - DOMAIN-SUFFIX,encoretvb.com
+  - DOMAIN-SUFFIX,content.jwplatform.com
+  - DOMAIN-SUFFIX,videos-f.jwpsrv.com
+  - DOMAIN,edge.api.brightcove.com
+  - DOMAIN,bcbolt446c5271-a.akamaihd.net
   ## >> MyTV SUPER
   - DOMAIN-SUFFIX,mytvsuper.com
   - DOMAIN-SUFFIX,mytvsuperlimited.hb.omtrdc.net
@@ -957,9 +968,9 @@ payload:
   - DOMAIN-SUFFIX,viu.now.com
   - DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com
   - DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com
-  - DOMAIN,d1k2us671qcoau.cloudfront.net
-  - DOMAIN,d2anahhhmp1ffz.cloudfront.net
-  - DOMAIN,dfp6rglgjqszk.cloudfront.net
+  - DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net
+  - DOMAIN-SUFFIX,d2anahhhmp1ffz.cloudfront.net
+  - DOMAIN-SUFFIX,dfp6rglgjqszk.cloudfront.net
   ## > VOA
   - DOMAIN-SUFFIX,amerikaninsesi.com
   - DOMAIN-SUFFIX,amerikaninsesi.org
