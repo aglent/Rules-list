@@ -17,6 +17,7 @@ payload:
   # > Microsoft
   - DOMAIN-SUFFIX,aka.ms
   - DOMAIN-SUFFIX,onedrive.live.com
+  - DOMAIN-SUFFIX,streaming.mediaservices.windows.net
   - DOMAIN,az416426.vo.msecnd.net
   - DOMAIN,az668014.vo.msecnd.net
   # > Facebook
@@ -77,6 +78,9 @@ payload:
   # > Akamai
   - DOMAIN,a248.e.akamai.net
   - DOMAIN,a771.dscq.akamai.net
+  # > Clubhouse
+  - DOMAIN-SUFFIX,clubhouseapi.com
+  - DOMAIN-SUFFIX,joinclubhouse.com
   # > Others
   - DOMAIN-SUFFIX,4shared.com
   - DOMAIN-SUFFIX,9cache.com
@@ -207,6 +211,7 @@ payload:
   - DOMAIN-SUFFIX,goo.ne.jp
   - DOMAIN-SUFFIX,goodreads.com
   - DOMAIN-SUFFIX,gov.tw
+  - DOMAIN-SUFFIX,gravatar.com
   - DOMAIN-SUFFIX,greatfire.org
   - DOMAIN-SUFFIX,gumroad.com
   - DOMAIN-SUFFIX,hbg.com
@@ -538,11 +543,22 @@ payload:
   # URL-REGEX,http:\/\/img\.sina\.com\/usweibo\/
 
   # (Network Jitter)
+  # > Apple
+  - DOMAIN,appleid.apple.com
+  - DOMAIN,developer.apple.com
+  - DOMAIN,www.icloud.com
+  - DOMAIN,ocsp.apple.com
+  - DOMAIN,xp.apple.com
+  # > DigiCert
+  - DOMAIN,cacerts.digicert.com
+  - DOMAIN,crl3.digicert.com
+  - DOMAIN,crl4.digicert.com
+  - DOMAIN,ocsp.digicert.com
+  # > Others
   - DOMAIN-SUFFIX,cloudcone.com.cn
   - DOMAIN-SUFFIX,inkbunny.net
   - DOMAIN-SUFFIX,metapix.net
   - DOMAIN-SUFFIX,s3.amazonaws.com
   - DOMAIN-SUFFIX,zaobao.com.sg
   - DOMAIN,international-gfe.download.nvidia.com
-  - DOMAIN,ocsp.apple.com
   - DOMAIN,store-images.s-microsoft.com
