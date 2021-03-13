@@ -1,9 +1,10 @@
 # https://github.com/LM-Firefly/Rules/blob/master/Clash-RuleSet-Classical/SpeedTest.yaml
+# 将DOMAIN-KEYWORD,speedtest 改为 DOMAIN-SUFFIX,speedtest.net
 
 payload:
   ## > Speedtest by Ookla
   - DOMAIN-KEYWORD,ookla
-# - DOMAIN-KEYWORD,speedtest
+  - DOMAIN-SUFFIX,speedtest.net
   - DOMAIN-SUFFIX,lg-hkg.fdcservers.net
   - DOMAIN-SUFFIX,ooklaserver.net
   - DOMAIN,4glte.ktrn.rw
