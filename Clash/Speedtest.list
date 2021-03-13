@@ -3,7 +3,7 @@
 payload:
   ## > Speedtest by Ookla
   - DOMAIN-KEYWORD,ookla
-  - DOMAIN-KEYWORD,speedtest
+# - DOMAIN-KEYWORD,speedtest
   - DOMAIN-SUFFIX,lg-hkg.fdcservers.net
   - DOMAIN-SUFFIX,ooklaserver.net
   - DOMAIN,4glte.ktrn.rw
