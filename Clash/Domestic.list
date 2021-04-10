@@ -1,4 +1,5 @@
 # https://github.com/DivineEngine/Profiles/blob/master/Clash/RuleSet/China.yaml
+# 注释ip.sb
 
 payload:
   # China Area Network
@@ -190,7 +191,7 @@ payload:
   # > IP Query
   - DOMAIN-SUFFIX,ipip.net
   - DOMAIN-SUFFIX,ip.la
-  - DOMAIN-SUFFIX,ip.sb
+#  - DOMAIN-SUFFIX,ip.sb
   - DOMAIN-SUFFIX,ip-cdn.com
   - DOMAIN-SUFFIX,ipv6-test.com
   - DOMAIN-SUFFIX,myip.la

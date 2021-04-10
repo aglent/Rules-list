@@ -1,4 +1,5 @@
 # https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Filter/China.list
+# 注释ip.sb
 
 # China Area Network
 # > 360
@@ -240,7 +241,7 @@ DOMAIN-SUFFIX,wangsu.com,Domestic
 # > IP Query
 DOMAIN-SUFFIX,ipip.net,Domestic
 DOMAIN-SUFFIX,ip.la,Domestic
-DOMAIN-SUFFIX,ip.sb,Domestic
+# DOMAIN-SUFFIX,ip.sb,Domestic
 DOMAIN-SUFFIX,ip-cdn.com,Domestic
 DOMAIN-SUFFIX,ipv6-test.com,Domestic
 DOMAIN-SUFFIX,myip.la,Domestic
