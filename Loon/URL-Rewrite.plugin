@@ -1,5 +1,5 @@
 # https://github.com/Tartarus2014/Loon-Script/blob/master/Plugin/General.plugin
-# 将原[URL Rewrite]里的内容打包成plugin 由[Remote Script]来订阅
+# 将原[URL Rewrite]里的内容打包成plugin 由[Plugin]来订阅
 
 # Redirect Google Service
 ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
