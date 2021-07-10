@@ -32,6 +32,7 @@ payload:
   - DOMAIN-SUFFIX,c4assets.com
   - DOMAIN-SUFFIX,channel4.com
   ## > Amazon Prime Video
+  - PROCESS-NAME,com.amazon.avod.thirdpartyclient
   - DOMAIN-SUFFIX,aiv-cdn.net
   - DOMAIN-SUFFIX,aiv-delivery.net
   - DOMAIN-SUFFIX,amazonprimevideo.cn
@@ -58,20 +59,6 @@ payload:
   - DOMAIN-KEYWORD,avoddashs
   ## > Americasvoice
   - DOMAIN-SUFFIX,americasvoice.news
-  ## > AppleDaily
-  - DOMAIN-SUFFIX,appledaily.com
-  - DOMAIN-SUFFIX,appledaily.hk
-  - DOMAIN-SUFFIX,appledaily.com.hk
-  - DOMAIN-SUFFIX,appledaily.com.tw
-  - DOMAIN-SUFFIX,atnext.com
-  - DOMAIN-SUFFIX,nextmedia.com
-  - DOMAIN-SUFFIX,nextdigital.com.hk
-  - DOMAIN-SUFFIX,nextmag.com.tw
-  - DOMAIN-SUFFIX,nexttv.com.tw
-  - DOMAIN-SUFFIX,eracom.com.tw
-  - DOMAIN-SUFFIX,nextmgz.com
-  - DOMAIN-SUFFIX,next.hk
-  - DOMAIN-SUFFIX,sharpdaily.tw
   ## > ATTWatchTV
   - DOMAIN-SUFFIX,att.tv
   - DOMAIN-SUFFIX,atttvnow.com
@@ -85,21 +72,28 @@ payload:
   - DOMAIN,gamer-cds.cdn.hinet.net
   - DOMAIN,gamer2-cds.cdn.hinet.net
   ## > BBC
+  - DOMAIN-SUFFIX,bbc
   - DOMAIN-SUFFIX,bbc.co
   - DOMAIN-SUFFIX,bbc.co.uk
   - DOMAIN-SUFFIX,bbc.com
   - DOMAIN-SUFFIX,bbc.in
+  - DOMAIN-SUFFIX,bbc.net.uk
   - DOMAIN-SUFFIX,bbcchinese.com
   - DOMAIN-SUFFIX,bbcfmt.hs.llnwd.net
+  - DOMAIN-SUFFIX,bbcfmt.s.llnwi.net
   - DOMAIN-SUFFIX,bbci.co
   - DOMAIN-SUFFIX,bbci.co.uk
+  - DOMAIN-SUFFIX,bbcmedia.co.uk
   - DOMAIN-SUFFIX,bbcverticals.com
+  - DOMAIN-SUFFIX,bidi.net.uk
   - DOMAIN,aod-dash-uk-live.akamaized.net
   - DOMAIN,aod-hls-uk-live.akamaized.net
   - DOMAIN,vod-dash-uk-live.akamaized.net
   - DOMAIN,vod-dash-uk-live.bbcfmt.hs.llnwd.net
   - DOMAIN,vod-dash-ww-live.akamaized.net
   - DOMAIN,vod-dash-ww-live.bbcfmt.s.llnwi.net
+  - DOMAIN,vod-hls-uk-live.akamaized.net
+  - DOMAIN,vod-sub-uk-live.akamaized.net
   - DOMAIN,vod-thumb-uk-live.akamaized.net
   - DOMAIN,vod-thumb-uk-live.bbcfmt.hs.llnwd.net
   - DOMAIN,vod-thumb-ww-live.akamaized.net
@@ -136,14 +130,20 @@ payload:
   ## >> CBS Radio
   - DOMAIN-SUFFIX,cbsradio.com
   ## >> Paramount
-  - DOMAIN-SUFFIX,paramount.com
-  - DOMAIN-SUFFIX,cbsi.com
+  - PROCESS-NAME,com.cbs.app
   - DOMAIN-SUFFIX,cbsaavideo.com
+  - DOMAIN-SUFFIX,cbsi.com
+  - DOMAIN-SUFFIX,cbsi.live.ott.irdeto.com
   - DOMAIN-SUFFIX,cbsivideo.com
+  - DOMAIN-SUFFIX,cbsplaylistserver.aws.syncbak.com
+  - DOMAIN-SUFFIX,cbsservice.aws.syncbak.com
+  - DOMAIN-SUFFIX,paramount.com
   - DOMAIN-SUFFIX,paramountplus.com
   - DOMAIN-SUFFIX,pplusstatic.com
-  - DOMAIN-SUFFIX,cbsi.live.ott.irdeto.com
+  ## >> Pluto TV
+  - DOMAIN-SUFFIX,pluto.tv
   ## >> ShowTime
+  - PROCESS-NAME,com.showtime.standalone
   - DOMAIN-SUFFIX,showtime.com
   ## > CNBC
   - DOMAIN-SUFFIX,cnbc.com
@@ -157,10 +157,19 @@ payload:
   - DOMAIN-SUFFIX,cnnarabic.com
   - DOMAIN-SUFFIX,cnnlabs.com
   - DOMAIN-SUFFIX,cnnmoney.ch
+  ## > CW Seed
+  - PROCESS-NAME,com.cw.fullepisodes.android
+  - PROCESS-NAME,com.cw.seed.android
+  - DOMAIN-SUFFIX,cwseed.com
+  - DOMAIN-SUFFIX,cwtv.com
+  - DOMAIN-SUFFIX,thecwvideo.com
+  - DOMAIN,cwtv-amd-akamai.akamaized.net
+  - DOMAIN,edge.cwtv-vod-ext.top.comcast.net
   ## > Dailymotion
+  - DOMAIN-SUFFIX,dai.ly
   - DOMAIN-SUFFIX,dailymotion.com
-  - DOMAIN-SUFFIX,dmcdn.net
   - DOMAIN-SUFFIX,dm-event.net
+  - DOMAIN-SUFFIX,dmcdn.net
   - DOMAIN-SUFFIX,dmxleo.com
   ## > DAZN
   - DOMAIN-SUFFIX,control.kochava.com
@@ -192,18 +201,21 @@ payload:
   ## > Discovery Plus
   - DOMAIN-SUFFIX,content-ause1-ur-discovery1.uplynk.com
   - DOMAIN-SUFFIX,disco-api.com
+  - DOMAIN-SUFFIX,discoveryplus.co.uk
   - DOMAIN-SUFFIX,discoveryplus.com
+  - DOMAIN-SUFFIX,discoveryplus.in
+  - DOMAIN-SUFFIX,dnitv.com
   - DOMAIN-SUFFIX,fwmrm.net
   - DOMAIN-SUFFIX,getblueshift.com
   - DOMAIN-SUFFIX,litix.io
   - DOMAIN-SUFFIX,mobile-collector.newrelic.com
   ## > Disney
+  - PROCESS-NAME,com.disney.disneyplus
   - DOMAIN-SUFFIX,adobedtm.com
   - DOMAIN-SUFFIX,adventuresbydisney.com
   - DOMAIN-SUFFIX,babble.com
   - DOMAIN-SUFFIX,babyzone.com
   - DOMAIN-SUFFIX,bam.nr-data.net
-  - DOMAIN-SUFFIX,bamgrid.com
   - DOMAIN-SUFFIX,braze.com
   - DOMAIN-SUFFIX,cdn.optimizely.com
   - DOMAIN-SUFFIX,cdn.registerdisney.go.com
@@ -310,15 +322,24 @@ payload:
   - DOMAIN-SUFFIX,thisispolaris.com
   - DOMAIN-SUFFIX,watchdisneyfe.com
   ## >> ABC
+  - PROCESS-NAME,com.disney.datg.videoplatforms.android.abc
   - DOMAIN-SUFFIX,abc-studios.com
   - DOMAIN-SUFFIX,abc.com
   - DOMAIN-SUFFIX,edgedatg.com
+  ## >> Bamtech
+  - DOMAIN-SUFFIX,bamgrid.com
+  - DOMAIN-SUFFIX,dmed.technology
   ## >> Espn
+  - DOMAIN-SUFFIX,dtci.co
+  - DOMAIN-SUFFIX,dtci.technology
+  - DOMAIN-SUFFIX,espn.co.uk
   - DOMAIN-SUFFIX,espn.com
-  - DOMAIN-SUFFIX,espn.hb.omtrdc.net
+  - DOMAIN-SUFFIX,espn.net
   - DOMAIN-SUFFIX,espncdn.com
-  - DOMAIN-SUFFIX,espndotcom.tt.omtrdc.net
+  - DOMAIN-SUFFIX,espnqa.com
   - DOMAIN-SUFFIX,watchespn.com
+  - DOMAIN-SUFFIX,espn.hb.omtrdc.net
+  - DOMAIN-SUFFIX,espndotcom.tt.omtrdc.net
   ## >> Marvel
   - DOMAIN-SUFFIX,marvel.com
   - DOMAIN-SUFFIX,marvel10thanniversary.com
@@ -335,6 +356,13 @@ payload:
   - DOMAIN-SUFFIX,nationalgeographic.com
   - DOMAIN-SUFFIX,nationalgeographicpartners.com
   - DOMAIN-SUFFIX,ngeo.com
+  ## > E-Hentai Gallery
+  - DOMAIN-SUFFIX,e-hentai.org
+  - DOMAIN-SUFFIX,ehgt.org
+  - DOMAIN-SUFFIX,ehwiki.org
+  - DOMAIN-SUFFIX,exhentai.org
+  - DOMAIN-SUFFIX,hath.network
+  - DOMAIN-SUFFIX,hentaiverse.org
   ## > Fox
   - DOMAIN-SUFFIX,.fox
   - DOMAIN-SUFFIX,cdn-fox-networks-group-green.akamaized.net
@@ -597,35 +625,48 @@ payload:
   ## > friDay
   - DOMAIN-SUFFIX,fetnet.net
   - DOMAIN-SUFFIX,friday.tw
-  ## > HBO NOW & HBO GO HKG
+  ## > FuboTV
+  - DOMAIN-SUFFIX,fubo.tv
+  - DOMAIN-SUFFIX,fubotv.com
+  ## > HBO GO HKG & HBO MAX
+  - PROCESS-NAME,com.hbo.hbonow
   - DOMAIN-SUFFIX,cinemax.com
   - DOMAIN-SUFFIX,forthethrone.com
   - DOMAIN-SUFFIX,hbo.com
+  - DOMAIN-SUFFIX,hbogo.com
+  - DOMAIN-SUFFIX,hbomax.com
+  - DOMAIN-SUFFIX,hbomaxcdn.com
+  - DOMAIN-SUFFIX,hbonow.com
+  - DOMAIN-SUFFIX,maxgo.com
+  - DOMAIN-SUFFIX,youboranqs01.com
+  - DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com
+  - DOMAIN-SUFFIX,manifest.prod.boltdns.net
+  - DOMAIN-SUFFIX,hbogeo.cust.footprint.net
+  ## >> HBO Asia
   - DOMAIN-SUFFIX,hboasia.com
+  - DOMAIN-SUFFIX,hbogoasia.com
+  - DOMAIN-SUFFIX,hbogoasia.hk
+  - DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net
   - DOMAIN-SUFFIX,hboasia1-i.akamaihd.net
   - DOMAIN-SUFFIX,hboasia2-i.akamaihd.net
   - DOMAIN-SUFFIX,hboasia3-i.akamaihd.net
   - DOMAIN-SUFFIX,hboasia4-i.akamaihd.net
   - DOMAIN-SUFFIX,hboasia5-i.akamaihd.net
-  - DOMAIN-SUFFIX,hbogeo.cust.footprint.net
-  - DOMAIN-SUFFIX,hbogo.com
-  - DOMAIN-SUFFIX,hbogoasia.com
-  - DOMAIN-SUFFIX,hbogoasia.hk
-  - DOMAIN-SUFFIX,hbomax.com
-  - DOMAIN-SUFFIX,hbonow.com
-  - DOMAIN-SUFFIX,manifest.prod.boltdns.net
-  - DOMAIN-SUFFIX,maxgo.com
+  - DOMAIN-SUFFIX,hboasialive.akamaized.net
+  - DOMAIN-SUFFIX,hbogoprod-vod.akamaized.net
+  - DOMAIN-SUFFIX,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
+  - DOMAIN-SUFFIX,s3-ap-southeast-1.amazonaws.com
+  - DOMAIN-SUFFIX,cf-images.ap-southeast-1.prod.boltdns.net
+  - DOMAIN-SUFFIX,dai3fd1oh325y.cloudfront.net
+  - DOMAIN-SUFFIX,hbolb.onwardsmg.com
+  - DOMAIN-SUFFIX,hbounify-prod.evergent.com
+  - DOMAIN-SUFFIX,players.brightcove.net
+  ## >> HBO NOW
   - DOMAIN-SUFFIX,now-ashare.com
   - DOMAIN-SUFFIX,now-tv.com
   - DOMAIN-SUFFIX,now.com.hk
   - DOMAIN-SUFFIX,nowe.com
-  - DOMAIN-SUFFIX,players.brightcove.net
-  - DOMAIN-SUFFIX,youboranqs01.com
-  - DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net
-  - DOMAIN-SUFFIX,dai3fd1oh325y.cloudfront.net
-  - DOMAIN-SUFFIX,s3-ap-southeast-1.amazonaws.com
-  - DOMAIN-SUFFIX,cf-images.ap-southeast-1.prod.boltdns.net
-  - DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com
+  - DOMAIN-SUFFIX,nowe.hk
   ## > Huffpost
   - DOMAIN-SUFFIX,huffingtonpost.ca
   - DOMAIN-SUFFIX,huffingtonpost.co.uk
@@ -646,14 +687,13 @@ payload:
   - DOMAIN-SUFFIX,huffpostbrasil.com
   - DOMAIN-SUFFIX,huffpostmaghreb.com
   ## > Hulu
+  - PROCESS-NAME,com.hulu.plus
   - DOMAIN-SUFFIX,112263.com
   - DOMAIN-SUFFIX,assetshuluimcom-a.akamaihd.net
   - DOMAIN-SUFFIX,callhulu.com
   - DOMAIN-SUFFIX,cws-hulu.conviva.com
   - DOMAIN-SUFFIX,findyourlimits.com
   - DOMAIN-SUFFIX,freehulu.com
-  - DOMAIN-SUFFIX,happyon.jp
-  - DOMAIN-SUFFIX,hjholdings.jp
   - DOMAIN-SUFFIX,hooloo.tv
   - DOMAIN-SUFFIX,hoolu.com
   - DOMAIN-SUFFIX,hoolu.tv
@@ -662,7 +702,6 @@ payload:
   - DOMAIN-SUFFIX,huloo.tv
   - DOMAIN-SUFFIX,hulu.com
   - DOMAIN-SUFFIX,hulu.hb.omtrdc.net
-  - DOMAIN-SUFFIX,hulu.jp
   - DOMAIN-SUFFIX,hulu.sc.omtrdc.net
   - DOMAIN-SUFFIX,hulu.tv
   - DOMAIN-SUFFIX,hulu.us
@@ -696,16 +735,25 @@ payload:
   - DOMAIN-SUFFIX,myhulu.com
   - DOMAIN-SUFFIX,originalhulu.com
   - DOMAIN-SUFFIX,payhulu.com
-  - DOMAIN-SUFFIX,prod.hjholdings.tv
   - DOMAIN-SUFFIX,registerhulu.com
-  - DOMAIN-SUFFIX,streaks.jp
   - DOMAIN-SUFFIX,thehulubraintrust.com
   - DOMAIN-SUFFIX,wwwhuluplus.com
+  # >> HuluJapan
+  - DOMAIN-SUFFIX,happyon.jp
+  - DOMAIN-SUFFIX,hjholdings.jp
+  - DOMAIN-SUFFIX,hulu.jp
+  - DOMAIN-SUFFIX,prod.hjholdings.tv
+  - DOMAIN-SUFFIX,streaks.jp
   - DOMAIN-SUFFIX,yb.uncn.jp
   ## > 华文电视
   - DOMAIN-SUFFIX,5itv.tv
   - DOMAIN-SUFFIX,ocnttv.com
+  ## > iQIYI 国际站
+  - PROCESS-NAME,com.iqiyi.i18n
+  - DOMAIN-SUFFIX,iq.com
   ## > iTalkBB
+  - PROCESS-NAME,com.italkbbtv.phone
+  - DOMAIN-SUFFIX,api.tv.colnv.com
   - DOMAIN-SUFFIX,italkbb.com
   - DOMAIN-SUFFIX,italkbbtv.com
   ## > ITV
@@ -742,6 +790,7 @@ payload:
   - IP-CIDR,27.0.236.0/22,no-resolve
   # >> Potplayer
   - DOMAIN-SUFFIX,daumpotplayer.com
+  - DOMAIN-SUFFIX,potplayer.tv
   ## > Kantv
   - DOMAIN-SUFFIX,imkan.tv
   ## > KKBOX
@@ -775,6 +824,476 @@ payload:
   - DOMAIN-SUFFIX,channel5.com
   - DOMAIN-SUFFIX,my5.tv
   - DOMAIN,d349g9zuie06uo.cloudfront.net
+  ## > Naver TV
+  - DOMAIN-SUFFIX,naver.com
+  - DOMAIN-SUFFIX,smartmediarep.com
+  ## > Netflix
+  - PROCESS-NAME,com.netflix.mediaclient
+  - DOMAIN-SUFFIX,fast.com
+  - DOMAIN-SUFFIX,netflix.ca
+  - DOMAIN-SUFFIX,netflix.com
+  - DOMAIN-SUFFIX,netflix.com.edgesuite.net
+  - DOMAIN-SUFFIX,netflix.net
+  - DOMAIN-SUFFIX,netflixinvestor.com
+  - DOMAIN-SUFFIX,netflixtechblog.com
+  - DOMAIN-SUFFIX,nflxext.com
+  - DOMAIN-SUFFIX,nflximg.com
+  - DOMAIN-SUFFIX,nflximg.net
+  - DOMAIN-SUFFIX,nflxsearch.net
+  - DOMAIN-SUFFIX,nflxso.net
+  - DOMAIN-SUFFIX,nflxvideo.net
+  - DOMAIN-KEYWORD,dualstack.apiproxy-device-prod-nlb-
+  - DOMAIN-KEYWORD,dualstack.ichnaea-web-
+  ## >> DNS test
+  - DOMAIN-SUFFIX,netflixdnstest0.com
+  - DOMAIN-SUFFIX,netflixdnstest1.com
+  - DOMAIN-SUFFIX,netflixdnstest2.com
+  - DOMAIN-SUFFIX,netflixdnstest3.com
+  - DOMAIN-SUFFIX,netflixdnstest4.com
+  - DOMAIN-SUFFIX,netflixdnstest5.com
+  - DOMAIN-SUFFIX,netflixdnstest6.com
+  - DOMAIN-SUFFIX,netflixdnstest7.com
+  - DOMAIN-SUFFIX,netflixdnstest8.com
+  - DOMAIN-SUFFIX,netflixdnstest9.com
+  - DOMAIN-SUFFIX,netflixdnstest10.com
+  - IP-CIDR,8.41.4.0/24,no-resolve
+  - IP-CIDR,23.78.0.0/16,no-resolve
+  - IP-CIDR,23.246.0.0/18,no-resolve
+  - IP-CIDR,23.246.2.0/24,no-resolve
+  - IP-CIDR,23.246.3.0/24,no-resolve
+  - IP-CIDR,23.246.6.0/24,no-resolve
+  - IP-CIDR,23.246.7.0/24,no-resolve
+  - IP-CIDR,23.246.10.0/24,no-resolve
+  - IP-CIDR,23.246.11.0/24,no-resolve
+  - IP-CIDR,23.246.12.0/24,no-resolve
+  - IP-CIDR,23.246.13.0/24,no-resolve
+  - IP-CIDR,23.246.14.0/24,no-resolve
+  - IP-CIDR,23.246.15.0/24,no-resolve
+  - IP-CIDR,23.246.16.0/24,no-resolve
+  - IP-CIDR,23.246.17.0/24,no-resolve
+  - IP-CIDR,23.246.20.0/24,no-resolve
+  - IP-CIDR,23.246.21.0/24,no-resolve
+  - IP-CIDR,23.246.26.0/24,no-resolve
+  - IP-CIDR,23.246.27.0/24,no-resolve
+  - IP-CIDR,23.246.30.0/24,no-resolve
+  - IP-CIDR,23.246.31.0/24,no-resolve
+  - IP-CIDR,23.246.36.0/24,no-resolve
+  - IP-CIDR,23.246.38.0/24,no-resolve
+  - IP-CIDR,23.246.39.0/24,no-resolve
+  - IP-CIDR,23.246.41.0/24,no-resolve
+  - IP-CIDR,23.246.42.0/24,no-resolve
+  - IP-CIDR,23.246.44.0/24,no-resolve
+  - IP-CIDR,23.246.45.0/24,no-resolve
+  - IP-CIDR,23.246.46.0/24,no-resolve
+  - IP-CIDR,23.246.47.0/24,no-resolve
+  - IP-CIDR,23.246.48.0/24,no-resolve
+  - IP-CIDR,23.246.49.0/24,no-resolve
+  - IP-CIDR,23.246.50.0/24,no-resolve
+  - IP-CIDR,23.246.51.0/24,no-resolve
+  - IP-CIDR,23.246.52.0/24,no-resolve
+  - IP-CIDR,23.246.54.0/24,no-resolve
+  - IP-CIDR,23.246.55.0/24,no-resolve
+  - IP-CIDR,23.246.56.0/24,no-resolve
+  - IP-CIDR,23.246.57.0/24,no-resolve
+  - IP-CIDR,23.246.58.0/24,no-resolve
+  - IP-CIDR,23.246.59.0/24,no-resolve
+  - IP-CIDR,34.192.0.0/16,no-resolve
+  - IP-CIDR,34.208.0.0/12,no-resolve
+  - IP-CIDR,34.248.0.0/13,no-resolve
+  - IP-CIDR,35.160.0.0/13,no-resolve
+  - IP-CIDR,37.77.184.0/21,no-resolve
+  - IP-CIDR,37.77.184.0/24,no-resolve
+  - IP-CIDR,37.77.186.0/24,no-resolve
+  - IP-CIDR,37.77.187.0/24,no-resolve
+  - IP-CIDR,37.77.188.0/24,no-resolve
+  - IP-CIDR,37.77.189.0/24,no-resolve
+  - IP-CIDR,38.72.126.0/24,no-resolve
+  - IP-CIDR,44.224.0.0/16,no-resolve
+  - IP-CIDR,44.230.0.0/16,no-resolve
+  - IP-CIDR,45.57.0.0/17,no-resolve
+  - IP-CIDR,45.57.0.0/24,no-resolve
+  - IP-CIDR,45.57.1.0/24,no-resolve
+  - IP-CIDR,45.57.4.0/24,no-resolve
+  - IP-CIDR,45.57.5.0/24,no-resolve
+  - IP-CIDR,45.57.6.0/24,no-resolve
+  - IP-CIDR,45.57.7.0/24,no-resolve
+  - IP-CIDR,45.57.10.0/24,no-resolve
+  - IP-CIDR,45.57.11.0/24,no-resolve
+  - IP-CIDR,45.57.12.0/24,no-resolve
+  - IP-CIDR,45.57.13.0/24,no-resolve
+  - IP-CIDR,45.57.14.0/24,no-resolve
+  - IP-CIDR,45.57.15.0/24,no-resolve
+  - IP-CIDR,45.57.16.0/24,no-resolve
+  - IP-CIDR,45.57.17.0/24,no-resolve
+  - IP-CIDR,45.57.18.0/24,no-resolve
+  - IP-CIDR,45.57.19.0/24,no-resolve
+  - IP-CIDR,45.57.20.0/24,no-resolve
+  - IP-CIDR,45.57.21.0/24,no-resolve
+  - IP-CIDR,45.57.22.0/24,no-resolve
+  - IP-CIDR,45.57.23.0/24,no-resolve
+  - IP-CIDR,45.57.28.0/24,no-resolve
+  - IP-CIDR,45.57.29.0/24,no-resolve
+  - IP-CIDR,45.57.32.0/24,no-resolve
+  - IP-CIDR,45.57.33.0/24,no-resolve
+  - IP-CIDR,45.57.34.0/24,no-resolve
+  - IP-CIDR,45.57.35.0/24,no-resolve
+  - IP-CIDR,45.57.36.0/24,no-resolve
+  - IP-CIDR,45.57.37.0/24,no-resolve
+  - IP-CIDR,45.57.44.0/24,no-resolve
+  - IP-CIDR,45.57.45.0/24,no-resolve
+  - IP-CIDR,45.57.46.0/24,no-resolve
+  - IP-CIDR,45.57.47.0/24,no-resolve
+  - IP-CIDR,45.57.48.0/24,no-resolve
+  - IP-CIDR,45.57.49.0/24,no-resolve
+  - IP-CIDR,45.57.50.0/24,no-resolve
+  - IP-CIDR,45.57.51.0/24,no-resolve
+  - IP-CIDR,45.57.56.0/24,no-resolve
+  - IP-CIDR,45.57.58.0/24,no-resolve
+  - IP-CIDR,45.57.59.0/24,no-resolve
+  - IP-CIDR,45.57.60.0/24,no-resolve
+  - IP-CIDR,45.57.62.0/24,no-resolve
+  - IP-CIDR,45.57.63.0/24,no-resolve
+  - IP-CIDR,45.57.64.0/24,no-resolve
+  - IP-CIDR,45.57.65.0/24,no-resolve
+  - IP-CIDR,45.57.68.0/24,no-resolve
+  - IP-CIDR,45.57.69.0/24,no-resolve
+  - IP-CIDR,45.57.70.0/24,no-resolve
+  - IP-CIDR,45.57.71.0/24,no-resolve
+  - IP-CIDR,45.57.72.0/24,no-resolve
+  - IP-CIDR,45.57.73.0/24,no-resolve
+  - IP-CIDR,45.57.74.0/24,no-resolve
+  - IP-CIDR,45.57.75.0/24,no-resolve
+  - IP-CIDR,45.57.78.0/24,no-resolve
+  - IP-CIDR,45.57.79.0/24,no-resolve
+  - IP-CIDR,45.57.80.0/24,no-resolve
+  - IP-CIDR,45.57.81.0/24,no-resolve
+  - IP-CIDR,45.57.82.0/24,no-resolve
+  - IP-CIDR,45.57.83.0/24,no-resolve
+  - IP-CIDR,45.57.88.0/24,no-resolve
+  - IP-CIDR,45.57.89.0/24,no-resolve
+  - IP-CIDR,45.57.92.0/24,no-resolve
+  - IP-CIDR,45.57.93.0/24,no-resolve
+  - IP-CIDR,45.57.94.0/24,no-resolve
+  - IP-CIDR,45.57.95.0/24,no-resolve
+  - IP-CIDR,45.57.96.0/24,no-resolve
+  - IP-CIDR,45.57.97.0/24,no-resolve
+  - IP-CIDR,45.57.98.0/24,no-resolve
+  - IP-CIDR,45.57.99.0/24,no-resolve
+  - IP-CIDR,45.57.100.0/24,no-resolve
+  - IP-CIDR,45.57.101.0/24,no-resolve
+  - IP-CIDR,45.57.102.0/24,no-resolve
+  - IP-CIDR,45.57.103.0/24,no-resolve
+  - IP-CIDR,45.57.104.0/24,no-resolve
+  - IP-CIDR,45.57.105.0/24,no-resolve
+  - IP-CIDR,45.57.106.0/24,no-resolve
+  - IP-CIDR,45.57.108.0/24,no-resolve
+  - IP-CIDR,45.57.109.0/24,no-resolve
+  - IP-CIDR,52.0.0.0/15,no-resolve
+  - IP-CIDR,52.5.0.0/16,no-resolve
+  - IP-CIDR,52.7.0.0/16,no-resolve
+  - IP-CIDR,52.10.0.0/15,no-resolve
+  - IP-CIDR,52.12.0.0/15,no-resolve
+  - IP-CIDR,52.22.0.0/16,no-resolve
+  - IP-CIDR,52.24.0.0/14,no-resolve
+  - IP-CIDR,52.32.0.0/14,no-resolve
+  - IP-CIDR,52.40.0.0/14,no-resolve
+  - IP-CIDR,52.48.0.0/14,no-resolve
+  - IP-CIDR,52.54.0.0/16,no-resolve
+  - IP-CIDR,52.71.40.0/16,no-resolve
+  - IP-CIDR,52.72.0.0/16,no-resolve
+  - IP-CIDR,52.88.0.0/15,no-resolve
+  - IP-CIDR,54.0.0.0/16,no-resolve
+  - IP-CIDR,54.68.0.0/15,no-resolve
+  - IP-CIDR,54.74.0.0/15,no-resolve
+  - IP-CIDR,54.76.0.0/15,no-resolve
+  - IP-CIDR,54.85.0.0/16,no-resolve
+  - IP-CIDR,54.86.0.0/16,no-resolve
+  - IP-CIDR,54.148.0.0/15,no-resolve
+  - IP-CIDR,54.175.0.0/16,no-resolve
+  - IP-CIDR,54.186.0.0/15,no-resolve
+  - IP-CIDR,54.188.0.0/15,no-resolve
+  - IP-CIDR,54.213.0.0/16,no-resolve
+  - IP-CIDR,54.214.128.0/17,no-resolve
+  - IP-CIDR,64.120.128.0/17,no-resolve
+  - IP-CIDR,66.197.128.0/17,no-resolve
+  - IP-CIDR,69.53.224.0/19,no-resolve
+  - IP-CIDR,69.53.225.0/24,no-resolve
+  - IP-CIDR,69.53.226.0/24,no-resolve
+  - IP-CIDR,69.53.230.0/24,no-resolve
+  - IP-CIDR,69.53.231.0/24,no-resolve
+  - IP-CIDR,69.53.232.0/24,no-resolve
+  - IP-CIDR,69.53.233.0/24,no-resolve
+  - IP-CIDR,69.53.234.0/24,no-resolve
+  - IP-CIDR,69.53.235.0/24,no-resolve
+  - IP-CIDR,69.53.240.0/24,no-resolve
+  - IP-CIDR,69.53.241.0/24,no-resolve
+  - IP-CIDR,69.53.245.0/24,no-resolve
+  - IP-CIDR,69.53.246.0/24,no-resolve
+  - IP-CIDR,69.53.247.0/24,no-resolve
+  - IP-CIDR,69.53.248.0/24,no-resolve
+  - IP-CIDR,69.53.249.0/24,no-resolve
+  - IP-CIDR,69.53.254.0/24,no-resolve
+  - IP-CIDR,103.87.204.0/22,no-resolve
+  - IP-CIDR,103.87.205.0/24,no-resolve
+  - IP-CIDR,103.87.206.0/24,no-resolve
+  - IP-CIDR,103.87.207.0/24,no-resolve
+  - IP-CIDR,108.175.32.0/20,no-resolve
+  - IP-CIDR,185.2.220.0/22,no-resolve
+  - IP-CIDR,185.9.188.0/22,no-resolve
+  - IP-CIDR,192.173.64.0/18,no-resolve
+  - IP-CIDR,192.173.65.0/24,no-resolve
+  - IP-CIDR,192.173.67.0/24,no-resolve
+  - IP-CIDR,192.173.68.0/24,no-resolve
+  - IP-CIDR,192.173.70.0/24,no-resolve
+  - IP-CIDR,192.173.72.0/24,no-resolve
+  - IP-CIDR,192.173.73.0/24,no-resolve
+  - IP-CIDR,192.173.74.0/24,no-resolve
+  - IP-CIDR,192.173.75.0/24,no-resolve
+  - IP-CIDR,192.173.76.0/24,no-resolve
+  - IP-CIDR,192.173.77.0/24,no-resolve
+  - IP-CIDR,192.173.78.0/24,no-resolve
+  - IP-CIDR,192.173.79.0/24,no-resolve
+  - IP-CIDR,192.173.80.0/24,no-resolve
+  - IP-CIDR,192.173.82.0/24,no-resolve
+  - IP-CIDR,192.173.83.0/24,no-resolve
+  - IP-CIDR,192.173.84.0/24,no-resolve
+  - IP-CIDR,192.173.86.0/24,no-resolve
+  - IP-CIDR,192.173.87.0/24,no-resolve
+  - IP-CIDR,192.173.88.0/24,no-resolve
+  - IP-CIDR,192.173.89.0/24,no-resolve
+  - IP-CIDR,192.173.92.0/24,no-resolve
+  - IP-CIDR,192.173.94.0/24,no-resolve
+  - IP-CIDR,192.173.96.0/24,no-resolve
+  - IP-CIDR,192.173.99.0/24,no-resolve
+  - IP-CIDR,198.38.100.0/24,no-resolve
+  - IP-CIDR,198.38.108.0/24,no-resolve
+  - IP-CIDR,198.38.109.0/24,no-resolve
+  - IP-CIDR,198.38.110.0/24,no-resolve
+  - IP-CIDR,198.38.111.0/24,no-resolve
+  - IP-CIDR,198.38.112.0/24,no-resolve
+  - IP-CIDR,198.38.113.0/24,no-resolve
+  - IP-CIDR,198.38.114.0/24,no-resolve
+  - IP-CIDR,198.38.115.0/24,no-resolve
+  - IP-CIDR,198.38.120.0/24,no-resolve
+  - IP-CIDR,198.38.121.0/24,no-resolve
+  - IP-CIDR,198.38.122.0/24,no-resolve
+  - IP-CIDR,198.38.96.0/19,no-resolve
+  - IP-CIDR,198.38.98.0/24,no-resolve
+  - IP-CIDR,198.38.99.0/24,no-resolve
+  - IP-CIDR,198.45.48.0/20,no-resolve
+  - IP-CIDR,198.45.48.0/24,no-resolve
+  - IP-CIDR,198.45.49.0/24,no-resolve
+  - IP-CIDR,198.45.50.0/24,no-resolve
+  - IP-CIDR,198.45.56.0/24,no-resolve
+  - IP-CIDR,208.75.76.0/22,no-resolve
+  - IP-CIDR,203.75.84.0/24,no-resolve
+  - IP-CIDR,203.83.220.0/22,no-resolve
+  - IP-CIDR,203.116.0.0/16,no-resolve
+  - IP-CIDR,203.198.0.0/20,no-resolve
+  - IP-CIDR,203.198.80.0/21,no-resolve
+  - IP-CIDR,207.45.72.0/22,no-resolve
+  - IP-CIDR,207.45.73.0/24,no-resolve
+  - IP-CIDR,218.102.32.0/19,no-resolve
+  - IP-CIDR,219.76.0.0/17,no-resolve
+  - IP-CIDR6,2607:fb10:16::/48,no-resolve
+  - IP-CIDR6,2607:fb10:2011::/48,no-resolve
+  - IP-CIDR6,2607:fb10:2012::/48,no-resolve
+  - IP-CIDR6,2607:fb10:2014::/48,no-resolve
+  - IP-CIDR6,2607:fb10:2033::/48,no-resolve
+  - IP-CIDR6,2607:fb10:2034::/48,no-resolve
+  - IP-CIDR6,2607:fb10:31::/48,no-resolve
+  - IP-CIDR6,2607:fb10:45::/48,no-resolve
+  - IP-CIDR6,2607:fb10:46::/48,no-resolve
+  - IP-CIDR6,2607:fb10:5014::/48,no-resolve
+  - IP-CIDR6,2607:fb10:5015::/48,no-resolve
+  - IP-CIDR6,2607:fb10:5016::/48,no-resolve
+  - IP-CIDR6,2607:fb10:5020::/44,no-resolve
+  - IP-CIDR6,2607:fb10:5021::/48,no-resolve
+  - IP-CIDR6,2607:fb10:5036::/48,no-resolve
+  - IP-CIDR6,2607:fb10:5037::/48,no-resolve
+  - IP-CIDR6,2607:fb10:5039::/48,no-resolve
+  - IP-CIDR6,2607:fb10:503c::/48,no-resolve
+  - IP-CIDR6,2607:fb10:503d::/48,no-resolve
+  - IP-CIDR6,2607:fb10:5040::/48,no-resolve
+  - IP-CIDR6,2607:fb10:5042::/48,no-resolve
+  - IP-CIDR6,2607:fb10:5062::/48,no-resolve
+  - IP-CIDR6,2607:fb10:5063::/48,no-resolve
+  - IP-CIDR6,2607:fb10:7011::/48,no-resolve
+  - IP-CIDR6,2607:fb10:7020::/44,no-resolve
+  - IP-CIDR6,2607:fb10:7035::/48,no-resolve
+  - IP-CIDR6,2607:fb10:7038::/48,no-resolve
+  - IP-CIDR6,2607:fb10:7039::/48,no-resolve
+  - IP-CIDR6,2607:fb10:7040::/44,no-resolve
+  - IP-CIDR6,2607:fb10:7050::/44,no-resolve
+  - IP-CIDR6,2607:fb10:7051::/48,no-resolve
+  - IP-CIDR6,2607:fb10:7061::/48,no-resolve
+  - IP-CIDR6,2607:fb10:7071::/48,no-resolve
+  - IP-CIDR6,2607:fb10:7080::/44,no-resolve
+  - IP-CIDR6,2607:fb10:7082::/48,no-resolve
+  - IP-CIDR6,2607:fb10:7083::/48,no-resolve
+  - IP-CIDR6,2607:fb10:7085::/48,no-resolve
+  - IP-CIDR6,2607:fb10:7086::/48,no-resolve
+  - IP-CIDR6,2607:fb10:7090::/44,no-resolve
+  - IP-CIDR6,2607:fb10:7091::/48,no-resolve
+  - IP-CIDR6,2607:fb10:70b0::/44,no-resolve
+  - IP-CIDR6,2607:fb10:70d0::/44,no-resolve
+  - IP-CIDR6,2607:fb10:70d1::/48,no-resolve
+  - IP-CIDR6,2607:fb10:70e1::/48,no-resolve
+  - IP-CIDR6,2607:fb10:7110::/44,no-resolve
+  - IP-CIDR6,2607:fb10:7120::/44,no-resolve
+  - IP-CIDR6,2607:fb10:7131::/48,no-resolve
+  - IP-CIDR6,2607:fb10:7132::/48,no-resolve
+  - IP-CIDR6,2607:fb10:7141::/48,no-resolve
+  - IP-CIDR6,2607:fb10:7143::/48,no-resolve
+  - IP-CIDR6,2607:fb10:7146::/48,no-resolve
+  - IP-CIDR6,2607:fb10:7147::/48,no-resolve
+  - IP-CIDR6,2607:fb10:7151::/48,no-resolve
+  - IP-CIDR6,2607:fb10:7161::/48,no-resolve
+  - IP-CIDR6,2607:fb10:7171::/48,no-resolve
+  - IP-CIDR6,2607:fb10:7172::/48,no-resolve
+  - IP-CIDR6,2607:fb10:7181::/48,no-resolve
+  - IP-CIDR6,2607:fb10:7182::/48,no-resolve
+  - IP-CIDR6,2607:fb10:7190::/48,no-resolve
+  - IP-CIDR6,2607:fb10:7191::/48,no-resolve
+  - IP-CIDR6,2607:fb10:71b1::/48,no-resolve
+  - IP-CIDR6,2607:fb10:71b2::/48,no-resolve
+  - IP-CIDR6,2607:fb10:71c0::/44,no-resolve
+  - IP-CIDR6,2607:fb10:71e1::/48,no-resolve
+  - IP-CIDR6,2607:fb10:71e2::/48,no-resolve
+  - IP-CIDR6,2607:fb10:71f1::/48,no-resolve
+  - IP-CIDR6,2607:fb10:71f2::/48,no-resolve
+  - IP-CIDR6,2607:fb10:7201::/48,no-resolve
+  - IP-CIDR6,2607:fb10:9015::/48,no-resolve
+  - IP-CIDR6,2607:fb10::/32,no-resolve
+  - IP-CIDR6,2620:10c:7000::/44,no-resolve
+  - IP-CIDR6,2620:10c:7008::/48,no-resolve
+  - IP-CIDR6,2620:10c:700d::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:1000::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:1001::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:1002::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:1003::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:1004::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:1005::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:1008::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:1009::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:100::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:1012::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:1013::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:1014::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:1015::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:1018::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:1021::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:1026::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:1027::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:1034::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:1042::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:1044::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:1046::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:1047::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:1048::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:1049::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:1050::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:1051::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:1052::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:1054::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:1055::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:1056::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:1057::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:1062::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:108::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:109::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:110::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:111::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:112::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:113::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:114::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:115::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:120::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:121::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:122::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:124::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:125::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:126::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:127::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2000::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2001::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2004::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2005::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2006::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2007::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2010::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2011::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2012::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2013::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2014::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2015::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2016::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2017::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2018::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2019::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2020::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2021::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2022::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2023::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2036::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2037::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2044::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2045::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2048::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2049::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2050::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2051::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2056::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2058::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2059::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2060::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2062::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2063::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2064::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2065::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2068::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2069::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2070::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2071::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2072::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2073::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2074::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2075::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2078::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2079::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2080::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2081::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2082::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2083::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2084::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2085::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2088::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2089::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2095::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2096::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2097::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2098::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2099::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2100::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2101::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2102::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2103::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2104::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2105::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2106::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2108::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:2109::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:21::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:262::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:39bc::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:39bd::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:4::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:5::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:98::/48,no-resolve
+  - IP-CIDR6,2a00:86c0:99::/48,no-resolve
+  - IP-CIDR6,2a00:86c0::/32,no-resolve
+  - IP-CIDR6,2a00:86c0:ff0a::/48,no-resolve
+  - IP-CIDR6,2a03:5640::/32,no-resolve
   ## > Niconico
   - DOMAIN-SUFFIX,dmc.nico
   - DOMAIN-SUFFIX,nicodic.jp
@@ -819,6 +1338,7 @@ payload:
   ## > PBS
   - DOMAIN-SUFFIX,pbs.org
   ## > Pornhub
+  - PROCESS-NAME,com.app.pornhub
   - DOMAIN-SUFFIX,phncdn.com
   - DOMAIN-SUFFIX,pornhub.com
   - DOMAIN-SUFFIX,pornhubpremium.com
@@ -871,6 +1391,7 @@ payload:
   - DOMAIN-SUFFIX,sndcdn.com
   - DOMAIN-SUFFIX,soundcloud.com
   ## > Spotify
+  - PROCESS-NAME,com.spotify.music
   - DOMAIN-SUFFIX,audio-ak-spotify-com.akamaized.net
   - DOMAIN-SUFFIX,byspotify.com
   - DOMAIN-SUFFIX,heads4-ak-spotify-com.akamaized.net
@@ -893,13 +1414,14 @@ payload:
   - DOMAIN-SUFFIX,skyking.com.tw
   - DOMAIN,hamifans.emome.net
   ## > TIDAL
-  - DOMAIN-SUFFIX,tidal.com
   - DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com
+  - DOMAIN-SUFFIX,tidal.com
   - DOMAIN-SUFFIX,tidalhifi.com
+  - DOMAIN-SUFFIX,wimpmusic.com
   ## > TikTok
+  - PROCESS-NAME,com.zhiliaoapp.musically
   - DOMAIN-KEYWORD,-tiktokcdn-com
   - DOMAIN,p16-tiktokcdn-com.akamaized.net
-  - DOMAIN-SUFFIX,amemv.com
   - DOMAIN-SUFFIX,byteoversea.com
   - DOMAIN-SUFFIX,ibytedtos.com
   - DOMAIN-SUFFIX,ibyteimg.com
@@ -934,6 +1456,13 @@ payload:
   - DOMAIN-SUFFIX,mytvsuper.com
   - DOMAIN-SUFFIX,mytvsuperlimited.hb.omtrdc.net
   - DOMAIN-SUFFIX,mytvsuperlimited.sc.omtrdc.net
+  ## > TVER
+  - DOMAIN-SUFFIX,dogatch.jp
+  - DOMAIN-SUFFIX,edge.api.brightcove.com
+  - DOMAIN-SUFFIX,gorin.jp
+  - DOMAIN-SUFFIX,screens-lab.jp
+  - DOMAIN-SUFFIX,tver.co.jp
+  - DOMAIN-SUFFIX,tver.jp
   ## > Vidol TV
   - DOMAIN-SUFFIX,vidol.tv
   ## > Viki
@@ -963,6 +1492,7 @@ payload:
   - DOMAIN-SUFFIX,vimeostatus.com
   - DOMAIN-SUFFIX,livestream.com
   ## > ViuTV
+  - PROCESS-NAME,com.vuclip.viu
   - DOMAIN-SUFFIX,viu.com
   - DOMAIN-SUFFIX,viu.tv
   - DOMAIN-SUFFIX,viu.now.com
@@ -1024,6 +1554,7 @@ payload:
   - DOMAIN-SUFFIX,voazimbabwe.com
   - DOMAIN-SUFFIX,zeriamerikes.com
   ## > WeTV
+  - PROCESS-NAME,com.tencent.qqlivei18n.us
   - DOMAIN-SUFFIX,wetv.vip
   - DOMAIN-SUFFIX,wetvinfo.com
   - DOMAIN-SUFFIX,v.smtcdns.com
