@@ -46,6 +46,9 @@ payload:
   - DOMAIN-SUFFIX,bdimg.com
   - DOMAIN-SUFFIX,bdstatic.com
   - DOMAIN-SUFFIX,yunjiasu-cdn.net
+  # > Battle
+  - DOMAIN-SUFFIX,battle.net,DIRECT
+  - DOMAIN-SUFFIX,blizzard.com,DIRECT
   # > bilibili
   - DOMAIN-SUFFIX,acgvideo.com
   - DOMAIN-SUFFIX,biliapi.com
@@ -109,8 +112,6 @@ payload:
   # - DOMAIN-SUFFIX,office365.com
   # - DOMAIN-SUFFIX,s-microsoft.com
   # - DOMAIN-SUFFIX,windows.com
-  # - DOMAIN-SUFFIX,windowsupdate.com
-  # - DOMAIN-KEYWORD,-microsoft-com.akamaized.net
   - DOMAIN-SUFFIX,visualstudio.com
   # >> Microsoft Software Download
   # - DOMAIN,software-download.microsoft.com
@@ -180,6 +181,8 @@ payload:
   - DOMAIN-SUFFIX,tenpay.com
   - DOMAIN-SUFFIX,wechat.com
   - DOMAIN,file-igamecj.akamaized.net
+  - IP-CIDR,182.254.116.0/24,no-resolve
+  - IP-CIDR,203.205.254.0/23,no-resolve
   # > Content Delivery Network
   - DOMAIN-SUFFIX,ccgslb.com
   - DOMAIN-SUFFIX,ccgslb.net
@@ -191,7 +194,7 @@ payload:
   # > IP Query
   - DOMAIN-SUFFIX,ipip.net
   - DOMAIN-SUFFIX,ip.la
-#  - DOMAIN-SUFFIX,ip.sb
+  #- DOMAIN-SUFFIX,ip.sb
   - DOMAIN-SUFFIX,ip-cdn.com
   - DOMAIN-SUFFIX,ipv6-test.com
   - DOMAIN-SUFFIX,myip.la
@@ -287,6 +290,7 @@ payload:
   - DOMAIN-SUFFIX,getpricetag.com
   - DOMAIN-SUFFIX,gifshow.com
   - DOMAIN-SUFFIX,godic.net
+  - DOMAIN-SUFFIX,heweather.net
   - DOMAIN-SUFFIX,hicloud.com
   - DOMAIN-SUFFIX,hongxiu.com
   - DOMAIN-SUFFIX,hostbuf.com
@@ -319,10 +323,9 @@ payload:
   - DOMAIN-SUFFIX,ntp.org
   - DOMAIN-SUFFIX,nvidia.com
   - DOMAIN-SUFFIX,oracle.com
-  - DOMAIN-SUFFIX,pcbeta.com
   - DOMAIN-SUFFIX,plex.tv
-  - DOMAIN-SUFFIX,qdaily.com
   - DOMAIN-SUFFIX,qidian.com
+  - DOMAIN-SUFFIX,qweather.com
   - DOMAIN-SUFFIX,qyer.com
   - DOMAIN-SUFFIX,qyerstatic.com
   - DOMAIN-SUFFIX,raychase.net
@@ -342,7 +345,6 @@ payload:
   - DOMAIN-SUFFIX,teamviewer.com
   - DOMAIN-SUFFIX,tianyancha.com
   - DOMAIN-SUFFIX,tophub.today
-  - DOMAIN-SUFFIX,udacity.com
   - DOMAIN-SUFFIX,uning.com
   - DOMAIN-SUFFIX,weather.com
   - DOMAIN-SUFFIX,weico.cc
