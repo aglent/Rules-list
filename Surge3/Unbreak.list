@@ -12,8 +12,6 @@ DOMAIN,bdtj.tagtic.cn
 # > Alibaba
 DOMAIN,log.mmstat.com
 DOMAIN,sycm.mmstat.com
-# > Anydesk
-DOMAIN-SUFFIX,anydesk.com
 # > Google
 DOMAIN-SUFFIX,blog.google // Google Blog
 DOMAIN-SUFFIX,googletraveladservices.com // Google Flights
@@ -35,6 +33,9 @@ DOMAIN,alt5-mtalk.google.com
 DOMAIN,alt6-mtalk.google.com
 DOMAIN,alt7-mtalk.google.com
 DOMAIN,alt8-mtalk.google.com
+# >> Paramount+
+# AND,((OR,((USER-AGENT,mediaserverd*), (USER-AGENT,com.apple.WebKit.Networking*))), (DOMAIN,pubads.g.doubleclick.net))
+DOMAIN,pubads.g.doubleclick.net
 # > Tencent
 DOMAIN,fairplay.l.qq.com
 DOMAIN,livew.l.qq.com
@@ -44,3 +45,5 @@ DOMAIN,analytics.strava.com
 # > Umeng
 DOMAIN,msg.umeng.com
 DOMAIN,msg.umengcloud.com
+# > Anydesk
+DOMAIN-SUFFIX,anydesk.com
