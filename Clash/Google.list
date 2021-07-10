@@ -1,7 +1,11 @@
-# https://github.com/LM-Firefly/Rules/blob/master/Clash-RuleSet-Classical/Google.yaml
+# https://github.com/LM-Firefly/Rules/blob/master/Clash-RuleSet-Classical/PROXY/Google.yaml
 
 payload:
   ## 🙈 Google
+  - PROCESS-NAME,com.android.vending
+  - PROCESS-NAME,com.google.android.gms
+  - PROCESS-NAME,com.google.android.gsf
+  - PROCESS-NAME,com.google.android.play.games
   ## >> AMP
   - DOMAIN-SUFFIX,amp.dev
   - DOMAIN-SUFFIX,ampproject.com
@@ -200,6 +204,8 @@ payload:
   - DOMAIN-SUFFIX,v8.dev
   - DOMAIN-SUFFIX,v8project.org
   ## >> Youtube
+  - PROCESS-NAME,com.google.android.apps.youtube.music
+  - PROCESS-NAME,com.google.android.youtube
   - DOMAIN-SUFFIX,.youtube
   - DOMAIN-SUFFIX,ggpht.cn
   - DOMAIN-SUFFIX,ggpht.com
@@ -841,6 +847,7 @@ payload:
   - DOMAIN-SUFFIX,pki.goog
   - DOMAIN-SUFFIX,plus.codes
   - DOMAIN-SUFFIX,postini.com
+  - DOMAIN-SUFFIX,privacysandbox.com
   - DOMAIN-SUFFIX,projectara.com
   - DOMAIN-SUFFIX,projectbaseline.com
   - DOMAIN-SUFFIX,publishproxy.com
