@@ -45,6 +45,9 @@ DOMAIN-SUFFIX,baidupcs.com
 DOMAIN-SUFFIX,bdimg.com
 DOMAIN-SUFFIX,bdstatic.com
 DOMAIN-SUFFIX,yunjiasu-cdn.net
+# > Battle
+DOMAIN-SUFFIX,battle.net
+DOMAIN-SUFFIX,blizzard.com
 # > bilibili
 DOMAIN-SUFFIX,acgvideo.com
 DOMAIN-SUFFIX,biliapi.com
@@ -108,9 +111,13 @@ DOMAIN-SUFFIX,xiaomi.net
 # DOMAIN-SUFFIX,office365.com
 # DOMAIN-SUFFIX,s-microsoft.com
 # DOMAIN-SUFFIX,windows.com
-# DOMAIN-SUFFIX,windowsupdate.com
-# DOMAIN-KEYWORD,-microsoft-com.akamaized.net
 DOMAIN-SUFFIX,visualstudio.com
+# >> Microsoft Software Download
+# DOMAIN,software-download.microsoft.com
+# DOMAIN-KEYWORD,-microsoft-com.akamaized.net
+# >> OneDrive
+# DOMAIN-SUFFIX,1drv.com
+# DOMAIN-SUFFIX,storage.live.com
 # >> Outlook
 DOMAIN-SUFFIX,hotmail.com
 DOMAIN-SUFFIX,outlook.com
@@ -157,7 +164,7 @@ DOMAIN-SUFFIX,steamcontent.com
 DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,steamstatic.com
 # > Tencent
-USER-AGENT,MicroMessenger%20Client
+USER-AGENT,MicroMessenger*
 USER-AGENT,WeChat*
 USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*
 DOMAIN-SUFFIX,gtimg.com
@@ -173,6 +180,8 @@ DOMAIN-SUFFIX,tencent-cloud.net
 DOMAIN-SUFFIX,tenpay.com
 DOMAIN-SUFFIX,wechat.com
 DOMAIN,file-igamecj.akamaized.net
+IP-CIDR,182.254.116.0/24,no-resolve
+IP-CIDR,203.205.254.0/23,no-resolve
 # > Content Delivery Network
 DOMAIN-SUFFIX,ccgslb.com
 DOMAIN-SUFFIX,ccgslb.net
@@ -281,6 +290,7 @@ DOMAIN-SUFFIX,geilicdn.com
 DOMAIN-SUFFIX,getpricetag.com
 DOMAIN-SUFFIX,gifshow.com
 DOMAIN-SUFFIX,godic.net
+DOMAIN-SUFFIX,heweather.net
 DOMAIN-SUFFIX,hicloud.com
 DOMAIN-SUFFIX,hongxiu.com
 DOMAIN-SUFFIX,hostbuf.com
@@ -313,10 +323,9 @@ DOMAIN-SUFFIX,nim-lang-cn.org
 DOMAIN-SUFFIX,ntp.org
 DOMAIN-SUFFIX,nvidia.com
 DOMAIN-SUFFIX,oracle.com
-DOMAIN-SUFFIX,pcbeta.com
 DOMAIN-SUFFIX,plex.tv
-DOMAIN-SUFFIX,qdaily.com
 DOMAIN-SUFFIX,qidian.com
+DOMAIN-SUFFIX,qweather.com
 DOMAIN-SUFFIX,qyer.com
 DOMAIN-SUFFIX,qyerstatic.com
 DOMAIN-SUFFIX,raychase.net
@@ -336,7 +345,6 @@ DOMAIN-SUFFIX,takungpao.com
 DOMAIN-SUFFIX,teamviewer.com
 DOMAIN-SUFFIX,tianyancha.com
 DOMAIN-SUFFIX,tophub.today
-DOMAIN-SUFFIX,udacity.com
 DOMAIN-SUFFIX,uning.com
 DOMAIN-SUFFIX,weather.com
 DOMAIN-SUFFIX,weico.cc
