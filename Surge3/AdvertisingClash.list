@@ -262,48 +262,6 @@ DOMAIN-SUFFIX,bfshan.cn
 
 
 
-# REJECT
-
-# > Client
-DOMAIN-KEYWORD,admaster
-DOMAIN-KEYWORD,admdfs
-DOMAIN-KEYWORD,adnewnc
-DOMAIN-KEYWORD,adsage
-DOMAIN-KEYWORD,adsame
-DOMAIN-KEYWORD,adsensor
-DOMAIN-KEYWORD,adserver
-DOMAIN-KEYWORD,adservice
-DOMAIN-KEYWORD,adsmogo
-DOMAIN-KEYWORD,adsrvmedia
-DOMAIN-KEYWORD,adsserving
-DOMAIN-KEYWORD,adsystem
-DOMAIN-KEYWORD,advert
-DOMAIN-KEYWORD,adwords
-DOMAIN-KEYWORD,allyes
-DOMAIN-KEYWORD,analysis
-DOMAIN-KEYWORD,analysys
-DOMAIN-KEYWORD,applovin
-DOMAIN-KEYWORD,appsflyer
-DOMAIN-KEYWORD,dnserror
-DOMAIN-KEYWORD,domob
-DOMAIN-KEYWORD,duomeng
-DOMAIN-KEYWORD,dwtrack
-DOMAIN-KEYWORD,fenxi
-DOMAIN-KEYWORD,guanggao
-DOMAIN-KEYWORD,inmobi
-DOMAIN-KEYWORD,mobaders
-DOMAIN-KEYWORD,omgmta
-DOMAIN-KEYWORD,openx
-DOMAIN-KEYWORD,partnerad
-DOMAIN-KEYWORD,securepubads
-DOMAIN-KEYWORD,socdm
-DOMAIN-KEYWORD,supersonicads
-DOMAIN-KEYWORD,taboola
-DOMAIN-KEYWORD,uedas
-DOMAIN-KEYWORD,umtrack
-DOMAIN-KEYWORD,uploadMobileData
-DOMAIN-KEYWORD,wlmonitor
-DOMAIN-KEYWORD,zjtoolbar
 
 DOMAIN-SUFFIX,0.r.msn.com
 DOMAIN-SUFFIX,000dn.com
@@ -1310,6 +1268,7 @@ DOMAIN-SUFFIX,adstat.cp11.ott.cibntv.net
 DOMAIN-SUFFIX,adstextview.qq.com
 DOMAIN-SUFFIX,adstil.indiatimes.com
 DOMAIN-SUFFIX,ad-stir.com
+DOMAIN-SUFFIX,adsmind.ugdtimg.com
 DOMAIN-SUFFIX,adstream.123.sogoucdn.com
 DOMAIN-SUFFIX,ads-twitter.com
 DOMAIN-SUFFIX,ads-v-darwin.hulustream.com
@@ -1323,6 +1282,7 @@ DOMAIN-SUFFIX,adsyndication.msn.com
 DOMAIN-SUFFIX,adsys.chinacloudapp.cn
 DOMAIN-SUFFIX,adsys.sinovision.net
 DOMAIN-SUFFIX,adtaily.com
+DOMAIN-SUFFIX,ad-tech.nbcuni.com
 DOMAIN-SUFFIX,adtechjp.com
 DOMAIN-SUFFIX,adtechus.com
 DOMAIN-SUFFIX,adtest.theonion.com
@@ -2297,7 +2257,6 @@ DOMAIN-SUFFIX,chmae.com
 DOMAIN-SUFFIX,chnhty.com
 DOMAIN-SUFFIX,chuantu.biz
 DOMAIN-SUFFIX,chushoushijian.cn
-DOMAIN-SUFFIX,c-hzgt2.getui.com
 DOMAIN-SUFFIX,ci.csefaazc.net
 DOMAIN-SUFFIX,ciajingman.com
 DOMAIN-SUFFIX,cilidaquan.pw
@@ -2922,10 +2881,6 @@ DOMAIN-SUFFIX,dot.eporner.com
 DOMAIN-SUFFIX,dot2.eporner.com
 DOMAIN-SUFFIX,dotmore.com.tw
 DOMAIN-SUFFIX,dou777.com
-DOMAIN-SUFFIX,doubleclick.com
-DOMAIN-SUFFIX,doubleclick.ctfile.com
-DOMAIN-SUFFIX,doubleclick.net
-DOMAIN-SUFFIX,doubleclick.tv002.com
 DOMAIN-SUFFIX,doubleplay-conf-yql.media.yahoo.com
 DOMAIN-SUFFIX,doubleverify.com
 DOMAIN-SUFFIX,doudao.cn
@@ -2959,7 +2914,6 @@ DOMAIN-SUFFIX,downloada.dewmobile.net
 DOMAIN-SUFFIX,downloadb.dewmobile.net
 DOMAIN-SUFFIX,downmobile.kugou.com
 DOMAIN-SUFFIX,dp.559.cc
-DOMAIN-SUFFIX,dp3.qq.com
 DOMAIN-SUFFIX,dpm.demdex.net
 DOMAIN-SUFFIX,dps.499.cn
 DOMAIN-SUFFIX,dps.shouji56.com
@@ -3596,7 +3550,6 @@ DOMAIN-SUFFIX,g.zx-jsp.com
 DOMAIN-SUFFIX,g1.0573ren.com
 DOMAIN-SUFFIX,g1.08160.cn
 DOMAIN-SUFFIX,g1.163.com
-DOMAIN-SUFFIX,g1.tagtic.cn
 DOMAIN-SUFFIX,g1.taijuba.com
 DOMAIN-SUFFIX,g1c5.com
 DOMAIN-SUFFIX,g1f5.com
@@ -3741,8 +3694,6 @@ DOMAIN-SUFFIX,go-mpulse.net
 DOMAIN-SUFFIX,good.ta80.com
 DOMAIN-SUFFIX,googlecommerce.com
 DOMAIN-SUFFIX,googlesyndication.com
-DOMAIN-SUFFIX,googletagmanager.com
-DOMAIN-SUFFIX,googletagservices.com
 DOMAIN-SUFFIX,goolpter.com
 DOMAIN-SUFFIX,gopig.io
 DOMAIN-SUFFIX,gorgon.youdao.com
@@ -7199,6 +7150,7 @@ DOMAIN-SUFFIX,tradeadexchange.com
 DOMAIN-SUFFIX,tradeccl.com
 DOMAIN-SUFFIX,trafficfactory.biz
 DOMAIN-SUFFIX,trafficjam.cn
+DOMAIN-SUFFIX,trafficjunky.com
 DOMAIN-SUFFIX,trafficjunky.net
 DOMAIN-SUFFIX,trafficmp.com
 DOMAIN-SUFFIX,tralog.ganji.com
@@ -7770,7 +7722,6 @@ DOMAIN-SUFFIX,wxb.wxbdfm.com
 DOMAIN-SUFFIX,wxmmh.net
 DOMAIN-SUFFIX,wxsnsdy.tc.qq.com
 DOMAIN-SUFFIX,wxsnsdy.video.qq.com
-DOMAIN-SUFFIX,wxsnsdy.wxs.qq.com
 DOMAIN-SUFFIX,wxsnsdythumb.wxs.qq.com
 DOMAIN-SUFFIX,wxtz.houmags.com
 DOMAIN-SUFFIX,wxwm1.ikuailian.com
@@ -8304,6 +8255,8 @@ URL-REGEX,^http:\/\/iad.*mat\.[a-z]*\.12[67]\.net/\w+\.(jpg|mp4)$
 # > Zhihu
 DOMAIN,mqtt.zhihu.com
 DOMAIN,sugar.zhihu.com
+DOMAIN,zhihu-analytics.zhihu.com
+DOMAIN,zhihu-web-analytics.zhihu.com
 DOMAIN-SUFFIX,xdrig.com
 URL-REGEX,https://api.zhihu.com/(fringe|zst|real_time|ad-style-service|banners|topstory/hot-lists|market/popover|mqtt|me|.*launch|.*featured-comment-ad|search/(top|tabs|preset))
 URL-REGEX,https://api.zhihu.com.*(launch|recommendations)
@@ -8325,6 +8278,7 @@ URL-REGEX,https?://(a?d|sax)\d.sina.com
 URL-REGEX,https?://d\d.sinaimg.cn
 URL-REGEX,https?://dl.app.gtja.com/.+\d+.jpg$
 URL-REGEX,https?://impservice.+?youdao.com
+URL-REGEX,https?://mi.gdt.qq.com/gdt_mview.fcg
 URL-REGEX,https?://notice.send-anywhere.com/banner
 URL-REGEX,https?://sax\w?.sina.cn
 URL-REGEX,https?://sax\w?.sina.com.cn
@@ -8366,7 +8320,7 @@ IP-CIDR,221.179.131.72/32,no-resolve
 IP-CIDR,221.179.140.145/32,no-resolve
 
 # > Dr.Peng
-IP-CIDR,10.72.25.0/24,no-resolve
+IP-CIDR,10.72.25.0/24
 IP-CIDR,115.182.16.79/32,no-resolve
 IP-CIDR,118.144.88.126/32,no-resolve
 IP-CIDR,118.144.88.215/32,no-resolve
