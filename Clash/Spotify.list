@@ -1,0 +1,11 @@
+# https://github.com/DivineEngine/Profiles/blob/master/Clash/RuleSet/StreamingMedia/Music/Spotify.yaml
+
+payload:
+  # > Spotify
+  - PROCESS-NAME,com.spotify.music
+  - DOMAIN-SUFFIX,pscdn.co
+  - DOMAIN-SUFFIX,scdn.co
+  - DOMAIN-SUFFIX,spotify.com
+  - DOMAIN-SUFFIX,spoti.fi
+  - DOMAIN-KEYWORD,spotify.com
+  - DOMAIN-KEYWORD,-spotify-com
