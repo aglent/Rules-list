@@ -7,13 +7,13 @@
 # URL-REGEX,^https?+:\/\/youtubei\.googleapis\.com\/youtubei\/.+?(?>ad|log)_
 
 # https://github.com/nzw9314/QuantumultX/blob/master/Js.conf
-URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+&oad - reject
-URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+ctier - reject
-URL-REGEX,^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_ - reject
-URL-REGEX,^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+log_ - reject
-URL-REGEX,^https?:\/\/.+\.youtube\.com\/get_midroll_ - reject
-URL-REGEX,^https?:\/\/premiumyva\.appspot\.com\/vmclickstoadvertisersite - reject
-URL-REGEX,^https?:\/\/.+\.youtube\.com\/api\/stats\/ads - reject
-URL-REGEX,^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat - reject
-URL-REGEX,^https?:\/\/.+\.youtube\.com\/pagead\/ - reject
-URL-REGEX,^https?:\/\/.+\.youtube\.com\/ptracking - reject
+URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+&oad
+URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+ctier 
+URL-REGEX,^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_
+URL-REGEX,^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+log_
+URL-REGEX,^https?:\/\/.+\.youtube\.com\/get_midroll_
+URL-REGEX,^https?:\/\/premiumyva\.appspot\.com\/vmclickstoadvertisersite
+URL-REGEX,^https?:\/\/.+\.youtube\.com\/api\/stats\/ads
+URL-REGEX,^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat
+URL-REGEX,^https?:\/\/.+\.youtube\.com\/pagead\/
+URL-REGEX,^https?:\/\/.+\.youtube\.com\/ptracking
