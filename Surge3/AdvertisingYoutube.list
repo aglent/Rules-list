@@ -1,17 +1,19 @@
-# Update 2021-10-18
-# https://github.com/DivineEngine/Profiles/blob/master/Surge/Module/Block/YouTubeAds.sgmodule
-
-URL-REGEX,(^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+)&ctier=L(&.+) $1&ctier=A$2 header
-URL-REGEX,^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad
-
-URL-REGEX,^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads
-URL-REGEX,^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking)
-URL-REGEX,^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext
-
 # Update 2021-03-06
 # https://github.com/787a68/Rules/blob/master/Surge4/Ruleset/Tide.list 提取Youtube去广告规则
 
-URL-REGEX,^https?+:\/\/.+?\.googlevideo\.com\/.+?(?>&oad|ctier)
-URL-REGEX,^https?+:\/\/\w+?\.youtube\.com\/api\/.+?ad
-URL-REGEX,^https?+:\/\/\w+?\.youtube\.com\/p(?>agead|tracking)
-URL-REGEX,^https?+:\/\/youtubei\.googleapis\.com\/youtubei\/.+?(?>ad|log)_
+# URL-REGEX,^https?+:\/\/.+?\.googlevideo\.com\/.+?(?>&oad|ctier)
+# URL-REGEX,^https?+:\/\/\w+?\.youtube\.com\/api\/.+?ad
+# URL-REGEX,^https?+:\/\/\w+?\.youtube\.com\/p(?>agead|tracking)
+# URL-REGEX,^https?+:\/\/youtubei\.googleapis\.com\/youtubei\/.+?(?>ad|log)_
+
+# https://github.com/nzw9314/QuantumultX/blob/master/Js.conf
+URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+&oad - reject
+URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+ctier - reject
+URL-REGEX,^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_ - reject
+URL-REGEX,^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+log_ - reject
+URL-REGEX,^https?:\/\/.+\.youtube\.com\/get_midroll_ - reject
+URL-REGEX,^https?:\/\/premiumyva\.appspot\.com\/vmclickstoadvertisersite - reject
+URL-REGEX,^https?:\/\/.+\.youtube\.com\/api\/stats\/ads - reject
+URL-REGEX,^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat - reject
+URL-REGEX,^https?:\/\/.+\.youtube\.com\/pagead\/ - reject
+URL-REGEX,^https?:\/\/.+\.youtube\.com\/ptracking - reject
