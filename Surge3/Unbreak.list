@@ -1,5 +1,6 @@
 # https://github.com/DivineEngine/Profiles/blob/master/Surge/Ruleset/Unbreak.list
 # 增加 DOMAIN-SUFFIX,anydesk.com
+# 增加 微软邮箱直连
 
 # Unbreak
 # > General
@@ -47,3 +48,7 @@ DOMAIN,msg.umeng.com
 DOMAIN,msg.umengcloud.com
 # > Anydesk
 DOMAIN-SUFFIX,anydesk.com
+# > Outlook
+DOMAIN-SUFFIX,hotmail.com
+DOMAIN-SUFFIX,livew.com
+DOMAIN-SUFFIX,outlook.com
