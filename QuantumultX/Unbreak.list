@@ -44,3 +44,7 @@ DOMAIN,analytics.strava.com,DIRECT
 # > Umeng
 DOMAIN,msg.umeng.com,DIRECT
 DOMAIN,msg.umengcloud.com,DIRECT
+# > Outlook
+DOMAIN-SUFFIX,hotmail.com,DIRECT
+DOMAIN-SUFFIX,livew.com,DIRECT
+DOMAIN-SUFFIX,outlook.com,DIRECT
