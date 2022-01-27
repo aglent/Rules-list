@@ -1,4 +1,5 @@
 # https://github.com/DivineEngine/Profiles/blob/master/Clash/RuleSet/Unbreak.yaml
+# 增加 微软邮箱直连
   
 payload:
   # Unbreak
@@ -44,3 +45,7 @@ payload:
   # > Umeng
   - DOMAIN,msg.umeng.com
   - DOMAIN,msg.umengcloud.com
+  # > Outlook
+  - DOMAIN-SUFFIX,hotmail.com
+  - DOMAIN-SUFFIX,livew.com
+  - DOMAIN-SUFFIX,outlook.com
