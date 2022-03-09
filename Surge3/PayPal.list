@@ -1,7 +1,10 @@
-# https://github.com/ConnersHua/Profiles/blob/master/Surge/Ruleset/PayPal.list
+# https://github.com/DivineEngine/Profiles/blob/master/Surge/Ruleset/Extra/PayPal.list
+
+# Update 2022-02-13
 
 # > PayPal
 USER-AGENT,PayPal*
-DOMAIN-KEYWORD,paypal
 DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,paypal.me
+DOMAIN-SUFFIX,paypal-mktg.com
 DOMAIN-SUFFIX,paypalobjects.com
