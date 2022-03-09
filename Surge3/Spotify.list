@@ -1,5 +1,7 @@
 # https://github.com/DivineEngine/Profiles/blob/master/Surge/Ruleset/StreamingMedia/Music/Spotify.list
 
+# Update 2021-12--31
+
 # > Spotify
 USER-AGENT,Spotify*
 DOMAIN-SUFFIX,pscdn.co
