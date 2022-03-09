@@ -1,7 +1,10 @@
 # https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Filter/Extra/PayPal.list
 
+# Update 2022-02-13
+
 # > PayPal
 USER-AGENT,PayPal*,PayPal
 DOMAIN-SUFFIX,paypal.com,PayPal
 DOMAIN-SUFFIX,paypal.me,PayPal
+DOMAIN-SUFFIX,paypal-mktg.com,PayPal
 DOMAIN-SUFFIX,paypalobjects.com,PayPal
