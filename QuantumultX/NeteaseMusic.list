@@ -1,5 +1,7 @@
-# https://raw.githubusercontent.com/Mazetsz/ACL4SSR/master/Clash/NetEaseCloudMusic.list
+# https://github.com/Mazetsz/ACL4SSR/blob/master/Clash/NetEaseCloudMusic.list
 # 需要在每条代码后补上NeteaseMusic后缀
+
+# Update 2020-01-15
 
 DOMAIN-SUFFIX,music.126.com,NeteaseMusic
 DOMAIN-SUFFIX,music.163.com,NeteaseMusic
