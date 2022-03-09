@@ -1,5 +1,7 @@
 # https://github.com/DivineEngine/Profiles/blob/master/Clash/RuleSet/StreamingMedia/Music/Spotify.yaml
 
+# Update 2021-12-31
+
 payload:
   # > Spotify
   - PROCESS-NAME,com.spotify.music
