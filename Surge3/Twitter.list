@@ -1,6 +1,8 @@
 # https://github.com/DivineEngine/Profiles/blob/master/Surge/Ruleset/Extra/Twitter.list
 
-# Twitter
+# Update 2021-12-31
+
+# > Twitter
 DOMAIN-SUFFIX,pscp.tv
 DOMAIN-SUFFIX,periscope.tv
 DOMAIN-SUFFIX,t.co
