@@ -24,3 +24,22 @@ DOMAIN-KEYWORD,apple.com.akadns.net,Apple
 DOMAIN-KEYWORD,apple.com.edgekey.net,Apple
 DOMAIN-KEYWORD,apple-support.akadns.net,Apple
 DOMAIN-KEYWORD,icloud.com.akadns.net,Apple
+
+# Update 2021-12-31
+
+# https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Filter/Extra/Apple/AppStore.list
+# App Store
+# Store content such as apps, books, and music
+DOMAIN-SUFFIX,apps.apple.com,Apple
+DOMAIN-SUFFIX,itunes.apple.com,Apple
+DOMAIN-SUFFIX,itunes-apple.com.akadns.net,Apple
+DOMAIN-SUFFIX,mzstatic.com,Apple
+DOMAIN,ppq.apple.com,Apple
+
+# Update 2022-02-12
+
+# https://github.com/DivineEngine/Profiles/blob/master/Surge/Ruleset/Extra/Apple/AppStoreConnect.list
+# > App Store Connect
+DOMAIN,appstoreconnect.apple.com,Apple
+DOMAIN,iosapps-ssl.itunes.apple.com,Apple
+DOMAIN,itcmobile.itunes.apple.com,Apple
