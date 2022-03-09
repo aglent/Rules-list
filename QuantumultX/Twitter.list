@@ -1,5 +1,7 @@
 # https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Filter/Extra/Twitter.list
 
+# Update 2021-12-31
+
 # > Twitter
 DOMAIN-SUFFIX,pscp.tv,Twitter
 DOMAIN-SUFFIX,periscope.tv,Twitter
