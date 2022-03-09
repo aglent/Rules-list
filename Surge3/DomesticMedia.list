@@ -1,5 +1,7 @@
 # https://github.com/DivineEngine/Profiles/blob/master/Surge/Ruleset/StreamingMedia/StreamingCN.list
 
+# Update 2021-12-31
+
 # (Video)
 # > Acfun
 DOMAIN-SUFFIX,acfun.cn
