@@ -1,24 +1,19 @@
-# https://github.com/lhie1/Rules/blob/master/Surge/Surge%203/Provider/Media/YouTube.list
-# https://github.com/ConnersHua/Profiles/blob/master/Surge/Ruleset/Media/Youtube.list
+# https://github.com/DivineEngine/Profiles/blob/master/Surge/Ruleset/StreamingMedia/Video/YouTube.list
 
-# https://github.com/lhie1/Rules/blob/master/Surge/Surge%203/Provider/Media/YouTube.list
-USER-AGENT,*youtube*
-USER-AGENT,YouTube*
-DOMAIN-KEYWORD,youtube
-DOMAIN,yt3.ggpht.com
-DOMAIN-SUFFIX,app-measurement.com
-DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX,gvt2.com
-DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,ytimg.com
+# Update 2022-01-28
 
-# https://github.com/ConnersHua/Profiles/blob/master/Surge/Ruleset/Media/Youtube.list
+# > YouTube
 USER-AGENT,com.google.ios.youtube*
-USER-AGENT,YouTubeMusic*
-USER-AGENT,*youtube*
 USER-AGENT,YouTube*
-DOMAIN-KEYWORD,youtube
 DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,withyoutube.com
 DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtubeeducation.com
+DOMAIN-SUFFIX,youtubegaming.com
+DOMAIN-SUFFIX,youtubekids.com
+DOMAIN-SUFFIX,youtube-nocookie.com
+DOMAIN-SUFFIX,yt.be
+DOMAIN-SUFFIX,ytimg.com
 DOMAIN,youtubei.googleapis.com
+DOMAIN,yt3.ggpht.com
