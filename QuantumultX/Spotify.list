@@ -1,5 +1,7 @@
 # https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Filter/StreamingMedia/Music/Spotify.list
 
+# Update 2021-12-31
+
 # > Spotify
 USER-AGENT,Spotify*,Spotify
 DOMAIN-SUFFIX,pscdn.co,Spotify
