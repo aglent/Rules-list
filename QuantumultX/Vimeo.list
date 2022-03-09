@@ -1,13 +1,22 @@
-# Vimeo
+# https://github.com/LM-Firefly/Rules/blob/master/GlobalMedia.list
+# 提取Vimeo
 
-USER-AGENT,vimeo*,Vimeo
-DOMAIN-KEYWORD,vimeo,Vimeo
-DOMAIN-SUFFIX,vimeo.com,Vimeo
-DOMAIN-SUFFIX,vimeocdn.com,Vimeo
+# Update 2022-02-22
+
+# Vimeo
 DOMAIN-SUFFIX,vhx.tv,Vimeo
 DOMAIN-SUFFIX,vhxqa1.com,Vimeo
 DOMAIN-SUFFIX,vhxqa2.com,Vimeo
 DOMAIN-SUFFIX,vhxqa3.com,Vimeo
 DOMAIN-SUFFIX,vhxqa4.com,Vimeo
 DOMAIN-SUFFIX,vhxqa6.com,Vimeo
+DOMAIN-SUFFIX,vimeo-staging.com,Vimeo
+DOMAIN-SUFFIX,vimeo-staging2.com,Vimeo
+DOMAIN-SUFFIX,vimeo.com,Vimeo
+DOMAIN-SUFFIX,vimeo.fr,Vimeo
+DOMAIN-SUFFIX,vimeobusiness.com,Vimeo
+DOMAIN-SUFFIX,vimeocdn.com,Vimeo
+DOMAIN-SUFFIX,vimeogoods.com,Vimeo
+DOMAIN-SUFFIX,vimeoondemand.com,Vimeo
+DOMAIN-SUFFIX,vimeostatus.com,Vimeo
 DOMAIN-SUFFIX,livestream.com,Vimeo
