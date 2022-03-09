@@ -1,15 +1,9 @@
 # https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Filter/Unbreak.list
-# 增加Anydesk
-# 增加微软邮箱直连
+
+# Update 2022-03-07
 
 # Unbreak
-# > Anydesk
-DOMAIN-SUFFIX,anydesk.com,DIRECT
 # > General
-USER-AGENT,archero*,DIRECT
-USER-AGENT,coffeecorp*,DIRECT
-USER-AGENT,Coffee%20Corp*,DIRECT
-USER-AGENT,restaurant-mobile*,DIRECT
 DOMAIN,app.adjust.com,DIRECT
 DOMAIN,bdtj.tagtic.cn,DIRECT
 # > Alibaba
@@ -23,9 +17,6 @@ DOMAIN,dl.google.com,DIRECT
 DOMAIN,dl.l.google.com,DIRECT
 DOMAIN,update.googleapis.com,DIRECT
 DOMAIN,translate.googleapis.com,DIRECT
-# >> Google Fonts API
-DOMAIN,fonts.googleapis.com,DIRECT
-DOMAIN,fonts.gstatic.com,DIRECT
 # >> Firebase Cloud Messaging
 DOMAIN,mtalk.google.com,DIRECT
 DOMAIN,alt1-mtalk.google.com,DIRECT
@@ -36,16 +27,15 @@ DOMAIN,alt5-mtalk.google.com,DIRECT
 DOMAIN,alt6-mtalk.google.com,DIRECT
 DOMAIN,alt7-mtalk.google.com,DIRECT
 DOMAIN,alt8-mtalk.google.com,DIRECT
+# >> Paramount+
+# DOMAIN,pubads.g.doubleclick.net,DIRECT
 # > Tencent
 DOMAIN,fairplay.l.qq.com,DIRECT
 DOMAIN,livew.l.qq.com,DIRECT
 DOMAIN,vd.l.qq.com,DIRECT
+DOMAIN,vi.l.qq.com,DIRECT
 # > Strava
 DOMAIN,analytics.strava.com,DIRECT
 # > Umeng
 DOMAIN,msg.umeng.com,DIRECT
 DOMAIN,msg.umengcloud.com,DIRECT
-# > Outlook
-DOMAIN-SUFFIX,hotmail.com,DIRECT
-DOMAIN-SUFFIX,live.com,DIRECT
-DOMAIN-SUFFIX,outlook.com,DIRECT
