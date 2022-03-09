@@ -3,13 +3,20 @@
 # https://github.com/DivineEngine/Profiles/blob/master/Surge/Ruleset/Extra/Apple/AppStoreConnect.list
 
 # https://github.com/DivineEngine/Profiles/blob/master/Surge/Ruleset/Extra/Apple/Apple.list
+
+# Update 2022-01-25
+
 # Apple
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,apple.co
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,apple.com.cn
 DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,apple-livephotoskit.com
+DOMAIN-SUFFIX,apple-mapkit.com
+DOMAIN-SUFFIX,applemusic.com
 DOMAIN-SUFFIX,appstore.com
+DOMAIN-SUFFIX,apzones.com
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud.com.cn
@@ -17,17 +24,14 @@ DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-KEYWORD,apple.com.akadns.net
+DOMAIN-KEYWORD,apple.com.edgekey.net
+DOMAIN-KEYWORD,apple-support.akadns.net
 DOMAIN-KEYWORD,icloud.com.akadns.net
-IP-CIDR,17.0.0.0/8,no-resolve
-IP-CIDR,63.92.224.0/19,no-resolve
-IP-CIDR,65.199.22.0/23,no-resolve
-IP-CIDR,139.178.128.0/18,no-resolve
-IP-CIDR,144.178.0.0/19,no-resolve
-IP-CIDR,192.35.50.0/24,no-resolve
-IP-CIDR,198.183.17.0/24,no-resolve
-IP-CIDR,205.180.175.0/24,no-resolve
 
 # https://github.com/DivineEngine/Profiles/blob/master/Surge/Ruleset/Extra/Apple/AppStore.list
+
+# Update 2021-12-31
+
 # App Store
 # Store content such as apps, books, and music
 DOMAIN-SUFFIX,apps.apple.com
@@ -37,6 +41,9 @@ DOMAIN-SUFFIX,mzstatic.com
 DOMAIN,ppq.apple.com // Enterprise App validation
 
 # https://github.com/DivineEngine/Profiles/blob/master/Surge/Ruleset/Extra/Apple/AppStoreConnect.list
+
+# Update 2021-12-31
+
 # > App Store Connect
 DOMAIN,appstoreconnect.apple.com
 DOMAIN,iosapps-ssl.itunes.apple.com
