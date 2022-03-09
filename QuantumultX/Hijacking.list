@@ -1,8 +1,11 @@
 # https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Filter/Guard/Hijacking.list
 
+# Update 2022-02-20
+
 # Internet Service Providers Hijacking
 DOMAIN-SUFFIX,17gouwuba.com,Hijacking
 DOMAIN-SUFFIX,186078.com,Hijacking
+DOMAIN-SUFFIX,189key.com,Hijacking
 DOMAIN-SUFFIX,189zj.cn,Hijacking
 DOMAIN-SUFFIX,285680.com,Hijacking
 DOMAIN-SUFFIX,3721zh.com,Hijacking
@@ -94,6 +97,7 @@ DOMAIN-SUFFIX,taoggou.com,Hijacking
 DOMAIN-SUFFIX,tcxshop.com,Hijacking
 DOMAIN-SUFFIX,tjqonline.cn,Hijacking
 DOMAIN-SUFFIX,topitme.com,Hijacking
+DOMAIN-SUFFIX,tt114.net,Hijacking
 DOMAIN-SUFFIX,tt3sm4.cn,Hijacking
 DOMAIN-SUFFIX,tuia.cn,Hijacking
 DOMAIN-SUFFIX,tuipenguin.com,Hijacking
@@ -182,6 +186,8 @@ DOMAIN,geo2.adobe.com,Hijacking
 # https://www.zhihu.com/question/46746200
 DOMAIN-SUFFIX,4009997658.com,Hijacking
 DOMAIN-SUFFIX,abbyychina.com,Hijacking
+DOMAIN-SUFFIX,alienskins.cn,Hijacking
+DOMAIN-SUFFIX,anydeskchina.cn,Hijacking
 DOMAIN-SUFFIX,bartender.cc,Hijacking
 DOMAIN-SUFFIX,betterzip.net,Hijacking
 DOMAIN-SUFFIX,betterzipcn.com,Hijacking
@@ -198,12 +204,15 @@ DOMAIN-SUFFIX,earmasterchina.cn,Hijacking
 DOMAIN-SUFFIX,easyrecoverychina.com,Hijacking
 DOMAIN-SUFFIX,ediuschina.com,Hijacking
 DOMAIN-SUFFIX,flstudiochina.com,Hijacking
+DOMAIN-SUFFIX,folxchina.cn,Hijacking
 DOMAIN-SUFFIX,formysql.com,Hijacking
 DOMAIN-SUFFIX,guitarpro.cc,Hijacking
 DOMAIN-SUFFIX,huishenghuiying.com.cn,Hijacking
+DOMAIN-SUFFIX,hypeapp.cn,Hijacking
 DOMAIN-SUFFIX,hypersnap.net,Hijacking
 DOMAIN-SUFFIX,iconworkshop.cn,Hijacking
 DOMAIN-SUFFIX,idmchina.net,Hijacking
+DOMAIN-SUFFIX,imazingchina.com,Hijacking
 DOMAIN-SUFFIX,imindmap.cc,Hijacking
 DOMAIN-SUFFIX,jihehuaban.com.cn,Hijacking
 DOMAIN-SUFFIX,keyshot.cc,Hijacking
@@ -224,6 +233,7 @@ DOMAIN-SUFFIX,mycleanmymac.com,Hijacking
 DOMAIN-SUFFIX,nicelabel.cc,Hijacking
 DOMAIN-SUFFIX,ntfsformac.cc,Hijacking
 DOMAIN-SUFFIX,ntfsformac.cn,Hijacking
+DOMAIN-SUFFIX,officesoftcn.com,Hijacking
 DOMAIN-SUFFIX,overturechina.com,Hijacking
 DOMAIN-SUFFIX,passwordrecovery.cn,Hijacking
 DOMAIN-SUFFIX,pdfexpert.cc,Hijacking
