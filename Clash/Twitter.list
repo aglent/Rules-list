@@ -1,6 +1,8 @@
 # https://github.com/LM-Firefly/Rules/blob/master/Clash-RuleSet-Classical/PROXY.yaml
 # 提取twitter规则
 
+# Update 2022-02-03
+
 payload:
   ## > Twitter
   - DOMAIN-SUFFIX,ads-twitter.com
