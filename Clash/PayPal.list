@@ -1,7 +1,11 @@
 # https://github.com/DivineEngine/Profiles/blob/master/Clash/RuleSet/Extra/PayPal.yaml
 
+# Update 2022-02-13
+
 payload:
   # > PayPal
+  - PROCESS-NAME,com.paypal.android.p2pmobile
   - DOMAIN-SUFFIX,paypal.com
   - DOMAIN-SUFFIX,paypal.me
+  - DOMAIN-SUFFIX,paypal-mktg.com
   - DOMAIN-SUFFIX,paypalobjects.com
