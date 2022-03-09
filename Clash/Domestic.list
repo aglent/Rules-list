@@ -1,8 +1,14 @@
 # https://github.com/DivineEngine/Profiles/blob/master/Clash/RuleSet/China.yaml
+# 增加 微软邮箱直连
 
 # Update 2022-03-02
 
 payload:
+  # > Outlook
+  - DOMAIN-SUFFIX,hotmail.com
+  - DOMAIN-SUFFIX,live.com
+  - DOMAIN-SUFFIX,outlook.com
+  # ------
   # China Area Network
   - DOMAIN-SUFFIX,flyert.com
   - DOMAIN-SUFFIX,gandi.net
