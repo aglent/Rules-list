@@ -1,77 +1,86 @@
 # https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Filter/China.list
+# 增加Anydesk
+# 增加微软邮箱直连
 
 # Update 2022-03-02
 
+# > Anydesk
+DOMAIN-SUFFIX,anydesk.com,Domestic
+# > Outlook
+DOMAIN-SUFFIX,hotmail.com,Domestic
+DOMAIN-SUFFIX,live.com,Domestic
+DOMAIN-SUFFIX,outlook.com,Domestic
+
 # China Area Network
-DOMAIN-SUFFIX,flyert.com,DIRECT
-DOMAIN-SUFFIX,gandi.net,DIRECT
-DOMAIN-SUFFIX,snapdrop.net,DIRECT
-DOMAIN,download.jetbrains.com,DIRECT
-DOMAIN,origin-a.akamaihd.ne,DIRECT
+DOMAIN-SUFFIX,flyert.com,Domestic
+DOMAIN-SUFFIX,gandi.net,Domestic
+DOMAIN-SUFFIX,snapdrop.net,Domestic
+DOMAIN,download.jetbrains.com,Domestic
+DOMAIN,origin-a.akamaihd.ne,Domestic
 # ---(Microsoft)---
 # > Outlook
-DOMAIN,outlook.office365.com,DIRECT
-DOMAIN,smtp-mail.outlook.com,DIRECT
-DOMAIN,smtp.office365.com,DIRECT
+DOMAIN,outlook.office365.com,Domestic
+DOMAIN,smtp-mail.outlook.com,Domestic
+DOMAIN,smtp.office365.com,Domestic
 # > Windows Server Update Services
-DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com,DIRECT
-DOMAIN-SUFFIX,update.microsoft.com,DIRECT
-DOMAIN-SUFFIX,windowsupdate.com,DIRECT
-DOMAIN-SUFFIX,windowsupdate.microsoft.com,DIRECT
-DOMAIN,download.microsoft.com,DIRECT
-DOMAIN,wustat.windows.com,DIRECT
-DOMAIN,ntservicepack.microsoft.com,DIRECT
+DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com,Domestic
+DOMAIN-SUFFIX,update.microsoft.com,Domestic
+DOMAIN-SUFFIX,windowsupdate.com,Domestic
+DOMAIN-SUFFIX,windowsupdate.microsoft.com,Domestic
+DOMAIN,download.microsoft.com,Domestic
+DOMAIN,wustat.windows.com,Domestic
+DOMAIN,ntservicepack.microsoft.com,Domestic
 # ------
 # > PayPal
-DOMAIN-SUFFIX,paypal.com,DIRECT
-DOMAIN-SUFFIX,paypal.me,DIRECT
-DOMAIN-SUFFIX,paypal-mktg.com,DIRECT
-DOMAIN-SUFFIX,paypalobjects.com,DIRECT
+DOMAIN-SUFFIX,paypal.com,Domestic
+DOMAIN-SUFFIX,paypal.me,Domestic
+DOMAIN-SUFFIX,paypal-mktg.com,Domestic
+DOMAIN-SUFFIX,paypalobjects.com,Domestic
 # > Steam
-DOMAIN-SUFFIX,cm.steampowered.com,DIRECT
-DOMAIN,api.steampowered.com,DIRECT
+DOMAIN-SUFFIX,cm.steampowered.com,Domestic
+DOMAIN,api.steampowered.com,Domestic
 # > Tencent
-IP-CIDR,182.254.116.0/24,DIRECT
-IP-CIDR,203.205.238.0/23,DIRECT
-IP-CIDR,203.205.254.0/23,DIRECT
+IP-CIDR,182.254.116.0/24,Domestic
+IP-CIDR,203.205.238.0/23,Domestic
+IP-CIDR,203.205.254.0/23,Domestic
 # > IP Query
-DOMAIN,ip.istatmenus.app,DIRECT
-DOMAIN,sms.imagetasks.com,DIRECT
+DOMAIN,ip.istatmenus.app,Domestic
+DOMAIN,sms.imagetasks.com,Domestic
 # > Speed Test
-DOMAIN-SUFFIX,netspeedtestmaster.com,DIRECT
-DOMAIN,speedtest.macpaw.com,DIRECT
+DOMAIN-SUFFIX,netspeedtestmaster.com,Domestic
+DOMAIN,speedtest.macpaw.com,Domestic
 # > Private Tracker
-DOMAIN-SUFFIX,acg.rip,DIRECT
-DOMAIN-SUFFIX,animebytes.tv,DIRECT
-DOMAIN-SUFFIX,awesome-hd.me,DIRECT
-DOMAIN-SUFFIX,broadcasthe.net,DIRECT
-DOMAIN-SUFFIX,chdbits.co,DIRECT
-DOMAIN-SUFFIX,classix-unlimited.co.uk,DIRECT
-DOMAIN-SUFFIX,comicat.org,DIRECT
-DOMAIN-SUFFIX,empornium.me,DIRECT
-DOMAIN-SUFFIX,gazellegames.net,DIRECT
-DOMAIN-SUFFIX,hdbits.org,DIRECT
-DOMAIN-SUFFIX,hdchina.org,DIRECT
-DOMAIN-SUFFIX,hddolby.com,DIRECT
-DOMAIN-SUFFIX,hdhome.org,DIRECT
-DOMAIN-SUFFIX,hdsky.me,DIRECT
-DOMAIN-SUFFIX,icetorrent.org,DIRECT
-DOMAIN-SUFFIX,jpopsuki.eu,DIRECT
-DOMAIN-SUFFIX,keepfrds.com,DIRECT
-DOMAIN-SUFFIX,madsrevolution.net,DIRECT
-DOMAIN-SUFFIX,morethan.tv,DIRECT
-DOMAIN-SUFFIX,m-team.cc,DIRECT
-DOMAIN-SUFFIX,myanonamouse.net,DIRECT
-DOMAIN-SUFFIX,nanyangpt.com,DIRECT
-DOMAIN-SUFFIX,ncore.cc,DIRECT
-DOMAIN-SUFFIX,open.cd,DIRECT
-DOMAIN-SUFFIX,ourbits.club,DIRECT
-DOMAIN-SUFFIX,passthepopcorn.me,DIRECT
-DOMAIN-SUFFIX,privatehd.to,DIRECT
-DOMAIN-SUFFIX,pterclub.com,DIRECT
-DOMAIN-SUFFIX,redacted.ch,DIRECT
-DOMAIN-SUFFIX,springsunday.net,DIRECT
-DOMAIN-SUFFIX,tjupt.org,DIRECT
-DOMAIN-SUFFIX,totheglory.im,DIRECT
+DOMAIN-SUFFIX,acg.rip,Domestic
+DOMAIN-SUFFIX,animebytes.tv,Domestic
+DOMAIN-SUFFIX,awesome-hd.me,Domestic
+DOMAIN-SUFFIX,broadcasthe.net,Domestic
+DOMAIN-SUFFIX,chdbits.co,Domestic
+DOMAIN-SUFFIX,classix-unlimited.co.uk,Domestic
+DOMAIN-SUFFIX,comicat.org,Domestic
+DOMAIN-SUFFIX,empornium.me,Domestic
+DOMAIN-SUFFIX,gazellegames.net,Domestic
+DOMAIN-SUFFIX,hdbits.org,Domestic
+DOMAIN-SUFFIX,hdchina.org,Domestic
+DOMAIN-SUFFIX,hddolby.com,Domestic
+DOMAIN-SUFFIX,hdhome.org,Domestic
+DOMAIN-SUFFIX,hdsky.me,Domestic
+DOMAIN-SUFFIX,icetorrent.org,Domestic
+DOMAIN-SUFFIX,jpopsuki.eu,Domestic
+DOMAIN-SUFFIX,keepfrds.com,Domestic
+DOMAIN-SUFFIX,madsrevolution.net,Domestic
+DOMAIN-SUFFIX,morethan.tv,Domestic
+DOMAIN-SUFFIX,m-team.cc,Domestic
+DOMAIN-SUFFIX,myanonamouse.net,Domestic
+DOMAIN-SUFFIX,nanyangpt.com,Domestic
+DOMAIN-SUFFIX,ncore.cc,Domestic
+DOMAIN-SUFFIX,open.cd,Domestic
+DOMAIN-SUFFIX,ourbits.club,Domestic
+DOMAIN-SUFFIX,passthepopcorn.me,Domestic
+DOMAIN-SUFFIX,privatehd.to,Domestic
+DOMAIN-SUFFIX,pterclub.com,Domestic
+DOMAIN-SUFFIX,redacted.ch,Domestic
+DOMAIN-SUFFIX,springsunday.net,Domestic
+DOMAIN-SUFFIX,tjupt.org,Domestic
+DOMAIN-SUFFIX,totheglory.im,Domestic
 
-# GEOIP,CN,DIRECT
+# GEOIP,CN,Domestic
