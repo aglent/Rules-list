@@ -1,8 +1,9 @@
 # https://github.com/LM-Firefly/Rules/blob/master/GlobalMedia.list
-# Vimeo
+# 提取Vimeo
 
-USER-AGENT,vimeo*
-DOMAIN-KEYWORD,vimeo
+# Update2022-02-22
+
+## > Vimeo
 DOMAIN-SUFFIX,vhx.tv
 DOMAIN-SUFFIX,vhxqa1.com
 DOMAIN-SUFFIX,vhxqa2.com
