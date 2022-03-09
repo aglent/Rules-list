@@ -1,10 +1,12 @@
 # https://github.com/LM-Firefly/Rules/blob/master/Clash-RuleSet-Classical/SpeedTest.yaml
 # 将DOMAIN-KEYWORD,speedtest 改为 DOMAIN-SUFFIX,speedtest.net
 
+# Update 2021-11-05
+
 payload:
   ## > Speedtest by Ookla
-  - PROCESS-NAME,Speedtest.exe
   - PROCESS-NAME,org.zwanoo.android.speedtest
+  - PROCESS-NAME,Speedtest.exe
   - DOMAIN-KEYWORD,ookla
   - DOMAIN-SUFFIX,speedtest.net
   - DOMAIN-SUFFIX,lg-hkg.fdcservers.net
