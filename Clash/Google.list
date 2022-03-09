@@ -1,5 +1,7 @@
 # https://github.com/LM-Firefly/Rules/blob/master/Clash-RuleSet-Classical/PROXY/Google.yaml
 
+# Update 2021-12-28
+
 payload:
   ## 🙈 Google
   - PROCESS-NAME,com.android.vending
@@ -15,6 +17,8 @@ payload:
   - DOMAIN-SUFFIX,android.com
   - DOMAIN-SUFFIX,androidify.com
   ## >> Blogspot
+  - DOMAIN-SUFFIX,blogblog.com
+  - DOMAIN-SUFFIX,blogger.com
   - DOMAIN-SUFFIX,blogspot.ae
   - DOMAIN-SUFFIX,blogspot.al
   - DOMAIN-SUFFIX,blogspot.am
@@ -197,6 +201,11 @@ payload:
   - DOMAIN-SUFFIX,scholar.google.se
   - DOMAIN-SUFFIX,scholar.google.si
   - DOMAIN-SUFFIX,scholar.google.sk
+  ## >> Kaggle
+  - DOMAIN-SUFFIX,kaggle.com
+  - DOMAIN-SUFFIX,kaggle.io
+  ## >> Neverware
+  - DOMAIN-SUFFIX,neverware.com
   ## >> Polymer
   - DOMAIN-SUFFIX,polymer-project.org
   - DOMAIN-SUFFIX,polymerproject.org
@@ -632,8 +641,6 @@ payload:
   - DOMAIN-SUFFIX,bdn.dev
   - DOMAIN-SUFFIX,beatthatquote.com
   - DOMAIN-SUFFIX,blink.org
-  - DOMAIN-SUFFIX,blogblog.com
-  - DOMAIN-SUFFIX,blogger.com
   - DOMAIN-SUFFIX,brocaproject.com
   - DOMAIN-SUFFIX,brotli.org
   - DOMAIN-SUFFIX,bumpshare.com
