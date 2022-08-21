@@ -1,12 +1,17 @@
-# https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Filter/StreamingMedia/Music/Spotify.list
+# https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Filter/StreamingMedia/Music/Spotify.list 暂时不使用
+# https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/Shopify/Shopify.list
 
-# Update 2021-12-31
-
-# > Spotify
-USER-AGENT,Spotify*,Spotify
-DOMAIN-SUFFIX,pscdn.co,Spotify
-DOMAIN-SUFFIX,scdn.co,Spotify
-DOMAIN-SUFFIX,spotify.com,Spotify
-DOMAIN-SUFFIX,spoti.fi,Spotify
-DOMAIN-KEYWORD,spotify.com,Spotify
-DOMAIN-KEYWORD,-spotify-com,Spotify
+# NAME: Shopify
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2022-08-05 22:37:40
+# HOST-SUFFIX: 8
+# TOTAL: 8
+HOST-SUFFIX,myshopify.com,Shopify
+HOST-SUFFIX,shop.app,Shopify
+HOST-SUFFIX,shopify.com,Shopify
+HOST-SUFFIX,shopify.dev,Shopify
+HOST-SUFFIX,shopifycdn.com,Shopify
+HOST-SUFFIX,shopifycloud.com,Shopify
+HOST-SUFFIX,shopifystatus.com,Shopify
+HOST-SUFFIX,shopifysvc.com,Shopify
