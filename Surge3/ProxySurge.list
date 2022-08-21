@@ -1,6 +1,6 @@
 # https://github.com/DivineEngine/Profiles/blob/master/Surge/Ruleset/Global.list
 
-# Update 2022-02-27
+# Update 2022-03-21
 
 # (D.C.S.G?)
 DOMAIN-SUFFIX,9cache.com
@@ -223,6 +223,7 @@ DOMAIN-SUFFIX,getoutline.org
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,gmodules.com
+# DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,gvt0.com
 DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,gvt3.com
@@ -231,6 +232,7 @@ DOMAIN-SUFFIX,on2.com
 DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,schema.org
 DOMAIN-SUFFIX,tensorflow.org
+DOMAIN-SUFFIX,tenor.com
 DOMAIN-SUFFIX,tfhub.dev
 DOMAIN-SUFFIX,tiltbrush.com
 DOMAIN-SUFFIX,waymo.com
@@ -342,6 +344,7 @@ DOMAIN-SUFFIX,aka.ms
 DOMAIN-SUFFIX,github.blog
 DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,githubassets.com
 DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-SUFFIX,onedrive.live.com
 DOMAIN-SUFFIX,streaming.mediaservices.windows.net
@@ -440,6 +443,7 @@ DOMAIN-SUFFIX,engadget.com
 DOMAIN-SUFFIX,ifixit.com
 DOMAIN-SUFFIX,terabox.com
 DOMAIN-SUFFIX,zaobao.com.sg
+DOMAIN,addons.mozilla.org // Firefox Add-ons HTTP 451
 DOMAIN,wego.here.com
 # > Alphabet
 DOMAIN-SUFFIX,go.dev
