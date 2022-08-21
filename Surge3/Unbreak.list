@@ -1,10 +1,11 @@
 # https://github.com/DivineEngine/Profiles/blob/master/Surge/Ruleset/Unbreak.list
 
-# Update 2022-03-07
+# Update 2022-03-20
 
 # Unbreak
 # > General
 DOMAIN,app.adjust.com
+DOMAIN,app.appsflyer.com
 DOMAIN,bdtj.tagtic.cn
 # > Alibaba
 DOMAIN,log.mmstat.com
