@@ -1,10 +1,11 @@
 # https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Filter/Unbreak.list
 
-# Update 2022-03-07
+# Update 2022-03-20
 
 # Unbreak
 # > General
 DOMAIN,app.adjust.com,DIRECT
+DOMAIN,app.appsflyer.com,DIRECT
 DOMAIN,bdtj.tagtic.cn,DIRECT
 # > Alibaba
 DOMAIN,log.mmstat.com,DIRECT
