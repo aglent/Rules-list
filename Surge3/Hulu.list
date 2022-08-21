@@ -1,6 +1,0 @@
-# https://github.com/lhie1/Rules/blob/master/Surge/Surge%203/Provider/Media/Hulu.list
-
-# > Hulu
-DOMAIN-SUFFIX,hulu.com
-DOMAIN-SUFFIX,huluim.com
-DOMAIN-SUFFIX,hulustream.com
