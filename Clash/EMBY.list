@@ -2,9 +2,8 @@
 
 payload:
   # > EMBY
-  - DOMAIN-SUFFIX,emby.w8ves.co
-  - DOMAIN-SUFFIX,emby.nexitally.com
-  - DOMAIN-SUFFIX,emby.immtel.com
+  - DOMAIN-SUFFIX,tagemby.com
+  - DOMAIN-SUFFIX,embylianmeng.com
   - DOMAIN-SUFFIX,line.emby.men
   - DOMAIN-SUFFIX,emby.plusmedia.site  
   - DOMAIN-SUFFIX,emby-cf.plusmedia.site
