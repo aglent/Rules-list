@@ -1,18 +1,16 @@
 # https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/China/China_Classical.yaml
 # 增加 微软邮箱直连
 
-# Update 2022-10-31
-
 # NAME: China
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-10-31 02:32:35
+# UPDATED: 2022-11-28 02:09:08
 # DOMAIN: 20
 # DOMAIN-KEYWORD: 10
-# DOMAIN-SUFFIX: 4112
+# DOMAIN-SUFFIX: 4128
 # IP-CIDR: 10
 # IP-CIDR6: 4
-# TOTAL: 4156
+# TOTAL: 4172
 payload:
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
@@ -353,7 +351,6 @@ payload:
   - DOMAIN-SUFFIX,acadn.com
   - DOMAIN-SUFFIX,acctdns.com
   - DOMAIN-SUFFIX,acctdns.net
-  - DOMAIN-SUFFIX,accuweather.com
   - DOMAIN-SUFFIX,acetaffy.club
   - DOMAIN-SUFFIX,acfun.cn
   - DOMAIN-SUFFIX,acfun.tv
@@ -449,8 +446,10 @@ payload:
   - DOMAIN-SUFFIX,alipay.cn
   - DOMAIN-SUFFIX,alipay.com
   - DOMAIN-SUFFIX,alipay.com.cn
+  - DOMAIN-SUFFIX,alipay.hk
   - DOMAIN-SUFFIX,alipaydns.com
   - DOMAIN-SUFFIX,alipaylog.com
+  - DOMAIN-SUFFIX,alipaymo.com
   - DOMAIN-SUFFIX,alipayobjects.com
   - DOMAIN-SUFFIX,alipayplus.com
   - DOMAIN-SUFFIX,aliplus.com
@@ -729,9 +728,13 @@ payload:
   - DOMAIN-SUFFIX,bytedance.net
   - DOMAIN-SUFFIX,bytedanceapi.com
   - DOMAIN-SUFFIX,bytedns.net
+  - DOMAIN-SUFFIX,bytedns1.com
   - DOMAIN-SUFFIX,bytednsdoc.com
+  - DOMAIN-SUFFIX,bytefcdn.com
   - DOMAIN-SUFFIX,bytegoofy.com
+  - DOMAIN-SUFFIX,bytegslb.com
   - DOMAIN-SUFFIX,byteimg.com
+  - DOMAIN-SUFFIX,bytelb.net
   - DOMAIN-SUFFIX,bytescm.com
   - DOMAIN-SUFFIX,bytetcc.com
   - DOMAIN-SUFFIX,bytetos.com
@@ -1395,6 +1398,8 @@ payload:
   - DOMAIN-SUFFIX,douding.cn
   - DOMAIN-SUFFIX,douxie.com
   - DOMAIN-SUFFIX,douyin.com
+  - DOMAIN-SUFFIX,douyincdn.com
+  - DOMAIN-SUFFIX,douyinliving.com
   - DOMAIN-SUFFIX,douyinpic.com
   - DOMAIN-SUFFIX,douyinstatic.com
   - DOMAIN-SUFFIX,douyinvod.com
@@ -1536,6 +1541,7 @@ payload:
   - DOMAIN-SUFFIX,feizhu.com
   - DOMAIN-SUFFIX,feng.com
   - DOMAIN-SUFFIX,feng1.com
+  - DOMAIN-SUFFIX,fengcx.com
   - DOMAIN-SUFFIX,fengedu.com
   - DOMAIN-SUFFIX,fengimg.com
   - DOMAIN-SUFFIX,fengkongcloud.com
@@ -2218,13 +2224,16 @@ payload:
   - DOMAIN-SUFFIX,jdgslb.com
   - DOMAIN-SUFFIX,jdgslb.net
   - DOMAIN-SUFFIX,jdjinrong.com
+  - DOMAIN-SUFFIX,jdl.cn
   - DOMAIN-SUFFIX,jdl.com
+  - DOMAIN-SUFFIX,jdl.com.cn
   - DOMAIN-SUFFIX,jdlike.cn
   - DOMAIN-SUFFIX,jdpay.com
   - DOMAIN-SUFFIX,jdpaydns.com
   - DOMAIN-SUFFIX,jdwl.com
   - DOMAIN-SUFFIX,jdx.com
   - DOMAIN-SUFFIX,jhgtgb.com
+  - DOMAIN-SUFFIX,jhscm.com
   - DOMAIN-SUFFIX,jhu.edu
   - DOMAIN-SUFFIX,jhzq.com.cn
   - DOMAIN-SUFFIX,jia.com
@@ -2517,6 +2526,7 @@ payload:
   - DOMAIN-SUFFIX,lnlib.net
   - DOMAIN-SUFFIX,localizecdn.com
   - DOMAIN-SUFFIX,lofter.com
+  - DOMAIN-SUFFIX,logiseasy.com
   - DOMAIN-SUFFIX,loli.net
   - DOMAIN-SUFFIX,longhoo.net
   - DOMAIN-SUFFIX,longone.com.cn
@@ -2842,6 +2852,7 @@ payload:
   - DOMAIN-SUFFIX,open.cd
   - DOMAIN-SUFFIX,openapp.run
   - DOMAIN-SUFFIX,openjudge.cn
+  - DOMAIN-SUFFIX,openkylin.top
   - DOMAIN-SUFFIX,openlearning.com
   - DOMAIN-SUFFIX,openmidas.com
   - DOMAIN-SUFFIX,oppo.cn
@@ -3558,6 +3569,7 @@ payload:
   - DOMAIN-SUFFIX,toutiaoimg.net
   - DOMAIN-SUFFIX,toutiaopage.com
   - DOMAIN-SUFFIX,toutiaostatic.com
+  - DOMAIN-SUFFIX,toutiaovod.com
   - DOMAIN-SUFFIX,touzid.com
   - DOMAIN-SUFFIX,tpyzq.com
   - DOMAIN-SUFFIX,tracup.com
@@ -3797,6 +3809,8 @@ payload:
   - DOMAIN-SUFFIX,wukong.com
   - DOMAIN-SUFFIX,wukongwenda.cn
   - DOMAIN-SUFFIX,wukongwenda.com
+  - DOMAIN-SUFFIX,wuliujie.cn
+  - DOMAIN-SUFFIX,wuliujie.com
   - DOMAIN-SUFFIX,wumii.com
   - DOMAIN-SUFFIX,wuming.com
   - DOMAIN-SUFFIX,wuximediaglobal.com
