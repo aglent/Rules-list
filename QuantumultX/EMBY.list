@@ -1,7 +1,9 @@
 # > EMBY From TAG机场订阅内置规则
 
+HOST-SUFFIX,unpkg.com,EMBY
 HOST-SUFFIX,tagemby.com,EMBY
 HOST-SUFFIX,tagemby.embylianmeng.com,EMBY
+HOST-SUFFIX,register.embylianmeng.com,EMBY
 HOST-SUFFIX,emby.nexitally.com,EMBY
 HOST-SUFFIX,emby.riches.cloud,EMBY
 HOST-SUFFIX,emby.wtf,EMBY
