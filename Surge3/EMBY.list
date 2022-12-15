@@ -1,7 +1,9 @@
 # > EMBY From TAG机场订阅内置规则
 
+DOMAIN-SUFFIX,unpkg.com
 DOMAIN-SUFFIX,tagemby.com
 DOMAIN-SUFFIX,tagemby.embylianmeng.com
+DOMAIN-SUFFIX,register.embylianmeng.com
 DOMAIN-SUFFIX,emby.nexitally.com
 DOMAIN-SUFFIX,emby.riches.cloud
 DOMAIN-SUFFIX,emby.wtf
