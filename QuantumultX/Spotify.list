@@ -7,11 +7,11 @@
 # UPDATED: 2022-12-25 18:52:12
 # HOST-SUFFIX: 8
 # TOTAL: 8
-HOST-SUFFIX,myshopify.com,Shopify
-HOST-SUFFIX,shop.app,Shopify
-HOST-SUFFIX,shopify.com,Shopify
-HOST-SUFFIX,shopify.dev,Shopify
-HOST-SUFFIX,shopifycdn.com,Shopify
-HOST-SUFFIX,shopifycloud.com,Shopify
-HOST-SUFFIX,shopifystatus.com,Shopify
-HOST-SUFFIX,shopifysvc.com,Shopify
+HOST-SUFFIX,myshopify.com,Spotify
+HOST-SUFFIX,shop.app,Spotify
+HOST-SUFFIX,shopify.com,Spotify
+HOST-SUFFIX,shopify.dev,Spotify
+HOST-SUFFIX,shopifycdn.com,Spotify
+HOST-SUFFIX,shopifycloud.com,Spotify
+HOST-SUFFIX,shopifystatus.com,Spotify
+HOST-SUFFIX,shopifysvc.com,Spotify
