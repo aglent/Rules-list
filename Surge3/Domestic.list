@@ -16,6 +16,7 @@ DOMAIN-SUFFIX,paypal-mktg.com
 DOMAIN-SUFFIX,paypalobjects.com
 # > 欧易
 DOMAIN-SUFFIX,okx.com
+DOMAIN-SUFFIX,www.okx.com.cdn.cloudflare.net
 
 # NAME: China
 # AUTHOR: blackmatrix7

@@ -13,6 +13,7 @@
 # TOTAL: 4172
 payload:
   - DOMAIN-SUFFIX,okx.com
+  - DOMAIN-SUFFIX,www.okx.com.cdn.cloudflare.net
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
   - DOMAIN,cdn.angruo.com
