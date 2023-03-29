@@ -1,6 +1,5 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/China/China.list
-# 增加Anydesk
-# 增加微软邮箱直连
+# 增加直连Anydesk/微软邮箱/okx.com
 
 # Update 2022-11-28
 
@@ -15,6 +14,8 @@ DOMAIN-SUFFIX,paypal.com,Domestic
 DOMAIN-SUFFIX,paypal.me,Domestic
 DOMAIN-SUFFIX,paypal-mktg.com,Domestic
 DOMAIN-SUFFIX,paypalobjects.com,Domestic
+# > 欧易
+DOMAIN-SUFFIX,okx.com,Domestic
 
 # NAME: China
 # AUTHOR: blackmatrix7

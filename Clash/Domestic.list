@@ -1,5 +1,5 @@
 # https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/China/China_Classical.yaml
-# 增加 微软邮箱直连
+# 增加直连okx.com
 
 # NAME: China
 # AUTHOR: blackmatrix7
@@ -12,6 +12,7 @@
 # IP-CIDR6: 4
 # TOTAL: 4172
 payload:
+  - DOMAIN-SUFFIX,okx.com
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
   - DOMAIN,cdn.angruo.com
