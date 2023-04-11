@@ -1,69 +1,60 @@
-# https://github.com/DivineEngine/Profiles/blob/master/Surge/Ruleset/StreamingMedia/StreamingCN.list
+# https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/AsianMedia/AsianMedia.list
 
-# Update 2021-12-31
-
-# (Video)
-# > Acfun
-DOMAIN-SUFFIX,acfun.cn
-DOMAIN-SUFFIX,aixifan.com
-# > bilibili
+# NAME: AsianMedia
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2023-04-07 14:50:24
+# DOMAIN: 10
+# DOMAIN-KEYWORD: 3
+# DOMAIN-SUFFIX: 20
+# IP-CIDR: 10
+# USER-AGENT: 5
+# TOTAL: 48
+DOMAIN,akmcdnoversea-tw.inter.iqiyi.com
+DOMAIN,akmcdnoversea-tw.inter.ptqy.gitv.tv
+DOMAIN,cache.video.iqiyi.com
+DOMAIN,chuangcachecdnoversea-tw.inter.iqiyi.com
+DOMAIN,chuangcachecdnoversea-tw.inter.ptqy.gitv.tv
+DOMAIN,intl-rcd.iqiyi.com
+DOMAIN,intl-subscription.iqiyi.com
+DOMAIN,intl.iqiyi.com
+DOMAIN,mobileso.bz.mgtv.com
+DOMAIN,upos-hz-mirrorakam.akamaized.net
+DOMAIN-SUFFIX,71.am.com
+DOMAIN-SUFFIX,acg.tv
+DOMAIN-SUFFIX,acgvideo.com
+DOMAIN-SUFFIX,api.mgtv.com
+DOMAIN-SUFFIX,api.mob.app.letv.com
+DOMAIN-SUFFIX,b23.tv
+DOMAIN-SUFFIX,biliapi.com
 DOMAIN-SUFFIX,biliapi.net
 DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,bilibili.tv
+DOMAIN-SUFFIX,biligame.com
+DOMAIN-SUFFIX,biligame.net
 DOMAIN-SUFFIX,bilivideo.com
 DOMAIN-SUFFIX,hdslb.com
-# > Tencent Video
-DOMAIN-SUFFIX,video.qq.com
-DOMAIN-SUFFIX,i.qq.com
-DOMAIN-SUFFIX,v.qq.com
-# > iQiyi
-DOMAIN-SUFFIX,iqiyi.com
-DOMAIN-SUFFIX,71edge.com
-# > Youku
-DOMAIN-SUFFIX,soku.com
-DOMAIN-SUFFIX,youku.com
-DOMAIN-SUFFIX,ykimg.com
-# > XiGua
-DOMAIN-SUFFIX,ixigua.com
-DOMAIN-SUFFIX,snssdk.com
-# > HunanTV
-DOMAIN-SUFFIX,hitv.com
-DOMAIN-SUFFIX,hunantv.com
-DOMAIN-SUFFIX,mgtv.com
-# > Le
-DOMAIN-SUFFIX,le.com
-# > PPLive
-DOMAIN-SUFFIX,pplive.cn
-DOMAIN-SUFFIX,pptv.com
-# > Sohu Video
-DOMAIN-SUFFIX,itc.cn
-DOMAIN-SUFFIX,sohu.com
-# > Migu Video
-DOMAIN-SUFFIX,cmvideo.cn
-DOMAIN-SUFFIX,miguvideo.com
-
-# (Music)
-# > QQ Music
-DOMAIN-SUFFIX,music.qq.com
-DOMAIN-SUFFIX,music.tc.qq.com
-DOMAIN-SUFFIX,qqmusic.qq.com
-DOMAIN-SUFFIX,tencentmusic.com
-DOMAIN-SUFFIX,y.qq.com
-DOMAIN,aqqmusic.tc.qq.com
-DOMAIN,moo.qq.com
-# > China Music Corp
-DOMAIN-SUFFIX,kuwo.cn
-DOMAIN-SUFFIX,kugou.com
-# > Netease Cloud Music
-DOMAIN-SUFFIX,music.163.com
-DOMAIN-SUFFIX,music.126.net
-DOMAIN,mam.netease.com
-DOMAIN,api.iplay.163.com
-# > Qianqian Music
-DOMAIN-SUFFIX,qianqian.com
-DOMAIN-SUFFIX,taihe.com
-# > Migu Music
-DOMAIN-SUFFIX,migu.cn
-# > Xiaomi
-DOMAIN-SUFFIX,ai.xiaomi.com
-DOMAIN-SUFFIX,music.xiaomi.com
-DOMAIN-SUFFIX,dmhmusic.com
+DOMAIN-SUFFIX,im9.com
+DOMAIN-SUFFIX,iq.com
+DOMAIN-SUFFIX,qy.net
+DOMAIN-SUFFIX,vv.video.qq.com
+DOMAIN-SUFFIX,wetv.vip
+DOMAIN-SUFFIX,wetvinfo.com
+DOMAIN-KEYWORD,bilibili
+DOMAIN-KEYWORD,cn-hk-eq-bcache-
+DOMAIN-KEYWORD,qiyi
+IP-CIDR,101.224.0.0/13,no-resolve
+IP-CIDR,103.44.56.0/22,no-resolve
+IP-CIDR,106.11.0.0/16,no-resolve
+IP-CIDR,116.211.202.206/32,no-resolve
+IP-CIDR,116.211.202.216/32,no-resolve
+IP-CIDR,118.26.120.0/24,no-resolve
+IP-CIDR,118.26.32.0/23,no-resolve
+IP-CIDR,119.176.0.0/12,no-resolve
+IP-CIDR,23.40.241.251/32,no-resolve
+IP-CIDR,23.40.242.10/32,no-resolve
+USER-AGENT,*bili*
+USER-AGENT,MOO*
+USER-AGENT,QIYI*
+USER-AGENT,TencentMidasConnect*
+USER-AGENT,iQiYi*
