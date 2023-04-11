@@ -1,7 +1,5 @@
 # https://github.com/DivineEngine/Profiles/blob/master/Clash/RuleSet/Unbreak.yaml
-
-
-# Update 2022-03-07
+# 增加直连微软邮箱/okx.com
 
 payload:
   # Unbreak
@@ -12,7 +10,6 @@ payload:
   - DOMAIN,dl.google.com
   - DOMAIN,dl.l.google.com
   - DOMAIN,update.googleapis.com
-  - DOMAIN,translate.googleapis.com
   # >> Firebase Cloud Messaging
   - DOMAIN,mtalk.google.com
   - DOMAIN,alt1-mtalk.google.com
@@ -23,3 +20,10 @@ payload:
   - DOMAIN,alt6-mtalk.google.com
   - DOMAIN,alt7-mtalk.google.com
   - DOMAIN,alt8-mtalk.google.com
+  # >> Outlook
+  - DOMAIN-SUFFIX,hotmail.com
+  - DOMAIN-SUFFIX,live.com
+  - DOMAIN-SUFFIX,outlook.com
+  # >> 欧易
+  - DOMAIN-SUFFIX,okx.com
+  - DOMAIN-SUFFIX,www.okx.com.cdn.cloudflare.net
