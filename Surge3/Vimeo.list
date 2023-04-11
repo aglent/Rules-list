@@ -1,7 +1,7 @@
 # https://github.com/LM-Firefly/Rules/blob/master/GlobalMedia.list
 # 提取Vimeo
 
-# Update2022-08-15
+# Update 2022-08-15
 
 ## > Vimeo
 DOMAIN-SUFFIX,vhx.tv
