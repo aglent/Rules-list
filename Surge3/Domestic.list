@@ -1,22 +1,4 @@
 # https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/China/China.list
-# 增加直连Anydesk/微软邮箱/okx.com
-
-# Update 2022-11-28
-
-# > Anydesk
-DOMAIN-SUFFIX,anydesk.com
-# > Outlook
-DOMAIN-SUFFIX,hotmail.com
-DOMAIN-SUFFIX,live.com
-DOMAIN-SUFFIX,outlook.com
-# > PayPal
-DOMAIN-SUFFIX,paypal.com
-DOMAIN-SUFFIX,paypal.me
-DOMAIN-SUFFIX,paypal-mktg.com
-DOMAIN-SUFFIX,paypalobjects.com
-# > 欧易
-DOMAIN-SUFFIX,okx.com
-DOMAIN-SUFFIX,www.okx.com.cdn.cloudflare.net
 
 # NAME: China
 # AUTHOR: blackmatrix7
