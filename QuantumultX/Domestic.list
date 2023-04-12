@@ -1,19 +1,12 @@
 # https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/China/China.list
-# 增加直连Anydesk/微软邮箱/okx.com
+# 增加直连微软邮箱/okx.com
 
 # Update 2022-11-28
 
-# > Anydesk
-DOMAIN-SUFFIX,anydesk.com,Domestic
 # > Outlook
 DOMAIN-SUFFIX,hotmail.com,Domestic
 DOMAIN-SUFFIX,live.com,Domestic
 DOMAIN-SUFFIX,outlook.com,Domestic
-# > PayPal
-DOMAIN-SUFFIX,paypal.com,Domestic
-DOMAIN-SUFFIX,paypal.me,Domestic
-DOMAIN-SUFFIX,paypal-mktg.com,Domestic
-DOMAIN-SUFFIX,paypalobjects.com,Domestic
 # > 欧易
 DOMAIN-SUFFIX,okx.com,Domestic
 DOMAIN-SUFFIX,www.okx.com.cdn.cloudflare.net,Domestic

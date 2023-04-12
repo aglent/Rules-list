@@ -1,6 +1,15 @@
 # https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Filter/Unbreak.list
+# 增加直连Anydesk/微软邮箱/okx.com
 
 # Update 2022-11-12
+
+# > Outlook
+DOMAIN-SUFFIX,hotmail.com,DIRECT
+DOMAIN-SUFFIX,live.com,DIRECT
+DOMAIN-SUFFIX,outlook.com,DIRECT
+# > 欧易
+DOMAIN-SUFFIX,okx.com,DIRECT
+DOMAIN-SUFFIX,www.okx.com.cdn.cloudflare.net,DIRECT
 
 # Unbreak
 # > General
