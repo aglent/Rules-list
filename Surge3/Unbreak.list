@@ -1,5 +1,8 @@
 # > Outlook邮箱
 DOMAIN,imap-mail.outlook.com
+DOMAIN-SUFFIX,hotmail.com
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,outlook.com
 # > 欧易
 DOMAIN-SUFFIX,okx.com
 DOMAIN-SUFFIX,www.okx.com.cdn.cloudflare.net
