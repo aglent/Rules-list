@@ -1,7 +1,8 @@
 # > Outlook
-DOMAIN-SUFFIX,hotmail.com,Domestic
-DOMAIN-SUFFIX,live.com,Domestic
-DOMAIN-SUFFIX,outlook.com,Domestic
+# HOST-SUFFIX,hotmail.com,Domestic
+# HOST-SUFFIX,live.com,Domestic
+HOST,imap-mail.outlook.com,Domestic
+# HOST-SUFFIX,outlook.com,Domestic
 # > 欧易
-DOMAIN-SUFFIX,okx.com,Domestic
-DOMAIN-SUFFIX,www.okx.com.cdn.cloudflare.net,Domestic
+HOST-SUFFIX,okx.com,Domestic
+HOST-SUFFIX,www.okx.com.cdn.cloudflare.net,Domestic
