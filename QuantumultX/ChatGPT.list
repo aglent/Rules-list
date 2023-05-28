@@ -2,3 +2,4 @@
 DOMAIN-SUFFIX,openai.com,ChatGPT
 DOMAIN-SUFFIX,chat.openai.com,ChatGPT
 DOMAIN-SUFFIX,auth0.openai.com,ChatGPT
+DOMAIN-SUFFIX,sentry.io,ChatGPT
