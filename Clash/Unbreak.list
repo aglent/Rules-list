@@ -4,12 +4,12 @@
 payload:
   # Unbreak
   # > Google
-  - DOMAIN-SUFFIX,blog.google
-  - DOMAIN-SUFFIX,googletraveladservices.com
-  - DOMAIN,clientservices.googleapis.com
-  - DOMAIN,dl.google.com
-  - DOMAIN,dl.l.google.com
-  - DOMAIN,update.googleapis.com
+#  - DOMAIN-SUFFIX,blog.google
+#  - DOMAIN-SUFFIX,googletraveladservices.com
+#  - DOMAIN,clientservices.googleapis.com
+#  - DOMAIN,dl.google.com
+#  - DOMAIN,dl.l.google.com
+#  - DOMAIN,update.googleapis.com
   # >> Firebase Cloud Messaging
   - DOMAIN,mtalk.google.com
   - DOMAIN,alt1-mtalk.google.com
