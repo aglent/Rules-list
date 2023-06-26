@@ -5,6 +5,9 @@ DOMAIN-SUFFIX,chat.openai.com
 DOMAIN-SUFFIX,auth0.openai.com
 DOMAIN-SUFFIX,cdn.auth0.com
 DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,o33249.ingest.sentry.io
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,openaicom.imgix.net
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,production-openaicom-storage.azureedge.net
