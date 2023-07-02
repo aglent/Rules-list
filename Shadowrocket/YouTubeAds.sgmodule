@@ -1,7 +1,10 @@
+# 参考 https://github.com/Tartarus2014/Loon-Script/blob/master/Plugin/Block/YouTubeAds.plugin 修改第一行 header 为302
+ 
+
 #!name=YouTubeAds
 #!desc=最后更新时间 2023-07-02 18:50:00
 #!author=Tartarus2014
-#!repo=https://github.com/Tartarus2014/Loon-Script/blob/master/Plugin/Block/YouTubeAds.plugi
+#!repo=https://github.com/Tartarus2014/Loon-Script/blob/master/Plugin/Block/YouTubeAds.plugin
 
 [URL Rewrite]
 (^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) $1$2$3 302
