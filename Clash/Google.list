@@ -473,7 +473,7 @@ payload:
   - DOMAIN-SUFFIX,googleadservices.com
   - DOMAIN-SUFFIX,googleanalytics.com
   - DOMAIN-SUFFIX,googleapis-cn.com
-  - DOMAIN-SUFFIX,googleapis.cn
+#  - DOMAIN-SUFFIX,googleapis.cn
   - DOMAIN-SUFFIX,googleapis.com
   - DOMAIN-SUFFIX,googleapps-cn.com
   - DOMAIN-SUFFIX,googleapps.com
