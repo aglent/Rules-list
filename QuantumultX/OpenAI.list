@@ -1,4 +1,5 @@
 # > OpenAI
+DOMAIN-KEYWORD,openai,OpenAI
 DOMAIN-SUFFIX,openai.com,OpenAI
 DOMAIN-SUFFIX,ai.com,OpenAI
 DOMAIN-SUFFIX,chat.openai.com,OpenAI
@@ -8,6 +9,8 @@ DOMAIN-SUFFIX,sentry.io,OpenAI
 DOMAIN-SUFFIX,o33249.ingest.sentry.io,OpenAI
 DOMAIN-SUFFIX,challenges.cloudflare.com,OpenAI
 DOMAIN-SUFFIX,identrust.com,OpenAI
+DOMAIN-SUFFIX,oaistatic.com,OpenAI
+DOMAIN-SUFFIX,oaiusercontent.com,OpenAI
 DOMAIN-SUFFIX,openaicom.imgix.net,OpenAI
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net,OpenAI
 DOMAIN-SUFFIX,production-openaicom-storage.azureedge.net,OpenAI

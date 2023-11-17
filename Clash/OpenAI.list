@@ -1,5 +1,6 @@
 payload:
   # > OpenAI
+  - DOMAIN-KEYWORD,openai
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,ai.com
   - DOMAIN-SUFFIX,chat.openai.com
@@ -9,6 +10,8 @@ payload:
   - DOMAIN-SUFFIX,o33249.ingest.sentry.io
   - DOMAIN-SUFFIX,challenges.cloudflare.com
   - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
   - DOMAIN-SUFFIX,openaicom.imgix.net
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
   - DOMAIN-SUFFIX,production-openaicom-storage.azureedge.net
