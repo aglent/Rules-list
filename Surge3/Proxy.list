@@ -3,14 +3,14 @@
 # NAME: ProxyLite
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-04-07 14:51:26
-# DOMAIN: 18
-# DOMAIN-KEYWORD: 24
-# DOMAIN-SUFFIX: 833
-# IP-CIDR: 90
+# UPDATED: 2023-12-15 02:13:41
+# DOMAIN: 23
+# DOMAIN-KEYWORD: 22
+# DOMAIN-SUFFIX: 842
+# IP-CIDR: 89
 # IP-CIDR6: 4
 # USER-AGENT: 7
-# TOTAL: 976
+# TOTAL: 987
 DOMAIN,addons.mozilla.org
 DOMAIN,amp-api.podcasts.apple.com
 DOMAIN,api.waqi.info
@@ -21,10 +21,15 @@ DOMAIN,az416426.vo.msecnd.net
 DOMAIN,az668014.vo.msecnd.net
 DOMAIN,beta.music.apple.com
 DOMAIN,books.apple.com
+DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN,clubhouse.pubnubapi.com
 DOMAIN,disk.yandex.com
 DOMAIN,lab.skk.moe
 DOMAIN,ocsp.int-x3.letsencrypt.org
+DOMAIN,openaiapi-site.azureedge.net
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,production-openaicom-storage.azureedge.net
 DOMAIN,search.yahoo.co.jp
 DOMAIN,tv.apple.com
 DOMAIN,voice.telephony.goog
@@ -48,7 +53,6 @@ DOMAIN-SUFFIX,adtidy.org
 DOMAIN-SUFFIX,aerisapi.com
 DOMAIN-SUFFIX,aex.com
 DOMAIN-SUFFIX,ahcdn.com
-DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,aicoin.com
 DOMAIN-SUFFIX,aimoon.com
 DOMAIN-SUFFIX,airtable.com
@@ -67,6 +71,7 @@ DOMAIN-SUFFIX,ancsconf.org
 DOMAIN-SUFFIX,android-x86.org
 DOMAIN-SUFFIX,angularjs.org
 DOMAIN-SUFFIX,anthonycalzadilla.com
+DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,aol.com
 DOMAIN-SUFFIX,aolcdn.com
 DOMAIN-SUFFIX,apache.org
@@ -143,6 +148,7 @@ DOMAIN-SUFFIX,boxun.com
 DOMAIN-SUFFIX,brave.com
 DOMAIN-SUFFIX,btlibrary.me
 DOMAIN-SUFFIX,bullguard.com
+DOMAIN-SUFFIX,buzzsprout.com
 DOMAIN-SUFFIX,bybit.com
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,c-span.org
@@ -156,11 +162,14 @@ DOMAIN-SUFFIX,celestrak.com
 DOMAIN-SUFFIX,census.gov
 DOMAIN-SUFFIX,chalungu.cn
 DOMAIN-SUFFIX,change.org
+DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,chaturbate.com
 DOMAIN-SUFFIX,chinadigitaltimes.net
 DOMAIN-SUFFIX,chinatimes.com
 DOMAIN-SUFFIX,cl.ly
+DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,clien.net
+DOMAIN-SUFFIX,cloud.cupronickel.goog
 DOMAIN-SUFFIX,cloudcone.com
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,cloudfront.net
@@ -213,6 +222,7 @@ DOMAIN-SUFFIX,discordstatus.com
 DOMAIN-SUFFIX,disq.us
 DOMAIN-SUFFIX,disqus.com
 DOMAIN-SUFFIX,disquscdn.com
+DOMAIN-SUFFIX,dler.io
 DOMAIN-SUFFIX,dlive.tv
 DOMAIN-SUFFIX,dmm.co.jp
 DOMAIN-SUFFIX,dnsimple.com
@@ -243,6 +253,7 @@ DOMAIN-SUFFIX,extmatrix.com
 DOMAIN-SUFFIX,eyny.com
 DOMAIN-SUFFIX,f8.com
 DOMAIN-SUFFIX,fanatical.com
+DOMAIN-SUFFIX,fanbox.cc
 DOMAIN-SUFFIX,fastly.net
 DOMAIN-SUFFIX,fastmail.com
 DOMAIN-SUFFIX,fb.com
@@ -470,7 +481,6 @@ DOMAIN-SUFFIX,okx.com
 DOMAIN-SUFFIX,omnigroup.com
 DOMAIN-SUFFIX,omny.fm
 DOMAIN-SUFFIX,ooyala.com
-DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openvpn.net
 DOMAIN-SUFFIX,openwrt.org
 DOMAIN-SUFFIX,orkut.com
@@ -641,6 +651,7 @@ DOMAIN-SUFFIX,taptap.tw
 DOMAIN-SUFFIX,tdesktop.com
 DOMAIN-SUFFIX,teamviewer.com
 DOMAIN-SUFFIX,techcrunch.com
+DOMAIN-SUFFIX,technorati.com
 DOMAIN-SUFFIX,techsmith.com
 DOMAIN-SUFFIX,techspot.com
 DOMAIN-SUFFIX,teddysun.com
@@ -680,6 +691,7 @@ DOMAIN-SUFFIX,tokyocn.com
 DOMAIN-SUFFIX,tomshardware.com
 DOMAIN-SUFFIX,torcn.com
 DOMAIN-SUFFIX,torproject.org
+DOMAIN-SUFFIX,torrentmac.net
 DOMAIN-SUFFIX,torrentprivacy.com
 DOMAIN-SUFFIX,torrentproject.se
 DOMAIN-SUFFIX,torrentz.eu
@@ -860,6 +872,8 @@ DOMAIN-SUFFIX,zb.com
 DOMAIN-SUFFIX,zello.com
 DOMAIN-SUFFIX,zeronet.io
 DOMAIN-SUFFIX,zeutch.com
+DOMAIN-SUFFIX,zoom.us
+DOMAIN-SUFFIX,zoomgov.com
 DOMAIN-SUFFIX,zophar.net
 DOMAIN-SUFFIX,zyxel.com
 DOMAIN-KEYWORD,.pinterest.
@@ -870,7 +884,6 @@ DOMAIN-KEYWORD,avtb
 DOMAIN-KEYWORD,beetalk
 DOMAIN-KEYWORD,dlercloud
 DOMAIN-KEYWORD,dropbox
-DOMAIN-KEYWORD,duolingo
 DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,fbcdn
 DOMAIN-KEYWORD,instagram
@@ -880,7 +893,6 @@ DOMAIN-KEYWORD,porn
 DOMAIN-KEYWORD,sci-hub
 DOMAIN-KEYWORD,spotify
 DOMAIN-KEYWORD,telegram
-DOMAIN-KEYWORD,tesla
 DOMAIN-KEYWORD,tiktok
 DOMAIN-KEYWORD,ttvnw
 DOMAIN-KEYWORD,twitter
@@ -934,7 +946,6 @@ IP-CIDR,180.163.150.162/32,no-resolve
 IP-CIDR,180.163.150.34/32,no-resolve
 IP-CIDR,180.163.151.162/32,no-resolve
 IP-CIDR,180.163.151.34/32,no-resolve
-IP-CIDR,183.131.48.0/20,no-resolve
 IP-CIDR,184.173.128.0/17,no-resolve
 IP-CIDR,185.60.216.0/22,no-resolve
 IP-CIDR,185.76.151.0/24,no-resolve
