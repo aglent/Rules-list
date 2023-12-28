@@ -3,13 +3,13 @@
 # NAME: Google
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-04-10 02:09:35
-# DOMAIN-KEYWORD: 6
-# DOMAIN-SUFFIX: 718
+# UPDATED: 2023-12-14 16:52:32
+# DOMAIN-KEYWORD: 5
+# DOMAIN-SUFFIX: 711
 # IP-CIDR: 4
 # IP-CIDR6: 1
 # PROCESS-NAME: 6
-# TOTAL: 735
+# TOTAL: 727
 payload:
   - DOMAIN-SUFFIX,0emm.com
   - DOMAIN-SUFFIX,1e100.net
@@ -66,6 +66,7 @@ payload:
   - DOMAIN-SUFFIX,beacons3.gvt2.com
   - DOMAIN-SUFFIX,beatthatquote.com
   - DOMAIN-SUFFIX,blink.org
+  - DOMAIN-SUFFIX,blog.google
   - DOMAIN-SUFFIX,blogblog.com
   - DOMAIN-SUFFIX,blogger.com
   - DOMAIN-SUFFIX,blogspot.ae
@@ -239,9 +240,7 @@ payload:
   - DOMAIN-SUFFIX,get.app
   - DOMAIN-SUFFIX,get.dev
   - DOMAIN-SUFFIX,get.how
-  - DOMAIN-SUFFIX,get.new
   - DOMAIN-SUFFIX,get.page
-  - DOMAIN-SUFFIX,get.rsvp
   - DOMAIN-SUFFIX,getbumptop.com
   - DOMAIN-SUFFIX,getmdl.io
   - DOMAIN-SUFFIX,getoutline.org
@@ -267,7 +266,6 @@ payload:
   - DOMAIN-SUFFIX,googel.com
   - DOMAIN-SUFFIX,googil.com
   - DOMAIN-SUFFIX,googl.com
-  - DOMAIN-SUFFIX,google-access.net
   - DOMAIN-SUFFIX,google-analytics-cn.com
   - DOMAIN-SUFFIX,google-analytics.com
   - DOMAIN-SUFFIX,google-syndication.com
@@ -298,7 +296,6 @@ payload:
   - DOMAIN-SUFFIX,google.cl
   - DOMAIN-SUFFIX,google.cm
   - DOMAIN-SUFFIX,google.cn
-  - DOMAIN-SUFFIX,google.co
   - DOMAIN-SUFFIX,google.co.ao
   - DOMAIN-SUFFIX,google.co.bw
   - DOMAIN-SUFFIX,google.co.ck
@@ -538,9 +535,7 @@ payload:
   - DOMAIN-SUFFIX,gvt7.com
   - DOMAIN-SUFFIX,gvt9.com
   - DOMAIN-SUFFIX,gwtproject.org
-  - DOMAIN-SUFFIX,haplorrhini.com
   - DOMAIN-SUFFIX,hdrplusdata.org
-  - DOMAIN-SUFFIX,hey.boo
   - DOMAIN-SUFFIX,hey.gle
   - DOMAIN-SUFFIX,hindiweb.com
   - DOMAIN-SUFFIX,howtogetmo.co.uk
@@ -555,7 +550,6 @@ payload:
   - DOMAIN-SUFFIX,jibemobile.com
   - DOMAIN-SUFFIX,kaggle.com
   - DOMAIN-SUFFIX,kaggle.io
-  - DOMAIN-SUFFIX,kaggleusercontent.com
   - DOMAIN-SUFFIX,keyhole.com
   - DOMAIN-SUFFIX,keytransparency.com
   - DOMAIN-SUFFIX,keytransparency.foo
@@ -575,7 +569,6 @@ payload:
   - DOMAIN-SUFFIX,near.by
   - DOMAIN-SUFFIX,nest.com
   - DOMAIN-SUFFIX,neverware.com
-  - DOMAIN-SUFFIX,new.day
   - DOMAIN-SUFFIX,nomulus.foo
   - DOMAIN-SUFFIX,oasisfeng.com
   - DOMAIN-SUFFIX,oauthz.com
@@ -733,16 +726,15 @@ payload:
   - DOMAIN-KEYWORD,blogspot
   - DOMAIN-KEYWORD,gmail
   - DOMAIN-KEYWORD,google
-  - DOMAIN-KEYWORD,gstatic
   - DOMAIN-KEYWORD,recaptcha
   - IP-CIDR,172.110.32.0/21
   - IP-CIDR,173.194.0.0/16
   - IP-CIDR,216.73.80.0/20
   - IP-CIDR,74.125.0.0/16
   - IP-CIDR6,2620:120:e000::/40
+  - PROCESS-NAME,GoogleDriveFS.exe
   - PROCESS-NAME,com.android.vending
   - PROCESS-NAME,com.google.android.gms
   - PROCESS-NAME,com.google.android.gsf
   - PROCESS-NAME,com.google.android.play.games
-  - PROCESS-NAME,googledrivefs.exe
-  - PROCESS-NAME,backupandsync
+  - PROCESS-NAME,BackupandSync

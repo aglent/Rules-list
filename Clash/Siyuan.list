@@ -1,4 +1,6 @@
 payload:
   - DOMAIN-SUFFIX,oss-cn-hangzhou.aliyuncs.com
+  - DOMAIN-SUFFIX,oss-cn-hongkong.aliyuncs.com
   - DOMAIN-SUFFIX,oss-cn-hangzhou-internal.aliyuncs.com
+  - DOMAIN-SUFFIX,oss-cn-hongkong-internal.aliyuncs.com
   - DOMAIN-SUFFIX,b3logfile.com
