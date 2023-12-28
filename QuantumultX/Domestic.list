@@ -14,15 +14,15 @@ DOMAIN-SUFFIX,www.okx.com.cdn.cloudflare.net,Domestic
 # NAME: China
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-04-11 02:11:26
+# UPDATED: 2023-12-15 02:13:05
 # HOST: 19
 # HOST-KEYWORD: 9
-# HOST-SUFFIX: 3600
+# HOST-SUFFIX: 3679
 # HOST-WILDCARD: 1
-# IP-CIDR: 10
+# IP-CIDR: 17
 # IP6-CIDR: 4
 # USER-AGENT: 31
-# TOTAL: 3674
+# TOTAL: 3760
 HOST,analytics.strava.com,Domestic
 HOST,blzddist1-a.akamaihd.net,Domestic
 HOST,cdn.angruo.com,Domestic
@@ -53,6 +53,7 @@ HOST-SUFFIX,100bt.com,Domestic
 HOST-SUFFIX,100offer.com,Domestic
 HOST-SUFFIX,11467.com,Domestic
 HOST-SUFFIX,114chn.com,Domestic
+HOST-SUFFIX,114menhu.com,Domestic
 HOST-SUFFIX,114piaowu.com,Domestic
 HOST-SUFFIX,114shouji.com,Domestic
 HOST-SUFFIX,115.com,Domestic
@@ -322,6 +323,7 @@ HOST-SUFFIX,aaplimg.com,Domestic
 HOST-SUFFIX,aardio.com,Domestic
 HOST-SUFFIX,abc-ca.com,Domestic
 HOST-SUFFIX,abchina.com,Domestic
+HOST-SUFFIX,abercrombie.com,Domestic
 HOST-SUFFIX,abhouses.com,Domestic
 HOST-SUFFIX,acadn.com,Domestic
 HOST-SUFFIX,acctdns.com,Domestic
@@ -411,6 +413,7 @@ HOST-SUFFIX,alikunlun.com,Domestic
 HOST-SUFFIX,alimama.com,Domestic
 HOST-SUFFIX,alimebot.com,Domestic
 HOST-SUFFIX,alimei.com,Domestic
+HOST-SUFFIX,alipan.com,Domestic
 HOST-SUFFIX,alipay.com,Domestic
 HOST-SUFFIX,alipay.hk,Domestic
 HOST-SUFFIX,alipaydns.com,Domestic
@@ -435,6 +438,7 @@ HOST-SUFFIX,aliyun.com,Domestic
 HOST-SUFFIX,aliyuncdn.com,Domestic
 HOST-SUFFIX,aliyuncs.com,Domestic
 HOST-SUFFIX,aliyundrive.com,Domestic
+HOST-SUFFIX,aliyundrive.net,Domestic
 HOST-SUFFIX,alizhaopin.com,Domestic
 HOST-SUFFIX,alloyteam.com,Domestic
 HOST-SUFFIX,allyes.com,Domestic
@@ -471,6 +475,7 @@ HOST-SUFFIX,apaas-zone-test.com,Domestic
 HOST-SUFFIX,apabi.com,Domestic
 HOST-SUFFIX,apcdns.net,Domestic
 HOST-SUFFIX,api.crisp.chat,Domestic
+HOST-SUFFIX,apifox.com,Domestic
 HOST-SUFFIX,apigwtencent.com,Domestic
 HOST-SUFFIX,apimkt.net,Domestic
 HOST-SUFFIX,apk3.com,Domestic
@@ -520,6 +525,7 @@ HOST-SUFFIX,baike.com,Domestic
 HOST-SUFFIX,baitiao.com,Domestic
 HOST-SUFFIX,baixing.com,Domestic
 HOST-SUFFIX,baixing.net,Domestic
+HOST-SUFFIX,baltamatica.com,Domestic
 HOST-SUFFIX,bamenzhushou.com,Domestic
 HOST-SUFFIX,bangongziyuan.com,Domestic
 HOST-SUFFIX,bank-of-china.com,Domestic
@@ -558,6 +564,7 @@ HOST-SUFFIX,benmi.com,Domestic
 HOST-SUFFIX,berui.com,Domestic
 HOST-SUFFIX,bestopview.com,Domestic
 HOST-SUFFIX,bh3.com,Domestic
+HOST-SUFFIX,bhsr.com,Domestic
 HOST-SUFFIX,biancheng.net,Domestic
 HOST-SUFFIX,bianews.com,Domestic
 HOST-SUFFIX,bibaodao.com,Domestic
@@ -579,6 +586,7 @@ HOST-SUFFIX,bilicdn2.com,Domestic
 HOST-SUFFIX,bilicdn3.com,Domestic
 HOST-SUFFIX,bilicdn4.com,Domestic
 HOST-SUFFIX,bilicdn5.com,Domestic
+HOST-SUFFIX,bilicomics.com,Domestic
 HOST-SUFFIX,biligame.co,Domestic
 HOST-SUFFIX,biligame.com,Domestic
 HOST-SUFFIX,biligame.net,Domestic
@@ -620,6 +628,7 @@ HOST-SUFFIX,bocichina.com,Domestic
 HOST-SUFFIX,bocifunds.com,Domestic
 HOST-SUFFIX,bocigroup.com,Domestic
 HOST-SUFFIX,bocim.com,Domestic
+HOST-SUFFIX,bohejiasuqi.com,Domestic
 HOST-SUFFIX,bojianger.com,Domestic
 HOST-SUFFIX,bokecc.com,Domestic
 HOST-SUFFIX,booking.com,Domestic
@@ -628,6 +637,7 @@ HOST-SUFFIX,bootcdn.net,Domestic
 HOST-SUFFIX,bootcss.com,Domestic
 HOST-SUFFIX,bosera.com,Domestic
 HOST-SUFFIX,broadcasthe.net,Domestic
+HOST-SUFFIX,browserleaks.com,Domestic
 HOST-SUFFIX,bstatic.com,Domestic
 HOST-SUFFIX,btcfans.com,Domestic
 HOST-SUFFIX,btgtravel.com,Domestic
@@ -642,13 +652,17 @@ HOST-SUFFIX,byted.org,Domestic
 HOST-SUFFIX,bytedance.com,Domestic
 HOST-SUFFIX,bytedance.net,Domestic
 HOST-SUFFIX,bytedanceapi.com,Domestic
+HOST-SUFFIX,bytedapm.com,Domestic
 HOST-SUFFIX,bytedns.net,Domestic
 HOST-SUFFIX,bytedns1.com,Domestic
 HOST-SUFFIX,bytednsdoc.com,Domestic
 HOST-SUFFIX,bytefcdn.com,Domestic
+HOST-SUFFIX,bytegecko.com,Domestic
 HOST-SUFFIX,bytegoofy.com,Domestic
 HOST-SUFFIX,bytegslb.com,Domestic
+HOST-SUFFIX,bytehwm.com,Domestic
 HOST-SUFFIX,byteimg.com,Domestic
+HOST-SUFFIX,byteintl.net,Domestic
 HOST-SUFFIX,bytelb.net,Domestic
 HOST-SUFFIX,bytescm.com,Domestic
 HOST-SUFFIX,bytetcc.com,Domestic
@@ -778,7 +792,6 @@ HOST-SUFFIX,chaoxing.com,Domestic
 HOST-SUFFIX,chaoxingv.com,Domestic
 HOST-SUFFIX,chashebao.com,Domestic
 HOST-SUFFIX,chazhengla.com,Domestic
-HOST-SUFFIX,chdbits.co,Domestic
 HOST-SUFFIX,che168.com,Domestic
 HOST-SUFFIX,checkzeit.com,Domestic
 HOST-SUFFIX,cheng.xin,Domestic
@@ -964,6 +977,7 @@ HOST-SUFFIX,cmbwinglungbank.com,Domestic
 HOST-SUFFIX,cmcm.com,Domestic
 HOST-SUFFIX,cmcmcdn.com,Domestic
 HOST-SUFFIX,cmct.tv,Domestic
+HOST-SUFFIX,cmechina.net,Domestic
 HOST-SUFFIX,cmf.biz,Domestic
 HOST-SUFFIX,cmf.ltd,Domestic
 HOST-SUFFIX,cmfchina.com,Domestic
@@ -1037,6 +1051,7 @@ HOST-SUFFIX,cpppf.org,Domestic
 HOST-SUFFIX,cqccn.com,Domestic
 HOST-SUFFIX,cqvip.com,Domestic
 HOST-SUFFIX,cr173.com,Domestic
+HOST-SUFFIX,crashlytics.com,Domestic
 HOST-SUFFIX,crggcn.com,Domestic
 HOST-SUFFIX,crsky.com,Domestic
 HOST-SUFFIX,cryuantafund.com,Domestic
@@ -1051,6 +1066,7 @@ HOST-SUFFIX,csmjzs.com,Domestic
 HOST-SUFFIX,cspro.org,Domestic
 HOST-SUFFIX,csslcloud.net,Domestic
 HOST-SUFFIX,csto.com,Domestic
+HOST-SUFFIX,csxbank.com,Domestic
 HOST-SUFFIX,ctexcel.ca,Domestic
 HOST-SUFFIX,ctexcel.com,Domestic
 HOST-SUFFIX,ctexcel.com.hk,Domestic
@@ -1059,6 +1075,7 @@ HOST-SUFFIX,ctexcel.us,Domestic
 HOST-SUFFIX,ctfile.com,Domestic
 HOST-SUFFIX,ctfund.com,Domestic
 HOST-SUFFIX,ctiforum.com,Domestic
+HOST-SUFFIX,ctobsnssdk.com,Domestic
 HOST-SUFFIX,ctoutiao.com,Domestic
 HOST-SUFFIX,ctrip.co.id,Domestic
 HOST-SUFFIX,ctrip.co.kr,Domestic
@@ -1148,6 +1165,7 @@ HOST-SUFFIX,didichuxing.com,Domestic
 HOST-SUFFIX,didiglobal.com,Domestic
 HOST-SUFFIX,didimobility.co.jp,Domestic
 HOST-SUFFIX,didistatic.com,Domestic
+HOST-SUFFIX,dig.bdurl.net,Domestic
 HOST-SUFFIX,dingding.xin,Domestic
 HOST-SUFFIX,dingtalk.com,Domestic
 HOST-SUFFIX,dingtalk.net,Domestic
@@ -1264,6 +1282,7 @@ HOST-SUFFIX,ecitic.com,Domestic
 HOST-SUFFIX,ecitic.net,Domestic
 HOST-SUFFIX,ecjobhome.com,Domestic
 HOST-SUFFIX,ecloud-gdu.com,Domestic
+HOST-SUFFIX,ecombdapi.com,Domestic
 HOST-SUFFIX,edu4399.com,Domestic
 HOST-SUFFIX,eduei.com,Domestic
 HOST-SUFFIX,eeyy.com,Domestic
@@ -1297,6 +1316,7 @@ HOST-SUFFIX,excelhome.net,Domestic
 HOST-SUFFIX,exmailgz.com,Domestic
 HOST-SUFFIX,expreview.com,Domestic
 HOST-SUFFIX,extfans.com,Domestic
+HOST-SUFFIX,ezpro.pro,Domestic
 HOST-SUFFIX,f.cx,Domestic
 HOST-SUFFIX,faceu.com,Domestic
 HOST-SUFFIX,faceu.mobi,Domestic
@@ -1306,14 +1326,21 @@ HOST-SUFFIX,famulei.com,Domestic
 HOST-SUFFIX,fang.com,Domestic
 HOST-SUFFIX,fangxiaoer.com,Domestic
 HOST-SUFFIX,fanli.com,Domestic
+HOST-SUFFIX,fanqienovel.com,Domestic
 HOST-SUFFIX,fanxian.com,Domestic
 HOST-SUFFIX,fastapi.net,Domestic
 HOST-SUFFIX,fastcdn.com,Domestic
+HOST-SUFFIX,fbank.com,Domestic
 HOST-SUFFIX,fdcyun.com,Domestic
+HOST-SUFFIX,feidee.com,Domestic
+HOST-SUFFIX,feidee.net,Domestic
 HOST-SUFFIX,feihuo.com,Domestic
 HOST-SUFFIX,feiliao.com,Domestic
+HOST-SUFFIX,feimaoyun.com,Domestic
 HOST-SUFFIX,feiniaomy.com,Domestic
+HOST-SUFFIX,feishu.net,Domestic
 HOST-SUFFIX,feishucdn.com,Domestic
+HOST-SUFFIX,feishupkg.com,Domestic
 HOST-SUFFIX,feizhu.com,Domestic
 HOST-SUFFIX,feng.com,Domestic
 HOST-SUFFIX,feng1.com,Domestic
@@ -1349,6 +1376,9 @@ HOST-SUFFIX,founderff.com,Domestic
 HOST-SUFFIX,foundertype.com,Domestic
 HOST-SUFFIX,foxmail.com,Domestic
 HOST-SUFFIX,fqjob.net,Domestic
+HOST-SUFFIX,fqnovel.com,Domestic
+HOST-SUFFIX,fqnovelpic.com,Domestic
+HOST-SUFFIX,fqnovelvod.com,Domestic
 HOST-SUFFIX,frdic.com,Domestic
 HOST-SUFFIX,freebuf.com,Domestic
 HOST-SUFFIX,fresh-ideas.cc,Domestic
@@ -1356,10 +1386,14 @@ HOST-SUFFIX,freshhema.com,Domestic
 HOST-SUFFIX,frontjs.com,Domestic
 HOST-SUFFIX,frontwize.com,Domestic
 HOST-SUFFIX,fsfund.com,Domestic
+HOST-SUFFIX,fspcdn.com,Domestic
 HOST-SUFFIX,ftfund.com,Domestic
 HOST-SUFFIX,fugetech.com,Domestic
+HOST-SUFFIX,fun.tv,Domestic
 HOST-SUFFIX,funcdn.com,Domestic
 HOST-SUFFIX,funnycore.com,Domestic
+HOST-SUFFIX,funshion.com,Domestic
+HOST-SUFFIX,funshion.net,Domestic
 HOST-SUFFIX,futu5.com,Domestic
 HOST-SUFFIX,futunn.com,Domestic
 HOST-SUFFIX,fuwai.com,Domestic
@@ -1518,6 +1552,7 @@ HOST-SUFFIX,haosou.com,Domestic
 HOST-SUFFIX,haosou.net,Domestic
 HOST-SUFFIX,haote.com,Domestic
 HOST-SUFFIX,haowu.link,Domestic
+HOST-SUFFIX,haoyisheng.com,Domestic
 HOST-SUFFIX,haoyouyinxiang.com,Domestic
 HOST-SUFFIX,happyhlddz.com,Domestic
 HOST-SUFFIX,harmonyos.com,Domestic
@@ -1529,6 +1564,7 @@ HOST-SUFFIX,hdchina.org,Domestic
 HOST-SUFFIX,hdcmct.org,Domestic
 HOST-SUFFIX,hddolby.com,Domestic
 HOST-SUFFIX,hdhome.org,Domestic
+HOST-SUFFIX,hdsky.me,Domestic
 HOST-SUFFIX,hdslb.com,Domestic
 HOST-SUFFIX,hdslb.org,Domestic
 HOST-SUFFIX,hdyxgame.com,Domestic
@@ -1601,6 +1637,7 @@ HOST-SUFFIX,htcases.com,Domestic
 HOST-SUFFIX,hteacher.net,Domestic
 HOST-SUFFIX,htsec.com,Domestic
 HOST-SUFFIX,huajingsec.com,Domestic
+HOST-SUFFIX,huangyuhui.net,Domestic
 HOST-SUFFIX,huanqiu.com,Domestic
 HOST-SUFFIX,huashengdaili.com,Domestic
 HOST-SUFFIX,huatu.com,Domestic
@@ -1657,6 +1694,7 @@ HOST-SUFFIX,ialicdn.com,Domestic
 HOST-SUFFIX,iask.com,Domestic
 HOST-SUFFIX,ibaotu.com,Domestic
 HOST-SUFFIX,ibcet.org,Domestic
+HOST-SUFFIX,ibidian.com,Domestic
 HOST-SUFFIX,ibuychem.com,Domestic
 HOST-SUFFIX,ibytedapm.com,Domestic
 HOST-SUFFIX,ica-alliance.org,Domestic
@@ -1751,6 +1789,7 @@ HOST-SUFFIX,im9.com,Domestic
 HOST-SUFFIX,images-amazon.com,Domestic
 HOST-SUFFIX,imcapptest.com,Domestic
 HOST-SUFFIX,imedao.com,Domestic
+HOST-SUFFIX,imf.org,Domestic
 HOST-SUFFIX,img4399.com,Domestic
 HOST-SUFFIX,img4me.com,Domestic
 HOST-SUFFIX,imgo.tv,Domestic
@@ -1922,6 +1961,7 @@ HOST-SUFFIX,jianyuweb.com,Domestic
 HOST-SUFFIX,jianzhi8.com,Domestic
 HOST-SUFFIX,jiaodong.net,Domestic
 HOST-SUFFIX,jiaoyimao.com,Domestic
+HOST-SUFFIX,jiasu.bohe.com,Domestic
 HOST-SUFFIX,jiasuhui.com,Domestic
 HOST-SUFFIX,jiasule.com,Domestic
 HOST-SUFFIX,jiathis.com,Domestic
@@ -2005,6 +2045,7 @@ HOST-SUFFIX,kaola.com,Domestic
 HOST-SUFFIX,kaopu001.com,Domestic
 HOST-SUFFIX,karger.com,Domestic
 HOST-SUFFIX,kaspersky-labs.com,Domestic
+HOST-SUFFIX,kcbebank.com,Domestic
 HOST-SUFFIX,keboyunxiao.com,Domestic
 HOST-SUFFIX,kechuang.org,Domestic
 HOST-SUFFIX,keepcdn.com,Domestic
@@ -2048,6 +2089,7 @@ HOST-SUFFIX,kuaiduizuoye.com,Domestic
 HOST-SUFFIX,kuaihou.com,Domestic
 HOST-SUFFIX,kuaikanmanhua.com,Domestic
 HOST-SUFFIX,kuaishou.com,Domestic
+HOST-SUFFIX,kuaishouzt.com,Domestic
 HOST-SUFFIX,kuaizhan.com,Domestic
 HOST-SUFFIX,kuangxiangit.com,Domestic
 HOST-SUFFIX,kugou.com,Domestic
@@ -2075,6 +2117,7 @@ HOST-SUFFIX,kunlunwe.com,Domestic
 HOST-SUFFIX,kuqin.com,Domestic
 HOST-SUFFIX,kuyiso.com,Domestic
 HOST-SUFFIX,kuyunbo.club,Domestic
+HOST-SUFFIX,kwaizt.com,Domestic
 HOST-SUFFIX,la-north-2.myhuaweicloud.com,Domestic
 HOST-SUFFIX,la-south-2.myhuaweicloud.com,Domestic
 HOST-SUFFIX,lady8844.com,Domestic
@@ -2125,6 +2168,7 @@ HOST-SUFFIX,leanote.com,Domestic
 HOST-SUFFIX,lecloud.com,Domestic
 HOST-SUFFIX,ledu.com,Domestic
 HOST-SUFFIX,leetcode-cn.com,Domestic
+HOST-SUFFIX,leigod.com,Domestic
 HOST-SUFFIX,leikeji.com,Domestic
 HOST-SUFFIX,leiphone.com,Domestic
 HOST-SUFFIX,leiting.com,Domestic
@@ -2300,6 +2344,7 @@ HOST-SUFFIX,mihoyo.com,Domestic
 HOST-SUFFIX,mihoyocg.com,Domestic
 HOST-SUFFIX,mihoyogift.com,Domestic
 HOST-SUFFIX,mihoyomall.com,Domestic
+HOST-SUFFIX,mihuashi.com,Domestic
 HOST-SUFFIX,mijisou.com,Domestic
 HOST-SUFFIX,mikecrm.com,Domestic
 HOST-SUFFIX,minapp.com,Domestic
@@ -2406,6 +2451,7 @@ HOST-SUFFIX,netease.im,Domestic
 HOST-SUFFIX,newasp.net,Domestic
 HOST-SUFFIX,newbandeng.com,Domestic
 HOST-SUFFIX,newcoder.com,Domestic
+HOST-SUFFIX,newupbank.com,Domestic
 HOST-SUFFIX,newyx.net,Domestic
 HOST-SUFFIX,nextstudios.com,Domestic
 HOST-SUFFIX,nextworkshop.net,Domestic
@@ -2504,6 +2550,7 @@ HOST-SUFFIX,pagescube.com,Domestic
 HOST-SUFFIX,pailitao.com,Domestic
 HOST-SUFFIX,paipai.com,Domestic
 HOST-SUFFIX,paipaibang.com,Domestic
+HOST-SUFFIX,pangolin-sdk-toutiao.com,Domestic
 HOST-SUFFIX,paopaoche.net,Domestic
 HOST-SUFFIX,papocket.com,Domestic
 HOST-SUFFIX,passthepopcorn.me,Domestic
@@ -2513,6 +2560,7 @@ HOST-SUFFIX,pchome.net,Domestic
 HOST-SUFFIX,pcpop.com,Domestic
 HOST-SUFFIX,pddpic.com,Domestic
 HOST-SUFFIX,peccn.com,Domestic
+HOST-SUFFIX,pglstatp-toutiao.com,Domestic
 HOST-SUFFIX,pgyer.com,Domestic
 HOST-SUFFIX,pgzs.com,Domestic
 HOST-SUFFIX,pharmacodia.com,Domestic
@@ -2671,12 +2719,14 @@ HOST-SUFFIX,qugame.com,Domestic
 HOST-SUFFIX,qunar.com,Domestic
 HOST-SUFFIX,qunarzz.com,Domestic
 HOST-SUFFIX,qunjielong.com,Domestic
+HOST-SUFFIX,quumibao.com,Domestic
 HOST-SUFFIX,quyaoya.com,Domestic
 HOST-SUFFIX,qy.net,Domestic
 HOST-SUFFIX,qyer.com,Domestic
 HOST-SUFFIX,qyerstatic.com,Domestic
 HOST-SUFFIX,qyunapp.com,Domestic
 HOST-SUFFIX,qzone.com,Domestic
+HOST-SUFFIX,rainclassroom.com,Domestic
 HOST-SUFFIX,rarbg.to,Domestic
 HOST-SUFFIX,raychase.net,Domestic
 HOST-SUFFIX,rdfybk.com,Domestic
@@ -2860,6 +2910,7 @@ HOST-SUFFIX,springtour.com,Domestic
 HOST-SUFFIX,sq.cc,Domestic
 HOST-SUFFIX,sqqnh.org,Domestic
 HOST-SUFFIX,sseinfo.com,Domestic
+HOST-SUFFIX,ssjlicai.com,Domestic
 HOST-SUFFIX,sslawy.com,Domestic
 HOST-SUFFIX,sslibrary.com,Domestic
 HOST-SUFFIX,sspai.com,Domestic
@@ -2874,10 +2925,12 @@ HOST-SUFFIX,stcn.com,Domestic
 HOST-SUFFIX,steampp.net,Domestic
 HOST-SUFFIX,stockstar.com,Domestic
 HOST-SUFFIX,suanya.com,Domestic
+HOST-SUFFIX,sui.com,Domestic
 HOST-SUFFIX,sumkoo.com,Domestic
 HOST-SUFFIX,sumkoo.net,Domestic
 HOST-SUFFIX,sun0769.com,Domestic
 HOST-SUFFIX,suning.com,Domestic
+HOST-SUFFIX,suningbank.com,Domestic
 HOST-SUFFIX,suningcloud.com,Domestic
 HOST-SUFFIX,suningestate.com,Domestic
 HOST-SUFFIX,suningholdings.com,Domestic
@@ -3030,6 +3083,8 @@ HOST-SUFFIX,tiebaimg.com,Domestic
 HOST-SUFFIX,tietuku.com,Domestic
 HOST-SUFFIX,tiexue.net,Domestic
 HOST-SUFFIX,tieyou.com,Domestic
+HOST-SUFFIX,tiktokd.net,Domestic
+HOST-SUFFIX,tiktokd.org,Domestic
 HOST-SUFFIX,timedoo.com,Domestic
 HOST-SUFFIX,timibase.com,Domestic
 HOST-SUFFIX,timmerse.com,Domestic
@@ -3049,6 +3104,7 @@ HOST-SUFFIX,tmall.hk,Domestic
 HOST-SUFFIX,tmall.ru,Domestic
 HOST-SUFFIX,tmalltv.com,Domestic
 HOST-SUFFIX,tmcdn.net,Domestic
+HOST-SUFFIX,tmjiasuqi.com,Domestic
 HOST-SUFFIX,tmjl.ai,Domestic
 HOST-SUFFIX,tmtpost.com,Domestic
 HOST-SUFFIX,tmtsmartlife.com,Domestic
@@ -3064,6 +3120,7 @@ HOST-SUFFIX,tools.team,Domestic
 HOST-SUFFIX,tophub.today,Domestic
 HOST-SUFFIX,toplife.com,Domestic
 HOST-SUFFIX,topthink.com,Domestic
+HOST-SUFFIX,totheglory.im,Domestic
 HOST-SUFFIX,touqikan.com,Domestic
 HOST-SUFFIX,toursbms.com,Domestic
 HOST-SUFFIX,toutiao.com,Domestic
@@ -3151,6 +3208,7 @@ HOST-SUFFIX,ugslb.net,Domestic
 HOST-SUFFIX,ugslb.top,Domestic
 HOST-SUFFIX,ugslb2.net,Domestic
 HOST-SUFFIX,uhasadmin.com,Domestic
+HOST-SUFFIX,uiwow.com,Domestic
 HOST-SUFFIX,ulikecam.com,Domestic
 HOST-SUFFIX,um.run,Domestic
 HOST-SUFFIX,umajor.net,Domestic
@@ -3221,6 +3279,9 @@ HOST-SUFFIX,vmall.com,Domestic
 HOST-SUFFIX,vmallres.com,Domestic
 HOST-SUFFIX,vobao.com,Domestic
 HOST-SUFFIX,vodtcbk.com,Domestic
+HOST-SUFFIX,volceapplog.com,Domestic
+HOST-SUFFIX,volces.com,Domestic
+HOST-SUFFIX,volcvod.com,Domestic
 HOST-SUFFIX,vpgame.com,Domestic
 HOST-SUFFIX,vxo7tu.com,Domestic
 HOST-SUFFIX,vzuu.com,Domestic
@@ -3245,8 +3306,9 @@ HOST-SUFFIX,wdzj.com,Domestic
 HOST-SUFFIX,we4399.com,Domestic
 HOST-SUFFIX,weand.com,Domestic
 HOST-SUFFIX,weather.com,Domestic
+HOST-SUFFIX,webank.com,Domestic
+HOST-SUFFIX,webankcdn.net,Domestic
 HOST-SUFFIX,webgame163.com,Domestic
-HOST-SUFFIX,webnovel.com,Domestic
 HOST-SUFFIX,webofknowledge.com,Domestic
 HOST-SUFFIX,webqxs.com,Domestic
 HOST-SUFFIX,webterren.com,Domestic
@@ -3261,7 +3323,9 @@ HOST-SUFFIX,weico.cc,Domestic
 HOST-SUFFIX,weidian.com,Domestic
 HOST-SUFFIX,weilaicaijing.com,Domestic
 HOST-SUFFIX,weilaiyunxiao.com,Domestic
+HOST-SUFFIX,weiphone.com,Domestic
 HOST-SUFFIX,weiphone.net,Domestic
+HOST-SUFFIX,weixinbridge.com,Domestic
 HOST-SUFFIX,weixing.com,Domestic
 HOST-SUFFIX,weiyangx.com,Domestic
 HOST-SUFFIX,weiyun.com,Domestic
@@ -3302,6 +3366,7 @@ HOST-SUFFIX,wjx.top,Domestic
 HOST-SUFFIX,wkcdn.com,Domestic
 HOST-SUFFIX,wmzhe.com,Domestic
 HOST-SUFFIX,wnhuifu.com,Domestic
+HOST-SUFFIX,wo116114.com,Domestic
 HOST-SUFFIX,wo1wan.com,Domestic
 HOST-SUFFIX,wodingche.com,Domestic
 HOST-SUFFIX,wol.tv,Domestic
@@ -3330,9 +3395,12 @@ HOST-SUFFIX,wuliujie.com,Domestic
 HOST-SUFFIX,wumii.com,Domestic
 HOST-SUFFIX,wuming.com,Domestic
 HOST-SUFFIX,wuximediaglobal.com,Domestic
+HOST-SUFFIX,wxsbank.com,Domestic
 HOST-SUFFIX,wxzq.com,Domestic
 HOST-SUFFIX,wywyx.com,Domestic
+HOST-SUFFIX,x-cloud.cc,Domestic
 HOST-SUFFIX,x315.com,Domestic
+HOST-SUFFIX,xa-bank.com,Domestic
 HOST-SUFFIX,xafc.com,Domestic
 HOST-SUFFIX,xbiao.com,Domestic
 HOST-SUFFIX,xbox.com,Domestic
@@ -3346,6 +3414,7 @@ HOST-SUFFIX,xfdown.com,Domestic
 HOST-SUFFIX,xhaiwai.com,Domestic
 HOST-SUFFIX,xhostfire.com,Domestic
 HOST-SUFFIX,xhscdn.com,Domestic
+HOST-SUFFIX,xhscdn.net,Domestic
 HOST-SUFFIX,xiachufang.com,Domestic
 HOST-SUFFIX,xiamenair.com,Domestic
 HOST-SUFFIX,xiami.com,Domestic
@@ -3409,12 +3478,16 @@ HOST-SUFFIX,xue51.com,Domestic
 HOST-SUFFIX,xueersi.com,Domestic
 HOST-SUFFIX,xuekanba.com,Domestic
 HOST-SUFFIX,xueqiu.com,Domestic
+HOST-SUFFIX,xuetangx.com,Domestic
 HOST-SUFFIX,xuexi365.com,Domestic
 HOST-SUFFIX,xuexi365.net,Domestic
 HOST-SUFFIX,xuexicha.com,Domestic
 HOST-SUFFIX,xueyuanjun.com,Domestic
 HOST-SUFFIX,xundupdf.com,Domestic
+HOST-SUFFIX,xunfeixxj.com,Domestic
 HOST-SUFFIX,xunlei.com,Domestic
+HOST-SUFFIX,xunyou.com,Domestic
+HOST-SUFFIX,xwbank.com,Domestic
 HOST-SUFFIX,xxsy.net,Domestic
 HOST-SUFFIX,xxtmail.com,Domestic
 HOST-SUFFIX,xycdn.com,Domestic
@@ -3458,6 +3531,7 @@ HOST-SUFFIX,yiigle.com,Domestic
 HOST-SUFFIX,yikaochacha.com,Domestic
 HOST-SUFFIX,yikexue.com,Domestic
 HOST-SUFFIX,yiliao.hupan.com,Domestic
+HOST-SUFFIX,yillionbank.com,Domestic
 HOST-SUFFIX,yingjia360.com,Domestic
 HOST-SUFFIX,yingjiesheng.com,Domestic
 HOST-SUFFIX,yingjiesheng.net,Domestic
@@ -3480,6 +3554,7 @@ HOST-SUFFIX,ykimg.com,Domestic
 HOST-SUFFIX,ykzq.com,Domestic
 HOST-SUFFIX,ylike.net,Domestic
 HOST-SUFFIX,ym.run,Domestic
+HOST-SUFFIX,ymbank.com,Domestic
 HOST-SUFFIX,ynet.com,Domestic
 HOST-SUFFIX,ynhr.com,Domestic
 HOST-SUFFIX,yo9.com,Domestic
@@ -3530,6 +3605,7 @@ HOST-SUFFIX,yunjitele.com,Domestic
 HOST-SUFFIX,yunkanpan.com,Domestic
 HOST-SUFFIX,yunos-inc.com,Domestic
 HOST-SUFFIX,yunos.com,Domestic
+HOST-SUFFIX,yunpan.com,Domestic
 HOST-SUFFIX,yunqishi.net,Domestic
 HOST-SUFFIX,yunshipei.com,Domestic
 HOST-SUFFIX,yunxiao.com,Domestic
@@ -3537,6 +3613,7 @@ HOST-SUFFIX,yunzhijia.com,Domestic
 HOST-SUFFIX,yupoo.com,Domestic
 HOST-SUFFIX,yuque.com,Domestic
 HOST-SUFFIX,yushanfang.com,Domestic
+HOST-SUFFIX,yushiyan.net,Domestic
 HOST-SUFFIX,yuzua.com,Domestic
 HOST-SUFFIX,yxbao.com,Domestic
 HOST-SUFFIX,yxdmgame.com,Domestic
@@ -3549,6 +3626,7 @@ HOST-SUFFIX,yyds.co,Domestic
 HOST-SUFFIX,yystatic.com,Domestic
 HOST-SUFFIX,yytcdn.com,Domestic
 HOST-SUFFIX,yzyxgame.com,Domestic
+HOST-SUFFIX,z-bank.com,Domestic
 HOST-SUFFIX,z28j.com,Domestic
 HOST-SUFFIX,zaifan.com,Domestic
 HOST-SUFFIX,zampda.net,Domestic
@@ -3564,6 +3642,7 @@ HOST-SUFFIX,zdnscloud.com,Domestic
 HOST-SUFFIX,zdnscloud.info,Domestic
 HOST-SUFFIX,zdnscloud.net,Domestic
 HOST-SUFFIX,zealer.com,Domestic
+HOST-SUFFIX,zgcbank.com,Domestic
 HOST-SUFFIX,zgjm.org,Domestic
 HOST-SUFFIX,zgjsks.com,Domestic
 HOST-SUFFIX,zglxw.com,Domestic
@@ -3684,13 +3763,20 @@ USER-AGENT,hearthstone*,Domestic
 USER-AGENT,hide*,Domestic
 USER-AGENT,ting_en,Domestic
 IP-CIDR,1.255.62.0/24,Domestic
+IP-CIDR,101.32.104.0/21,Domestic
 IP-CIDR,101.32.118.0/23,Domestic
 IP-CIDR,101.32.96.0/20,Domestic
 IP-CIDR,119.28.28.28/32,Domestic
+IP-CIDR,120.195.181.180/32,Domestic
 IP-CIDR,129.226.0.0/16,Domestic
 IP-CIDR,182.254.116.0/24,Domestic
 IP-CIDR,183.128.0.0/11,Domestic
+IP-CIDR,183.131.48.0/20,Domestic
 IP-CIDR,185.188.32.0/22,Domestic
+IP-CIDR,185.188.32.0/24,Domestic
+IP-CIDR,185.188.33.0/24,Domestic
+IP-CIDR,185.188.34.0/24,Domestic
+IP-CIDR,185.188.35.0/24,Domestic
 IP-CIDR,203.205.238.0/23,Domestic
 IP-CIDR,203.205.254.0/23,Domestic
 IP6-CIDR,2a0b:b580::/48,Domestic
