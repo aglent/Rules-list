@@ -20,7 +20,7 @@ force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.dd
 
 
 [URL Rewrite]
-^https?:\/\/mp\.weixin\.qq\.com\/(s|mp)\/(ad_|advertisement|getappmsgad|report|appmsgreport|appmsgpicreport) - reject
+"^https?:\/\/mp\.weixin\.qq\.com\/(s|mp)\/(ad_|advertisement|getappmsgad|report|appmsgreport|appmsgpicreport)" - reject
 "^http:\/\/apicloud\.zol\.com\.cn\/Article\/WapLaunchLogo" - reject
 "^http:\/\/go\.babytree\.com\/go_tool\/api\/feeding_record\/get_home_banner_info" - reject
 "^http:\/\/m\.meitun\.com\/newapi\/router\/topic\/hometptf\/feedRecommend" - reject
