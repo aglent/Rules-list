@@ -1,7 +1,7 @@
 #!name=AdvertisingLite
 #!desc=aglent
 # https://github.com/blackmatrix7/ios_rule_script/blob/master/rewrite/Surge/AdvertisingLite/AdvertisingLite.sgmodule
-# 添加 ^https?:\/\/mp\.weixin\.qq\.com\/(s|mp)\/(ad_|advertisement|getappmsgad|report|appmsgreport|appmsgpicreport) - reject
+# 添加 "^https?:\/\/mp\.weixin\.qq\.com\/(s|mp)\/(ad_|advertisement|getappmsgad|report|appmsgreport|appmsgpicreport)" - reject
 
 #!name=AdvertisingLite
 #!desc=最后更新时间 2024-03-04 02:16:12
