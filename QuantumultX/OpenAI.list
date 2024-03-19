@@ -1,6 +1,7 @@
 # > OpenAI
 HOST-KEYWORD,openai,OpenAI
 HOST-SUFFIX,openai.com,OpenAI
+HOST-SUFFIX,chatgpt.com, OpenAI
 HOST-SUFFIX,ai.com,OpenAI
 HOST-SUFFIX,chat.openai.com,OpenAI
 HOST-SUFFIX,auth0.openai.com,OpenAI
