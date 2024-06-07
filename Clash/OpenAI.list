@@ -41,7 +41,7 @@ payload:
   - DOMAIN-KEYWORD,openai
   - IP-CIDR,24.199.123.28/32
   - IP-CIDR,64.23.132.171/32
-  - IP-ASN,20473
+#   - IP-ASN,20473
   
   
 # https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Copilot
@@ -106,5 +106,5 @@ payload:
   - DOMAIN-KEYWORD,openaicom-api
   - IP-CIDR,24.199.123.28/32
   - IP-CIDR,64.23.132.171/32
-  - IP-ASN,14061
-  - IP-ASN,20473
+#   - IP-ASN,14061
+#   - IP-ASN,20473
