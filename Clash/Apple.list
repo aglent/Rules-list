@@ -3,13 +3,13 @@
 # NAME: Apple
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-12-28 02:10:33
-# DOMAIN: 9
+# UPDATED: 2025-01-10 02:11:45
+# DOMAIN: 10
 # DOMAIN-KEYWORD: 7
 # DOMAIN-SUFFIX: 1549
 # IP-CIDR: 10
-# PROCESS-NAME: 7
-# TOTAL: 1582
+# PROCESS-NAME: 13
+# TOTAL: 1589
 payload:
   - DOMAIN,appldnld.apple.com.edgesuite.net
   - DOMAIN,apple-events.akamaized.net
@@ -17,6 +17,7 @@ payload:
   - DOMAIN,appleworldwidedeveloper.sc.omtrdc.net
   - DOMAIN,beatselectronicsllc.tt.omtrdc.net
   - DOMAIN,e16991.b.akamaiedge.net
+  - DOMAIN,edge.apple
   - DOMAIN,icons.axm-usercontent-apple.com
   - DOMAIN,lookup-api.apple.com.edgekey.net
   - DOMAIN,p-events-delivery.akamaized.net
@@ -817,7 +818,6 @@ payload:
   - DOMAIN-SUFFIX,ibeatsbydre.com
   - DOMAIN-SUFFIX,ichat.co.in
   - DOMAIN-SUFFIX,icloud-content.com.cn
-  - DOMAIN-SUFFIX,icloud-sandbox.com
   - DOMAIN-SUFFIX,idvd.eu
   - DOMAIN-SUFFIX,igoshopping.net
   - DOMAIN-SUFFIX,ikids.com
@@ -1201,6 +1201,7 @@ payload:
   - DOMAIN-SUFFIX,applepaysupplies.tv
   - DOMAIN-SUFFIX,applewallet.com
   - DOMAIN-SUFFIX,applewallet.tv
+  - DOMAIN-SUFFIX,appsto.re
   - DOMAIN-SUFFIX,appstore.co.id
   - DOMAIN-SUFFIX,appstore.com
   - DOMAIN-SUFFIX,appstore.hk
@@ -1476,6 +1477,7 @@ payload:
   - DOMAIN-SUFFIX,wwwipodlounge.com
   - DOMAIN-SUFFIX,wwwmacbookair.com
   - DOMAIN-SUFFIX,apple.comscoreresearch.com
+  - DOMAIN-SUFFIX,apple.news
   - DOMAIN-SUFFIX,appleenews.com
   - DOMAIN-SUFFIX,applemusic.berlin
   - DOMAIN-SUFFIX,applemusic.co
@@ -1513,8 +1515,6 @@ payload:
   - DOMAIN-SUFFIX,wwwapplemusic.com
   - DOMAIN-SUFFIX,applemusic.com
   - DOMAIN-SUFFIX,apple-dns.net
-  - DOMAIN-SUFFIX,apple.news
-  - DOMAIN-SUFFIX,appsto.re
   - DOMAIN-SUFFIX,digicert.com
   - DOMAIN-SUFFIX,apple-cloudkit.com
   - DOMAIN-SUFFIX,apple-icloud.cn
@@ -1526,6 +1526,7 @@ payload:
   - DOMAIN-SUFFIX,icloud-apple.cn
   - DOMAIN-SUFFIX,icloud-content.com
   - DOMAIN-SUFFIX,icloud-isupport.com
+  - DOMAIN-SUFFIX,icloud-sandbox.com
   - DOMAIN-SUFFIX,icloud.ch
   - DOMAIN-SUFFIX,icloud.com
   - DOMAIN-SUFFIX,icloud.com.cn
@@ -1586,10 +1587,16 @@ payload:
   - IP-CIDR,205.180.175.0/24,no-resolve
   - IP-CIDR,63.92.224.0/19,no-resolve
   - IP-CIDR,65.199.22.0/23,no-resolve
-  - PROCESS-NAME,/System/Library/PrivateFrameworks/Lookup.framework/Versions/A/XPCServices/LookupViewService.xpc/Contents/MacOS/LookupViewService
-  - PROCESS-NAME,storedownloadd
+  - PROCESS-NAME,CoreLocationAgent
+  - PROCESS-NAME,WeatherWidget
+  - PROCESS-NAME,apsd
+  - PROCESS-NAME,com.apple.Maps
+  - PROCESS-NAME,findmydevice-user-agent
+  - PROCESS-NAME,fmfd
+  - PROCESS-NAME,mapspushd
+  - PROCESS-NAME,netbiosd
+  - PROCESS-NAME,trustd
   - PROCESS-NAME,com.apple.geod
   - PROCESS-NAME,Music
-  - PROCESS-NAME,News
   - PROCESS-NAME,LookupViewService
   - PROCESS-NAME,TV
