@@ -1,17 +1,14 @@
-# https://github.com/Tartarus2014/Loon-Script/blob/master/Plugin/Block/YouTubeAds.plugin
+# https://github.com/Centralmatrix3/Matrix-io/blob/master/Loon/Rewrite/YouTube.plugin
 
-#!name= YouTube去广告
-#!desc= YouTube去广告 （Premium 勿用且版本需 ＞ 15.26.4）
-#!icon= https://raw.githubusercontent.com/Tartarus2014/For-own-use/master/Color/YouTube.png
+#!name = YouTube
+#!desc = YouTube去广告
+#!author = Maasea
 
 [Rewrite]
-(^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) $1$2$3 header
-^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad - reject
+^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad reject-dict
 
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break - reject
-^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads - reject
-^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) - reject
-^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext - reject
+[Script]
+http-response ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch) script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/dist/youtube.response.preview.js, requires-body=true, binary-body-mode=true, timeout=30, tag=YouTube
 
 [MITM]
-hostname = -redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com
+hostname = *.googlevideo.com, youtubei.googleapis.com
