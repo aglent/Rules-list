@@ -1,29 +1,9 @@
 # https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/Hijacking/Hijacking.list
 
-# 自定义青少年域名
-DOMAIN-SUFFIX,4399.com
-DOMAIN-SUFFIX,4399api.net
-DOMAIN-SUFFIX,img4399.com
-DOMAIN-SUFFIX,4399doc.com
-DOMAIN-SUFFIX,9game.cn
-DOMAIN-SUFFIX,billgame.com
-DOMAIN-SUFFIX,cg.163.com
-DOMAIN-SUFFIX,game.163.com
-DOMAIN-SUFFIX,game.baidu.com
-DOMAIN-SUFFIX,game.qq.com
-DOMAIN-SUFFIX,game.sina.com.cn
-DOMAIN-SUFFIX,game.sohu.com
-DOMAIN-SUFFIX,gamesky.com
-DOMAIN-SUFFIX,lol.qq.com
-DOMAIN-SUFFIX,mihoyo.com
-DOMAIN-SUFFIX,mihoyogift.com
-DOMAIN-SUFFIX,mihoyoshe.com
-DOMAIN-SUFFIX,game.qq.com
-
 # NAME: Hijacking
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-03 16:14:44
+# UPDATED: 2025-06-06 09:15:02
 # DOMAIN: 1
 # DOMAIN-SUFFIX: 185
 # IP-CIDR: 42
