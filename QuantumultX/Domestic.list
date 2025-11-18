@@ -14,27 +14,32 @@ DOMAIN-SUFFIX,www.okx.com.cdn.cloudflare.net,Domestic
 # NAME: China
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-11-17 02:12:01
-# HOST: 15
+# UPDATED: 2025-11-12 02:08:36
+# HOST: 20
 # HOST-KEYWORD: 9
-# HOST-SUFFIX: 3676
+# HOST-SUFFIX: 3677
 # HOST-WILDCARD: 1
 # IP-CIDR: 17
 # IP6-CIDR: 4
 # USER-AGENT: 31
-# TOTAL: 3753
+# TOTAL: 3759
 HOST,analytics.strava.com,Domestic
 HOST,blzddist1-a.akamaihd.net,Domestic
 HOST,cdn.angruo.com,Domestic
+HOST,cdn.lilyemby.com,Domestic
 HOST,client.amplifi.com,Domestic
 HOST,download.jetbrains.com,Domestic
+HOST,download.microsoft.com,Domestic
 HOST,images-cn.ssl-images-amazon.com,Domestic
 HOST,ip.istatmenus.app,Domestic
 HOST,kc.kexinshe.com,Domestic
+HOST,ntservicepack.microsoft.com,Domestic
 HOST,origin-a.akamaihd.ne,Domestic
 HOST,origin-a.akamaihd.net,Domestic
+HOST,smart.uhdnow.com,Domestic
 HOST,sms.imagetasks.com,Domestic
 HOST,steamcommunity-a.akamaihd.net,Domestic
+HOST,tx.lilyemby.com,Domestic
 HOST,weixin.com,Domestic
 HOST,www.libvideo.com,Domestic
 HOST,www.yxssp.com,Domestic
@@ -326,7 +331,6 @@ HOST-SUFFIX,acctdns.com,Domestic
 HOST-SUFFIX,acctdns.net,Domestic
 HOST-SUFFIX,acetaffy.club,Domestic
 HOST-SUFFIX,acfun.tv,Domestic
-HOST-SUFFIX,acg.rip,Domestic
 HOST-SUFFIX,acg.tv,Domestic
 HOST-SUFFIX,acgvideo.com,Domestic
 HOST-SUFFIX,acm.org,Domestic
@@ -631,6 +635,7 @@ HOST-SUFFIX,boosj.com,Domestic
 HOST-SUFFIX,bootcdn.net,Domestic
 HOST-SUFFIX,bootcss.com,Domestic
 HOST-SUFFIX,bosera.com,Domestic
+HOST-SUFFIX,bosszhipin.com,Domestic
 HOST-SUFFIX,broadcasthe.net,Domestic
 HOST-SUFFIX,browserleaks.com,Domestic
 HOST-SUFFIX,bstatic.com,Domestic
@@ -1172,6 +1177,7 @@ HOST-SUFFIX,discuz.org,Domestic
 HOST-SUFFIX,diyiyou.com,Domestic
 HOST-SUFFIX,dj99.com,Domestic
 HOST-SUFFIX,dl-vip.pcfaster.baidu.co.th,Domestic
+HOST-SUFFIX,dl.delivery.mp.microsoft.com,Domestic
 HOST-SUFFIX,dler.cloud,Domestic
 HOST-SUFFIX,dlgslb.net,Domestic
 HOST-SUFFIX,dlnel.com,Domestic
@@ -1558,7 +1564,6 @@ HOST-SUFFIX,hdchina.org,Domestic
 HOST-SUFFIX,hdcmct.org,Domestic
 HOST-SUFFIX,hddolby.com,Domestic
 HOST-SUFFIX,hdhome.org,Domestic
-HOST-SUFFIX,hdsky.me,Domestic
 HOST-SUFFIX,hdslb.com,Domestic
 HOST-SUFFIX,hdslb.org,Domestic
 HOST-SUFFIX,hdyxgame.com,Domestic
@@ -1580,6 +1585,7 @@ HOST-SUFFIX,heytapcs.com,Domestic
 HOST-SUFFIX,heytapdownload.com,Domestic
 HOST-SUFFIX,heytapimage.com,Domestic
 HOST-SUFFIX,heytapmobi.com,Domestic
+HOST-SUFFIX,heytea-co.com,Domestic
 HOST-SUFFIX,heytea.com,Domestic
 HOST-SUFFIX,hftfund.com,Domestic
 HOST-SUFFIX,hhtravel.com,Domestic
@@ -1810,7 +1816,6 @@ HOST-SUFFIX,ipip.net,Domestic
 HOST-SUFFIX,ipplus360.com,Domestic
 HOST-SUFFIX,iprdp.net,Domestic
 HOST-SUFFIX,ipssh.net,Domestic
-HOST-SUFFIX,ipv6-test.com,Domestic
 HOST-SUFFIX,iq.com,Domestic
 HOST-SUFFIX,iqiyi.com,Domestic
 HOST-SUFFIX,iqiyipic.com,Domestic
@@ -1964,6 +1969,7 @@ HOST-SUFFIX,jiayuan.com,Domestic
 HOST-SUFFIX,jiazhao.com,Domestic
 HOST-SUFFIX,jibencaozuo.com,Domestic
 HOST-SUFFIX,jidian.im,Domestic
+HOST-SUFFIX,jiedaibao.gs,Domestic
 HOST-SUFFIX,jiemeng8.com,Domestic
 HOST-SUFFIX,jiemian.com,Domestic
 HOST-SUFFIX,jikeiot.cloud,Domestic
@@ -2232,6 +2238,8 @@ HOST-SUFFIX,lrts.me,Domestic
 HOST-SUFFIX,lsplayer.com,Domestic
 HOST-SUFFIX,lu.com,Domestic
 HOST-SUFFIX,lucifr.com,Domestic
+HOST-SUFFIX,luckincdn.com,Domestic
+HOST-SUFFIX,luckincoffee.com,Domestic
 HOST-SUFFIX,luckincoffeecdn.com,Domestic
 HOST-SUFFIX,luckyair.net,Domestic
 HOST-SUFFIX,ludashi.com,Domestic
@@ -2327,7 +2335,6 @@ HOST-SUFFIX,miaomiaozhe.com,Domestic
 HOST-SUFFIX,miaopai.com,Domestic
 HOST-SUFFIX,miaostreet.com,Domestic
 HOST-SUFFIX,miaozhen.com,Domestic
-HOST-SUFFIX,microsoft.com,Domestic
 HOST-SUFFIX,microsoftonline.com,Domestic
 HOST-SUFFIX,midasbuy.com,Domestic
 HOST-SUFFIX,miercn.com,Domestic
@@ -2400,7 +2407,6 @@ HOST-SUFFIX,mubu.com,Domestic
 HOST-SUFFIX,mukewang.com,Domestic
 HOST-SUFFIX,mumayi.com,Domestic
 HOST-SUFFIX,muomou.com,Domestic
-HOST-SUFFIX,musical.ly,Domestic
 HOST-SUFFIX,muwai.com,Domestic
 HOST-SUFFIX,muyewx.com,Domestic
 HOST-SUFFIX,muzhiwan.com,Domestic
@@ -2503,7 +2509,6 @@ HOST-SUFFIX,oneyac.com,Domestic
 HOST-SUFFIX,onlinedown.net,Domestic
 HOST-SUFFIX,onlinesjtu.com,Domestic
 HOST-SUFFIX,onlylady.com,Domestic
-HOST-SUFFIX,ooklaserver.net,Domestic
 HOST-SUFFIX,opdown.com,Domestic
 HOST-SUFFIX,open.cd,Domestic
 HOST-SUFFIX,openapp.run,Domestic
@@ -2692,6 +2697,7 @@ HOST-SUFFIX,qnssl.com,Domestic
 HOST-SUFFIX,qq.cn.com,Domestic
 HOST-SUFFIX,qq.com,Domestic
 HOST-SUFFIX,qq.design,Domestic
+HOST-SUFFIX,qq.net,Domestic
 HOST-SUFFIX,qq.wang,Domestic
 HOST-SUFFIX,qq.xn--fiqs8s,Domestic
 HOST-SUFFIX,qq163.com,Domestic
@@ -3051,8 +3057,6 @@ HOST-SUFFIX,tendis.net,Domestic
 HOST-SUFFIX,tenpay.com,Domestic
 HOST-SUFFIX,tenxcloud.com,Domestic
 HOST-SUFFIX,test-cignacmb.com,Domestic
-HOST-SUFFIX,test-ipv4.com,Domestic
-HOST-SUFFIX,test-ipv6.com,Domestic
 HOST-SUFFIX,testwaf.com,Domestic
 HOST-SUFFIX,texasholdemcup.com,Domestic
 HOST-SUFFIX,texasholdemcup.net,Domestic
@@ -3227,6 +3231,7 @@ HOST-SUFFIX,uonline-sh.net,Domestic
 HOST-SUFFIX,upai.com,Domestic
 HOST-SUFFIX,upaiyun.com,Domestic
 HOST-SUFFIX,upcdn.net,Domestic
+HOST-SUFFIX,update.microsoft.com,Domestic
 HOST-SUFFIX,upe.net,Domestic
 HOST-SUFFIX,upyun.com,Domestic
 HOST-SUFFIX,urselect.com,Domestic
@@ -3348,6 +3353,7 @@ HOST-SUFFIX,windows.net,Domestic
 HOST-SUFFIX,windows10zj.com,Domestic
 HOST-SUFFIX,windows7en.com,Domestic
 HOST-SUFFIX,windowsupdate.com,Domestic
+HOST-SUFFIX,windowsupdate.microsoft.com,Domestic
 HOST-SUFFIX,windowszj.com,Domestic
 HOST-SUFFIX,winegame.net,Domestic
 HOST-SUFFIX,winwin7.com,Domestic
